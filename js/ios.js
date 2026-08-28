@@ -13,6 +13,7 @@
     parallel: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="7.5" height="14" rx="1.2"/><rect x="13" y="5" width="7.5" height="14" rx="1.2"/></svg>',
     chi: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2v17.6"/><path d="M12 3.4h3.2c2.2 0 3.6 1.3 3.6 3.4S17.4 10.2 15.2 10.2H12"/><path d="M6.2 7.2l11.6 11.6M17.8 7.2L6.2 18.8"/></svg>',
     chev: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10l5 5 5-5"/></svg>',
+    bookmark: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h10v16l-5-3.2L7 20V4z"/></svg>',
     crossEmpty: '<svg class="cross-empty" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M8 8h8"/></svg>',
     crossFilled: '<svg class="cross-filled" viewBox="0 0 24 24" aria-hidden="true"><path d="M10.2 3.2h3.6v4.4h5.2v3.4h-5.2v9.8h-3.6v-9.8H5v-3.4h5.2z"/></svg>'
   };
@@ -93,7 +94,8 @@
       '<button type="button" class="ios-pill" id="iosSection">' +
       '<span>' + escapeHtml(liberLabel(ctx.chapter)) + "</span>" + ICO.chev + "</button>" +
       '<button type="button" class="ios-icon' + (latin ? " active" : "") + '" id="iosChi" title="Latin" aria-label="Toggle Latin" aria-pressed="' + latin + '">' + ICO.chi + "</button>" +
-      '<button type="button" class="ios-icon' + (w.FG.parallel && w.FG.parallel.swapped() ? " active" : "") + '" id="iosSwap" title="Swap right pane" aria-label="Swap right pane">' + ICO.swap + "</button>" +
+      '<button type="button" class="ios-cycle" id="iosCycleL" title="Cycle left pane" aria-label="Cycle left pane"><span>L</span></button>' +
+      '<button type="button" class="ios-cycle" id="iosCycleR" title="Cycle right pane" aria-label="Cycle right pane"><span>R</span></button>' +
       '<button type="button" class="ios-icon' + (par ? " active" : "") + '" id="iosParallel" title="Parallel" aria-label="Parallel reading" aria-pressed="' + par + '">' + ICO.parallel + "</button>" +
       "</div>" +
       '<button type="button" class="ios-focus-btn' + (focus ? " on" : "") + '" id="iosFocus" title="Focus mode" aria-label="Focus mode" aria-pressed="' + focus + '">' +
@@ -179,7 +181,9 @@
     for (let i = 1; i <= n; i++) {
       rows.push(
         '<a class="ios-row' + (i === ctx.chapter ? " active" : "") + '" href="read.html?work=' + encodeURIComponent(ctx.work.id) + "&chapter=" + i + "#ch-" + i + '">' +
-        "<strong>" + escapeHtml(liberLabel(i)) + "</strong></a>"
+        "<strong>" + escapeHtml(liberLabel(i)) + "</strong>" +
+        (isBookmarked(i) ? '<span class="bm-dot" aria-label="Bookmarked"></span>' : "") +
+        "</a>"
       );
     }
     openSheet(workShort(ctx.work), rows.join(""));
@@ -194,7 +198,6 @@
     document.body.classList.toggle("ios-focus", phone && focus);
     document.body.classList.toggle("ios-latin", storedMode() === "original");
     document.body.classList.toggle("ios-parallel-on", parallelOn());
-    document.body.classList.toggle("ios-swapped", !!(w.FG.parallel && w.FG.parallel.swapped()));
     const btn = qs("#iosFocus");
     if (btn) {
       btn.classList.toggle("on", focus);
@@ -206,17 +209,58 @@
       chi.classList.toggle("active", on);
       chi.setAttribute("aria-pressed", on);
     }
-    const swap = qs("#iosSwap");
-    if (swap) {
-      const on = !!(w.FG.parallel && w.FG.parallel.swapped());
-      swap.classList.toggle("active", on);
-      swap.setAttribute("aria-pressed", on);
-    }
     const par = qs("#iosParallel");
     if (par) {
       par.classList.toggle("active", parallelOn());
       par.setAttribute("aria-pressed", parallelOn());
     }
+  }
+
+  function bmKey() {
+    const ctx = currentContext();
+    return "fg-bm:" + (localStorage.getItem("fg-user") || "local") + ":" + (ctx.work ? ctx.work.id : "confessions");
+  }
+  function loadBookmarks() {
+    try {
+      const v = JSON.parse(localStorage.getItem(bmKey()) || "[]");
+      return Array.isArray(v) ? v.map(Number) : [];
+    } catch (e) { return []; }
+  }
+  function saveBookmarks(list) {
+    localStorage.setItem(bmKey(), JSON.stringify(list));
+  }
+  function isBookmarked(n) { return loadBookmarks().indexOf(Number(n)) >= 0; }
+  function toggleBookmark(n) {
+    n = Number(n);
+    const list = loadBookmarks();
+    const i = list.indexOf(n);
+    if (i >= 0) list.splice(i, 1);
+    else list.push(n);
+    list.sort((a, b) => a - b);
+    saveBookmarks(list);
+    paintRibbons();
+    return i < 0;
+  }
+  function paintRibbons() {
+    qsa(".book-chapter").forEach((sec) => {
+      const n = Number((sec.id || "").replace("ch-", ""));
+      if (!n) return;
+      let rib = sec.querySelector(".bm-ribbon");
+      if (!rib) {
+        rib = document.createElement("button");
+        rib.type = "button";
+        rib.className = "bm-ribbon";
+        rib.innerHTML = ICO.bookmark;
+        rib.addEventListener("click", (e) => {
+          e.preventDefault();
+          const on = toggleBookmark(n);
+          toast(on ? "Bookmarked " + liberLabel(n) : "Removed " + liberLabel(n));
+        });
+        sec.appendChild(rib);
+      }
+      rib.classList.toggle("on", isBookmarked(n));
+      rib.setAttribute("aria-label", (isBookmarked(n) ? "Remove bookmark" : "Bookmark") + " " + liberLabel(n));
+    });
   }
 
   function setSectionLabel(n) {
@@ -270,9 +314,11 @@
       if (w.FG.parallel) w.FG.parallel.onParallelTap();
       applyShellState();
     });
-    qs("#iosSwap")?.addEventListener("click", () => {
-      if (w.FG.parallel) w.FG.parallel.onSwapTap();
-      applyShellState();
+    qs("#iosCycleL")?.addEventListener("click", () => {
+      if (w.FG.parallel) w.FG.parallel.cycle("left");
+    });
+    qs("#iosCycleR")?.addEventListener("click", () => {
+      if (w.FG.parallel) w.FG.parallel.cycle("right");
     });
     qs("#iosFocus")?.addEventListener("click", () => {
       const next = focusOn() ? "off" : "on";
@@ -290,6 +336,7 @@
       if (w.FG.parallel) w.FG.parallel.applyPanes();
     });
     observeLibri();
+    paintRibbons();
     if (w.FG.parallel) w.FG.parallel.applyPanes();
   }
 

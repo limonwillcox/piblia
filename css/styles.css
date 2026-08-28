@@ -686,7 +686,22 @@ body.ios-shell .ios-tabbar { display: flex; }
 .ios-icon.active svg { stroke-width: 2.1; }
 #iosSwap { display: none; }
 body.ios-shell.ios-landscape.ios-parallel-on #iosChi { display: none; }
-body.ios-shell.ios-landscape.ios-parallel-on #iosSwap { display: inline-flex; }
+body.ios-shell.ios-landscape.ios-parallel-on #iosSwap { display: none; }
+#iosCycleL, #iosCycleR { display: none; }
+body.ios-shell.ios-landscape.ios-parallel-on #iosCycleL,
+body.ios-shell.ios-landscape.ios-parallel-on #iosCycleR { display: inline-flex; }
+.ios-cycle {
+  width: 30px; height: 30px; flex: 0 0 30px;
+  border: 1.5px solid var(--border);
+  background: var(--bg);
+  color: var(--text);
+  border-radius: 50%;
+  font-size: 11px; font-weight: 800;
+  align-items: center; justify-content: center;
+  padding: 0;
+}
+.ios-cycle span { font-family: var(--serif); line-height: 1; }
+.ios-cycle:active { background: var(--panel); }
 html[data-theme="night"] .ios-icon.active { color: var(--link); }
 .ios-focus-btn {
   width: 40px; height: 40px; flex: 0 0 40px; margin-left: auto;
@@ -767,6 +782,7 @@ body.ios-shell .ios-sheet-back.open { display: flex; }
   width: 100%; text-align: left;
   padding: 12px 4px; border: 0; border-bottom: 1px solid var(--border);
   background: none; color: var(--text); font-size: 16px;
+  position: relative;
 }
 .ios-row strong { font-size: 16px; font-weight: 650; }
 .ios-row .meta { font-size: 12px; color: var(--muted); }
@@ -951,6 +967,30 @@ body.ios-shell .page > #iosSingleRead { max-width: none; }
 .kjv-nav button {
   width: 32px; height: 32px; border: 1px solid var(--border);
   background: var(--bg); color: var(--text); border-radius: 6px; font-size: 16px;
+}
+.notes-pad {
+  display: block; width: 100%; min-height: 100%;
+  border: 0; background: transparent; color: var(--text);
+  font-family: var(--serif); font-size: var(--read-size); line-height: 1.65;
+  resize: none; padding: 4px 2px;
+}
+.notes-pad:focus { outline: none; }
+body.ios-shell .book-chapter { position: relative; }
+.bm-ribbon {
+  display: none;
+  position: absolute; top: 0; right: 0;
+  width: 40px; height: 44px;
+  border: 0; background: transparent; color: var(--muted);
+  align-items: flex-start; justify-content: center;
+  padding-top: 2px;
+}
+body.ios-shell .bm-ribbon { display: inline-flex; }
+.bm-ribbon svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.7; }
+.bm-ribbon.on { color: var(--burgundy); }
+.bm-ribbon.on svg { fill: var(--burgundy); stroke: var(--burgundy); }
+.bm-dot {
+  position: absolute; right: 6px; top: 50%; transform: translateY(-50%);
+  width: 7px; height: 7px; border-radius: 50%; background: var(--burgundy);
 }
 body.ios-focus #iosDualRead .ios-pane {
   max-height: calc(100dvh - env(safe-area-inset-top, 0px) - 24px);

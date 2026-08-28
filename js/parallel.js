@@ -1,7 +1,7 @@
-/* Landscape parallel: left pane is permanent. Right swaps with archive. */
+/* Landscape parallel: L and R cycle through enabled sources. Notes is a pane. */
 (function (w) {
   const D = w.FG_DATA;
-  const IDS = ["english", "latin", "bible"];
+  const ALL = ["english", "latin", "bible", "notes"];
 
   function qs(sel, el) { return (el || document).querySelector(sel); }
   function qsa(sel, el) { return Array.from((el || document).querySelectorAll(sel)); }
@@ -32,60 +32,74 @@
     const wk = work();
     return D.passages.find((p) => p.work === wk.id && String(p.chapter) === String(chapter()));
   }
-  function accountKey() {
-    return "fg-parallel-layout:" + (localStorage.getItem("fg-user") || "local");
+  function account() {
+    return localStorage.getItem("fg-user") || "local";
   }
-  function defaultLayout() {
-    return { left: "english", right: "latin", archive: "bible" };
+  function layoutKey() { return "fg-parallel-layout:" + account(); }
+  function enabledKey() { return "fg-parallel-on:" + account(); }
+  function notesKey() {
+    const wk = work();
+    return "fg-notes:" + account() + ":" + (wk ? wk.id : "confessions");
   }
-  function normalize(v) {
-    if (!v) return null;
-    if (v.left && v.right && v.archive) {
-      const used = [v.left, v.right, v.archive].sort().join(",");
-      if (used === IDS.slice().sort().join(",")) return { left: v.left, right: v.right, archive: v.archive };
-    }
-    if (Array.isArray(v.visible) && v.visible.length === 2 && v.archive) {
-      return { left: v.visible[0], right: v.visible[1], archive: v.archive };
-    }
-    return null;
-  }
-  function loadLayout() {
+
+  function enabled() {
     try {
-      const n = normalize(JSON.parse(localStorage.getItem(accountKey()) || "null"));
-      if (n) return n;
+      const v = JSON.parse(localStorage.getItem(enabledKey()) || "null");
+      if (Array.isArray(v)) {
+        const list = v.filter((id) => ALL.indexOf(id) >= 0);
+        if (list.length >= 2) return list;
+      }
     } catch (e) { /* ignore */ }
-    return defaultLayout();
+    return ALL.slice();
   }
-  function saveLayout(layout) {
-    localStorage.setItem(accountKey(), JSON.stringify(layout));
-    localStorage.setItem("fg-parallel-swapped", "off");
+  function setEnabled(list) {
+    const next = list.filter((id) => ALL.indexOf(id) >= 0);
+    if (next.length < 2) return enabled();
+    localStorage.setItem(enabledKey(), JSON.stringify(next));
+    const panes = livePanes();
+    const on = next;
+    if (on.indexOf(panes.left) < 0) panes.left = on[0];
+    if (on.indexOf(panes.right) < 0 || panes.right === panes.left) {
+      panes.right = on.find((id) => id !== panes.left) || on[1];
+    }
+    savePanes(panes);
+    return next;
   }
-  function swapped() {
-    return localStorage.getItem("fg-parallel-swapped") === "on";
-  }
-  function setSwapped(on) {
-    localStorage.setItem("fg-parallel-swapped", on ? "on" : "off");
+  function defaultPanes() {
+    const on = enabled();
+    return { left: on[0] || "english", right: on[1] || "latin" };
   }
   function livePanes() {
-    const L = loadLayout();
-    return {
-      left: L.left,
-      right: swapped() ? L.archive : L.right
-    };
+    try {
+      const v = JSON.parse(localStorage.getItem(layoutKey()) || "null");
+      const on = enabled();
+      if (v && on.indexOf(v.left) >= 0 && on.indexOf(v.right) >= 0 && v.left !== v.right) {
+        return { left: v.left, right: v.right };
+      }
+      if (v && v.left && v.right) {
+        return { left: v.left, right: v.right };
+      }
+    } catch (e) { /* ignore */ }
+    return defaultPanes();
+  }
+  function savePanes(p) {
+    localStorage.setItem(layoutKey(), JSON.stringify({ left: p.left, right: p.right }));
   }
 
   function noteLabel(id) {
     const title = workTitle();
     if (id === "english") return title + " English";
     if (id === "latin") return title + " Latin";
+    if (id === "notes") return "Notes";
     return "Bible";
   }
-  function cardHtml(id) {
-    return (
-      '<div class="par-card" data-src="' + id + '">' +
-      '<span class="par-handle" aria-hidden="true"></span>' +
-      '<span class="par-note">' + esc(noteLabel(id)) + "</span></div>"
-    );
+
+  function wrapWords(escaped, version, chap, paraIndex) {
+    let n = 0;
+    return escaped.replace(/(\S+)/g, (tok) => {
+      const id = version + "-" + chap + "-" + paraIndex + "-" + n++;
+      return '<span class="w" data-w="' + id + '">' + tok + "</span>";
+    });
   }
 
   function fatherParas(version) {
@@ -94,7 +108,7 @@
     const paras = (p.versions && p.versions[version]) || [];
     if (!paras.length) return '<p class="empty">No text.</p>';
     return paras.map((text, i) =>
-      '<p class="para"><span class="pnum">' + (i + 1) + "</span> " + esc(text) + "</p>"
+      '<p class="para"><span class="pnum">' + (i + 1) + "</span> " + wrapWords(esc(text), version, p.chapter, i) + "</p>"
     ).join("");
   }
   function renderFatherPane(version, label) {
@@ -123,10 +137,23 @@
       '<div class="ios-pane-body passage" id="kjvBody">Loading…</div></div>'
     );
   }
+  function renderNotesPane(label) {
+    const saved = localStorage.getItem(notesKey()) || "";
+    return (
+      '<div class="ios-pane ios-pane-notes" data-kind="notes">' +
+      '<header class="ios-pane-head">' +
+      '<button type="button" class="ios-pane-note" id="notesToggle">' + esc(label) + "</button>" +
+      "</header>" +
+      '<div class="ios-pane-body">' +
+      '<textarea class="notes-pad" id="notesPad" placeholder="Tap Notes, then write.">' + esc(saved) + "</textarea>" +
+      "</div></div>"
+    );
+  }
   function paneFor(id) {
     const label = noteLabel(id);
     if (id === "english") return renderFatherPane("pusey", label);
     if (id === "latin") return renderFatherPane("lat", label);
+    if (id === "notes") return renderNotesPane(label);
     return renderBiblePane(label);
   }
 
@@ -181,6 +208,31 @@
       });
     });
   }
+  function bindNotes() {
+    const pad = qs("#notesPad");
+    const tog = qs("#notesToggle");
+    if (!pad) return;
+    pad.addEventListener("input", () => localStorage.setItem(notesKey(), pad.value));
+    if (tog && !tog.dataset.bound) {
+      tog.dataset.bound = "1";
+      tog.addEventListener("click", () => {
+        if (document.activeElement === pad) pad.blur();
+        else pad.focus();
+      });
+    }
+  }
+
+  function restoreHl() {
+    const wk = work();
+    if (!wk) return;
+    try {
+      const map = JSON.parse(localStorage.getItem("fg-hl-" + wk.id) || "{}");
+      Object.keys(map).forEach((k) => {
+        const el = document.querySelector('.w[data-w="' + k + '"]');
+        if (el) el.classList.add(map[k]);
+      });
+    } catch (e) { /* ignore */ }
+  }
 
   function applyPanes() {
     const page = qs("#page");
@@ -210,6 +262,10 @@
     dual.innerHTML = paneFor(panes.left) + paneFor(panes.right);
     dual.hidden = false;
     single.hidden = true;
+    const bar = qs("#hlBar");
+    if (bar) page.appendChild(bar);
+    restoreHl();
+    bindNotes();
     if ((panes.left === "bible" || panes.right === "bible") && w.FG.KJV) {
       const ref = w.FG.KJV.storedRef();
       w.FG.KJV.loadManifest().then((m) => {
@@ -223,85 +279,46 @@
     }
   }
 
+  function cycle(side) {
+    const panes = livePanes();
+    const other = side === "left" ? panes.right : panes.left;
+    const pool = enabled().filter((id) => id !== other);
+    if (!pool.length) return;
+    const cur = panes[side];
+    const i = pool.indexOf(cur);
+    const next = pool[(i + 1) % pool.length];
+    if (side === "left") panes.left = next;
+    else panes.right = next;
+    savePanes(panes);
+    applyPanes();
+  }
+
   function paintSettings() {
     const host = qs("#parLayout");
     if (!host) return;
-    const L = loadLayout();
+    const on = enabled();
+    const labels = { english: "English", latin: "Latin", bible: "Bible", notes: "Notes" };
     host.innerHTML =
-      '<div class="par-board par-board-settings">' +
-      slotCol("Left pane — stays put", "left", L.left) +
-      slotCol("Right pane", "right", L.right) +
-      slotCol("Not visible", "archive", L.archive) +
-      "</div>";
-    bindSettingsDrag(host);
-  }
-  function slotCol(title, key, id) {
-    return (
-      '<section class="par-col" aria-label="' + esc(title) + '">' +
-      "<h3>" + esc(title) + "</h3>" +
-      '<div class="par-slot" data-key="' + key + '">' + cardHtml(id) + "</div></section>"
-    );
-  }
-  function readSettings() {
-    return {
-      left: qs('#parLayout [data-key="left"] .par-card').dataset.src,
-      right: qs('#parLayout [data-key="right"] .par-card').dataset.src,
-      archive: qs('#parLayout [data-key="archive"] .par-card').dataset.src
-    };
-  }
-  function bindSettingsDrag(host) {
-    let drag = null;
-    function slotAt(x, y) {
-      const el = document.elementFromPoint(x, y);
-      return el && el.closest("#parLayout .par-slot");
-    }
-    host.addEventListener("pointerdown", (e) => {
-      const card = e.target.closest(".par-card");
-      if (!card) return;
-      const slot = card.closest(".par-slot");
-      drag = {
-        card: card,
-        from: slot,
-        ox: e.clientX - card.getBoundingClientRect().left,
-        oy: e.clientY - card.getBoundingClientRect().top
-      };
-      card.classList.add("dragging");
-      card.style.pointerEvents = "none";
-      card.style.width = card.getBoundingClientRect().width + "px";
-      card.style.position = "fixed";
-      card.style.zIndex = "120";
-      card.style.left = (e.clientX - drag.ox) + "px";
-      card.style.top = (e.clientY - drag.oy) + "px";
-      card.setPointerCapture(e.pointerId);
-      e.preventDefault();
+      '<p class="par-help">Turn on the panes you want in the cycle. Each half of the screen skips whatever the other half is showing.</p>' +
+      ALL.map((id) => {
+        const isOn = on.indexOf(id) >= 0;
+        return '<div class="set-row"><span>' + esc(labels[id]) + '</span>' +
+          '<button type="button" class="switch' + (isOn ? " on" : "") + '" data-src="' + id + '" aria-pressed="' + isOn + '"></button></div>';
+      }).join("");
+    qsa("#parLayout [data-src]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const id = btn.dataset.src;
+        let list = enabled().slice();
+        const i = list.indexOf(id);
+        if (i >= 0) {
+          if (list.length <= 2) return;
+          list.splice(i, 1);
+        } else list.push(id);
+        list = ALL.filter((x) => list.indexOf(x) >= 0);
+        setEnabled(list);
+        paintSettings();
+      });
     });
-    host.addEventListener("pointermove", (e) => {
-      if (!drag) return;
-      drag.card.style.left = (e.clientX - drag.ox) + "px";
-      drag.card.style.top = (e.clientY - drag.oy) + "px";
-      qsa("#parLayout .par-slot").forEach((s) => s.classList.remove("over"));
-      const over = slotAt(e.clientX, e.clientY);
-      if (over) over.classList.add("over");
-    });
-    function end(e) {
-      if (!drag) return;
-      const over = slotAt(e.clientX, e.clientY);
-      qsa("#parLayout .par-slot").forEach((s) => s.classList.remove("over"));
-      drag.card.classList.remove("dragging");
-      drag.card.style.cssText = "";
-      if (over && over !== drag.from) {
-        const ca = drag.from.querySelector(".par-card");
-        const cb = over.querySelector(".par-card");
-        drag.from.appendChild(cb);
-        over.appendChild(ca);
-        saveLayout(readSettings());
-      } else {
-        drag.from.appendChild(drag.card);
-      }
-      drag = null;
-    }
-    host.addEventListener("pointerup", end);
-    host.addEventListener("pointercancel", end);
   }
 
   function onParallelTap() {
@@ -312,19 +329,12 @@
     applyPanes();
     return true;
   }
-  function onSwapTap() {
-    if (localStorage.getItem("fg-ios-parallel") !== "on") return false;
-    setSwapped(!swapped());
-    applyPanes();
-    return true;
-  }
 
   w.FG = w.FG || {};
   w.FG.parallel = {
     applyPanes: applyPanes,
     onParallelTap: onParallelTap,
-    onSwapTap: onSwapTap,
-    swapped: swapped,
+    cycle: cycle,
     mountSettings: paintSettings
   };
 })(window);

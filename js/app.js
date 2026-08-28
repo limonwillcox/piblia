@@ -724,10 +724,10 @@
   function bindWordHighlight(work) {
     let pending = [];
     const page = qs("#page");
-    page.addEventListener("mouseup", (e) => {
-      if (e.target.closest("#hlBar")) return;
+    function showHl(e) {
+      if (e.target.closest && e.target.closest("#hlBar")) return;
       const selected = wordsFromSelection();
-      const word = e.target.closest(".w");
+      const word = e.target.closest && e.target.closest(".w");
       pending = selected.length ? selected : (word ? [word] : []);
       const bar = qs("#hlBar");
       if (!pending.length || !bar) {
@@ -735,8 +735,17 @@
         return;
       }
       bar.classList.add("open");
-      bar.style.left = Math.min(e.clientX, innerWidth - 170) + "px";
-      bar.style.top = Math.max(8, e.clientY - 44) + "px";
+      bar.style.left = Math.min(e.clientX || 0, innerWidth - 170) + "px";
+      bar.style.top = Math.max(8, (e.clientY || 0) - 44) + "px";
+    }
+    page.addEventListener("mouseup", showHl);
+    page.addEventListener("touchend", (e) => {
+      const t = e.changedTouches && e.changedTouches[0];
+      showHl({
+        target: e.target,
+        clientX: t ? t.clientX : 0,
+        clientY: t ? t.clientY : 0
+      });
     });
     qs("#hlBar")?.addEventListener("click", (e) => {
       const btn = e.target.closest("[data-hl]");
@@ -933,7 +942,7 @@
       row("fn", "Notes", storedOpt("fn", true)) +
       row("xref", "Scripture references", storedOpt("xref", true)) +
       '<h2 id="parallel-layout">Parallel layout</h2>' +
-      "<p>The left pane never moves while you read. Drag the notes. In landscape, the swap button trades Right with Not visible.</p>" +
+      "<p>Choose which panes sit in the landscape cycle. Tap L or R on the reader to walk through whatever the other side is not showing.</p>" +
       '<div id="parLayout"></div>' +
       "<p class='fineprint'>English editions on this site currently follow Philip Schaff’s NPNF series (Pusey for the Confessions). The translator is not shown in the reader bar — only the Father, the work, and the liber.</p>" +
       "</div>";
