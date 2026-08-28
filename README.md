@@ -10,6 +10,8 @@ Public repo: [limonwillcox/piblia](https://github.com/limonwillcox/piblia). GitH
 
 Until DNS is pointed, the site is at **https://limonwillcox.github.io/piblia/**.
 
+Phone reader (nested): **`ios/`** — YouVersion-style chrome, parallel L/R cycle, KJV, notes, bookmarks. After Pages deploy: `https://piblia.com/ios/` or `https://limonwillcox.github.io/piblia/ios/`.
+
 Custom domain **piblia.com** is already set in `CNAME`. At your registrar, use:
 
 **Apex `piblia.com` (A records)**

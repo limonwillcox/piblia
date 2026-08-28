@@ -639,7 +639,7 @@
     const preferred = param("version", storedVersion());
     const anyTrans = pickTranslation(first, preferred);
     if (anyTrans) setStoredVersion(anyTrans.id);
-    const showParallelOrig = mode === "translation" && localStorage.getItem("fg-orig-parallel") !== "off";
+    const showParallelOrig = mode === "translation" && (localStorage.getItem("fg-orig-parallel") !== "off" || localStorage.getItem("fg-ios-parallel") === "on");
     const neighbors = neighborWorks(work.id);
 
     const toc = chapters.map((p) => {
@@ -724,10 +724,10 @@
   function bindWordHighlight(work) {
     let pending = [];
     const page = qs("#page");
-    page.addEventListener("mouseup", (e) => {
-      if (e.target.closest("#hlBar")) return;
+    function showHl(e) {
+      if (e.target.closest && e.target.closest("#hlBar")) return;
       const selected = wordsFromSelection();
-      const word = e.target.closest(".w");
+      const word = e.target.closest && e.target.closest(".w");
       pending = selected.length ? selected : (word ? [word] : []);
       const bar = qs("#hlBar");
       if (!pending.length || !bar) {
@@ -735,8 +735,17 @@
         return;
       }
       bar.classList.add("open");
-      bar.style.left = Math.min(e.clientX, innerWidth - 170) + "px";
-      bar.style.top = Math.max(8, e.clientY - 44) + "px";
+      bar.style.left = Math.min(e.clientX || 0, innerWidth - 170) + "px";
+      bar.style.top = Math.max(8, (e.clientY || 0) - 44) + "px";
+    }
+    page.addEventListener("mouseup", showHl);
+    page.addEventListener("touchend", (e) => {
+      const t = e.changedTouches && e.changedTouches[0];
+      showHl({
+        target: e.target,
+        clientX: t ? t.clientX : 0,
+        clientY: t ? t.clientY : 0
+      });
     });
     qs("#hlBar")?.addEventListener("click", (e) => {
       const btn = e.target.closest("[data-hl]");
@@ -896,12 +905,72 @@
       "<h1>Augustine’s Confessions</h1>" +
       "<p>Fathers Gateway is a searchable reader for public-domain patristic texts. The first work in the library is <em>The Confessions of Saint Augustine</em>: Pusey's English (1838) and the Latin <em>Confessiones</em>. The thirteen books are one scrollable work; Original and Split put the Latin on the page.</p>" +
       "<h2 id='editions'>This edition</h2>" +
+      "<p>English texts follow <strong>Philip Schaff</strong>’s Nicene and Post-Nicene Fathers series. The Confessions English is <strong>E. B. Pusey, 1838</strong>. The reader bar always names the Church Father — never the translator.</p>" +
       "<p><strong>Pusey, 1838</strong> — public domain in the United States. Source file under <code>Fathers/English/</code> (Gutenberg #3296). The Project Gutenberg license is kept in <code>Regulations/Project GutenBerg</code>.</p>" +
       "<p><strong>Latin</strong> — the <em>Confessiones</em> in thirteen books, from <code>Fathers/Latin/</code>. Open a book and use <strong>Original</strong>, or keep Translation with Split on, to read it.</p>" +
       "<h2 id='privacy'>Privacy</h2>" +
       "<p>The mock stores display name, font size, night mode, and highlights in <code>localStorage</code>. Sign-in is local only. OAuth buttons are optional placeholders and do not call a provider.</p>" +
       "<p class='fineprint'>“Bible Gateway” is a trademark of its owner; this project is an independent design study and is not affiliated with HarperCollins Christian Publishing.</p>" +
       "</div>";
+  }
+
+  function renderGive() {
+    qs("#page").innerHTML =
+      '<div class="prose">' +
+      "<h1>Give</h1>" +
+      '<div class="give-card">' +
+      "<h2>Support the library</h2>" +
+      "<p>Piblia is a public-domain Church Fathers reader. A donation link will live here as soon as it is set.</p>" +
+      "</div></div>";
+  }
+
+  function renderSettings() {
+    function row(id, label, on) {
+      return '<div class="set-row"><span>' + label + '</span><button type="button" class="switch' + (on ? " on" : "") + '" data-set="' + id + '" aria-pressed="' + on + '" aria-label="' + label + '"></button></div>';
+    }
+    const themeNight = (localStorage.getItem("fg-theme") || "day") === "night";
+    const font = Number(localStorage.getItem("fg-font") || 18);
+    qs("#page").innerHTML =
+      '<div class="prose">' +
+      "<h1>Settings</h1>" +
+      row("theme", "Night mode", themeNight) +
+      '<div class="set-row"><span>Text size</span><div class="font-step">' +
+      '<button type="button" id="setFontDown" aria-label="Smaller">A−</button>' +
+      '<button type="button" id="setFontUp" aria-label="Larger">A+</button></div></div>' +
+      row("nums", "Paragraph numbers", storedOpt("nums", true)) +
+      row("head", "Section headings", storedOpt("head", true)) +
+      row("fn", "Notes", storedOpt("fn", true)) +
+      row("xref", "Scripture references", storedOpt("xref", true)) +
+      '<h2 id="parallel-layout">Parallel layout</h2>' +
+      "<p>Choose which panes sit in the landscape cycle. Tap L or R on the reader to walk through whatever the other side is not showing.</p>" +
+      '<div id="parLayout"></div>' +
+      "<p class='fineprint'>English editions on this site currently follow Philip Schaff’s NPNF series (Pusey for the Confessions). The translator is not shown in the reader bar — only the Father, the work, and the liber.</p>" +
+      "</div>";
+    qsa("[data-set]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const id = btn.dataset.set;
+        if (id === "theme") {
+          const next = (localStorage.getItem("fg-theme") || "day") === "night" ? "day" : "night";
+          localStorage.setItem("fg-theme", next);
+          applyTheme();
+          btn.classList.toggle("on", next === "night");
+          return;
+        }
+        const next = !storedOpt(id, true);
+        setStoredOpt(id, next);
+        btn.classList.toggle("on", next);
+        applyReadOptions();
+      });
+    });
+    qs("#setFontUp")?.addEventListener("click", () => {
+      const n = Math.min(26, Number(localStorage.getItem("fg-font") || 18) + 2);
+      localStorage.setItem("fg-font", n); applyFont();
+    });
+    qs("#setFontDown")?.addEventListener("click", () => {
+      const n = Math.max(14, Number(localStorage.getItem("fg-font") || 18) - 2);
+      localStorage.setItem("fg-font", n); applyFont();
+    });
+    if (w.FG.parallel) w.FG.parallel.mountSettings();
   }
 
   const pages = {
@@ -911,7 +980,9 @@
     browse: renderBrowse,
     study: renderStudy,
     plans: renderPlans,
-    about: renderAbout
+    about: renderAbout,
+    give: renderGive,
+    settings: renderSettings
   };
 
   w.FG = {
@@ -919,6 +990,7 @@
       mountChrome(page);
       const run = pages[page];
       if (run) run();
+      if (w.FG.mountIOS) w.FG.mountIOS(page);
     }
   };
 })(window);
