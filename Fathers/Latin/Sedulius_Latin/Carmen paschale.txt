@@ -1,0 +1,3552 @@
+# source: https://www.thelatinlibrary.com/sedulius1.html | https://www.thelatinlibrary.com/sedulius2.html | https://www.thelatinlibrary.com/sedulius3.html | https://www.thelatinlibrary.com/sedulius4.html | https://www.thelatinlibrary.com/sedulius5.html
+# author: Sedulius
+# work: Carmen paschale
+# tll_credits: J. Huemer, CSEL 10 (Wien 1885).
+# pd_status: edition_dated
+# retrieved: 2026-08-28
+===== Liber I =====
+# page: https://www.thelatinlibrary.com/sedulius1.html
+
+SEDULIUS
+CARMEN PASCHALE
+LIBER PRIMUS
+
+PRAEFATIO
+
+Paschales quicumque dapes conviva requiris,
+
+Dignatus nostris accubitare toris,
+
+Pone supercilium si te cognoscis amicum,
+
+Nec quaeras opus hic codicis artificis:
+
+Sed modicae contentus adi sollemnia mensae 5
+
+Plusque libens animo quam satiare cibo.
+
+Aut si magnarum caperis dulcedine rerum
+
+Divitiasque magis deliciosus amas,
+
+Nobilium nitidis doctorum vescere cenis,
+
+Quorum multiplices nec numerantur opes. 10
+
+Illic invenies quidquid mare nutrit edendum,
+
+Quidquid terra creat, quidquid ad astra volat.
+
+Cerea gemmatis flavescunt mella canistris
+
+Conlucentque suis aurea vasa favis.
+
+At nos exiguum de paupere carpsimus horto, 15
+
+Rubra quod adpositum testa ministrat, holus.
+
+LIBER PRIMUS
+
+Cum sua gentiles studeant figmenta poetae
+
+Grandisonis pompare modis, tragicoque boatu
+
+Ridiculoque Geta seu qualibet arte canendi
+
+Saeva nefandarum renovent contagia rerum 20
+
+Et scelerum monumenta canant, rituque magistro
+
+Plurima Niliacis tradant mendacia biblis:
+
+Cur ego, Daviticis adsuetus cantibus odas
+
+Cordarum resonare decem sanctoque verenter
+
+Stare choro et placidis caelestia psallere verbis, 25
+
+Clara salutiferi taceam miracula Christi?
+
+Cum possim manifesta loqui, Dominumque tonantem
+
+Sensibus et toto delectet corde fateri:
+
+Qui sensus et corda dedit, cui convenit uni
+
+Facturam servire suam, cui iure perenni 30
+
+Arcibus aetheriis una est cum patre potestas,
+
+Par splendor, communis apex, sociale cacumen,
+
+Aequus honor, virtus eadem, sine tempore regnum,
+
+Semper principium, sceptrum iuge, gloria consors,
+
+Maiestas similis. haec est via namque salutis, 35
+
+Haec firmos ad dona gradus paschalia ducit.
+
+Haec mihi carmen erit: mentes huc vertite cuncti.
+
+Hanc constanter opem laesis adhibete medullis,
+
+Quos letale malum, quos vanis dedita curis
+
+Attica Cecropii serpit doctrina veneni, 40
+
+Sectantesque magis vitam spirantis odorem
+
+Legis Athenaei paedorem linquite pagi.
+
+Quid labyrintheo, Thesidae, erratis in antro
+
+Caecaque Daedalei lustratis limina tecti?
+
+Labruscam placidis quid adhuc praeponitis uvis 45
+
+Neglectisque rosis saliuncam sumitis agri?
+
+Quid lapides atque aera coli, quid fana profana
+
+Proderit et mutis animas damnare metallis?
+
+Parcite pulverei squalentia iugera campi
+
+Et steriles habitare plagas, ubi gignere fructum 50
+
+Arida nescit humus, nec de tellure cruenta
+
+Livida mortiferis vellatis toxica sucis,
+
+Tartareo damnata cibo: sed amoena virecta
+
+Florentum semper nemorum sedesque beatas
+
+Per latices intrate pios, ubi semina vitae 55
+
+Divinis animantur aquis et fonte superno
+
+Laetificata seges spinis mundatur ademptis,
+
+Ut messis queat esse Dei mercisque futurae
+
+Maxima centenum cumulare per horrea fructum.
+
+Omnipotens aeterne Deus, spes unica mundi, 60
+
+Qui caeli fabricator ades, qui conditor orbis,
+
+Qui maris undisonas fluctu surgente procellas
+
+Mergere vicinae prohibes confinia terrae,
+
+Qui solem radiis et lunam cornibus imples
+
+Inque diem ac noctem lumen metiris utrumque, 65
+
+Qui stellas numeras, quarum tu nomina solus,
+
+Signa, potestates, cursus, loca, tempora nosti,
+
+Qui diversa novam formasti in corpora terram
+
+Torpentique solo viventia membra dedisti,
+
+Qui pereuntem hominem vetiti dulcedine pomi 70
+
+Instauras meliore cibo potuque sacrati
+
+Sanguinis infusum depellis ab angue venenum,
+
+Qui genus humanum praeter quos clauserat arca
+
+Diluvii rapida spumantis mole sepultum
+
+Una iterum de stirpe creas, ut mystica virtus, 75
+
+Quod carnis delita necant, hoc praesule ligno
+
+Monstraret liquidas renovari posse per undas,
+
+Totum namque lavans uno baptismate mundum:
+
+Pande salutarem paucos quae ducit in urbem
+
+Angusto mihi calle viam verbique lucernam 80
+
+Da pedibus lucere meis, ut semita vitae
+
+Ad caulas me ruris agat, qua servat amoenum
+
+Pastor ovile bonus, qua vellere praevius albo
+
+Virginis agnus ovis grexque omnis candidus intrat.
+
+Te duce difficilis non est via; subditur omnis 85
+
+Imperiis natura tuis, rituque soluto
+
+Transit in adversas iussu dominante figuras.
+
+Si iubeas mediis segetes arere pruinis,
+
+Messorem producit hiems; si currere mustum
+
+Vernali sub sole velis, florentibus arvis 90
+
+Sordidus inpressas calcabit vinitor uvas:
+
+Cunctaque divinis parebunt tempora dictis.
+
+Indicio est antiqua fides et cana priorum
+
+Testis origo patrum, nullisque abolenda per aevum
+
+Temporibus constant virtutum signa tuarum. 95
+
+Ex quibus audaci perstringere pauca relatu
+
+Vix animis conmitto meis, silvamque patentem
+
+Ingrediens aliquos nitor contingere ramos.
+
+Nam centum licet ora movens vox ferrea clamet
+
+Centenosque sonos, humanum pectus anhelet, 100
+
+Cuncta quis expediet, quorum nec lucida caeli
+
+Sidera nec bibulae numeris aequantur harenae?
+
+Primus abusque chao meritis vivacibus Enoch
+
+Multa per innumeros iam saecula contigit annos
+
+Natura perdente modum: quem iure creandi 105
+
+Terra tulit genitum, sed mors miratur ademptum.
+
+Saucia iam vetulae marcebant viscera Sarrae
+
+Grandaevo consumpta situ, prolemque negabat
+
+Frigidus annoso moriens in corpore sanguis:
+
+Cum seniore viro gelidi praecordia ventris 110
+
+In partum tumuere novum tremebundaque mater
+
+Algentes onerata sinus, spem gentis opimae
+
+Edidit et serum suspendit ad ubera natum.
+
+Mactandumque Deo pater obtulit, at sacer ipsam
+
+Pro pueri iugulis aries mactatur ad aram. 115
+
+O iusti mens sancta viri! pietate remota
+
+Plus pietatis habens contempsit vulnera nati
+
+Amplexus praecepta Dei, typicique cruoris
+
+Auxilio ventura docet, quod sanguine Christi
+
+Humana pro gente pius occumberet agnus. 120
+
+Loth Sodomae fugiente chaos, dum respicit uxor,
+
+In statuam mutata salis stupefacta remansit,
+
+Ad poenam conversa suam: quia nemo retrorsum,
+
+Noxia contempti vitans discrimina mundi,
+
+Aspiciens salvandus erit, nec debet arator 125
+
+Dignum opus exercens vultum in sua terga referre.
+
+Ignibus innocuis flagrans apparuit olim
+
+Non ardens ardere rubus, nec iuncta calori
+
+Materies alimenta dabat, nec torrida vivens
+
+Sensit damna frutex, sed amici fomitis aestu 130
+
+Frondea blanditae lambebant robora flammae.
+
+Mitis in inmitem virga est animata draconem,
+
+Per flexos sinuata globos linguisque trisulcis
+
+Squamea colla tumens inimicos ore chelydros
+
+Sorbuit et proprii redit in virgulta rigoris. 135
+
+Pervia divisi patuerunt caerula ponti
+
+In geminum revoluta latus, nudataque tellus
+
+Cognatis spoliatur aquis, ac turba pedestris
+
+Intrat in absentis pelagi mare, perque profundum
+
+Sicca peregrinas stupuerunt marmora plantas. 140
+
+Mutavit natura viam, mediumque per aequor
+
+Ingrediens populus rude iam baptisma gerebat,
+
+Cui dux Christus erat, clamat nam lectio: multas
+
+Vox Domini super extat aquas; vox denique verbum est.
+
+Verbum Christus adest, geminae qui consona legis 145
+
+Testamenta regens veterem patefecit abyssum,
+
+Ut doctrina sequens planis incederet arvis.
+
+Quid referam innumeras caelesti pane catervas
+
+Angelicos sumpsisse cibos. nimbisque superni
+
+Nectaris aeria populum dulcedine pastum 150
+
+In pluviis habuisse dapes et in imbribus escas?
+
+Rursus in exustis sitiens exercitus arvis,
+
+Qua nimium loca sicca, diu qua terra negatis
+
+Aegra iacebat aquis, qua spes ablata bibendi
+
+Vivendique fuit, subitas arente metallo 155
+
+Hausit aquas, sterilique latex de rupe manavit,
+
+Et ieiuna novum vomuerunt marmora potum.
+
+His igitur iam sacra tribus dans munera rebus,
+
+Christus erat panis, Christus petra, Christus in undis.
+
+Angelicis tremefacta minis adfatur asella 160
+
+Sessorem per verba suum, linguaque rudenti
+
+Edidit humanas animal pecuale loquellas.
+
+Sol stetit ad Gabaon mediique cacumine caeli
+
+Fixit anhelantem dilato vespere lucem,
+
+Insolitus frenare diem, nec luna cucurrit 165
+
+Ordine pigra suo, donec populantibus armis
+
+Fervidus ingentem gladius consumeret hostem
+
+Coniurante polo: iam tunc famulata videbant.
+
+Sidera venturum praemisso nomine Iesum.
+
+Heliam corvi quondam pavere ministri 170
+
+Praebentes sine more dapes, alesque rapinis
+
+Deditus atque avido saturans cava guttura rostro
+
+Tradidit inlaesam ieiunis morsibus escam.
+
+Nunc bonus Heliae, qui perfidus antea Noe,
+
+Abluit in terris quidquid deliquit in undis. 175
+
+Plenus at ille Deo postquam miracula terris
+
+Plura dedit meritisque suis succedere dignum
+
+Heredem propriae fecit virtutis amicum,
+
+Aurea flammigeris evectus in astra quadrigis,
+
+Qua levis aerios non exprimit orbita sulcos, 180
+
+Sidereum penetravit iter curruque corusco
+
+Dexteriora petens spatio maiore triumphum
+
+Duxit et humani metam non contigit aevi.
+
+Quam bene fulminei praelucens semita caeli
+
+Convenit Heliae! meritoque et nomine fulgens 185
+
+Hac ope dignus erat: nam si sermonis Achivi
+
+Una per accentum mutetur littera, sol est.
+
+Ultima labentis miseratus tempora lucis
+
+Ter quinos quondam regi Deus addidit annos
+
+Usus iure suo, patefactaque limina claudens 190
+
+Mortis ab occasu vitam convertit in ortum.
+
+Ionas puppe cadens, coeto sorbente voratus
+
+In pelago non sensit aquas, vitale sepulchrum
+
+Ne moreretur habens, tutusque in ventre ferino
+
+Depositum, non praeda fuit, vastumque per aequor 195
+
+Venit ad ignotas inimico remige terras.
+
+Cum spirante Deo Babylonia sacra negarent
+
+Tres una cum mente viri durumque subirent
+
+Exitium saevi Chaldaea lege tyranni,
+
+Cuius Achaemeniam rabies accenderat iram 200
+
+Plus fornace sua: medios truduntur in ignes
+
+Nil audente rogo, tantumque ardore calentes
+
+Cordis imagineae vincunt incendia poenae
+
+Igne animi. o quanta est credentum gloria! flammis
+
+Ardentis fidei restincta est flamma camini. 205
+
+Digna sed inmitem mox perculit ultio regem.
+
+Nam quod ab humana vecors pietate recessit,
+
+Agrestes pecudum consors fuit ille per herbas
+
+Aulica depasto mutans convivia faeno.
+
+Pronus ab amne bibit, septenaque tempora lustrat 210
+
+Omnibus hirsutus silvis et montibus errans.
+
+Nec minus et Darii furuerunt iussa tyranni,
+
+Ecce etenim sceleri scelus addidit ira furentis
+
+Hebraeumque decus Danihel decernitur insons
+
+Ieiunis cibus esse feris. sed belua iusto 215
+
+Mitis facta viro, sanctos ne laederet artus,
+
+Coepit amare famem; rabies mollita furorem
+
+Deposuit saevisque in faucibus ira quievit,
+
+Et didicere truces praedam servare leones.
+
+Dic, ubi sunt, natura, tuae post talia leges? 220
+
+Qui quotiens tibi iura tulit? qui tartara iussit
+
+Translatum nescire virum, sterilemque marito
+
+Fecundavit anum, sacram praecepit ad aram
+
+Sponte venire pecus, muliebres transtulit artus
+
+In simulacra salis, ramos incendia passos 225
+
+Non ardere dedit, virgultum solvit in anguem,
+
+Per pelagus siccavit iter, mirabile nimbis
+
+Manna pluit, saxo latices produxit ab imo,
+
+Quadrupedem fari plano sermone coegit,
+
+Suspensis rapidas elementis distulit horas, 230
+
+Per volucres hominem pasci dedit atque coruscis
+
+In caelum transvexit equis, iam morte gravato
+
+Adiecit tria lustra viro, praedonis in ore
+
+Naufragio fundavit opem, flagrante camino
+
+Servavit sub rore pios, per pascua regem 235
+
+Pavit ut hirsutam pecudem, rictusque leonum
+
+Instimulante fame iussit nescire furorem?
+
+Nempe creatori, cuius quaecumque videntur
+
+Seu quaecumque latent et rerum machina sermo est,
+
+Omne suum famulatur opus sequiturque iubentis 240
+
+Imperium quacumque trahit sententia nutu.
+
+Heu miseri, qui vana colunt, qui corde sinistro
+
+Religiosa sibi sculpunt simulacra suumque
+
+Factorem fugiunt et quae fecere verentur!
+
+Quis furor est? quae tanta animos dementia ludit, 245
+
+Ut volucrem turpemque bovem tortumque draconem
+
+Semihominemque canem supplex homo plenus adoret?
+
+Ast alii solem caecatis mentibus acti
+
+Adfirmant rerum esse patrem, quia rite videtur
+
+Clara serenatis infundere lumina terris 250
+
+Et totum lustrare polum: cum constet ab istis
+
+Motibus instabilem rapidis discursibus ignem
+
+Officium, non esse Deum, quique ordine certo
+
+Nunc oritur, nunc occiduas dimissus in oras
+
+Partitur cum nocte vices nec sempter ubique est. 255
+
+Nec lumen fuit ille manens in origine mundi
+
+Cum geminum sine sole diem novus orbis haberet.
+
+Sic lunae quoque vota ferunt, quam crescere cernunt
+
+Ac minui, stellisque litant quae luce fugantur.
+
+Hic laticem colit, ille larem, sed iungere sacris 260
+
+Non audent inimica suis, ne lite propinqua
+
+Aut rogus exiguas desiccet fortior undas,
+
+Aut validis tenues moriantur fontibus ignes.
+
+Arboreis alius ponit radicibus aras
+
+Instituitque dapes et ramos flebilis orat, 265
+
+Ut natos caramque domum dilectaque rura
+
+Coniugiique fidem, famulos censumque gubernent.
+
+Lignee, ligna rogas, surdis clamare videris,
+
+A mutis responsa petis, quae iura domorum
+
+Hac ratione regunt, si caesa securibus actis 270
+
+Ardua pendentis sustentent culmina tecti,
+
+Aut subiecta focis dapibus famulentur edendis.
+
+Nonnulli venerantur holus mollesque per hortos
+
+Numina sicca rigant verique hac arte videntur
+
+Transplantatorum cultores esse deorum. 275
+
+Plura referre pudet, sanctoque in carmine longum
+
+Vel damnare nefas, ne mollia sentibus uram
+
+Lilia, purpurei neu per violaria campi
+
+Carduus et spinis surgat paliurus acutis.
+
+Iam satis humanis erroribus addita monstra 280
+
+Risimus aut potius tales deflevimum actus.
+
+Nunc coeptam iuvat ire viam montemque per altum
+
+Nitentes firmare gradus; properemus in urbem,
+
+Libertatis opem, radians ubi regia fulvis
+
+Emicat aula tholis, ubi dantur digna petenti, 285
+
+Quarentem spes certa manet, claustrisque remotis
+
+Pervia pulsanti reserantur limina cordi.
+
+Hic est ille lapis, reprobum quem vertice gestat
+
+Angulus atque oculis praebet miracula nostris:
+
+Cuius onus leve est, cuius iuga ferre suave est. 290
+
+Per digesta prius veteris miraculi legis
+
+Rettulimus, sancti coniuncto Spiritus actu
+
+Quae Genitor socia Nati virtute peregit.
+
+Per digesta rudis necnon miracula legis
+
+Dicemus, sancti coniuncto Spiritus actu 295
+
+Quae Natus socia Patris virtute peregit,
+
+Semper ut una manens deitatis forma perennis
+
+Quod simplex triplicet quodque est triplicabile simplet.
+
+Haec est vera fides; hanc sprevit habere salutem
+
+Arrius infelix, qui curva per avia rectum 300
+
+Flectere nisus iter, foveam dilapsus in atram
+
+Conruit et tetri mersus petit ima profundi:
+
+Tam vacuus sensu, iustae quam tempore poenae
+
+Visceribus fusis vacuus quoque ventre remansit.
+
+Demens, perpetui qui non imitanda parentis 305
+
+Iura caducorum gradibus simulavit honorum!
+
+Namque homines inter natum genitore minorem
+
+Lex carnalis habet, quoniam pater ipse parentis
+
+Filius ante fuit, mox et qui filius est nunc
+
+Adsolet esse pater: sic per genus omne nepotum 310
+
+It nova progenies et avi numerantur avorum.
+
+At Dominus, verbum, virtus, sapientia, Christus,
+
+Et totum commune Patris, de lumine lumen,
+
+De solo solus, cui nec minus est Patre quicquam,
+
+Nec quo crescat habet, genitus, non quippe creatus: 315
+
+Ipse est principium. nam sicut clarus habetur
+
+In genitore manens, genitor quoque clarus in ipso
+
+Permanet, et rerum caput est Deus unus ubique.
+
+Non quia qui summus Pater est, et Filius hic est,
+
+Sed quia quod summus Pater est, et Filius hoc est. 320
+
+Sic ait ipse docens: 'ego in Patre et Pater in me'.
+
+Rursus: 'ego atque Pater unum sumus'. Arrius 'unum'
+
+Debet scire 'sumus'que Sabellius esse fatendum.
+
+Iste fidem ternam, hic non amplectitur unam.
+
+Ambo errore pares, quamquam diversa sequentes. 325
+
+Qualiter adsueti varias producere sectas
+
+Inpugnant sua dicta viri, qui brachia nudis
+
+Ostendunt exerta umeris, nil tradere docti.
+
+Sed tantum certare cati, prudentia quorum
+
+Stulta iacet, quia vana Deo est sapientia mundi. 330
+
+Hic loquitur nimis, ille tacet; hic ambulat, hic stat;
+
+Alter amat fletus, alter crispare cachinnum:
+
+Diversisque modis par est vesania cunctis.
+
+Interea dum rite viam sermone levamus
+
+Spesque fidesque meum comitantur in ardua gressum, 335
+
+Blandius ad summam tandem pervenimus arcem.
+
+En signo sacrata crucis vexilla coruscant,
+
+En regis pia castra micant, tuba clamat erilis,
+
+Militibus sua porta patet: qui militat intret,
+
+Ianua vos aeterna vocat, quae ianua Christus. 340
+
+Aurea perpetuae capietis praemia vitae,
+
+Arma quibus Domini tota virtute geruntur
+
+Et fixum est in fronte decus. Decus armaque porto
+
+Militiaeque tuae, bone rex, pars ultima resto.
+
+Hic proprias sedes, huius mihi moenibus urbis 345
+
+Exiguam concede domum, tuus incola sanctis
+
+Ut merear habitare locis alboque beati
+
+Ordinis extremus conscribi in saecula civis.
+
+Grandia posco quidem, sed tu dare grandia nosti,
+
+Quem magis offendit quisquis sperando tepescit. 350
+
+Christe, fave votis, qui mundum in morte iacentem
+
+Vivificare volens quondam terrena petisti
+
+Caelitus, humanam dignatus sumere formam,
+
+Sic aliena gerens, ut nec tua linquere posses.
+
+Hoc Matthaeus agens hominem generaliter implet, 355
+
+Marcus ut alta fremit vox per deserta leonis,
+
+Iura sacerdotii Lucas tenet ore iuvenci,
+
+More volans aquilae verbo petit astra Iohannes.
+
+Quatuor hi proceres una te voce canentes
+
+Tempora ceu totidem latum sparguntur in orbem. 360
+
+Sic et apostolici semper duodenus honoris
+
+Fulget apex numero, menses imitatus et horas,
+
+Omnibus ut rebus totus tibi militet annus.
+
+Hinc igitur veteris recolens exordia mortis
+
+Ad vitam properabo novam lacrimasque serendo 365
+
+Gaudia longa metam: nam qui deflemus in Adam
+
+Semina mittentes, mox exultabimus omnes
+
+Portantes nostros Christo veniente maniplos.
+
+===== Liber II =====
+# page: https://www.thelatinlibrary.com/sedulius2.html
+
+SEDULIUS
+CARMEN PASCHALE
+LIBER SECUNDUS
+
+Expulerat primogenitum saevissimus anguis
+
+Florigera de sede virum blandique saporis
+
+Inlecebris letum misero portarat amarum.
+
+Nec solus meritam praesumptor senserat iram
+
+Mortali sub lege iacens, sed prorsus ab ipso 5
+
+Humanum simul omne genus. heu, noxia coniux!
+
+Noxia tu coniux magis an draco perfidus ille?
+
+Perfidus ille draco, sed tu quoque noxia coniux.
+
+Pro dolor! aeterni fuerant duo. crescere posquam
+
+Coepit origo, perit clademque a semine sumpsit. 10
+
+Quid numerosa dies, quid tempore proderat illo
+
+Cernere nongentos ultra feliciter annos
+
+Progeniemque senum decimam spectare nepotum
+
+Iamque suum nescire genus: cum victa supremis
+
+Cursibus extremae sors inreparabilis horae, 15
+
+Sera licet, ventura foret longumque per aevum
+
+Vita brevis nihil esse diu cum fine doloret?
+
+Nec reducem spes ferret opem primique sepulchrum
+
+Terrigenae caeca sorberet fauce nepotes,
+
+Ni pius ille sator culpas ignoscere promptus, 20
+
+Reddere difficilis, sua ne factura periret
+
+Quaeque Deo similis vivens adstaret imago
+
+Dissimilis de morte foret, veniale misertus
+
+Instauret opus pomisque vetaret acerbis,
+
+Quae mandere patres, natorum horrescere dentes 25
+
+Donaretque suis semper placatus, ut unde
+
+Culpa dedit mortem, pietas daret inde salutem,
+
+Et velut e spinis mollis rosa surgit acutis
+
+Nil quod laedat habens matremque obscurat honore:
+
+Sic Evae de stirpe sacra veniente Maria 30
+
+Virginis antiquae facinus nova virgo piaret:
+
+Ut quoniam natura prior vitiata iacebat
+
+Sub dicione necis, Christo nascente renasci
+
+Possit homo et veteris maculam deponere carnis.
+
+Haec ventura senes posquam dixere prophetae, 35
+
+Angelus intactae cecinit properata Mariae:
+
+Et dictum comitata fides, uterumque puellae
+
+Sidereum mox implet onus, rerumque creator
+
+Nascendi sub lege fuit. stupet innuba tensos
+
+Virgo sinus gaudetque suum paritura parentem. 40
+
+Iamque novem lapsis decimi de limine mensis
+
+Fulgebat sacrata dies, cum virgine feta
+
+Promissum conplevit opus 'verbum caro factum',
+
+In nobis habitare volens. tunc maximus infans
+
+Intemerata sui conservans viscera templi 45
+
+Inlaesum vacuavit iter: pro virgine testis
+
+Partus adest, clausa ingrediens et clausa relinquens.
+
+Quae nova lux mundo, quae toto gratia caelo!
+
+Quis fuit ille nitor, Mariae cum Christus ab alvo
+
+Processit splendore novo, velut ipse decoro 50
+
+Sponsus ovans thalamo, 'forma speciosus' amoena
+
+'Prae filiis hominum', cuius radiante figura
+
+Blandior in labiis diffusa est gratia pulchris.
+
+O facilis pietas! ne nos servile teneret
+
+Peccato dominante iugum, servilia summus 55
+
+Membra tulit Dominus, primique ab origine mundi
+
+Omnia qui propriis vestit nascentia donis
+
+Obsitus exiguis habuit velamina pannis;
+
+Quemque procellosi non mobilis unda profundi,
+
+Terrarum non omne solum, spatiosaque lati 60
+
+Non capit aula poli, puerili in corpore plenus
+
+Mansit et angusto Deus in praesepe quievit.
+
+Salve, sancta parens, enixa puerpera regem,
+
+Qui caelum terramque tenet per saecula, cuius
+
+Nomen et aeterno conplectens omnia gyro 65
+
+Imperium sine fine manet; quae ventre beato
+
+Gaudia matris habens cum virginitatis honore
+
+Nec primam similem visa es nec habere sequentem:
+
+Sola sine exemplo placuisti femina Christo.
+
+Tunc prius ignaris pastoribus ille creatus 70
+
+Enituit, quia pastor erat, gregibusque refulsit
+
+Agnus et angelicus cecinit miracula coetus.
+
+Talia Bethleis dum signa geruntur in oris,
+
+Eoi venere magi saevumque tyrannum
+
+Grandia sollicitis perturbant nuntia dictis: 75
+
+Iudaicis nuper populis orientis ab axe
+
+Progenitum fulsisse ducem, hoc caelitus astra,
+
+Hoc stellam radiare novam. ferus arbiter aulae
+
+Aestuat Hebreae ratus hunc succedere posse
+
+Mox sibimet, qui primus erat: tunc fronte serena 80
+
+Nubila mentis alens clam mandat ubique requiri
+
+Sicut adorandum, quem tractat fraude necandum.
+
+Quid furis, Herodes! Christum sermone fateris,
+
+Et sensu iugulare cupis, legemque legendo
+
+Neglegis et regi regum tua regna minaris. 85
+
+Ne tamen insano careant tua nomina facto,
+
+Patrandum sub honore crucis (sed crimine gentis)
+
+Herodes alius quod tu molire videbit.
+
+Ergo alacres summo servantes lumina caelo
+
+Fixa magi sidusque micans regale secuti 90
+
+Optatam tenuere viam, quae lege futura
+
+Duxit adorantes sacra ad cunabula gentes.
+
+Thensaurisque simul pro religione solutis,
+
+Ipsae etiam ut possint species ostendere Christum,
+
+Aurea nascenti fuderunt munera regi, 95
+
+Tura dedere Deo, myrram tribuere sepulchro.
+
+Cur tria dona tamen? quoniam spes maxima vitae est
+
+Hunc numerum confessa fides, et tempora summus
+
+Cernens cuncta Deus, praesentia, prisca, futura,
+
+Semper adest semperque fuit semperque manebit 100
+
+In triplici virtute sui. — Tunc caelitus illi
+
+Per somnum moniti contemnere iussa tyranni
+
+Per loca mutati gradientes devia callis
+
+In patriam rediere suam. — Sic nos quoque sanctam
+
+Si cupimus patriam tandem contingere, posquam 105
+
+Venimus ad Christum, iam non repetamus iniquum.
+
+Ergo ubi delusum se conperit, impius iram
+
+Rex aperit (si iure queat rex ille vocari,
+
+Qui pietate caret, propriam qui non tegit iram)
+
+Ereptumque gemens facinus sibi, ceu leo frendens, 110
+
+Cuius ab ore tener subito cum labitur agnus,
+
+In totum movet arma gregem manditque trahitque
+
+Molle pecus — trepidaeque vocant sua pignera fetae
+
+Nequiquam et vacuas implent balatibus auras —
+
+Haut secus Herodes Christo stimulatus adempto 115
+
+Sternere conlisas paruorum strage catervas
+
+Inmerito non cessat atrox. quo crimine simplex
+
+Turba perit? cur qui vixdum potuere creari
+
+Iam meruere mori? furor est in rege cruento,
+
+Non ratio; primosque necans vagitus et audens 120
+
+Innumerum patrare nefas puerilia mactat
+
+Milia plangoremque dedit tot matribus unum.
+
+Haec laceros crines nudato vertice rupit,
+
+Illa genas secuit, nudum ferit altera pugnis
+
+Pectus et infelix mater (nec iam modo mater) 125
+
+Orba super gelidum frustra premit ubera natum.
+
+Quis tibi tunc, lanio, cernenti talia sensus?
+
+Quosque dabas fremitus, cum vulnera fervere late
+
+Prospiceres arce ex summa vastumque videres
+
+Misceri ante oculos tantis plangoribus aequor? 130
+
+Extinctisque tamen quamvis infantibus absens
+
+Praesens Christus erat, qui sancta pericula semper
+
+Suscipit et poenas alieno in corpore sentit.
+
+Ast ubi bis senos aetatis contigit annos,
+
+Hoc spatium de carne trahens, aevique meatus 135
+
+Humana pro parte tulit, senioribus esse
+
+Corde videbatur senior legisque magistros
+
+Inter ut emeritus residebat iure magister.
+
+Nec mora (quas etenim volitans per tempora mundus
+
+Novit habere moras?) usus maiore iuventa, 140
+
+Sex quasi lustra gerens placidam Iordanis ad undam
+
+Venit ut acciperet hoc, quod dare venerat ipse.
+
+Hunc Baptista potens ut vidit ab amne Iohannes,
+
+Quem matris dum ventre latet nondumque creatus
+
+Senserat obstruso iam tunc sermone prophetes 145
+
+Ut muto genitore fluens, cui munera linguae
+
+Post noni taciturna diu spiramina mensis
+
+Parto redduntur nato, mox praedicat: agnus
+
+Ecce Dei veniens peccatum tollere mundi.
+
+Tollere cum dicit, quod non habet, hoc mihi tollit: 150
+
+Non mala ut ipse gerat, sed ut ipse nocentia perdat.
+
+Qualiter in medias cum lux praeclara tenebras
+
+Funditur et proprium non obfuscata serenum
+
+Decutit expulsas inlaesis vultibus umbras,
+
+Sic delicta fugans Salvator nostra gerendo 155
+
+Tersit et adactu procul evanescere iussit.
+
+Tunc vada torrentum simplex ingressus aquarum,
+
+In se cuncta lavat nostrae contagia vitae
+
+Ipse nihil quod perdat habens, sanctoque liquentes
+
+Corpore mundavit latices famamque beavit 160
+
+Gurgitis et propriis sacravit flumina membris.
+
+Senserunt elementa Deum, mare fugit, et ipse
+
+Iordanis refluas cursum convertit in undas.
+
+Namque propheta canens: quidnam est, mare, quod fugis, inquit
+
+Et tu, Iordanis, retro quia subtrahis amnem? 165
+
+Ergo ubi flumineum post mystica dona lavacrum
+
+Egrediens siccas Dominus calcavit harenas,
+
+Confestim patuere poli, sanctusque columbae
+
+Spiritus in specie Christum vestivit honore
+
+Mansuetumque docet multumque incedere mitem 170
+
+Per volucrem quae felle caret, Natoque vocato
+
+Voce Patris triplici Deus ex ratione probatur,
+
+Quod Pater et Natus, quod Spiritus est ibi sanctus,
+
+Quo manet indignus qui non numeraverit unum.
+
+Inde quater denis iam noctibus atque diebus 175
+
+Ieiunum dapibus, sacro Spiramine plenum
+
+Insidiis temptator adit doctusque per artem
+
+Fallaces offerre dapes: si filius, inquit,
+
+Cerneris esse Dei, dic ut lapis iste repente
+
+In panis vertatur opem, miracula tamquam 180
+
+Haec eadem non semper agat, qui saxea terrae
+
+Viscera frugiferis animans fecundat aristis
+
+Et panem de caute creat. — Hac ergo repulsus
+
+Voce prius hominem non solo vivere pane
+
+Sed cuncto sermone Dei, labefactus et amens, 185
+
+Altera vipereis instaurans arma venenis
+
+Cum Domino montana petit cunctasque per orbem
+
+Regnorum monstravit opes: haec omnia, dicens,
+
+Me tribuente feres, si me prostratus adores,
+
+Quantum perversus, tantum perversa locutus: 190
+
+Scilicet ut fragilis regna adfectaret honoris
+
+Qui populis aeterna parat, monstrumque nefandum
+
+Pronus adoraret, cuius super aethera sedes,
+
+Terra pedum locus est, quem nullus cernit et omnis
+
+Laudat in excelsis submissa voce potestas. 195
+
+Christus ad haec: tantum Dominum scriptura Deumque
+
+Iussit adorari et soli famularier uni.
+
+His quoque deficiens congressibus audet iniquus
+
+Ter sese adtollens animo perstare superbo,
+
+Terque volutus humo fragili confidere bello. 200
+
+Tunc adsumpsit eum sanctam sceleratus in urbem,
+
+Et statuens alti supra fastigia templi:
+
+Si natum genitore Deo tete adseris, inquit,
+
+Inpiger e summo dilapsus labere tecto.
+
+Nam scriptura docet de te mandasse Tonantem, 205
+
+Angelicis subvectus eas ut tutior ulnis,
+
+Ad lapidem ne forte pedem conlidere possis.
+
+O quam caeca gerit nigro sub pectore corda
+
+Mens tenebris obscura suis! hunc ardua templi
+
+Culmina et erectae quamvis fastigia pinnae 210
+
+Credidit in praeceps horrescere, maxima summi
+
+Curvavit qui membra poli caelosque per omnes
+
+Vectus in extremae discendit humillima terrae,
+
+Inferiora petens et non excelsa relinquens.
+
+Dixerat, et validi confossus cuspide verbi, 215
+
+Quod temptare suum Dominumque Deumque nequiret,
+
+Victoris fugit ora gemens. tunc hoste repulso
+
+Caelicolae adsistunt proceres coetusque micantes,
+
+Angelici Christo famulantur rite ministri.
+
+Protinus ergo viros ex piscatoribus aptos 220
+
+Humanas piscari animas, quae lubrica mundi
+
+Gaudia sectantes tamquam vaga caerula ponti
+
+Caecaque praecipites tranant incerta profundi,
+
+Discipulos iubet esse suos talesque supernae
+
+Conciliat vitae, quos non ventosa loquendi 225
+
+Gloria nec vana de nobilitate superbus
+
+Sanguis alat sed fama tacens, humilique refulgens
+
+Mente nitor caelo faciat de plebe propinquos.
+
+Namque stulta potens elegit et infima mundi
+
+Fortia confringens Deus et sapientia perdens. 230
+
+Quin etiam celerem cupiens conferre salutem
+
+Orandi praecepta dedit, iudexque benignus
+
+Indulgenda peti breviter iubet, ut cito praestet,
+
+Sic dicens: orate patrem, baptismate nostrum,
+
+Iure suum; propriumque homini concessit honorem 235
+
+Et quod solus habet cunctos permisit habere.
+
+Qui dominum caeli patrem memoramus, in ipso
+
+Iam fratres nos esse decet nec origine carnis
+
+Germanum tractare odium, sed spiritus igne
+
+Flagrantes abolere doli monumenta vetusti 240
+
+Atque novum gestare hominem, ne forsan ab alto
+
+Degenerent terrena Deo, cui nos duce Christo
+
+Fecit adoptivos caelestis gratia natos.
+
+Sanctificetur ubi Dominus, qui cuncta creando
+
+Sanctificat, nisi corde pio, nisi pectore casto? 245
+
+Ut mereamur eum nos sanctificare colendo,
+
+Annuit, ipse prior, sicut benedicier idem
+
+Se iubet a nobis, a quo benedicimur omnes.
+
+Adveniat regnum iam iamque scilicet illud,
+
+Morte vacans et fine carens, cui nulla per aevum 250
+
+Tempora succedunt, quia nescit tempus habere
+
+Continuus sine nocte dies: ubi principe Christo
+
+Nobile perpetua caput amplectente corona
+
+Victor opima ferens gaudebit praemia miles.
+
+Hoc iugibus votis, hoc nocte dieque precemur, 255
+
+Illius ut fiat caelo terraque voluntas,
+
+Qui nusquam vult esse nefas hostemque nocentem
+
+Utque polo sic pellat humo, ne corpora nostra
+
+Tamquam vile solum saevus sibi vindicet hydrus;
+
+Sed qui cuncta fovet plena pietate redundans 260
+
+Omnipotens animas pariter conservet et artus:
+
+Altera pars etenim caeli sumus, altera terrae.
+
+Annonam fidei speramus pane diurno,
+
+Ne mens nostra famem doctrinae sentiat umquam
+
+A Christo ieiuna, suo qui corpore et ore 265
+
+Nos saturat simul ipse manens verbumque cibusque.
+
+Dulcia nam Domini nostris in faucibus haerent
+
+Eloquia exuperantque favos atque omnia mella.
+
+Debita laxari qui nobis cuncta rogamus,
+
+Nos quoque laxemus; proprii nam cautio verbi 270
+
+Spondentes manifesta tenet, gravisque soluti
+
+Nectimur alterius si solvere vincla negemus:
+
+Incipietque pius decies millena talenta
+
+Dimittens Dominus, si nos adfligere propter
+
+Denarios centum conservum senserit ullum, 275
+
+Tradere confestim tortoribus, inque feroci
+
+Carcere constricti non permittemur abire,
+
+Donec cuncta brevem reddamus adusque quadrantem.
+
+Non quia nos Dominus, lucis via, semita pacis,
+
+In laqueos temptantis agat, sed cum mala nostra 280
+
+Deserit, ire sinit. nam quisquis retia mundi
+
+Deliciosa sequens luxus et gaudia blandae
+
+Perditionis amat, Deus hunc, virtutis amator,
+
+Linquit, et ingreditur qua se temptatio ducit.
+
+Ab hac ergo pedem retro faciamus et artum 285
+
+Corde petamus iter, tenuis qua semita monstrat
+
+Ire per angustam regna ad caelestia portam.
+
+Si cupimus vitare malum, debemus adire
+
+Sectarique bonum: hic quia liberat, ille trucidat;
+
+Hic alit, ille necat. nam quantum sidera terris, 290
+
+Ignis aquis, lumen tenebris, concordia bellis,
+
+Vita sepulturis, tantum bona longius absunt
+
+Dissociata malis. dextrum quicumque necesse est
+
+Aut laevum gradiatur iter. sed dextra bonorum
+
+Semita conspicuos vocat in sua gaudia iustos 295
+
+Inque tuos, patriarcha, sinus: at laeva malorum
+
+Exercet poenas et ad impia tartara mittit.
+
+Ergo agnis ovibusque Dei est haec sola voluntas
+
+Et bona libertas: evadere torva cruenti
+
+Ora lupi vitaque frui per pascua Christi. 300
+
+===== Liber III =====
+# page: https://www.thelatinlibrary.com/sedulius3.html
+
+SEDULIUS
+CARMEN PASCHALE
+LIBER TERTIUS
+
+Primus suae Dominus thalamis dignatus adesse
+
+Virtutis documenta dedit convivaque praesens
+
+Pascere, non pasci veniens, mirabile! fusas
+
+In vinum convertit aquas: amittere gaudent
+
+Pallorem latices, mutavit laeta saporem 5
+
+Unda suum largita merum, mensasque per omnes
+
+Dulcia non nato rubuerunt pocula musto.
+
+Implecit sex ergo lacus hoc nectare Christus:
+
+Quippe ferax qui vitis erat virtute colona
+
+Omnia fructificans, cuius sub tegmine blando 10
+
+Mitis inocciduas enutrit pampinus uvas.
+
+Post regulus nato quidam moriente rogabat
+
+Flebilis et supplex Dominum, quo viseret aegrum
+
+Febre laborantem puerum trepidamque vetaret
+
+Labi animam de sede sua. tunc larga potestas, 15
+
+Credenti quae nulla negat nec dona retardat,
+
+Velocem comitata fidem, sermone salutem
+
+Concedens facili: vivit iam filius, inquit,
+
+Perge, tuus. quantum imperii fert iussio Christi!
+
+Non dixit 'victurus erit' sed 'iam quia vivit' 20
+
+More Dei, qui cuncta prius quam nata videndo
+
+Praeteritum cernit quidquid vult esse futurum.
+
+Inde salutiferis incedens gressibus urbes,
+
+Oppida, rura, casas, vicos, castella peragrans,
+
+Omnia depulsis sanabat corpora morbis. 25
+
+Ecce autem mediae clamans ex agmine turbae
+
+Leprosus poscebat opem variosque per artus
+
+Plus candore miser: si vis, Domine, inquit, ab istis
+
+Me maculis mundare, potes. 'volo' Christus ut inquit,
+
+Confestim redit una cutis proprioque decore 30
+
+Laeta peregrinam mutarunt membra figuram,
+
+Inque suo magis est vix agnitus ille colore.
+
+Forte Petri validae torrebat lampadis aestu
+
+Febris anhela socrum, dubioque in funere pendens
+
+Saucia sub gelidis ardebat vita periclis, 35
+
+Inmensusque calor frigus letale coquebat.
+
+At posquam fessos Domini manus adtigit artus,
+
+Igneus ardor abiit, totisque extincta medullis
+
+Fonte latentis aquae cecidit violentia flammae.
+
+Quin etiam rabidas nigrorum depulit iras 40
+
+Spirituum, ne flatus atrox laceraret iniqua
+
+Peste homines operisque Dei vexaret honorem,
+
+Quem norat non esse Dei; passimque catervas
+
+Ut pius innumeras pulso languore saluti
+
+Reddidit et varia populos a clade levavit. 45
+
+Inde marina petens arentes gressibus algas
+
+Pressit, et exiguae conscendens robora cumbae
+
+Aequoreas intravit aquas; Dominumque sequentes
+
+Discipuli placido librabant carbasa ponto.
+
+Iam procul a terris fuerat ratis actaque flabris 50
+
+Sulcabat medium puppis secura profundum,
+
+Cum subito fera surgit hiems pelagusque procellis
+
+Vertitur et trepidam quatiunt vada salsa carinam.
+
+Perculerat formido animos, seseque putabant
+
+Naufraga litoreis iam tendere brachia saxis. 55
+
+Ipse autem placidum carpebat pectore somnum,
+
+Maiestate vigil, quia non dormitat in aevum,
+
+Qui regit Israhel neque prorsus dormiet umquam.
+
+Ergo ubi pulsa quies cunctis lacrimantibus una
+
+Voce simul 'miserere citus, miserere, perimus, 60
+
+Auxilio succurre pio', nil vota moratus,
+
+Exurgens Dominus validis mitescere ventis
+
+Imperat et dicto citius tumida aequora placat.
+
+Non erat illa feri pugnax audacia ponti,
+
+In Dominum tumidas quae surgere cogeret undas, 65
+
+Nec metuenda truces agitabant flamina vires:
+
+Sed laetum exiliens Christo mare conpulit imum
+
+Obsequio fervere fretum, rapidoque volatu
+
+Moverunt avidas ventorum gaudia pinnas.
+
+Interea placido transvectus marmore puppem 70
+
+Liquerat et medios lustrabat passibus agros,
+
+Cum procul e tumulis gemino stridore ruentes
+
+Prosiluere viri, quos non mala daemone pauco
+
+Sed legio vexabat atrox, nexuque cruento
+
+Saeva catenatis gestantes vincla lacertis 75
+
+Angebat quoque poena duplex. heu dura furoris
+
+Condicio! qui vim patitur magis ille ligatur.
+
+Tunc Domini praecepta tremens exire iubentis,
+
+Spiritus infelix hominem non audet adire,
+
+Effigiem reddit quam Christum cernit habere: 80
+
+Sed pecus, inmunda gaudens lue, semper amicum
+
+Sordibus atque olido consuetum vivere caeno
+
+Pro meritis petiere suis tristesque phalanges
+
+Porcinum tenuere gregem: niger, hispidus, horrens
+
+Talem quippe domum dignus fuit hospes habere. 85
+
+Hinc alias Dominus pelago dilatus in oras,
+
+Intravit natale solum, quo corpore nasci
+
+Se voluit patriamque sibi pater ipse dicavit.
+
+Ecce aderant vivum portantes iamque cadaver
+
+Bis bina cervice viri lectoque cubantem 90
+
+Vix hominem, cui vita manens sine corporis usu
+
+Mortis imago fuit, resolutaque membra iacebant
+
+Officiis deserta suis, fluxosque per artus
+
+Languida dimissis pendebant vincula nervis.
+
+Hunc ubi virtutum Dominus conspexit egentem 95
+
+Robore, peccatis primum mundavit ademptis,
+
+Quae generant augmenta malis miseroque iacenti:
+
+Surge, ait, et proprium scapulis adtolle grabatum,
+
+Inque tuam discede domum. nil iussa moratus,
+
+Cui fuerat concessa salus, vestigia linquens 100
+
+Tandem aliena suis laetatur vadere plantis
+
+Vectoremque suum grata mercede revexit.
+
+Principis interea synagogae filia clauso
+
+Functa die superas moriens amiserat auras.
+
+At genitor, cui finis edax spem prolis adultae 105
+
+Sustulerat, sanctos Domini lacrimansque gemensque
+
+Conruit ante pedes, vix verba precantia fari
+
+Singultu quatiente valens, 'miserere parentis
+
+Orbati, miserere senis, modo filia' dicens
+
+'Unica virgineis nec adhuc matura sub annis 110
+
+Occidit et misero patris mihi nomen ademit.
+
+Adfer opem lapsamque animam per membra refunde,
+
+Qui totum praestare potes.' haec inquit: et auctor
+
+Lucis ad extinctae pergebat funera gressum
+
+Vix populo stipante movens, permixtaque turbis 115
+
+Ibat inundantem mulier perpessa cruorem,
+
+Quae magnas tenuarat opes, ut sanior esset,
+
+Exhaustaque domu nec proficiente medella
+
+Perdiderat proprium pariter cum sanguine censum.
+
+Ast ubi credentis iam sano in pectore coepit 120
+
+Dives adesse fides, mediis inmersa catervis
+
+Nititur aversi vel filum tangere Christi.
+
+Posteriusque latens subitam furata salutem
+
+Extrema de veste rapit siccisque fluentis
+
+Damnavit patulas audax fiducia venas. 125
+
+Senserat ista Deus, cuius de fonte cucurrit
+
+Quod virtus secreta dedit, furtumque fidele
+
+Laudat et egregiae tribuit sua vota rapinae.
+
+Ventum erat ad maesti lugentia culmina tecti
+
+Deflentemque domum, moriens ubi virgo iacebat 130
+
+Extremum sortita diem, trepidusque tumultus
+
+Omnia lamentis ululans implebat amaris,
+
+Funereosque modos cantu lacrimante gemebant
+
+Tibicines, plangorque frequens confuderat aedes.
+
+Ponite sollicita conceptos mente dolores, 135
+
+Hic sopor est, Salvator ait, nec funus adesse
+
+Credite, nec somno positam lugete puellam.
+
+Dixerat et gelida constrictum morte cadaver
+
+Spiritus igne fovet, verboque inmobile corpus
+
+Suscitat atque semel genitam bis vivere praestat. 140
+
+Obstipuere animis, inopinaque vota parentes
+
+Aspiciunt versisque modis per gaudia plangunt.
+
+Inde pedem referens duo conspicit ecce sequentes
+
+Caecatos clamare viros: fili inclite David,
+
+Decute nocturnas extinctis vultibus umbras 145
+
+Et clarum largire diem. quam credere tutum,
+
+Quam sanum est cognosse Deum! iam corde videbant
+
+Qui lucis sensere viam; tunc caeca precantum
+
+Lumina defuso ceu torpens ignis olivo
+
+Sub Domini micuere manu, tactuque sereno 150
+
+Instaurata suis radiarunt ora lucernis.
+
+His ita dimissis alius producitur aeger,
+
+Multiplici languore miser, qui voce relictus,
+
+Auditu vacuus, solo per inania membra
+
+Daemone plenus erat. hunc protinus ordine sacro 155
+
+Curavit versis Deus in contraria causis,
+
+Daemonio vacuans, auditu et voce reformans.
+
+Nec minus interea proprios iubet omnia posse
+
+Discipulos totisque simul virtutibus implens:
+
+Ite, ait, et tristes morborum excludite pestes, 160
+
+Sed domus Israhel (quia necdum nomine gentes
+
+Auxerat hoc omnes), caelorum dicite regnum,
+
+Daemoniis auferte locum, depellite lepram
+
+Functaque subductae revocate cadavera vitae:
+
+Sumpsistis gratis, cunctis inpendite gratis. 165
+
+Ac velut hoc dicens: ego vobis quippe ministris
+
+Servandos conmitto greges, ego denique pastor
+
+Sum bonus et proprios ad victum largior agros:
+
+Nemo meis ovibus quae sunt mea pascua vendat.
+
+Haec in apostolicas ideo prius edidit aures 170
+
+Omnipotens, ut ab his iam sese auctore magistris
+
+In reliquum doctrina fluens decurreret aevum:
+
+Qualiter ex uno paradisi fonte leguntur
+
+Quatuor ingentes procedere cursibus amnes,
+
+Ex quibus in totum sparguntur flumina mundum. 175
+
+<Quisquis enim deitatis opus, quod non habet ex se
+
+Sed Domino tradente gerit, sub nomine puro
+
+Suscipiet, puro dispenset munere, possit
+
+Ut dispensator non ut mercator haberi
+
+Davidisque modis vitam cantare futuram: 180
+
+Intrabo in Domini requiem, quia nescio mercem.>
+
+Exin conspicuam synagogae ingressus in aulam,
+
+Aspicit invalidum, dimenso corpore mancum,
+
+Seminecem membris, non totum vivere, cuius
+
+Arida torpentem damnarat dextera partem; 185
+
+Imperioque medens gelidam recalescere palmam
+
+Praecepit et reduci divino more saluti,
+
+Sicut semper agit, nil tollit et omnia reddit.
+
+En iterum veteres instaurans lubricus artes
+
+Ille chelydrus adest, nigri qui felle veneni 190
+
+Lividus humano gaudet pinguescere tabo,
+
+Quodque per alternos totiens disperserat aegros
+
+Viros in unius progressus viscera fudit:
+
+Cui vocem lumenque tulit, triplicique furore
+
+Saucia membra tenens mutum quatiebat et orbum. 195
+
+Tunc Dominus mundi, lux nostra et sermo parentis,
+
+Sordibus exclusis oculos atque ora novavit:
+
+Verbaque per verbum, per lumen lumina surgunt.
+
+Venerat et mulier morbo contracta vetusto
+
+Non senio, tremebunda, gemens, incurva, caducis 200
+
+Vultibus et solam dispectans cernua terram.
+
+Quae Domino miserante iuges post octo decemque
+
+Membra levat messes, caelumque ac sidera tandem
+
+Cernit et ardentem solis reminiscitur orbem,
+
+Totum erecta videns: quia quos malus opprimit hostis 205
+
+Ima petunt, quos Christus alit sine labe resurgunt.
+
+Cumque dehinc populum sese in deserta secutum
+
+Ut typicus Moyses verusque propheta videret
+
+Antiquam sentire famem, maioribus actis
+
+Antiquam monstravit opem. tunc alite multa 210
+
+Carnis opima dedit, geminis modo piscibus auxit;
+
+Sufficiens tunc manna pluit, modo panibus amplum
+
+Quinque dedit victum per milia quinque virorum.
+
+Cetera turba latet, numero nec clauditur ullo
+
+Maxima parvorum legio vel maxima matrum. 215
+
+Quodque magis stupeas, cophinos ablata replerunt
+
+Fragmina bis senos, populisque vorantibus aucta
+
+Quae redit a cunctis non est data copia mensis.
+
+Iamque senescentem calidi sub caerula ponti
+
+Oceano rapiente diem, cum pallor adesset 220
+
+Noctis et astriferas induceret hesperus umbras,
+
+Discipuli solo terris residente magistro
+
+Undosum petiere salum, fluctuque tumenti
+
+Torva laborantem iactabant aequora puppem;
+
+Adversus nam flatus erat. tunc noctis opacae 225
+
+Tempore calcatas Dominus superambulat undas
+
+Et vasti premit arva freti, glaucisque fluentis
+
+Circumfusa sacras lambebant marmora plantas.
+
+Miratur stupefacta cohors sub calle pedestri
+
+Navigeras patuisse vias: at Petrus amicam 230
+
+Doctus habere fidem Christumque agnoscere semper
+
+In medias discendit aquas, quem dextra levavit
+
+Labentem Domini, nil tanto in gurgite passum:
+
+Cui portus fuit ille manus, pelagique viator
+
+Libera per vitreos movit vestigia campos. 235
+
+Genesar inde soli Domino veniente coloni
+
+Infirmos traxere suos, ut fimbria saltim
+
+Vix adtacta Dei morbis mederetur acerbis:
+
+Et quotquot tetigere iugem sensere salutem.
+
+Quam pretiosa fuit quae numquam vendita vestis, 240
+
+Ipsa omnes modici redimebat munere fili!
+
+Hinc Tyrias partes Sidoniaque arva petentem
+
+Anxia pro natae vitio, quam spiritus atris
+
+Vexabat stimulis, mulier Chananaea rogabat,
+
+Se canibus confessa parem, qui more sagaci 245
+
+Semper odoratae recubant ad limina mensae,
+
+Adsueti refluas dominorum lambere micas.
+
+Vox humilis, sed celsa fides, quae sospite nata
+
+De cane fecit ovem gentisque in sentibus ortam
+
+Conpulit Hebraei de gramine vescier agri. 250
+
+Alta dehinc subiens montis iuga plebe sequente
+
+Milia caecorum, claudorum milia passim
+
+Leprososque simul populos surdasque catervas
+
+Invalidasque manus et quidquid debile vulgi
+
+Venerat, in priscum conponit motibus usum 255
+
+Et revocata suis adtempterat organa nervis.
+
+Dumque medens aegrum refovet virtute tumultum,
+
+Tertia lux aderat, sterilique in cespite nullum
+
+Contigerat plebs tanta cibum, nimiosque labores
+
+Nutribat geminanda fames si saucia callem 260
+
+Turba per ingentem dapibus ieiuna rediret.
+
+Qua flexus pietate Deus, qui semper egentum
+
+Panis adest victumque locis sine frugibus infert,
+
+Pisciculis paucis et septem panibus agmen
+
+Pavit inorme virum, praeterque infirma secundi 265
+
+Sexus et aetatis saturavit quattuor illic
+
+Milia vescentum. plus ut mireris, et auctas
+
+Disce fuisse dapes, epulas nutrivit edendo
+
+Vulgus, et adtritae creverunt morsibus escae.
+
+Reliquiasque suas, sportarum culmina septem, 270
+
+Expavit fugitiva fames, ubi fragmine sumpto
+
+Vidit abundantem modico de semine messem.
+
+Nec tamen humano quamvis in corpore Christum,
+
+Matris ab occasu mortalia membra gerentem,
+
+Clam fuit esse Deum, quia non absconditur umquam 275
+
+Urbs in monte sedens, modio nec subditur ardens
+
+Lychnus, anhelantem sed spargens altius ignem
+
+Cunctis lumen agit: radians nam testibus amplo
+
+Discipulis fulgore tribus velut igneus ardor
+
+Solis, in aetheriam versus splendore figuram, 280
+
+Vicerat ore diem, vestemque tuentibus ipsam
+
+Candida forma nivis Domini de tegmine fulsit.
+
+O meritum sublime trium, quibus illa videre
+
+Contigit in mundo quae non sunt credita mundo!
+
+Quid quod et Heliam et clarum videre Moysen? 285
+
+Ignotos oculis viderunt lumine cordis,
+
+Ut maior sit nostra fides: hunc esse per orbem
+
+Principium ac finem, hunc [alpha] viderier, hunc [omega].
+
+Quem medium tales circumfulsere prophetae,
+
+Alter adhuc vivens, alter stans limite vitae. 290
+
+Sidereoque sono 'meus est hic Filius' aiens
+
+Ostendit verbo genitum vox patria Christum.
+
+Posquam corporeos virtus regressa per artus
+
+Texit adoratam carnis velamine formam,
+
+Seque palam Dominus populis dedit: ecce repente 295
+
+Vir humilis maesto deiectus lumina vultu
+
+Procedit supplexque manus et brachia tendit
+
+Inploratque gemens: unus mihi filius, unus
+
+Est, Domine; horrenda lacerat quem spiritus ira
+
+Nec linquit, nisi mergat aquis aut ignibus atris 300
+
+Opprimat, atque animam dubia sub morte fatigat.
+
+Hunc, precor, expulso miseratus utrumque furore
+
+Redde mihi vel redde sibi, ne caeca potestas
+
+Expellat trepidam subtracto lumine vitam.
+
+Dixerat et genua amplectens genibusque volutans 305
+
+Haerebat; Dominusque pio iam pectore votis
+
+Adnuerat. tunc praedo furens ac noxius hostis,
+
+Cui possessa diu est alieni fabrica iuris,
+
+Pervasa migrare domo conpulsus, in iram
+
+Tollitur accensam correptaque carpere membra 310
+
+Nititur et frustra Domino prohibente laborans
+
+Fugit in obscuras puero vivente tenebras.
+
+Rex etiam solus regum et Dominus dominantum
+
+Non dedignatus Petro piscante tributum
+
+Solvere Caesareum, medii de gurgite ponti 315
+
+Hamum ferre iubet gerolum didragmatis aurei.
+
+Incola mox pelagi pendentia fila momordit,
+
+Iussa tributa ferens, graviorque onerante metallo
+
+Vilis honor piscis pretio maiore pependit.
+
+Discipulisque suis se percontantibus, aulae 320
+
+Caelestis regni quis possit maior haberi:
+
+Ut Deus et doctor mirabilis: omnibus, inquit,
+
+Celsior est humilis cunctisque potentior ibit
+
+Qui cunctis subiectus erit seseque minorem
+
+Dimissa cervice feret, velut iste videtur 325
+
+Parvulus (et monstrat puerum consistere parvum);
+
+Scilicet ingenium teneri sectemur ut aevi
+
+Non annis, sed mente iubet, quia mollior aetas
+
+Nil pompae mundalis amat, non ambit honorem,
+
+Nec resupina tumet: sic purae semita vitae 330
+
+Quantum prona solo, tantum fit proxima caelo.
+
+Mens etenim vergens altum petit altaque vergit,
+
+Inferiorque gradus quo vult discendere surgit.
+
+Ecce humilem Dominus de stercore tollit egentem
+
+Et facit egregios inter residere tyrannos: 355
+
+At contra tumidum pugnaci mente rebellem
+
+Praecipitem caelo sub tartara iussit abire.
+
+Parva loquor si facta Dei per singula curram
+
+Et speciale bonum, cum sit generale revolvam.
+
+===== Liber IV =====
+# page: https://www.thelatinlibrary.com/sedulius4.html
+
+SEDULIUS
+CARMEN PASCHALE
+LIBER QUARTUS
+
+Iam placidas Iordanis item transgressus harenas,
+
+Iudaeae sectatus iter: sine nomine mixtum
+
+Vulgus, et innumeras relevans a clade catervas
+
+Suscipit infirmos et dat discedere sanos.
+
+Nil igitur summo de se sperantibus umquam 5
+
+Difficile est conferre Deo, cui prona facultas
+
+Ardua planare et curva in directa referre;
+
+Et quidquid natura negat se iudice praestat.
+
+Namque foramen acus sicut penetrare camelus
+
+Membrorum pro mole nequit, sic dives opima 10
+
+Fertilitate tumens tenuem non posset adire
+
+Caelestis regni ducentem ad limina callem,
+
+Ni genitor rerum, qui mundum lege cohercet
+
+Et nulla sub lege manet, cui condere velle est
+
+Quem frons nulla videt, sed totum conspicit ipse 15
+
+'Hoc inpossibile est homini' dixisset, 'at alto
+
+Possibile est ius omne Deo', multisque molestum
+
+Divitibus tandem faceret mitescere censum.
+
+Nam proprias bene tractas opes caeloque recondi
+
+Thensauros vult ille suos, ubi quidquid habetur 20
+
+Non mordax aerugo vorat, non tinea sulcat,
+
+Nec male defossum famulatur furibus aurum,
+
+Ieiunis qui ferre cibum, sitientibus haustum,
+
+Hospitibus tectum, nudis largitur amictum,
+
+Solatur nexos in carcere, per fovet aegros, 25
+
+Atque aliis largus, sibi tantum constat egenus.
+
+Nec dubie in caelum substantia pervenit illa,
+
+Quae Christo conlata datur sub paupere forma,
+
+Quae damnis augmenta capit, quae spargitur ut sit,
+
+Quae perit ut maneat, quae vitam mortua praestat. 30
+
+Praeterea geminos Dominus considere caecos
+
+Dum quoddam transiret iter comitante caterva
+
+Conspicit, extinctae poscentes munera formae
+
+Flebilibusque vagas implentes vocibus auras.
+
+Nec cunctata solens pietas inferre salutem, 35
+
+Quae sentit flagrare fidem, mox lumina tangens
+
+Evigilare iubet, quae somnus presserat ingens,
+
+Atque diu clausas reserans sub fronte fenestras
+
+Ingrediente die fecit discedere noctem.
+
+Hinc repetita sacri gradiens per moenia templi 40
+
+Lumina caecatis dedit et vestigia claudis.
+
+Talia Daviticam post facta reliquerat urbem
+
+Bethaniae vicina petens, eademque reversus
+
+Clarescente die properabat visere tecta.
+
+Ecce autem mediis adstans sublimis in arvis 45
+
+Frondea ficus erat, cuius in robore nullum
+
+Repperit esuriens lustrato stipite pomum;
+
+Arboreisque comis 'iam nunc ex germine vestro
+
+Nullus', ait, 'fructus reliquum generetur in aevum'.
+
+Confestim viduata suis ficulnea sucis 50
+
+Aruit et siccis permansit mortua ramis
+
+Omnis enim quicumque Deo nil fertile nutrit,
+
+Ceu sterilis truncus lignis aequabitur ustis,
+
+At iustus palmae similis florebit amoenae,
+
+Semper habens frondes et tamquam Libana cedrus 55
+
+Multiplicandus adest et vertice sidera tanget.
+
+Post oblatus ei virtutem sensit erilem
+
+Insanus sermone carens, quem faucibus artis
+
+Angebat vis clausa mali, vitiumque tacendo
+
+Prodiderat, sed cuncta solens infirma levare 60
+
+Conditor obsessa pepulit de fauce latronem
+
+Et voci patefecit iter nexuque soluto
+
+Muta diu tacitas effudit lingua loquellas.
+
+Post Dominus Pharisaea petens convivia cenae
+
+Orantis dapibus sese inpertivit amici. 65
+
+Tunc mulier, quam fama nocens et plurima vitae
+
+Mordebant delicta suae, clementia supplex
+
+Conruit amplectens vestigia, quaeque profusis
+
+Inrigat incumbens lacrimis, et crine soluto
+
+Nec tergere sacras nec cessat lambere plantas 70
+
+Unguento flagrante fovens, sententia donec
+
+Lata Dei, quem ferre manum non paenitet umquam,
+
+Si nos paeniteat veterem quaesisse ruinam,
+
+'Vade, fides, mulier, tua te salvavit ab omni'
+
+Dixisset', quodcumque mali gessisse videris: 75
+
+Utere pace mea'. magna est medicina fateri
+
+Quod nocet abscondi, quoniam sua vulnera nutrit
+
+Qui tegit et plagam trepidat nudare medenti.
+
+En polluta diu, modicum purgata recessit
+
+Per gemitum propriique lavans in gurgite fletus, 80
+
+Munda suis lacrimis redit et detersa capillis.
+
+Iamque Capharneae synagogam intraverat urbis
+
+Rite docens populos. quem cum vidisset iniquus
+
+Humano sub corde latens, clamore protervo
+
+Spiritus infremuit 'quid nobis et tibi?' dicens, 85
+
+'Perdere nos heu Christe, venis? scio denique qui sis,
+
+Et sanctum cognosco Dei' nec plura locutus
+
+Imperio terrente tacet hominemque reliquit
+
+Pulsus et in vacuas fugiens evanuit auras.
+
+Sic etiam variis finem languoribus esse 90
+
+Fecit et exclusos semper reticere coegit
+
+Daemonas ac talem prohibet se pandere testem.
+
+Olim quippe ferox et nigrae mortis amator
+
+Ille nocens anguis, deiectus culmine caeli
+
+Cum pompis sociisque suis omnique nefandae 95
+
+Agmine militiae, Christum, quem noverat illic,
+
+Conspicit in terris, velamine carnis opertum,
+
+Et gemit esse homini Dominum virtutis amicum.
+
+Dumque Tyri transgressus iter, Sidonia rursus
+
+Arva legens, placidas Dominus calcaret harenas, 100
+
+Curavit gemino miserum spiramine clausum,
+
+Qui vocem non ore dabat, non aure trahebat,
+
+Sidereaeque manus ruptis penetralibus omnes
+
+Adtactu patuere fores, laetusque repente
+
+Audirique loquens meruitque audire loquentes. 105
+
+Tu quoque virtutis sensisti munus erilis
+
+Procumbens oculis, cuius in lumine Christus
+
+Expuit et speciem simulatae mortis ademit.
+
+Hinc maiora docens populos caelestia verum
+
+Se reserat sermone Deum turbasque frequentes, 110
+
+Quae nimis inruerant, cupiens vitare parumper
+
+Stagna petit parvaque sedens in Simonis alno,
+
+Litore sistentem firmabat ab aequore plebem.
+
+Et dictis iam finis erat; tunc altius actam
+
+In pelagus iubet ire ratem vastoque profundo 115
+
+Retia dimitti piscantia, quae nihil omnem
+
+Claudere per noctem vacuo potuere labore.
+
+Simon paret ovans et aquosis gentibus instans
+
+Linea claustra iacit tantumque inmanis apertos
+
+Implevit captura sinus, ut praeda redundans 120
+
+Turbaret geminas cumulato pisce carinas:
+
+Nam socia stic puppis erat: sic maxima saepe
+
+Gaudia non ferimus propensaque vota timemus;
+
+Quodque Deo facile est homines optare nec audent.
+
+Talibus insignis virtutibus ibat in urbem, 125
+
+Quae sit dicta Naim, populo vallatus ipimo
+
+Et grege discipulum, miserum cum comminus ecce
+
+Conspicit ecferri iuvenem gelidumque cadaver,
+
+Pluribus exsequiis et inani funere passum
+
+Triste ministerium, cuius sors invida matrem 130
+
+Iamdudum viduam gemina viduaverat urna.
+
+Nec remorata diu pietas, inimica doloris,
+
+Auxilium vitale tulit tactoque feretro
+
+'Surge' ait 'o iuvenis'; parensque in tempore dicto
+
+Mortuus adsurgit, residensque loquensque revixit 135
+
+Atque comes genetricis abit: nam funere torpens
+
+Et licet amissae passus discrimina vitae,
+
+Non poterat famulus Domino clamante tacere
+
+Nec vita praesente mori. mox agmine verso
+
+Deponens trepidum recidivo tramite luctum, 140
+
+Candida felicem revocavit pompa parentem.
+
+Nec tibi parva salus Domino medicante, Maria,
+
+Multiplici laesum curavit vulnere sensum,
+
+Quam fera septenis rabies invaserat armis,
+
+Daemonico cuneata globo; sed squameus anguis 145
+
+Imperiosa sacri fugiens miracula verbi
+
+Corde tuo depulsus abit volucresque per auras
+
+In chaos infernae lapsus penetrale gehennae
+
+Septem ingens gyros, septena volumina traxit.
+
+Neve redundantem cumulato germine messem 150
+
+Exiguis Dominus sineret languere colonis,
+
+Discipulosque alios, quorum mens conscia recti
+
+Puraque simplicitas numero meritoque refulgens
+
+Aurea libra fuit, velut agnos praecipit inter
+
+Sanguineos properare lupos 'adsumite' dicens 155
+
+'Iura potestatis, nullum metuatis ut hostem;
+
+Vipereasque minas et scorpion atque inimicae
+
+Omnia virtutis sensu calcate fideli:
+
+Nulla meis famulis feritas adversa nocebit.
+
+Nec tantum hoc gaudete, viri, quod spiritus ater 160
+
+Subiaceat vobis, quantum quod nomina vestra
+
+Scribat in aeterno caelestis littera libro'.
+
+Ius est quippe Dei vitam praeponere factis.
+
+Nam merito cessante bono miracula nil sunt,
+
+Quae faciunt plerumque mali, quibus arbiter orbis 165
+
+'Nescio vos' dicturus erit, 'discedite cuncti
+
+Artifices scelerum, rebus qui semper iniquis
+
+Divinum simulastis opus'. sic tempore Moysi
+
+Carminibus quidam vanae Memphitis in oris
+
+Signa dabant non sponte Dei, sed imagine falsa 170
+
+Visibus humanis magicas tribuere figuras.
+
+Post Pharisaeorum cuiusdam principis intrat
+
+Clarificare domum, non escam sumere tantum,
+
+Ad quam tunc facili convenerat ille precatu.
+
+Hic homo perspicuo distentus ventre tumebat 175
+
+Plenus aquae gravidamque cutem suspenderat alvus,
+
+Inclusam paritura necem. Iam membra fluebant
+
+Adcrescente sinu, miserosque infusa per artus
+
+Turgida perflatum macies tenuaverat aegrum
+
+Inque uteri spatium totus convenerat hydrops. 180
+
+Non tulit hanc speciem mundi Pater, et sua transit
+
+Sabbata non curans, hominem curare paratus
+
+Quem voluit magis esse suum: nam sabbata propter
+
+Condita sunt hominem, non est homo sabbata propter.
+
+Tunc pius umentem siccata corporis unda 185
+
+Iussit abire luem: fluvidus mox viscera morbus
+
+Deserit et vacuae resident in pectore fibrae
+
+Carnalemque lacum pestis lymphata reliquit.
+
+Coeperat interea Dominus Galilaea per arva
+
+Transgrediens sancto quoddam pede tangere castrum. 190
+
+Hunc procul ut videre decem maculosa gerentes
+
+Leprosi portenta viri, quos corpore foedo
+
+Discolor obscenis turpabat poena figuris,
+
+'Praeceptor, miserere, potes namque omnia, Iesu',
+
+Clamantes dixere simul: tunc flexa potestas, 195
+
+Quae numquam pietate vacat, clementior infit:
+
+'Ite, sacerdotum conspectibus ora referte!'
+
+Cumque viam peterent, subito mundata vicissim
+
+Mirantur sua membra viri variumque tuentes
+
+Esse nihil sese pariter speculantur et omnes 200
+
+Explorant proprias alterno lumine formas.
+
+Ex quibus ut grates ageret pro munere tanto,
+
+Vix unus reduci conversus tramite planta
+
+Sternitur ad terram Dominum virtutis adorans
+
+Atque sacerdoti vero sua protulit ora. 205
+
+Denique pontificum princeps summusque sacerdos
+
+Quis, nisi Christus, adest? gemini libaminis auctor
+
+Ordine Melchisedech, cui dantur munera semper
+
+Quae sua sunt, fructus segitis et gaudia vitis.
+
+Cum residens caecus Timei filius illud 210
+
+Propter iter, Dominum per quod cognoverat ire,
+
+Vociferans crebro lumen clamore petisset
+
+Nec populo prohibente tacens, accedere iussus
+
+Ad Dominum palpante manu, visumque recepit
+
+Et nullo ducente redit. quam fortiter instat 215
+
+Inportuna fides! Quidquid res dura negarit,
+
+Sola frequens votis oratio praestat honestis.
+
+Unanimum panem sic ille petebat amicum,
+
+Qui foribus clausis per opaca silentia noctis
+
+Obnixeque diu confidenterque neganti 220
+
+Vocibus adsiduis precibusque extorsit anhelis.
+
+Praeteriensque viae Dominus loca Samaritanae
+
+Humanam flagrante sitim collegerat aestu,
+
+Fonsque perennis aquae, modicam desiderat undam,
+
+Ut biberet qua corpus erat. tunc accola gentis 225
+
+Stans mulier, parvum puteo quae traxerat haustum,
+
+Cum dare cunctatur periturae munera lymphae,
+
+Agnoscens propriam numeroso coniuge vitam,
+
+Orat inexhausti tribui sibi dona fluenti,
+
+Aeternam positura sitim, qua nemo carere 230
+
+Dignus erit, Domini nisi mersus gurgite Christi
+
+Percipiat placidas animae, non corporis undas.
+
+Dumque sui media residens testudine templi
+
+Ore tonans patrio directi ad pervia callis
+
+Errantem populum monitis convertit amicis, 235
+
+Ecce trahebatur magna stipante caterva
+
+Turpis adulterii mulier lapidanda reatu,
+
+Quam Pharisaea manus placido sub iudice sistens
+
+Cum damnare parat, plus liberat; omnibus illis
+
+Nam simul e turbis proprie sine crimine nullus 240
+
+Accusator erat, saxum qui missile primus
+
+Sumeret obscenae feriens contagia moechae.
+
+Nec poterat quisquam fistucam vellere parvam
+
+Ex oculo alterius, proprio qui lumine grandem
+
+Sciret inesse trabem. profugus sic ille recessit 245
+
+Impetus et clemens donat sententia culpam,
+
+Iam non peccandi sub condicione solutam.
+
+Nam vomitum quicumque suum canis ore relambit,
+
+Nec veterem studet hic veniam nec habere futuram,
+
+Huius damna tenens, huius conpendia perdens. 250
+
+Inde means genitum cernit considere caecum,
+
+Qui male praegnantis dilapsus ventre parentis
+
+In lucem sine luce ruit. tunc sanguinis ille
+
+Conditor humani mundique orientis origo,
+
+Inperfecta diu proprii non passus haberi 255
+
+Membra operis, natale lutum per claustra genarum
+
+Inliniens hominem veteri de semine supplet.
+
+Nec visum tamen ante capit, quam voce iubentis
+
+Accepta Domini Siloam venisset ad undam
+
+Et consanguinei tutus medicamine limi 260
+
+Pura oculos fovisset aqua. mox ergo gemellas
+
+Vultibus effulgent acies tandemque merentur
+
+Ignotum spectare diem. Cognoscite cuncti,
+
+Mystica quid doceant animos miracula nostros:
+
+Caeca sumus proles miserae de fetibus Evae, 265
+
+Portantes longo natas errore tenebras,
+
+Sed dignante Deo mortalem sumere formam
+
+Tegminis humani, facta est ex virgine nobis
+
+Terra salutaris, quae fontibus abluta sacris
+
+Clara renascentis reserat spiramina lucis. 270
+
+Bethaniaeque solum repetens intrarat: ibique
+
+Lazarus occidua tumulatus sorte iacebat
+
+Iam quarto sine luce die claususque sepulchri
+
+Marmore corruptum tabo exalabat odorem.
+
+Flebant germanae, flebat populatio praesens, 275
+
+Flebat et Omnipotens, sed corpore, non deitate,
+
+Exanimosque artus illa pro parte dolebat,
+
+Qua moriturus erat; lacrimis implevit amicum,
+
+Maiestate Deum. quid credere, Martha, moraris?
+
+Quidve, Maria, gemis? Christum dubitatis, an unum 280
+
+Possit ab infernis hominem revocare cavernis,
+
+Qui dabit innumeras post funera surgere turbas?
+
+Ergo ubi clamantis Domini sonuit tuba dicens:
+
+'Lazare, perge foras!', magno concussa pavore
+
+Tartara dissiliunt, herebi patuere recessus, 285
+
+Et tremuit letale chaos, mortisque profundae
+
+Lex perit atque anima proprias repente medullas
+
+Cernitur ante oculos vivens adstare cadaver.
+
+Postque sepulchralem tamquam recreatus honorem
+
+Ipse sibi moriens et postumus extat et heres. 290
+
+Utque caduca vagi contemnens culmina saecli
+
+Monstraret se rite Deum, non curribus altis,
+
+Qui pompae mortalis honor, rapidisque quadrigis
+
+Pulvereum sulcavit iter nec terga frementis
+
+Ardua pressit equi, faleris qui pictus et ostro 295
+
+Ora cruentatum mandentia concutit aurum,
+
+Sed lento potius gestamine vilis aselli
+
+Rectori suffecit honos, levis ungula cuius
+
+Ut tanto sessore decus mirabile portans
+
+Nobilior sub fasce foret, non illius inpar, 300
+
+Qui patulo Christum licet in praesepe iacentem
+
+Agnovit tamen esse Deum. plebs omnis adorans
+
+In solido molles subiecit tramite vestes.
+
+Dicite, gentiles populi, cui gloria regi
+
+Talis in orbe fuit? Cui palmis compta vel umquam 305
+
+Frondibus arboreis laudem caelestibus ymnis
+
+Obvia turba dedit? Domino nisi cum patre Christo,
+
+Qui regit aetherium princeps in principe regnum.
+
+<Cui Sanctus semper conregnat Spiritus aeque.>
+
+===== Liber V =====
+# page: https://www.thelatinlibrary.com/sedulius5.html
+
+SEDULIUS
+CARMEN PASCHALE
+LIBER QUINTUS
+
+Has inter virtutis opes iam proxima paschæ
+
+Cœperat esse dies, Domini cum gloria vellet
+
+Ponere mortalem, vivamque resumere carnem,
+
+Non aliam, sed rursus eam, quam munere plenam
+
+Lucis, ab infernis relevans, ad sidera duxit. 5
+
+Exclamansque palam; Pater, ista memet ab hora
+
+Salvifica: sed in hanc ideo veni tamen horam;
+
+Clarifica, dixit, nomen tuum; magnaque cœlo
+
+Vox resonans venit per nubila: Clarificavi,
+
+Clarificabo iterum. Quid apertius est Patre teste, 10
+
+Cœlo assertore? At nec sic agnoscere Christum
+
+Gens voluit Iudæa Deum; pars esse ferebat,
+
+Hoc tonitrum: pars angelicam crepuisse loquelam.
+
+O gens cæca oculis, o gens durissima corde!
+
+Non tonitrus potuit Christum, sive angelus ullus 15
+
+Auctorem generasse suum, qui, nomine Patris
+
+Audito, responsa daret, sed ab ore Tonantis,
+
+Natum agnoscentis, populus quo crederet astans,
+
+Vox emissa suo respondit consona verbo.
+
+Annua tunc sacræ celebrans per munera cœnæ 20
+
+Paschales ex more dapes, humilemque ministrum
+
+Se faciens, et grata suis exempla relinquens,
+
+Assurgit, famulisque libens famulatur, et omnem
+
+Linteolo accinctus tantum inclinavit honorem,
+
+Discipulis ut sponte lavans vestigia cunctis, 25
+
+Nec Iudam exciperet, quem proditionis iniquæ
+
+Noverat auctorem. Sed nil tibi gloria, sæve
+
+Traditor, illa dabat pedibus consistere mundis,
+
+Qui sensu pollutus eras, velut omne sepulcrum
+
+Exteriora gerens albæ velamina formæ, 30
+
+Sordibus interius, fœdoque cadavere plenum.
+
+Nec Dominum latuere doli, scelerisque futuri
+
+Prodidit auctorem, panem cui tradidit ipse,
+
+Qui panis tradendus erat: nam corporis, atque
+
+Sanguinis ille sui postquam duo munera sanxit, 35
+
+Atque cibum, potumque dedit, quo perpete numquam
+
+Esuriant, sitiantque animæ sine labe fideles:
+
+Protinus in Iudam, sedes ubi livor habebat,
+
+Spiritus intravit teterrimus, armaque sumens
+
+In Dominum, servile dedit consurgere bellum, 40
+
+Pactus grande nefas quavis mercede: nec illi
+
+Culpa datur pretio, sed inhærent crimina facto.
+
+Tantumdem sceleris, terdena numismata sumens
+
+Argenti, parvo cæcatus munere gessit,
+
+Quantum, cuncta simul terrarum regna, marisque 45
+
+Divitias, omnemque vagis cum nubibus æthram
+
+Si caperet, gesturus erat: neque enim bona mundi
+
+Sufficerent magni fuso pro sanguine Christi,
+
+Qui pater est mundi, qui fecerat, hunc quoque nasci.
+
+Atque utinam sterili damnatus matre nequisset 50
+
+Natalem sentire diem, nec luminis huius
+
+Hausisset placidas flabris vitalibus auras
+
+&Aelig;terno torpore latens, miseroque fuisset
+
+Sors melior nescire datam, quam perdere vitam,
+
+Aut male fusus humo, confestim munera lucis 55
+
+Perderet, ut pulvis, quem ventus proiicit ingens
+
+A facie terræ, rapidisque volatibus actus
+
+Spargitur in vacuas nebulis obscurior umbras.
+
+Tune cruente, ferox, audax, insane, rebellis,
+
+Perfide, crudelis, fallax, venalis, inique, 60
+
+Traditor immitis, fere proditor, impie latro,
+
+Prævius horribiles comitaris signifer enses?
+
+Sacrilegamque aciem, gladiis, sudibusque minacem
+
+Cum moveas, ore ora premis, mellique venenum
+
+Inseris, et blanda Dominum sub imagine prodis? 65
+
+Quid socium simulas, et amica fraude salutas?
+
+Numquid terribiles aut pax coniurat in enses,
+
+Aut truculenta pio lupus oscula porrigit agno?
+
+Traditus ergo viris operator sanctus iniquis,
+
+Consuetam non liquit opem, pueroque revulsam 70
+
+Ense Petri, nequa pius a pietate vacaret,
+
+Reddidit auriculam; nec enim vindicta Tonanti
+
+Conveniens humana fuit, qui millia Patrem
+
+Angelicas sibimet legiones poscere posset
+
+Plus duodena dari, si mallet sumere pœnas 75
+
+De meritis, quam sponte suas ignoscere plagas.
+
+Tunc parci mucrone iubet, quia venerat ipse
+
+Ponere pro cunctis animam, non tollere cuiquam.
+
+Namque Petro, clara iamdudum voce fatenti,
+
+Cum Domino se velle mori, Prius aliger, inquit, 80
+
+Quam gallus cantet, hac me ter nocte negabis,
+
+Non reprobando fidem, sed prædicendo timorem.
+
+Continuo ad tristes Caiphæ deducitur ædes.
+
+Ille sacerdotum fuerat tunc denique princeps,
+
+Et princeps scelerum, namque hoc residente cathedra 85
+
+Pestifera, falsis agitatum testibus ardet
+
+Concilium, iam iamque volant mendacia mille
+
+In Dominum, vanis hominum conflata favillis,
+
+Et pereunt levitate sui, velut ignis oberrans
+
+Arentes stipulas, vires cui summa cremandi 90
+
+Materies infirma rapit, victoque furore
+
+Labitur invalidæ deformis gloria flammæ.
+
+Postquam nulla dolis patuit via, brachia tolli
+
+Armat in insontem sævus furor: heu mihi! quantis 95
+
+Impedior lacrymis rabidum memorare tumultum
+
+Sacrilegas movisse manus? non denique passim
+
+Vel colaphis pulsare caput, vel cædere palmis,
+
+Aut spuere in faciem plebs exsecranda quievit.
+
+Ille tamen patiens subiecto corpore totum
+
+Sustinuit, nostræque dedit sua membra saluti. 100
+
+Namque per hos colaphos caput est sanabile nostrum,
+
+Hæc sputa per Dominum nostram lavere figuram,
+
+His alapis nobis libertas maxima plausit,
+
+At senior, cui cuncta potens prædixerat auctor,
+
+Quæ ventura forent, quoniam transire nequibat 105
+
+Infectum, quod Christus ait, se prorsus adesse
+
+Ipsius ex sociis, semel, ac bis, terque negavit,
+
+Et gallus cecinit; completa est sanctio Christi,
+
+Et sensus rediere Petri: memor ille malorum
+
+Immemoris damnavit opus, gemituque sequente, 110
+
+Culpa fugit, cedunt lacrymis delicta profusis,
+
+Et dulcem veniam, fletus, generastis, amari.
+
+Iamque dies aderat, nocturna mœstior umbra,
+
+Flagitium visura novum, tenebrisque remotis,
+
+Pandebat populis Iudææ crimina gentis. 115
+
+Mox igitur Dominum Pilati ad mœnia duci.
+
+Nexibus astrictum, Iudas ut vidit iniquus,
+
+Diriguit, scelerisque sui commercia reddens
+
+Incassum, facti pretium, non facta reliquit.
+
+Quidnam etenim prodest, illic trepidare timore, 120
+
+Nullus ubi timor est? aut quæ confessio tetro
+
+Lucet in inferno, cum iam demersa securis
+
+Arboris infandæ radicibus, exitialem
+
+Quæ peperit fructum, feralia germina vertat
+
+Funditus, et dignis pereant mala robora flammis? 125
+
+Continuoque trucis correptus mente furoris,
+
+Se quoque morte petit; quamquam tunc sanior esset,
+
+Cum scelus ulcisci præcurreret, ipsaque diræ
+
+Guttura vocis iter, cuncti quæ vendere mundi
+
+Ausa redemptorem, nodatis faucibus angens 130
+
+Infelicem animam laqueo suspendit ab alto.
+
+Lenior ira quidem tantæ pro crimine culpæ,
+
+Cunctorum cui nulla foret par pœna malorum.
+
+Exitus hic mortis tamen, et sublime cadaver
+
+Ostendit populis, quanto de culmine lapsus 135
+
+Pridem discipulus, qui nunc reus, alta relinquens
+
+Sidera, tartareum descendit ad usque profundum;
+
+Tunc vir apostolicus, nunc vilis apostata factus.
+
+At Dominus patiens cum præsidis ante tribunal
+
+Staret, ut ad iugulum ductus mitissimus agnus, 140
+
+Nil inimica cohors insontis sanguine dignum
+
+Repperiens, regem quod se rex dixerat esse,
+
+Obiicit, et verum mendax pro crimine ducit.
+
+Nec mirum, si iura Dei gens perfida vitet,
+
+Imperiumque neget, lucos quæ semper amavit, 145
+
+Idola dilexit; simili nam more furentes,
+
+Tunc coluere Baal, nunc elegere Barabbam,
+
+Damnatoque pio, conservatoque protervo,
+
+Mutavit per utrumque viam sententia iustam.
+
+Auctor mortis erat, iussus qui sumere lucem; 150
+
+Auctor lucis erat, iussus qui sumere mortem.
+
+Credite iam Christum, pro cunctis credite passum.
+
+Quid dubitatis adhuc? en sectus terga flagellis,
+
+Subditus opprobriis, pœnas amplectitur omnes,
+
+Ne dignus sentire necem vel latro periret. 155
+
+Heu! falx torva patrum, segetem cæsura nepotum,
+
+Heu! facinus, Pilate, tuum! quot gesseris uno
+
+Crimina iudicio, vigili si mente notares,
+
+Non solas lavisse manus, sed corpore toto
+
+Debueras sacrum veniæ sperare lavacrum. 160
+
+Corripis insontem, sistis sub præside regem,
+
+Præponis humana Deo; qua morte teneris,
+
+Qui Dominum numerosa cruci per vulnera figis?
+
+Cumque datus sævis ad pœnam Sanctus abiret
+
+Militibus, vilem rubri sub tegmine cocci 165
+
+Vestitur chlamydem, species ut cuncta cruentæ
+
+Mortis imago foret; spinis circumdedit amplum
+
+Nexa corona caput, quoniam spineta benignus
+
+Omnia nostrorum susceperat ille malorum;
+
+Implet arundo manum, sceptrum quod mobile semper, 170
+
+Invalidum, fragile est, vacuum, leve: moxque alienos
+
+Deponens habitus, proprium suscepit amictum,
+
+Scilicet humanæ positurus tegmina carnis,
+
+Et sumpturus item, nil iam ut mutabile ferret,
+
+Post mortem propria cum maiestate resurgens, 175
+
+Humano ponens mortalem tegmine carnem.
+
+Nec sine divino constat moderamine gestum,
+
+Quod vinum cum felle datum, tristemque saporem
+
+Suscipiens tetigit labiis, et ab ore removit.
+
+Quippe necem parvo degustaturus amaram 180
+
+Tempore, quam reduci contemnere carne pararet.
+
+Protinus in patuli suspensus culmine ligni,
+
+Relligione pia mutans discriminis iram,
+
+Pax crucis ipse fuit, violentaque robora membris
+
+Illustrans propriis, pœnam vestivit honore, 185
+
+Suppliciumque dedit signum magis esse salutis,
+
+Ipsaque sanctificans in se tormenta beavit.
+
+Neve quis ignoret, speciem crucis esse colendam,
+
+Quæ Dominum portavit ovans, ratione potenti
+
+Quattuor inde plagas quadrati colligit orbis. 190
+
+Splendidus auctoris de vertice fulget Eous,
+
+Occiduo sacræ lambuntur sidere plantæ,
+
+Arcton dextra tenet, medium læva erigit axem,
+
+Cunctaque de membris vivit natura creantis,
+
+Et cruce complexum Christus regit undique mundum. 195
+
+Scribitur et titulus, Hic est rex Iudæorum,
+
+Quo nihil a deitate vacet: nam cœlitus actum
+
+Hoc Hebræa refert, hoc Græca, Latinaque lingua.
+
+Hoc docet una fides, unum ter dicere regem.
+
+Huius in exuviis sors mittitur, ut sacra vestis. 200
+
+Intemerata manens, a Christo schisma vetaret.
+
+Quin etiam insontis latere ex utroque cruentos
+
+Constituere viros, meritum licet omnibus unum
+
+Non faciat similis quamvis sententia; namque
+
+Inter carnifices sancto pendente latrones, 205
+
+Par est pœna trium, sed dispar causa duorum.
+
+Hi mundo sunt quippe rei pro crimine multo;
+
+Huic reus est mundus, salvatus sanguine iusto.
+
+Suppliciisque tamen rerum dominator in ipsis
+
+Iura potestatis non perdidit: æquus utrumque 210
+
+Iudex namque tuens, hunc eligit, hunc reprobavit,
+
+Amborum merita præcelso examine pensans.
+
+Unus enim, quem vita ferox nec morte reliquit,
+
+In Dominum scelerata movens convicia, dictis
+
+Mordebat propriis, et tamquam setiger hircus 215
+
+Ore venenoso vitem lacerabat amœnam:
+
+Alter, adorato per verba precantia Christo,
+
+Saucia deiectus flectebat lumina, tantum
+
+Lumina, nam geminas arcebant vincula palmas.
+
+Quem Dominus, ceu pastor ovem deserta per arva, 220
+
+Colligit errantem, secumque adducere gaudet
+
+In campos, paradise, tuos, ubi flore perenni
+
+Gramineus blanditur ager, nemorumque voluptas,
+
+Irriguis nutritur aquis, interque benigne
+
+Conspicuos pomis non deficientibus hortos 225
+
+Ingemit antiquum serpens habitare colonum.
+
+Ambo igitur varium diverso calle latrones
+
+Agressi facinus violentum grande patrarunt.
+
+Infernas adit ille fores, adit iste supernas;
+
+Ille profunda sequens penetravit claustra gehennæ, 230
+
+Abstulit iste suis cœlorum regna rapinis.
+
+Interea horrendæ subito venere tenebræ,
+
+Et totum tenuere polum, mœstisque nigrantem
+
+Exsequiis texere diem; sol nube coruscos
+
+Abscondens radios, tetro velatus amictu, 235
+
+Delituit, tristemque infecit luctibus orbem.
+
+Hunc elementa sibi meruerunt cernere vultum,
+
+Auxiliis orbata patris, lætata per ortum,
+
+Mœsta per occasum. Nam lux ut tempore fulsit
+
+Nascentis Domini, sic, hoc moriente, recessit, 240
+
+Non absens mansura diu, sed mystica signans
+
+Per spatium secreta suum; quippe ut tribus horis
+
+Cæca tenebrosi latuerunt sidera cœli,
+
+Sic Dominus clausi triduo tulit antra sepulcri.
+
+Nec tellus sine clade fuit, quæ talia cernens 245
+
+Funditus intremuit, dubioque in fine supremum
+
+Expavit natura modum, ne cogeret omnem
+
+Summus apex inferna petens succumbere molem,
+
+Auctoremque sequens per tartara mundus abiret.
+
+Sed pietas immensa vagas properabat ad umbras, 250
+
+Perdita restituens, non consistentia perdens.
+
+Nulla tamen tanti metuerunt signa pericli,
+
+Qui Dominum fixere cruci, quin insuper haustum
+
+Cum peteret sitiens, unus de plebe nefanda
+
+Peniculo infusum calamo porrexit acetum. 255
+
+Mamzeribus populis in deteriora volutis
+
+Conveniens liquor ille fuit: nam dulcia vina
+
+Sicut in horrendum dum convertuntur acetum,
+
+A mensis proiecta iacent: ita tempore prisco
+
+Gens accepta Deo, nunc est odiosa propago. 260
+
+Ergo ubi cuncta boni completa est passio Christi,
+
+Ipse animam proprio dimisit corpore sanctam,
+
+Ipse iterum sumpturus eam, quia mortuus idem,
+
+Idem vivus erat, membris obeuntibus in se,
+
+Non obeunte Deo, cuius virtute retrorsum 265
+
+Infernæ patuere viæ, ruptæque fatiscunt
+
+Divisa compage petræ, rediviva iacentum
+
+Corpora sanctorum fractis abiere sepulcris,
+
+In cineres animata suos; subitoque fragore
+
+Illud ovans templum, maioris culmina templi 270
+
+Procubuisse videns, ritu plangentis alumni,
+
+Saucia discisso nudavit pectora velo,
+
+Interiora sui populis arcana futuris
+
+Iam reseranda docens, quia lex velamine Moysi
+
+Tecta diu, Christo nobis veniente, patescit. 275
+
+Dic, ubi nunc, tristis, victoria, dic, ubi nunc sit,
+
+Mors, stimulus, horrenda, tuus? quæ semper opimis
+
+Insaturata malis, cunctas invadere gentes
+
+Pœnali ditione soles; en pessima, non tu
+
+Pervenis ad Christum, sed Christus pervenit ad te, 280
+
+Cui licuit sine morte mori, quique omnia gignens,
+
+Omnia constituens, te non formavit; ut esses,
+
+Semine vipereo, culpa genitrice crearis,
+
+Et, venia regnante, peris. Iam spiritus artus
+
+Liquerat ad tempus, patulo iam frigida ligno 285
+
+Viscera pendebant, et adhuc furor, arma ministrans,
+
+Cuspide perfossum violat latus: eque patenti
+
+Vulnere purpureus cruor, et simul unda cucurrit.
+
+Hæc sunt quippe sacræ pro relligionis honore,
+
+Corpus, sanguis, aqua, tria vitæ munera nostræ. 290
+
+Fonte renascentes, membris, et sanguine Christi
+
+Vescimur, atque ideo templum deitatis habemur:
+
+Quod servare Deus nos annuat immaculatum,
+
+Et faciat tenues tanto mansore capaces.
+
+Ergo ubi depositi thesaurum corporis amplum 295
+
+Nobilis accepit Domino locus ille iacente,
+
+Nobilior surgente tamen, generatio fallax
+
+Augebat sub corde nefas, quod nocte silenti
+
+Discipuli Christum raperent, et abisse referrent,
+
+Ter redeunte die, sicut prædixerat ipse. 300
+
+Quo stimulante metu, vigilum munimina poscunt
+
+Plura dari, sævaque locum obsidione teneri.
+
+Si nondum post vincla crucis, post vulnera ferri,
+
+Post obitum mortis, numerosa cæde cruentum,
+
+Carnifices, implestis opus, nec creditis illum, 305
+
+Qui toties imis animas produxit ab umbris,
+
+Posse suam revocare magis, peioribus aptos
+
+Consiliis armate dolos, signate sepulcrum,
+
+Ponite custodes, monumento advolvite saxum.
+
+Quis poterit servare Deum, cui cardine rerum 310
+
+Cuncta patent? undis habitat, per tartara regnat,
+
+Et cœli de nube tonat. Quid, sæve tumultus,
+
+Excubiis deperdis opus? quid niteris illam
+
+Explorare fidem, cui non vis credulus esse?
+
+Cœperat interea post tristia sabbata felix 315
+
+Irradiare dies, culmen qui nominis alti
+
+A Domino dominante trahit, primusque videre
+
+Promeruit nasci mundum, atque resurgere Christum.
+
+Septima nam Genesis cum dicit sabbata, claret,
+
+Hunc orbis caput esse diem, quem gloria regis, 320
+
+Nunc etiam proprii donans fulgore tropæi,
+
+Primatum retinere dedit; hoc luminis ortu
+
+Virgo parens, aliæque simul cum munere matres
+
+Messis aromaticæ, notum venere gementes
+
+Ad tumulum, vacuumque vident iam corpore factum, 325
+
+Sed plenum virtute locum. Nam missus ab astris
+
+Angelus amoti residebat vertice saxi,
+
+Flammeus aspectu, niveo præclarus amictu.
+
+Qui gemina specie terrorem, et gaudia portans,
+
+Cunctaque dispensans, custodibus igne minacem 330
+
+Venerat in formam, Christum quærentibus albam.
+
+Illæ igitur Dominum calcata vivere morte
+
+Angelica didicere fide; perterritus autem
+
+Miles in ancipiti retinet discrimine vitam,
+
+Deserta statione fugax, testisque timoris 335
+
+Vera refert gratis; postquam data munera, fallit
+
+Discipulumque globum placidi sub tempore sumni
+
+Clam sibi nocturna Christum abstraxisse rapina
+
+Compositus simulator ait. Fare, improbe custos,
+
+Responde, scelerata cohors, si Christus, ut audes 340
+
+Dicere, concluso furtim productus ab antro,
+
+Sopitos latuit, cuius iacet intus amictus,
+
+Cuius ad exuvias sedet Angelus? anne beati
+
+Corporis ablator velocius esse putavit
+
+Solvere contectum, quam devectare ligatum? 345
+
+Cum mora sit furtis contraria, cautius ergo
+
+Cum Domino potuere magis sua lintea tolli.
+
+Mentita est vox vana sibi; tamen ista figuram
+
+Res habet egregiam: Iudæis constat ademptum,
+
+Quem nos devoto portamus pectore Christum. 350
+
+Plange sacerdotes perituros, plange ministros,
+
+Et populum, Iudæa, tuum pro talibus ausis.
+
+Non tuba, non Unctus, non iam tua victima grata est.
+
+Quænam bella tibi clanget tuba, rege perempto?
+
+Quis tuus Unctus erit, quæ verum amiseris Unctum? 355
+
+Victima quæ dabitur, cum victima pastor habetur?
+
+Discedat synagoga, suo fuscata colore,
+
+Ecclesiam Christus pulchro sibi iunxit amore,
+
+Hæc est conspicuo radians in honore Mariæ:
+
+Quæ cum clarifico semper sit nomine mater, 360
+
+Semper virgo manet; huius se visibus astans
+
+Luce palam Dominus prius obtulit, ut bona mater,
+
+Grandia divulgans miracula, quæ fuit olim
+
+Advenientis iter, hæc sit redeuntis et index.
+
+Mox aliis conviva potens in fragmine panis 365
+
+Agnitus enituit, qui verus panis apertis
+
+Semper adest oculis, fidei quos gratia claros
+
+Efficit, ut Dominum viventem cernere possint.
+
+Sæpe dehinc proprios diversi temporis horis
+
+Discipulos manifestus adit, vescentibus illis, 370
+
+Extemplo nunc ora ferens, nunc piscis obusti,
+
+Atque favi mandens epulas, quo rite doceret,
+
+Corporeas res esse dapes, seseque videri
+
+In membris, quibus ante fuit. Formidine rursus
+
+Plebis apostaticæ, Dominum quæ cæca negasset, 375
+
+Cum foribus clausis resideret turba fidelis,
+
+Pace salutantis sese intulit, atque foratas
+
+Expediens palmas, nudat latus: ast ibi Thomas,
+
+Cui Didymus cognomen erat, cum fratribus una
+
+Non fuerat, dubiamque fidem sub corde gerebat. 380
+
+Donec rursus, eo pariter residente, veniret,
+
+Qui numquam subtractus erat. Tunc limine clauso
+
+Constitit in medio, non dedignatus apertum
+
+Discipulo monstrare latus, tactuque probari
+
+Vulneris, et mentem patienter ferre labantis. 385
+
+Agnitus hinc potius, quod sit dubitantis amicus.
+
+Quisquis enim artifices cæca sub imagine fraudes
+
+Instruit, et vanas cupit exercere figuras,
+
+Non vult agnosci, non vult, sua facta requiri,
+
+Ut lateant sub nube doli, nebulaque recludens 390
+
+Omnia, sollicitos odit simulator amicos.
+
+Gnarus item Dominus, Petro piscante per æquor
+
+Cum sociis, captum esse nihil, dimittere lina
+
+In dextras hortatur aquas, mox gurgite clauso
+
+Pendula fluctivagam traxerunt retia prædam, 395
+
+Per typicam noscenda viam: nam retia dignis
+
+Lucida sunt præcepta Dei, quibus omnis in illa
+
+Dextra parte manens concluditur, ac simul ulnis
+
+Fertur apostolicis Domini ad vestigia Christi.
+
+Nec piscis, prunæque vacant, et panis, in uno 400
+
+Discipulis inventa loco; quisnam ambigat, unam
+
+Hic rebus constare fidem, quippe est aqua piscis,
+
+Christus adest panis, sanctusque Spiritus ignis.
+
+Hinc etenim abluimur, hoc pascimur, inde sacramur.
+
+Tunc epulis præceptor eos invitat odendis, 405
+
+Alloquiis de more piis, mensamque petentes
+
+Unanimes nota Domini bonitate fruuntur,
+
+Et Christum sensere suum, modicoque paratu
+
+Postquam victa fames, et surrexere relictis
+
+Rite toris, an corde Petrus se diligat alto, 410
+
+Explorat Dominus: Petrus annuit: ergo nitentes
+
+Pastor amans augere greges, operario in omni
+
+Parte bono commendat oves, commendat et agnos.
+
+Hoc terno sermone monens, ut terna negantis
+
+Culpa recens parili numero purgata maneret. 415
+
+Inde sequenda docens, Pacem omnes, inquit, habete,
+
+Pacem ferte meam, pacem portate quietam,
+
+Pacem per populos monitis dispergite sanctis,
+
+Et mundum vacuate malis: gentesque vocari
+
+Finibus e cunctis, latus qua tenditur orbis, 420
+
+Iussis mando meis, omnesque in fonte lavari.
+
+Hæc ubi dicta pio Dominus sermone peregit,
+
+Bethaniæ mox arva petit: coramque beatis
+
+Qui tantum meruere viris spectare triumphum,
+
+&Aelig;thereas evectus abit sublimis in auras. 425
+
+Ad dextram sedet ipse Patris totumque gubernat
+
+Iure suo, qui cuncta tenens excelsa, vel ima,
+
+Tartara post cœlum penetrat, post tartara cœlum.
+
+Illi autem lætis cernentes vultibus, altas
+
+Ire super nubes Dominum, tractusque coruscos 430
+
+Vestigiis calcare suis, veneranter adorant,
+
+Sidereasque vias alacri sub corde reportant,
+
+Quas cunctos doceant: testes nam iure fideles
+
+Divinæ virtutis erant, qui plura videntes,
+
+Innumerabilium scripserunt pauca bonorum. 435
+
+Nam si cuncta sacris voluissent tradere chartis
+
+Facta redemptoris, nec totus cingere mundus
+
+Sufficeret densos per tanta volumina libros.

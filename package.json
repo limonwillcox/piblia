@@ -1,0 +1,14 @@
+{
+  "name": "fathers-gateway",
+  "private": true,
+  "description": "Mock open-source Church Fathers literature hub in the Bible Gateway reading layout.",
+  "scripts": {
+    "start": "npx --yes http-server -p 8080 -c-1",
+    "verify": "node scripts/verify.mjs",
+    "latin-library": "node scripts/latin-library/scrape.mjs --all",
+    "latin-library:dry": "node scripts/latin-library/scrape.mjs --dry-run"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0"
+  }
+}

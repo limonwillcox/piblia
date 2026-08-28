@@ -1,0 +1,2402 @@
+{
+  "generated": "2026-08-28T17:50:44.166Z",
+  "dryRun": false,
+  "source": "https://www.thelatinlibrary.com",
+  "works": [
+    {
+      "author": "ambrose",
+      "title": "de Mysteriis",
+      "status": "written",
+      "file": "Fathers/Latin/Ambrose_Latin/de Mysteriis.txt",
+      "chars": 34357,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/ambrose/mysteriis.html",
+          "status": "ok",
+          "chars": 34357,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "ambrose",
+      "title": "Hymni",
+      "status": "written",
+      "file": "Fathers/Latin/Ambrose_Latin/Hymni.txt",
+      "chars": 7278,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/ambrose/hymns.html",
+          "status": "ok",
+          "chars": 7278,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "ambrose",
+      "title": "Epistula ad Sororem",
+      "status": "written",
+      "file": "Fathers/Latin/Ambrose_Latin/Epistula ad Sororem.txt",
+      "chars": 15149,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/ambrose/epist.html",
+          "status": "ok",
+          "chars": 15149,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "ambrose",
+      "title": "Epistulae Variae",
+      "status": "written",
+      "file": "Fathers/Latin/Ambrose_Latin/Epistulae Variae.txt",
+      "chars": 209157,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/ambrose/epistvaria.html",
+          "status": "ok",
+          "chars": 209157,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "arnobius",
+      "title": "Adversus nationes",
+      "status": "written",
+      "file": "Fathers/Latin/Arnobius_Latin/Adversus nationes.txt",
+      "chars": 482297,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/arnobius/arnobius1.shtml",
+          "status": "ok",
+          "chars": 77382,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/arnobius/arnobius2.shtml",
+          "status": "ok",
+          "chars": 109666,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/arnobius/arnobius3.shtml",
+          "status": "ok",
+          "chars": 49279,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/arnobius/arnobius4.shtml",
+          "status": "ok",
+          "chars": 50854,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/arnobius/arnobius5.shtml",
+          "status": "ok",
+          "chars": 66618,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/arnobius/arnobius6.shtml",
+          "status": "ok",
+          "chars": 41260,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/arnobius/arnobius7.shtml",
+          "status": "ok",
+          "chars": 86617,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "augustine",
+      "title": "Liber I",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/augustine/conf1.shtml"
+      ]
+    },
+    {
+      "author": "augustine",
+      "title": "Liber II",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/augustine/conf2.shtml"
+      ]
+    },
+    {
+      "author": "augustine",
+      "title": "Liber III",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/augustine/conf3.shtml"
+      ]
+    },
+    {
+      "author": "augustine",
+      "title": "Liber IV",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/augustine/conf4.shtml"
+      ]
+    },
+    {
+      "author": "augustine",
+      "title": "Liber V",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/augustine/conf5.shtml"
+      ]
+    },
+    {
+      "author": "augustine",
+      "title": "Liber VI",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/augustine/conf6.shtml"
+      ]
+    },
+    {
+      "author": "augustine",
+      "title": "Liber VII",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/augustine/conf7.shtml"
+      ]
+    },
+    {
+      "author": "augustine",
+      "title": "Liber VIII",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/augustine/conf8.shtml"
+      ]
+    },
+    {
+      "author": "augustine",
+      "title": "Liber IX",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/augustine/conf9.shtml"
+      ]
+    },
+    {
+      "author": "augustine",
+      "title": "Liber X",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/augustine/conf10.shtml"
+      ]
+    },
+    {
+      "author": "augustine",
+      "title": "Liber XI",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/augustine/conf11.shtml"
+      ]
+    },
+    {
+      "author": "augustine",
+      "title": "Liber XII",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/augustine/conf12.shtml"
+      ]
+    },
+    {
+      "author": "augustine",
+      "title": "Liber XIII",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/augustine/conf13.shtml"
+      ]
+    },
+    {
+      "author": "augustine",
+      "title": "Epistula de libris de civitate dei",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/augustine/epistula.shtml"
+      ]
+    },
+    {
+      "author": "augustine",
+      "title": "De civitate Dei",
+      "status": "written",
+      "file": "Fathers/Latin/Augustine_Latin/De civitate Dei.txt",
+      "chars": 1889954,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/civ1.shtml",
+          "status": "ok",
+          "chars": 78643,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/civ2.shtml",
+          "status": "ok",
+          "chars": 71948,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/civ3.shtml",
+          "status": "ok",
+          "chars": 76963,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/civ4.shtml",
+          "status": "ok",
+          "chars": 71200,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/civ5.shtml",
+          "status": "ok",
+          "chars": 85841,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/civ6.shtml",
+          "status": "ok",
+          "chars": 51204,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/civ7.shtml",
+          "status": "ok",
+          "chars": 76876,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/civ8.shtml",
+          "status": "ok",
+          "chars": 80403,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/civ9.shtml",
+          "status": "ok",
+          "chars": 51780,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/civ10.shtml",
+          "status": "ok",
+          "chars": 99372,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/civ11.shtml",
+          "status": "ok",
+          "chars": 80341,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/civ12.shtml",
+          "status": "ok",
+          "chars": 71875,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/civ13.shtml",
+          "status": "ok",
+          "chars": 68236,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/civ14.shtml",
+          "status": "ok",
+          "chars": 86080,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/civ15.shtml",
+          "status": "ok",
+          "chars": 101869,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/civ16.shtml",
+          "status": "ok",
+          "chars": 117678,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/civ17.shtml",
+          "status": "ok",
+          "chars": 94481,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/civ18.shtml",
+          "status": "ok",
+          "chars": 95778,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/civ19.shtml",
+          "status": "ok",
+          "chars": 97814,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/civ20.shtml",
+          "status": "ok",
+          "chars": 133472,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/civ21.shtml",
+          "status": "ok",
+          "chars": 107244,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/civ22.shtml",
+          "status": "ok",
+          "chars": 88960,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "augustine",
+      "title": "De Trinitate",
+      "status": "written",
+      "file": "Fathers/Latin/Augustine_Latin/De Trinitate.txt",
+      "chars": 756711,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/trin1.shtml",
+          "status": "ok",
+          "chars": 69675,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/trin2.shtml",
+          "status": "ok",
+          "chars": 63757,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/trin3.shtml",
+          "status": "ok",
+          "chars": 48347,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/trin4.shtml",
+          "status": "ok",
+          "chars": 65264,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/trin5.shtml",
+          "status": "ok",
+          "chars": 33168,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/trin6.shtml",
+          "status": "ok",
+          "chars": 24008,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/trin7.shtml",
+          "status": "ok",
+          "chars": 38790,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/trin8.shtml",
+          "status": "ok",
+          "chars": 36656,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/trin9.shtml",
+          "status": "ok",
+          "chars": 30702,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/trin10.shtml",
+          "status": "ok",
+          "chars": 33788,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/trin11.shtml",
+          "status": "ok",
+          "chars": 38869,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/trin12.shtml",
+          "status": "ok",
+          "chars": 38189,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/trin13.shtml",
+          "status": "ok",
+          "chars": 63174,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/trin14.shtml",
+          "status": "ok",
+          "chars": 56922,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/trin15.shtml",
+          "status": "ok",
+          "chars": 114103,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "augustine",
+      "title": "Contra secundam Iuliani responsionem",
+      "status": "written",
+      "file": "Fathers/Latin/Augustine_Latin/Contra secundam Iuliani responsionem.txt",
+      "chars": 193754,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/iulianus1.shtml",
+          "status": "ok",
+          "chars": 118509,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/iulianus2.shtml",
+          "status": "ok",
+          "chars": 75068,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "augustine",
+      "title": "SERMONES",
+      "status": "written",
+      "file": "Fathers/Latin/Augustine_Latin/SERMONES.txt",
+      "chars": 640996,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm1.shtml",
+          "status": "ok",
+          "chars": 7528,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm2.shtml",
+          "status": "ok",
+          "chars": 14804,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm4.shtml",
+          "status": "ok",
+          "chars": 50583,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm5.shtml",
+          "status": "ok",
+          "chars": 18530,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm6.shtml",
+          "status": "ok",
+          "chars": 8553,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm7.shtml",
+          "status": "ok",
+          "chars": 11380,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm8.shtml",
+          "status": "ok",
+          "chars": 33197,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm9.shtml",
+          "status": "ok",
+          "chars": 45482,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm10.shtml",
+          "status": "ok",
+          "chars": 17051,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm11.shtml",
+          "status": "ok",
+          "chars": 5418,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm12.shtml",
+          "status": "ok",
+          "chars": 18543,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm13.shtml",
+          "status": "ok",
+          "chars": 12532,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm14.shtml",
+          "status": "ok",
+          "chars": 11816,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm15.shtml",
+          "status": "ok",
+          "chars": 14086,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm16.shtml",
+          "status": "ok",
+          "chars": 6590,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm17.shtml",
+          "status": "ok",
+          "chars": 11055,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm18.shtml",
+          "status": "ok",
+          "chars": 9120,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm19.shtml",
+          "status": "ok",
+          "chars": 14493,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm20.shtml",
+          "status": "ok",
+          "chars": 10084,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm71.shtml",
+          "status": "ok",
+          "chars": 60063,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm72.shtml",
+          "status": "ok",
+          "chars": 8059,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm73.shtml",
+          "status": "ok",
+          "chars": 5812,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm74.shtml",
+          "status": "ok",
+          "chars": 6660,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm75.shtml",
+          "status": "ok",
+          "chars": 11969,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm76.shtml",
+          "status": "ok",
+          "chars": 10738,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm77.shtml",
+          "status": "ok",
+          "chars": 18990,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm78.shtml",
+          "status": "ok",
+          "chars": 7585,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm79.shtml",
+          "status": "ok",
+          "chars": 1553,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm80.shtml",
+          "status": "ok",
+          "chars": 14574,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm81.shtml",
+          "status": "ok",
+          "chars": 19263,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm82.shtml",
+          "status": "ok",
+          "chars": 21400,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm83.shtml",
+          "status": "ok",
+          "chars": 12895,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm87.shtml",
+          "status": "ok",
+          "chars": 23081,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm88.shtml",
+          "status": "ok",
+          "chars": 40053,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm90.shtml",
+          "status": "ok",
+          "chars": 22147,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm92.shtml",
+          "status": "ok",
+          "chars": 4525,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm95.shtml",
+          "status": "ok",
+          "chars": 9162,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/serm99.shtml",
+          "status": "ok",
+          "chars": 18484,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "augustine",
+      "title": "de Dialectica",
+      "status": "written",
+      "file": "Fathers/Latin/Augustine_Latin/de Dialectica.txt",
+      "chars": 38317,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/dia.shtml",
+          "status": "ok",
+          "chars": 38317,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "augustine",
+      "title": "de Fide et Symbolo",
+      "status": "written",
+      "file": "Fathers/Latin/Augustine_Latin/de Fide et Symbolo.txt",
+      "chars": 39078,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/fide.shtml",
+          "status": "ok",
+          "chars": 39078,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "augustine",
+      "title": "de Catechizandis Rudibus",
+      "status": "written",
+      "file": "Fathers/Latin/Augustine_Latin/de Catechizandis Rudibus.txt",
+      "chars": 102076,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/catechizandis.shtml",
+          "status": "ok",
+          "chars": 102076,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "augustine",
+      "title": "Regula Sancti Augustini",
+      "status": "written",
+      "file": "Fathers/Latin/Augustine_Latin/Regula Sancti Augustini.txt",
+      "chars": 15427,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/augustine/reg.shtml",
+          "status": "ok",
+          "chars": 15427,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "bede",
+      "title": "Historia ecclesiastica gentis Anglorum",
+      "status": "written",
+      "file": "Fathers/Latin/Bede_Latin/Historia ecclesiastica gentis Anglorum.txt",
+      "chars": 563054,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/bede/bedecontinuatio.shtml",
+          "status": "ok",
+          "chars": 3530,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/bede/bedepraef.shtml",
+          "status": "ok",
+          "chars": 5540,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/bede/bede1.shtml",
+          "status": "ok",
+          "chars": 101686,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/bede/bede2.shtml",
+          "status": "ok",
+          "chars": 86545,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/bede/bede3.shtml",
+          "status": "ok",
+          "chars": 115448,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/bede/bede4.shtml",
+          "status": "ok",
+          "chars": 125070,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/bede/bede5.shtml",
+          "status": "ok",
+          "chars": 124625,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "bede",
+      "title": "PROVERBIORUM LIBER",
+      "status": "written",
+      "file": "Fathers/Latin/Bede_Latin/PROVERBIORUM LIBER.txt",
+      "chars": 62941,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/bede/bedeproverbs.shtml",
+          "status": "ok",
+          "chars": 62941,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "benedict",
+      "title": "Regula Benedicti",
+      "status": "written",
+      "file": "Fathers/Latin/Benedict_Latin/Regula Benedicti.txt",
+      "chars": 91931,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/benedict.html",
+          "status": "ok",
+          "chars": 91931,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "cassiodorus",
+      "title": "de Anima",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/cassiodorus/anima.shtml"
+      ]
+    },
+    {
+      "author": "cassiodorus",
+      "title": "de Musica",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/cassiodorus/musica.shtml"
+      ]
+    },
+    {
+      "author": "cassiodorus",
+      "title": "Variae",
+      "status": "written",
+      "file": "Fathers/Latin/Cassiodorus_Latin/Variae.txt",
+      "chars": 867504,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/cassiodorus/varia.praef.shtml",
+          "status": "ok",
+          "chars": 7615,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/cassiodorus/varia1.shtml",
+          "status": "ok",
+          "chars": 81067,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/cassiodorus/varia2.shtml",
+          "status": "ok",
+          "chars": 70502,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/cassiodorus/varia3.shtml",
+          "status": "ok",
+          "chars": 78316,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/cassiodorus/varia4.shtml",
+          "status": "ok",
+          "chars": 65600,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/cassiodorus/varia5.shtml",
+          "status": "ok",
+          "chars": 76649,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/cassiodorus/varia6.shtml",
+          "status": "ok",
+          "chars": 63808,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/cassiodorus/varia7.shtml",
+          "status": "ok",
+          "chars": 62909,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/cassiodorus/varia8.shtml",
+          "status": "ok",
+          "chars": 80343,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/cassiodorus/varia9.shtml",
+          "status": "ok",
+          "chars": 71195,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/cassiodorus/varia10.shtml",
+          "status": "ok",
+          "chars": 64088,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/cassiodorus/varia11.shtml",
+          "status": "ok",
+          "chars": 75044,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/cassiodorus/varia12.shtml",
+          "status": "ok",
+          "chars": 69202,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "cassiodorus",
+      "title": "Epistulae Theodericianae Variae",
+      "status": "written",
+      "file": "Fathers/Latin/Cassiodorus_Latin/Epistulae Theodericianae Variae.txt",
+      "chars": 7213,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/cassiodorus/epist.shtml",
+          "status": "ok",
+          "chars": 7213,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "cassiodorus",
+      "title": "Orationum Reliquiae",
+      "status": "written",
+      "file": "Fathers/Latin/Cassiodorus_Latin/Orationum Reliquiae.txt",
+      "chars": 11457,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/cassiodorus/orationes.shtml",
+          "status": "ok",
+          "chars": 11457,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "commodianus",
+      "title": "Carmen de Duobus Populis",
+      "status": "written",
+      "file": "Fathers/Latin/Commodianus_Latin/Carmen de Duobus Populis.txt",
+      "chars": 49164,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/commodianus/commodianus1.html",
+          "status": "ok",
+          "chars": 49164,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "commodianus",
+      "title": "Instructiones",
+      "status": "written",
+      "file": "Fathers/Latin/Commodianus_Latin/Instructiones.txt",
+      "chars": 53286,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/commodianus/commodianus2.html",
+          "status": "ok",
+          "chars": 53286,
+          "problems": [
+            "html_soup"
+          ]
+        }
+      ]
+    },
+    {
+      "author": "commodianus",
+      "title": "De Saeculi Istius Fine",
+      "status": "written",
+      "file": "Fathers/Latin/Commodianus_Latin/De Saeculi Istius Fine.txt",
+      "chars": 924,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/commodianus/commodianus3.html",
+          "status": "ok",
+          "chars": 924,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "decretum",
+      "title": "Decretum Gelasianum",
+      "status": "written",
+      "file": "Fathers/Latin/Gelasius_Latin/Decretum Gelasianum.txt",
+      "chars": 15311,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/decretum.html",
+          "status": "ok",
+          "chars": 15311,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "egeria",
+      "title": "Itinerarium",
+      "status": "written",
+      "file": "Fathers/Latin/Egeria_Latin/Itinerarium.txt",
+      "chars": 114031,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/egeria1.html",
+          "status": "ok",
+          "chars": 60723,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/egeria2.html",
+          "status": "ok",
+          "chars": 53150,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "ennodius",
+      "title": "Panegyricus regi Theoderico",
+      "status": "written",
+      "file": "Fathers/Latin/Ennodius_Latin/Panegyricus regi Theoderico.txt",
+      "chars": 35936,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/ennodius.html",
+          "status": "ok",
+          "chars": 35936,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "eucherius",
+      "title": "De laude eremi",
+      "status": "written",
+      "file": "Fathers/Latin/Eucherius_Latin/De laude eremi.txt",
+      "chars": 28175,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/eucherius.html",
+          "status": "ok",
+          "chars": 28175,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "eugippius",
+      "title": "Vita Sancti Severini",
+      "status": "written",
+      "file": "Fathers/Latin/Eugippius_Latin/Vita Sancti Severini.txt",
+      "chars": 87803,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/eugippius.html",
+          "status": "ok",
+          "chars": 87803,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "gregory",
+      "title": "Epistola ad Constantinam Augustam (IV.30)",
+      "status": "written",
+      "file": "Fathers/Latin/Gregory_Latin/Epistola ad Constantinam Augustam (IV.30).txt",
+      "chars": 5486,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/greg.html",
+          "status": "ok",
+          "chars": 5486,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "hydatius",
+      "title": "Chronicon",
+      "status": "written",
+      "file": "Fathers/Latin/Hydatius_Latin/Chronicon.txt",
+      "chars": 41116,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/hydatiuschronicon.html",
+          "status": "ok",
+          "chars": 41116,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "hydatius",
+      "title": "Fasti",
+      "status": "written",
+      "file": "Fathers/Latin/Hydatius_Latin/Fasti.txt",
+      "chars": 46808,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/hydatiusfasti.html",
+          "status": "ok",
+          "chars": 46808,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "isidore",
+      "title": "Liber III",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/isidore/sententiae3.shtml"
+      ]
+    },
+    {
+      "author": "isidore",
+      "title": "Etymologiae",
+      "status": "written",
+      "file": "Fathers/Latin/Isidore_Latin/Etymologiae.txt",
+      "chars": 1196994,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/isidore/1.shtml",
+          "status": "ok",
+          "chars": 93321,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/isidore/2.shtml",
+          "status": "ok",
+          "chars": 69222,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/isidore/3.shtml",
+          "status": "ok",
+          "chars": 59736,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/isidore/4.shtml",
+          "status": "ok",
+          "chars": 24692,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/isidore/5.shtml",
+          "status": "ok",
+          "chars": 55151,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/isidore/6.shtml",
+          "status": "ok",
+          "chars": 63999,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/isidore/7.shtml",
+          "status": "ok",
+          "chars": 79621,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/isidore/8.shtml",
+          "status": "ok",
+          "chars": 64349,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/isidore/9.shtml",
+          "status": "ok",
+          "chars": 71845,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/isidore/10.shtml",
+          "status": "ok",
+          "chars": 54011,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/isidore/11.shtml",
+          "status": "ok",
+          "chars": 52824,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/isidore/12.shtml",
+          "status": "ok",
+          "chars": 81141,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/isidore/13.shtml",
+          "status": "ok",
+          "chars": 43501,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/isidore/14.shtml",
+          "status": "ok",
+          "chars": 59733,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/isidore/15.shtml",
+          "status": "ok",
+          "chars": 56007,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/isidore/16.shtml",
+          "status": "ok",
+          "chars": 69292,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/isidore/17.shtml",
+          "status": "ok",
+          "chars": 70768,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/isidore/18.shtml",
+          "status": "ok",
+          "chars": 41774,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/isidore/19.shtml",
+          "status": "ok",
+          "chars": 66500,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/isidore/20.shtml",
+          "status": "ok",
+          "chars": 17886,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "isidore",
+      "title": "Sententiae",
+      "status": "written",
+      "file": "Fathers/Latin/Isidore_Latin/Sententiae.txt",
+      "chars": 189121,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/isidore/sententiae1.shtml",
+          "status": "ok",
+          "chars": 85638,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/isidore/sententiae2.shtml",
+          "status": "ok",
+          "chars": 103306,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "isidore",
+      "title": "HISTORIA DE REGIBUS GOTHORUM, WANDALORUM ET SUEVORUM",
+      "status": "written",
+      "file": "Fathers/Latin/Isidore_Latin/HISTORIA DE REGIBUS GOTHORUM, WANDALORUM ET SUEVORUM.txt",
+      "chars": 51382,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/isidore/historia.shtml",
+          "status": "ok",
+          "chars": 51382,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "jerome",
+      "title": "Epistulae",
+      "status": "written",
+      "file": "Fathers/Latin/Jerome_Latin/Epistulae.txt",
+      "chars": 37190,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/jerome/epistulae.html",
+          "status": "ok",
+          "chars": 37190,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "jerome",
+      "title": "Vita Pauli",
+      "status": "written",
+      "file": "Fathers/Latin/Jerome_Latin/Vita Pauli.txt",
+      "chars": 17323,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/jerome/vitapauli.html",
+          "status": "ok",
+          "chars": 17323,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "jerome",
+      "title": "Vita Malchi",
+      "status": "written",
+      "file": "Fathers/Latin/Jerome_Latin/Vita Malchi.txt",
+      "chars": 14502,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/jerome/vitamalchus.html",
+          "status": "ok",
+          "chars": 14502,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "jerome",
+      "title": "Contra Ioannem",
+      "status": "written",
+      "file": "Fathers/Latin/Jerome_Latin/Contra Ioannem.txt",
+      "chars": 92594,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/jerome/contraioannem.html",
+          "status": "ok",
+          "chars": 92594,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "junillus",
+      "title": "Instituta regularia divinae legis",
+      "status": "written",
+      "file": "Fathers/Latin/Junillus_Latin/Instituta regularia divinae legis.txt",
+      "chars": 71974,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/junillus.html",
+          "status": "ok",
+          "chars": 71974,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "lactantius",
+      "title": "Divinae institutiones",
+      "status": "written",
+      "file": "Fathers/Latin/Lactantius_Latin/Divinae institutiones.txt",
+      "chars": 122532,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/lactantius/divinst1.shtml",
+          "status": "ok",
+          "chars": 122532,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "lactantius",
+      "title": "DE MORTIBUS PERSECUTORUM",
+      "status": "written",
+      "file": "Fathers/Latin/Lactantius_Latin/DE MORTIBUS PERSECUTORUM.txt",
+      "chars": 79526,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/lactantius/demort.shtml",
+          "status": "ok",
+          "chars": 79526,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "leo",
+      "title": "Sermones de Quadragesima",
+      "status": "written",
+      "file": "Fathers/Latin/Leo_Latin/Sermones de Quadragesima.txt",
+      "chars": 16180,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/leothegreat/quadragesima1.html",
+          "status": "ok",
+          "chars": 8759,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/leothegreat/quadragesima2.html",
+          "status": "ok",
+          "chars": 7234,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "macarius-alexandria",
+      "title": "Regula ad monachos",
+      "status": "written",
+      "file": "Fathers/Latin/Macarius_Alexandria_Latin/Regula ad monachos.txt",
+      "chars": 10467,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/macarius.html",
+          "status": "ok",
+          "chars": 10467,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "macarius-great",
+      "title": "Apophthegmata",
+      "status": "written",
+      "file": "Fathers/Latin/Macarius_Great_Latin/Apophthegmata.txt",
+      "chars": 33139,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/macarius1.html",
+          "status": "ok",
+          "chars": 33139,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "minucius",
+      "title": "Octavius",
+      "status": "written",
+      "file": "Fathers/Latin/Minucius_Felix_Latin/Octavius.txt",
+      "chars": 79093,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/minucius.html",
+          "status": "ok",
+          "chars": 79093,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "novatian",
+      "title": "De Trinitate",
+      "status": "written",
+      "file": "Fathers/Latin/Novatian_Latin/De Trinitate.txt",
+      "chars": 135257,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/novatian.html",
+          "status": "ok",
+          "chars": 135257,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "orosius",
+      "title": "Historiae adversum paganos",
+      "status": "written",
+      "file": "Fathers/Latin/Orosius_Latin/Historiae adversum paganos.txt",
+      "chars": 561026,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/orosius/orosius1.shtml",
+          "status": "ok",
+          "chars": 61949,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/orosius/orosius2.shtml",
+          "status": "ok",
+          "chars": 51534,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/orosius/orosius3.shtml",
+          "status": "ok",
+          "chars": 66323,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/orosius/orosius4.shtml",
+          "status": "ok",
+          "chars": 78206,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/orosius/orosius5.shtml",
+          "status": "ok",
+          "chars": 83733,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/orosius/orosius6.shtml",
+          "status": "ok",
+          "chars": 88418,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/orosius/orosius7.shtml",
+          "status": "ok",
+          "chars": 130256,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "paulinus",
+      "title": "Poemata",
+      "status": "written",
+      "file": "Fathers/Latin/Paulinus_Latin/Poemata.txt",
+      "chars": 175502,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/paulinus.poemata.html",
+          "status": "ok",
+          "chars": 175502,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "professio",
+      "title": "Professio contra sectam Priscilliani",
+      "status": "written",
+      "file": "Fathers/Latin/Toledo_400_Latin/Professio contra sectam Priscilliani.txt",
+      "chars": 8609,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/professio.html",
+          "status": "ok",
+          "chars": 8609,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "prosper",
+      "title": "Liber Sententiarum",
+      "status": "written",
+      "file": "Fathers/Latin/Prosper_Latin/Liber Sententiarum.txt",
+      "chars": 100662,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/prosperus.sententiae.html",
+          "status": "ok",
+          "chars": 100662,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "prosper",
+      "title": "Epistola ad Augustinum",
+      "status": "written",
+      "file": "Fathers/Latin/Prosper_Latin/Epistola ad Augustinum.txt",
+      "chars": 16252,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/prosperus.epistola.html",
+          "status": "ok",
+          "chars": 16252,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "prosper",
+      "title": "Epistola ad Rufinum",
+      "status": "written",
+      "file": "Fathers/Latin/Prosper_Latin/Epistola ad Rufinum.txt",
+      "chars": 28892,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/prosperus.rufinum.html",
+          "status": "ok",
+          "chars": 28892,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "prudentius",
+      "title": "Peristephanon",
+      "status": "written",
+      "file": "Fathers/Latin/Prudentius_Latin/Peristephanon.txt",
+      "chars": 130977,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/prudentius/prud1.shtml",
+          "status": "ok",
+          "chars": 5849,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/prudentius/prud2.shtml",
+          "status": "ok",
+          "chars": 15300,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/prudentius/prud3.shtml",
+          "status": "ok",
+          "chars": 6286,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/prudentius/prud4.shtml",
+          "status": "ok",
+          "chars": 5968,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/prudentius/prud5.shtml",
+          "status": "ok",
+          "chars": 15069,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/prudentius/prud6.shtml",
+          "status": "ok",
+          "chars": 5707,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/prudentius/prud7.shtml",
+          "status": "ok",
+          "chars": 2348,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/prudentius/prud8.shtml",
+          "status": "ok",
+          "chars": 839,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/prudentius/prud9.shtml",
+          "status": "ok",
+          "chars": 4586,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/prudentius/prud10.shtml",
+          "status": "ok",
+          "chars": 44292,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/prudentius/prud11.shtml",
+          "status": "ok",
+          "chars": 10579,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/prudentius/prud12.shtml",
+          "status": "ok",
+          "chars": 2875,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/prudentius/prud13.shtml",
+          "status": "ok",
+          "chars": 5443,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/prudentius/prud14.shtml",
+          "status": "ok",
+          "chars": 4596,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "prudentius",
+      "title": "Psychomachia",
+      "status": "written",
+      "file": "Fathers/Latin/Prudentius_Latin/Psychomachia.txt",
+      "chars": 44266,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/prudentius/prud.psycho.shtml",
+          "status": "ok",
+          "chars": 44266,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "regula-monachos",
+      "title": "Regula ad monachos",
+      "status": "written",
+      "file": "Fathers/Latin/Desert_Fathers_Latin/Regula ad monachos.txt",
+      "chars": 40288,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/regula.html",
+          "status": "ok",
+          "chars": 40288,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "sedulius",
+      "title": "Carmen paschale",
+      "status": "written",
+      "file": "Fathers/Latin/Sedulius_Latin/Carmen paschale.txt",
+      "chars": 82055,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/sedulius1.html",
+          "status": "ok",
+          "chars": 17017,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/sedulius2.html",
+          "status": "ok",
+          "chars": 14008,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/sedulius3.html",
+          "status": "ok",
+          "chars": 15778,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/sedulius4.html",
+          "status": "ok",
+          "chars": 14366,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/sedulius5.html",
+          "status": "ok",
+          "chars": 20494,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "sedulius",
+      "title": "A solis ortus cardine",
+      "status": "written",
+      "file": "Fathers/Latin/Sedulius_Latin/A solis ortus cardine.txt",
+      "chars": 2367,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/sedulius.solis.html",
+          "status": "ok",
+          "chars": 2367,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "sulpicius",
+      "title": "Chronica",
+      "status": "written",
+      "file": "Fathers/Latin/Sulpicius_Severus_Latin/Chronica.txt",
+      "chars": 182785,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/sulpiciusseveruschron1.html",
+          "status": "ok",
+          "chars": 92909,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/sulpiciusseveruschron2.html",
+          "status": "ok",
+          "chars": 89695,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "sulpicius",
+      "title": "Vita Sancti Martini",
+      "status": "written",
+      "file": "Fathers/Latin/Sulpicius_Severus_Latin/Vita Sancti Martini.txt",
+      "chars": 48365,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/sulpiciusseverusmartin.html",
+          "status": "ok",
+          "chars": 48365,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "Adversus Hermogenem",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/tertullian/tertullian.herm.shtml"
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "Adversus Valentinianos",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/tertullian/tertullian.valentinianos.shtml"
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "de Anima",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/tertullian/tertullian.anima.shtml"
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "de Baptismo",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/tertullian/tertullian.baptismo.shtml"
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "de Cultu Feminarum",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/tertullian/tertullian.cultu.shtml"
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "de Exhortatione Castitatis",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/tertullian/tertullian.castitatis.shtml"
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "de Fuga in Persecutione",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/tertullian/tertullian.fuga.shtml"
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "de Monogamia",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/tertullian/tertullian.monog.shtml"
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "de Paenitentia",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/tertullian/tertullian.paen.shtml"
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "de Patientia",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/tertullian/tertullian.patientia.shtml"
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "de Resurrectione Carnis",
+      "status": "deny_copyright",
+      "pages": [
+        "https://www.thelatinlibrary.com/tertullian/tertullian.resurrectione.shtml"
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "ad Martyres",
+      "status": "written",
+      "file": "Fathers/Latin/Tertullian_Latin/ad Martyres.txt",
+      "chars": 10655,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.martyres.shtml",
+          "status": "ok",
+          "chars": 10655,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "ad Nationes",
+      "status": "written",
+      "file": "Fathers/Latin/Tertullian_Latin/ad Nationes.txt",
+      "chars": 110910,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.nationes1.shtml",
+          "status": "ok",
+          "chars": 56655,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.nationes2.shtml",
+          "status": "ok",
+          "chars": 54043,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "ad Scapulam",
+      "status": "written",
+      "file": "Fathers/Latin/Tertullian_Latin/ad Scapulam.txt",
+      "chars": 10572,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.scapulam.shtml",
+          "status": "ok",
+          "chars": 10572,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "ad Uxorem",
+      "status": "written",
+      "file": "Fathers/Latin/Tertullian_Latin/ad Uxorem.txt",
+      "chars": 30600,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.uxor1.shtml",
+          "status": "ok",
+          "chars": 14985,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.uxor2.shtml",
+          "status": "ok",
+          "chars": 15422,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "Adversus Iudaeos",
+      "status": "written",
+      "file": "Fathers/Latin/Tertullian_Latin/Adversus Iudaeos.txt",
+      "chars": 77639,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.iudaeos.shtml",
+          "status": "ok",
+          "chars": 77639,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "Adversus Praxean",
+      "status": "written",
+      "file": "Fathers/Latin/Tertullian_Latin/Adversus Praxean.txt",
+      "chars": 92368,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.praxean.shtml",
+          "status": "ok",
+          "chars": 92368,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "Apologeticum",
+      "status": "written",
+      "file": "Fathers/Latin/Tertullian_Latin/Apologeticum.txt",
+      "chars": 147460,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.apol.shtml",
+          "status": "ok",
+          "chars": 147460,
+          "problems": [
+            "html_soup"
+          ]
+        }
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "de Carne Christi",
+      "status": "written",
+      "file": "Fathers/Latin/Tertullian_Latin/de Carne Christi.txt",
+      "chars": 63989,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.carne.shtml",
+          "status": "ok",
+          "chars": 63989,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "de Corona Militis",
+      "status": "written",
+      "file": "Fathers/Latin/Tertullian_Latin/de Corona Militis.txt",
+      "chars": 34625,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.corona.shtml",
+          "status": "ok",
+          "chars": 34625,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "de Idololatria",
+      "status": "written",
+      "file": "Fathers/Latin/Tertullian_Latin/de Idololatria.txt",
+      "chars": 33985,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.idololatria.shtml",
+          "status": "ok",
+          "chars": 33985,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "de Ieiunio",
+      "status": "written",
+      "file": "Fathers/Latin/Tertullian_Latin/de Ieiunio.txt",
+      "chars": 42541,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.ieiunio.shtml",
+          "status": "ok",
+          "chars": 42541,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "de Oratione",
+      "status": "written",
+      "file": "Fathers/Latin/Tertullian_Latin/de Oratione.txt",
+      "chars": 31935,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.oratione.shtml",
+          "status": "ok",
+          "chars": 31935,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "de Pallio",
+      "status": "written",
+      "file": "Fathers/Latin/Tertullian_Latin/de Pallio.txt",
+      "chars": 24744,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.pallio.shtml",
+          "status": "ok",
+          "chars": 24744,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "de Praescriptione Haereticorum",
+      "status": "deny_copyright",
+      "reason": "copyright_marker",
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.praescrip.shtml",
+          "status": "deny_copyright",
+          "reason": "copyright_marker"
+        }
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "de Pudicitia",
+      "status": "written",
+      "file": "Fathers/Latin/Tertullian_Latin/de Pudicitia.txt",
+      "chars": 98002,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.pudicitia.shtml",
+          "status": "ok",
+          "chars": 98002,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "de Spectaculis",
+      "status": "written",
+      "file": "Fathers/Latin/Tertullian_Latin/de Spectaculis.txt",
+      "chars": 45522,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.spect.shtml",
+          "status": "ok",
+          "chars": 45522,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "Adversus Marcionem",
+      "status": "written",
+      "file": "Fathers/Latin/Tertullian_Latin/Adversus Marcionem.txt",
+      "chars": 558481,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.marcionem1.shtml",
+          "status": "ok",
+          "chars": 67693,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.marcionem2.shtml",
+          "status": "ok",
+          "chars": 71192,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.marcionem3.shtml",
+          "status": "ok",
+          "chars": 72746,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.marcionem4.shtml",
+          "status": "ok",
+          "chars": 225368,
+          "problems": []
+        },
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.marcionem5.shtml",
+          "status": "ok",
+          "chars": 120970,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "de Testimonio Animae",
+      "status": "written",
+      "file": "Fathers/Latin/Tertullian_Latin/de Testimonio Animae.txt",
+      "chars": 15124,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.testimonia.shtml",
+          "status": "ok",
+          "chars": 15124,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "de Virginibus Velandis",
+      "status": "written",
+      "file": "Fathers/Latin/Tertullian_Latin/de Virginibus Velandis.txt",
+      "chars": 39383,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.virginibus.shtml",
+          "status": "ok",
+          "chars": 39383,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "Liber Scorpiace",
+      "status": "written",
+      "file": "Fathers/Latin/Tertullian_Latin/Liber Scorpiace.txt",
+      "chars": 55645,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.scorpiace.shtml",
+          "status": "ok",
+          "chars": 55645,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "Adversus Omnes Haereses",
+      "status": "written",
+      "file": "Fathers/Latin/Tertullian_Latin/Adversus Omnes Haereses.txt",
+      "chars": 18165,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.haereses.shtml",
+          "status": "ok",
+          "chars": 18165,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "Carmen ad Senatorem",
+      "status": "written",
+      "file": "Fathers/Latin/Tertullian_Latin/Carmen ad Senatorem.txt",
+      "chars": 11836,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.adsenatorem.shtml",
+          "status": "ok",
+          "chars": 11836,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "Carmen de Iona Propheta",
+      "status": "written",
+      "file": "Fathers/Latin/Tertullian_Latin/Carmen de Iona Propheta.txt",
+      "chars": 9730,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.propheta.shtml",
+          "status": "ok",
+          "chars": 9730,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "Carmen de Iudicio Domini",
+      "status": "written",
+      "file": "Fathers/Latin/Tertullian_Latin/Carmen de Iudicio Domini.txt",
+      "chars": 35602,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.deiudicio.shtml",
+          "status": "ok",
+          "chars": 35602,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "Carmen Genesis",
+      "status": "written",
+      "file": "Fathers/Latin/Tertullian_Latin/Carmen Genesis.txt",
+      "chars": 22156,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.genesis.shtml",
+          "status": "ok",
+          "chars": 22156,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "tertullian",
+      "title": "de Execrandis Gentium Diis",
+      "status": "written",
+      "file": "Fathers/Latin/Tertullian_Latin/de Execrandis Gentium Diis.txt",
+      "chars": 4737,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/tertullian/tertullian.gentium.shtml",
+          "status": "ok",
+          "chars": 4737,
+          "problems": []
+        }
+      ]
+    },
+    {
+      "author": "vincent",
+      "title": "Commonitorium",
+      "status": "written",
+      "file": "Fathers/Latin/Vincent_Latin/Commonitorium.txt",
+      "chars": 121916,
+      "pages": [
+        {
+          "url": "https://www.thelatinlibrary.com/vicentius.html",
+          "status": "ok",
+          "chars": 121916,
+          "problems": []
+        }
+      ]
+    }
+  ]
+}

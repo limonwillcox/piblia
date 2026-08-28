@@ -1,0 +1,374 @@
+{
+  "base": "https://www.thelatinlibrary.com",
+  "navPaths": [
+    "/index.html",
+    "/christian.html",
+    "/christian",
+    "/classics.html",
+    "/cred.html",
+    "/about.html",
+    "/technical.html",
+    "/indices.html",
+    "/epubs.html"
+  ],
+  "authors": [
+    {
+      "id": "ambrose",
+      "folder": "Ambrose_Latin",
+      "name": "Ambrose of Milan",
+      "index": "/ambrose.html",
+      "accept": ["ambrose/"],
+      "pdStatus": "tll_claimed",
+      "credits": "Unidentified e-texts of De mysteriis / hymns; Epistulae Variae submitted from unidentified e-text."
+    },
+    {
+      "id": "arnobius",
+      "folder": "Arnobius_Latin",
+      "name": "Arnobius of Sicca",
+      "index": "/arnobius.html",
+      "accept": ["arnobius/"],
+      "groups": [
+        { "title": "Adversus nationes", "match": "arnobius/arnobius\\d+\\.shtml$" }
+      ],
+      "pdStatus": "tll_claimed",
+      "credits": "Adversus Nationes Libri VII from Latinitas Romana Salesiana (older edition with apparatus)."
+    },
+    {
+      "id": "augustine",
+      "folder": "Augustine_Latin",
+      "name": "Augustine of Hippo",
+      "index": "/august.html",
+      "accept": ["augustine/"],
+      "exclude": [
+        "/augustine/conf",
+        "/augustine/epistula.shtml"
+      ],
+      "protectExisting": ["The Confessions of St. Augustine Latin.txt"],
+      "groups": [
+        { "title": "De civitate Dei", "match": "augustine/civ\\d+\\.shtml$" },
+        { "title": "De Trinitate", "match": "augustine/trin\\d+\\.shtml$" },
+        { "title": "Contra secundam Iuliani responsionem", "match": "augustine/iulianus\\d+\\.shtml$" }
+      ],
+      "pdStatus": "tll_claimed",
+      "credits": "Civ. Dei and De Trinitate from unidentified PD-conformed e-texts; De dialectica from Crecelius 1857; skip TLL Confessions (O'Donnell 1992 risk) and Lambot 1939 letter."
+    },
+    {
+      "id": "bede",
+      "folder": "Bede_Latin",
+      "name": "Bede",
+      "index": "/bede.html",
+      "accept": ["bede/"],
+      "groups": [
+        { "title": "Historia ecclesiastica gentis Anglorum", "match": "bede/bede(praef|continuatio|\\d+)\\.shtml$" }
+      ],
+      "pdStatus": "edition_dated",
+      "credits": "HE from Charles Plummer 1898."
+    },
+    {
+      "id": "benedict",
+      "folder": "Benedict_Latin",
+      "name": "Benedict of Nursia",
+      "index": "/benedict.html",
+      "indexIsWork": true,
+      "workTitle": "Regula Benedicti",
+      "pdStatus": "tll_claimed"
+    },
+    {
+      "id": "cassiodorus",
+      "folder": "Cassiodorus_Latin",
+      "name": "Cassiodorus",
+      "index": "/cassiodorus.html",
+      "accept": ["cassiodorus/"],
+      "exclude": [
+        "/cassiodorus/anima.shtml",
+        "/cassiodorus/musica.shtml"
+      ],
+      "groups": [
+        { "title": "Variae", "match": "cassiodorus/varia" }
+      ],
+      "pdStatus": "edition_dated",
+      "credits": "Variae from Mommsen, MGH AA XII, 1894. Skip De anima and De musica (Halporn, modern)."
+    },
+    {
+      "id": "commodianus",
+      "folder": "Commodianus_Latin",
+      "name": "Commodianus",
+      "index": "/commodianus.html",
+      "accept": ["commodianus/"],
+      "pdStatus": "tll_claimed"
+    },
+    {
+      "id": "decretum",
+      "folder": "Gelasius_Latin",
+      "name": "Decretum Gelasianum",
+      "index": "/decretum.html",
+      "indexIsWork": true,
+      "workTitle": "Decretum Gelasianum",
+      "pdStatus": "edition_dated",
+      "credits": "Ernst von Dobschutz, TU 38.4 (1912)."
+    },
+    {
+      "id": "egeria",
+      "folder": "Egeria_Latin",
+      "name": "Egeria",
+      "index": "/egeria.html",
+      "accept": ["egeria"],
+      "groups": [
+        { "title": "Itinerarium", "match": "egeria\\d+\\.html$" }
+      ],
+      "pdStatus": "edition_dated",
+      "credits": "Heraeus, Heidelberg 1908."
+    },
+    {
+      "id": "ennodius",
+      "folder": "Ennodius_Latin",
+      "name": "Ennodius",
+      "index": "/ennodius.html",
+      "indexIsWork": true,
+      "workTitle": "Panegyricus regi Theoderico",
+      "pdStatus": "edition_dated",
+      "credits": "MGH AA vol. 7."
+    },
+    {
+      "id": "eucherius",
+      "folder": "Eucherius_Latin",
+      "name": "Eucherius of Lyons",
+      "index": "/eucherius.html",
+      "indexIsWork": true,
+      "workTitle": "De laude eremi",
+      "pdStatus": "tll_claimed"
+    },
+    {
+      "id": "eugippius",
+      "folder": "Eugippius_Latin",
+      "name": "Eugippius",
+      "index": "/eugippius.html",
+      "indexIsWork": true,
+      "workTitle": "Vita Sancti Severini",
+      "pdStatus": "tll_claimed"
+    },
+    {
+      "id": "gregory",
+      "folder": "Gregory_Latin",
+      "name": "Gregory the Great",
+      "index": "/greg.html",
+      "indexIsWork": true,
+      "workTitle": "Epistola ad Constantinam Augustam (IV.30)",
+      "pdStatus": "tll_claimed"
+    },
+    {
+      "id": "hydatius",
+      "folder": "Hydatius_Latin",
+      "name": "Hydatius",
+      "index": "/hydatius.html",
+      "accept": ["hydatius"],
+      "pdStatus": "tll_claimed"
+    },
+    {
+      "id": "isidore",
+      "folder": "Isidore_Latin",
+      "name": "Isidore of Seville",
+      "index": "/isidore.html",
+      "accept": ["isidore/"],
+      "exclude": ["/isidore/sententiae3.shtml"],
+      "groups": [
+        { "title": "Etymologiae", "match": "isidore/\\d+\\.shtml$" },
+        { "title": "Sententiae", "match": "isidore/sententiae\\d+\\.shtml$" }
+      ],
+      "pdStatus": "edition_dated",
+      "credits": "Etymologiae from W. M. Lindsay, Oxford 1911. Skip Sententiae III (Cazier 1998)."
+    },
+    {
+      "id": "jerome",
+      "folder": "Jerome_Latin",
+      "name": "Jerome",
+      "index": "/jerome.html",
+      "accept": ["jerome/"],
+      "pdStatus": "tll_claimed"
+    },
+    {
+      "id": "junillus",
+      "folder": "Junillus_Latin",
+      "name": "Junillus",
+      "index": "/junillus.html",
+      "indexIsWork": true,
+      "workTitle": "Instituta regularia divinae legis",
+      "pdStatus": "tll_claimed",
+      "credits": "Prepared by John F. Collins on Jim O'Donnell's late-antique site."
+    },
+    {
+      "id": "lactantius",
+      "folder": "Lactantius_Latin",
+      "name": "Lactantius",
+      "index": "/lactantius.html",
+      "accept": ["lactantius/"],
+      "groups": [
+        { "title": "Divinae institutiones", "match": "lactantius/divinst" }
+      ],
+      "pdStatus": "tll_claimed"
+    },
+    {
+      "id": "leo",
+      "folder": "Leo_Latin",
+      "name": "Leo the Great",
+      "index": "/leothegreat.html",
+      "accept": ["leothegreat/"],
+      "groups": [
+        { "title": "Sermones de Quadragesima", "match": "leothegreat/quadragesima" }
+      ],
+      "pdStatus": "tll_claimed"
+    },
+    {
+      "id": "macarius-alexandria",
+      "folder": "Macarius_Alexandria_Latin",
+      "name": "Macarius of Alexandria",
+      "index": "/macarius.html",
+      "indexIsWork": true,
+      "workTitle": "Regula ad monachos",
+      "pdStatus": "edition_dated",
+      "credits": "Caillau & Guillon, Collectio Selecta SS. Ecclesiae Patrum vol. 48 (Paris 1836)."
+    },
+    {
+      "id": "macarius-great",
+      "folder": "Macarius_Great_Latin",
+      "name": "Macarius the Great",
+      "index": "/macarius1.html",
+      "indexIsWork": true,
+      "workTitle": "Apophthegmata",
+      "pdStatus": "edition_dated",
+      "credits": "Caillau & Guillon vol. 48 (Paris 1836)."
+    },
+    {
+      "id": "minucius",
+      "folder": "Minucius_Felix_Latin",
+      "name": "Minucius Felix",
+      "index": "/minucius.html",
+      "indexIsWork": true,
+      "workTitle": "Octavius",
+      "pdStatus": "tll_claimed",
+      "credits": "Submitted by Sally Winchester from an unidentified edition."
+    },
+    {
+      "id": "novatian",
+      "folder": "Novatian_Latin",
+      "name": "Novatian",
+      "index": "/novatian.html",
+      "indexIsWork": true,
+      "workTitle": "De Trinitate",
+      "pdStatus": "tll_claimed"
+    },
+    {
+      "id": "orosius",
+      "folder": "Orosius_Latin",
+      "name": "Orosius",
+      "index": "/orosius.html",
+      "accept": ["orosius/"],
+      "groups": [
+        { "title": "Historiae adversum paganos", "match": "orosius/orosius\\d+\\.shtml$" }
+      ],
+      "pdStatus": "tll_claimed"
+    },
+    {
+      "id": "paulinus",
+      "folder": "Paulinus_Latin",
+      "name": "Paulinus of Nola",
+      "index": "/paulinus.poemata.html",
+      "indexIsWork": true,
+      "workTitle": "Poemata",
+      "pdStatus": "tll_claimed"
+    },
+    {
+      "id": "professio",
+      "folder": "Toledo_400_Latin",
+      "name": "Council of Toledo (400)",
+      "index": "/professio.html",
+      "indexIsWork": true,
+      "workTitle": "Professio contra sectam Priscilliani",
+      "pdStatus": "tll_claimed"
+    },
+    {
+      "id": "prosper",
+      "folder": "Prosper_Latin",
+      "name": "Prosper of Aquitaine",
+      "index": "/prosperus.html",
+      "accept": ["prosperus"],
+      "pdStatus": "tll_claimed"
+    },
+    {
+      "id": "prudentius",
+      "folder": "Prudentius_Latin",
+      "name": "Prudentius",
+      "index": "/prud.html",
+      "accept": ["prudentius/"],
+      "groups": [
+        { "title": "Peristephanon", "match": "prudentius/prud\\d+\\.shtml$" }
+      ],
+      "pdStatus": "tll_claimed",
+      "credits": "Posted at Project Libellus by Jim O'Donnell from an unspecified edition."
+    },
+    {
+      "id": "regula-monachos",
+      "folder": "Desert_Fathers_Latin",
+      "name": "Desert Fathers (Regula ad monachos)",
+      "index": "/regula.html",
+      "indexIsWork": true,
+      "workTitle": "Regula ad monachos",
+      "pdStatus": "edition_dated",
+      "credits": "Caillau & Guillon vol. 48 (Paris 1836)."
+    },
+    {
+      "id": "sedulius",
+      "folder": "Sedulius_Latin",
+      "name": "Sedulius",
+      "index": "/sedulius.html",
+      "accept": ["sedulius"],
+      "groups": [
+        { "title": "Carmen paschale", "match": "sedulius\\d+\\.html$" }
+      ],
+      "pdStatus": "edition_dated",
+      "credits": "J. Huemer, CSEL 10 (Wien 1885)."
+    },
+    {
+      "id": "sulpicius",
+      "folder": "Sulpicius_Severus_Latin",
+      "name": "Sulpicius Severus",
+      "index": "/sulpiciusseverus.html",
+      "accept": ["sulpiciusseverus"],
+      "groups": [
+        { "title": "Chronica", "match": "sulpiciusseveruschron" }
+      ],
+      "pdStatus": "tll_claimed"
+    },
+    {
+      "id": "tertullian",
+      "folder": "Tertullian_Latin",
+      "name": "Tertullian",
+      "index": "/tertullian.html",
+      "accept": ["tertullian/"],
+      "exclude": [
+        "tertullian.baptismo",
+        "tertullian.valentinianos",
+        "tertullian.paen",
+        "tertullian.resurrectione",
+        "tertullian.monog",
+        "tertullian.herm",
+        "tertullian.cultu",
+        "tertullian.anima",
+        "tertullian.patientia",
+        "tertullian.fuga",
+        "tertullian.castitatis"
+      ],
+      "pdStatus": "mixed",
+      "credits": "PD subset only. Excluded modern copyrighted critical editions (Evans, Riley, Borleffs, Waszink, Turcan, Fredouille, Bulhart, Moreschini)."
+    },
+    {
+      "id": "vincent",
+      "folder": "Vincent_Latin",
+      "name": "Vincent of Lérins",
+      "index": "/vicentius.html",
+      "indexIsWork": true,
+      "workTitle": "Commonitorium",
+      "pdStatus": "tll_claimed"
+    }
+  ]
+}
