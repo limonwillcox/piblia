@@ -9,6 +9,7 @@
     about: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 11v5M12 8h.01"/></svg>',
     give: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.4-7-10a4 4 0 0 1 7-2 4 4 0 0 1 7 2c0 5.6-7 10-7 10z"/></svg>',
     settings: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 3v2M12 19v2M5 12H3M21 12h-2M6.2 6.2l1.4 1.4M16.4 16.4l1.4 1.4M17.8 6.2l-1.4 1.4M7.6 16.4l-1.4 1.4"/></svg>',
+    swap: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7h11M16 4l3 3-3 3"/><path d="M16 17H5M8 14l-3 3 3 3"/></svg>',
     parallel: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="7.5" height="14" rx="1.2"/><rect x="13" y="5" width="7.5" height="14" rx="1.2"/></svg>',
     chi: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.2v17.6"/><path d="M12 3.4h3.2c2.2 0 3.6 1.3 3.6 3.4S17.4 10.2 15.2 10.2H12"/><path d="M6.2 7.2l11.6 11.6M17.8 7.2L6.2 18.8"/></svg>',
     chev: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 10l5 5 5-5"/></svg>',
@@ -92,6 +93,7 @@
       '<button type="button" class="ios-pill" id="iosSection">' +
       '<span>' + escapeHtml(liberLabel(ctx.chapter)) + "</span>" + ICO.chev + "</button>" +
       '<button type="button" class="ios-icon' + (latin ? " active" : "") + '" id="iosChi" title="Latin" aria-label="Toggle Latin" aria-pressed="' + latin + '">' + ICO.chi + "</button>" +
+      '<button type="button" class="ios-icon' + (w.FG.parallel && w.FG.parallel.swapped() ? " active" : "") + '" id="iosSwap" title="Swap right pane" aria-label="Swap right pane">' + ICO.swap + "</button>" +
       '<button type="button" class="ios-icon' + (par ? " active" : "") + '" id="iosParallel" title="Parallel" aria-label="Parallel reading" aria-pressed="' + par + '">' + ICO.parallel + "</button>" +
       "</div>" +
       '<button type="button" class="ios-focus-btn' + (focus ? " on" : "") + '" id="iosFocus" title="Focus mode" aria-label="Focus mode" aria-pressed="' + focus + '">' +
@@ -192,6 +194,7 @@
     document.body.classList.toggle("ios-focus", phone && focus);
     document.body.classList.toggle("ios-latin", storedMode() === "original");
     document.body.classList.toggle("ios-parallel-on", parallelOn());
+    document.body.classList.toggle("ios-swapped", !!(w.FG.parallel && w.FG.parallel.swapped()));
     const btn = qs("#iosFocus");
     if (btn) {
       btn.classList.toggle("on", focus);
@@ -202,6 +205,12 @@
       const on = storedMode() === "original";
       chi.classList.toggle("active", on);
       chi.setAttribute("aria-pressed", on);
+    }
+    const swap = qs("#iosSwap");
+    if (swap) {
+      const on = !!(w.FG.parallel && w.FG.parallel.swapped());
+      swap.classList.toggle("active", on);
+      swap.setAttribute("aria-pressed", on);
     }
     const par = qs("#iosParallel");
     if (par) {
@@ -258,10 +267,12 @@
         toast("Turn the phone sideways to read in parallel.");
         return;
       }
-      if (w.FG.parallel && w.FG.parallel.onParallelTap()) {
-        applyShellState();
-        return;
-      }
+      if (w.FG.parallel) w.FG.parallel.onParallelTap();
+      applyShellState();
+    });
+    qs("#iosSwap")?.addEventListener("click", () => {
+      if (w.FG.parallel) w.FG.parallel.onSwapTap();
+      applyShellState();
     });
     qs("#iosFocus")?.addEventListener("click", () => {
       const next = focusOn() ? "off" : "on";
@@ -296,6 +307,10 @@
     document.body.insertAdjacentHTML("beforeend", tabs(page) + sheet());
     applyShellState();
     bind();
+    if (w.FG.parallel) {
+      w.FG.parallel.applyPanes();
+      if (page === "settings") w.FG.parallel.mountSettings();
+    }
   }
 
   w.FG = w.FG || {};

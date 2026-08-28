@@ -1,4 +1,4 @@
-/* Landscape parallel: two visible panes, one archived. Drag the labeled notes. */
+/* Landscape parallel: left pane is permanent. Right swaps with archive. */
 (function (w) {
   const D = w.FG_DATA;
   const IDS = ["english", "latin", "bible"];
@@ -26,31 +26,52 @@
   }
   function chapter() {
     const hash = (location.hash || "").match(/ch-(\d+)/);
-    const n = Number(param("chapter", hash ? hash[1] : "1")) || 1;
-    return n;
+    return Number(param("chapter", hash ? hash[1] : "1")) || 1;
   }
   function passage() {
-    const w = work();
-    return D.passages.find((p) => p.work === w.id && String(p.chapter) === String(chapter()));
+    const wk = work();
+    return D.passages.find((p) => p.work === wk.id && String(p.chapter) === String(chapter()));
   }
   function accountKey() {
     return "fg-parallel-layout:" + (localStorage.getItem("fg-user") || "local");
   }
   function defaultLayout() {
-    return { visible: ["english", "latin"], archive: "bible" };
+    return { left: "english", right: "latin", archive: "bible" };
+  }
+  function normalize(v) {
+    if (!v) return null;
+    if (v.left && v.right && v.archive) {
+      const used = [v.left, v.right, v.archive].sort().join(",");
+      if (used === IDS.slice().sort().join(",")) return { left: v.left, right: v.right, archive: v.archive };
+    }
+    if (Array.isArray(v.visible) && v.visible.length === 2 && v.archive) {
+      return { left: v.visible[0], right: v.visible[1], archive: v.archive };
+    }
+    return null;
   }
   function loadLayout() {
     try {
-      const v = JSON.parse(localStorage.getItem(accountKey()) || "null");
-      if (v && Array.isArray(v.visible) && v.visible.length === 2 && IDS.indexOf(v.archive) >= 0) {
-        const used = v.visible.concat([v.archive]).sort().join(",");
-        if (used === IDS.slice().sort().join(",")) return v;
-      }
+      const n = normalize(JSON.parse(localStorage.getItem(accountKey()) || "null"));
+      if (n) return n;
     } catch (e) { /* ignore */ }
     return defaultLayout();
   }
   function saveLayout(layout) {
     localStorage.setItem(accountKey(), JSON.stringify(layout));
+    localStorage.setItem("fg-parallel-swapped", "off");
+  }
+  function swapped() {
+    return localStorage.getItem("fg-parallel-swapped") === "on";
+  }
+  function setSwapped(on) {
+    localStorage.setItem("fg-parallel-swapped", on ? "on" : "off");
+  }
+  function livePanes() {
+    const L = loadLayout();
+    return {
+      left: L.left,
+      right: swapped() ? L.archive : L.right
+    };
   }
 
   function noteLabel(id) {
@@ -59,115 +80,12 @@
     if (id === "latin") return title + " Latin";
     return "Bible";
   }
-
   function cardHtml(id) {
     return (
-      '<div class="par-card" draggable="false" data-src="' + id + '">' +
+      '<div class="par-card" data-src="' + id + '">' +
       '<span class="par-handle" aria-hidden="true"></span>' +
-      '<span class="par-note">' + esc(noteLabel(id)) + "</span>" +
-      "</div>"
+      '<span class="par-note">' + esc(noteLabel(id)) + "</span></div>"
     );
-  }
-
-  function ensureSheet() {
-    if (qs("#parSheet")) return;
-    document.body.insertAdjacentHTML("beforeend",
-      '<div class="par-sheet-back" id="parSheet" hidden>' +
-      '<div class="par-sheet" role="dialog" aria-labelledby="parSheetTitle">' +
-      '<div class="par-sheet-grab"></div>' +
-      '<h2 id="parSheetTitle">Parallel</h2>' +
-      '<p class="par-help">Drag a note into Visible to read it. The leftover sits in Not visible.</p>' +
-      '<div class="par-board">' +
-      '<section class="par-col" aria-label="Visible">' +
-      '<h3>Visible</h3>' +
-      '<div class="par-slots">' +
-      '<div class="par-slot" data-slot="v0"></div>' +
-      '<div class="par-slot" data-slot="v1"></div>' +
-      "</div></section>" +
-      '<section class="par-col par-col-archive" aria-label="Not visible">' +
-      "<h3>Not visible</h3>" +
-      '<div class="par-slots">' +
-      '<div class="par-slot par-slot-archive" data-slot="a0"></div>' +
-      "</div></section>" +
-      "</div>" +
-      '<div class="par-actions">' +
-      '<button type="button" class="par-btn par-btn-ghost" id="parOff">Single column</button>' +
-      '<button type="button" class="par-btn par-btn-save" id="parSave">Save</button>' +
-      "</div></div></div>"
-    );
-  }
-
-  function paintSheet(layout) {
-    qs('[data-slot="v0"]').innerHTML = cardHtml(layout.visible[0]);
-    qs('[data-slot="v1"]').innerHTML = cardHtml(layout.visible[1]);
-    qs('[data-slot="a0"]').innerHTML = cardHtml(layout.archive);
-  }
-
-  function readSheet() {
-    return {
-      visible: [
-        qs('[data-slot="v0"] .par-card').dataset.src,
-        qs('[data-slot="v1"] .par-card').dataset.src
-      ],
-      archive: qs('[data-slot="a0"] .par-card').dataset.src
-    };
-  }
-
-  function bindDrag() {
-    const sheet = qs("#parSheet");
-    let drag = null;
-    function cardAt(x, y) {
-      const el = document.elementFromPoint(x, y);
-      return el && el.closest("#parSheet .par-slot");
-    }
-    sheet.addEventListener("pointerdown", (e) => {
-      const card = e.target.closest(".par-card");
-      if (!card) return;
-      const slot = card.closest(".par-slot");
-      drag = {
-        card: card,
-        from: slot,
-        ox: e.clientX - card.getBoundingClientRect().left,
-        oy: e.clientY - card.getBoundingClientRect().top
-      };
-      card.classList.add("dragging");
-      card.style.pointerEvents = "none";
-      card.style.width = card.getBoundingClientRect().width + "px";
-      card.style.position = "fixed";
-      card.style.zIndex = "120";
-      card.style.left = (e.clientX - drag.ox) + "px";
-      card.style.top = (e.clientY - drag.oy) + "px";
-      card.setPointerCapture(e.pointerId);
-      e.preventDefault();
-    });
-    sheet.addEventListener("pointermove", (e) => {
-      if (!drag) return;
-      drag.card.style.left = (e.clientX - drag.ox) + "px";
-      drag.card.style.top = (e.clientY - drag.oy) + "px";
-      qsa(".par-slot").forEach((s) => s.classList.remove("over"));
-      const over = cardAt(e.clientX, e.clientY);
-      if (over) over.classList.add("over");
-    });
-    function end(e) {
-      if (!drag) return;
-      const over = cardAt(e.clientX, e.clientY);
-      qsa(".par-slot").forEach((s) => s.classList.remove("over"));
-      drag.card.classList.remove("dragging");
-      drag.card.style.cssText = "";
-      if (over && over !== drag.from) {
-        const a = drag.from;
-        const b = over;
-        const ca = a.querySelector(".par-card");
-        const cb = b.querySelector(".par-card");
-        a.appendChild(cb);
-        b.appendChild(ca);
-      } else {
-        drag.from.appendChild(drag.card);
-      }
-      drag = null;
-    }
-    sheet.addEventListener("pointerup", end);
-    sheet.addEventListener("pointercancel", end);
   }
 
   function fatherParas(version) {
@@ -179,35 +97,37 @@
       '<p class="para"><span class="pnum">' + (i + 1) + "</span> " + esc(text) + "</p>"
     ).join("");
   }
-
   function renderFatherPane(version, label) {
     const p = passage();
     const heading = p && p.heading ? p.heading : "";
     return (
       '<div class="ios-pane" data-kind="' + version + '">' +
-      '<header class="ios-pane-head"><button type="button" class="ios-pane-note" data-arrange="1">' + esc(label) + "</button></header>" +
+      '<header class="ios-pane-head"><div class="ios-pane-note">' + esc(label) + "</div></header>" +
       '<div class="ios-pane-body passage">' +
       (heading ? '<h2 class="heading">' + esc(heading) + "</h2>" : "") +
       fatherParas(version) +
       "</div></div>"
     );
   }
-
   function renderBiblePane(label) {
-    const ref = w.FG.KJV.storedRef();
     return (
       '<div class="ios-pane ios-pane-bible" data-kind="bible">' +
       '<header class="ios-pane-head">' +
-      '<button type="button" class="ios-pane-note" data-arrange="1">' + esc(label) + "</button>" +
+      '<div class="ios-pane-note">' + esc(label) + "</div>" +
       '<div class="kjv-nav">' +
       '<button type="button" id="kjvPrev" aria-label="Previous chapter">‹</button>' +
       '<select id="kjvBook" aria-label="Bible book"></select>' +
       '<select id="kjvChapter" aria-label="Chapter"></select>' +
       '<button type="button" id="kjvNext" aria-label="Next chapter">›</button>' +
       "</div></header>" +
-      '<div class="ios-pane-body passage" id="kjvBody">Loading…</div>' +
-      "</div>"
+      '<div class="ios-pane-body passage" id="kjvBody">Loading…</div></div>'
     );
+  }
+  function paneFor(id) {
+    const label = noteLabel(id);
+    if (id === "english") return renderFatherPane("pusey", label);
+    if (id === "latin") return renderFatherPane("lat", label);
+    return renderBiblePane(label);
   }
 
   function fillBibleNav(manifest, ref) {
@@ -218,22 +138,18 @@
       '<option value="' + b.id + '"' + (b.id === ref.book ? " selected" : "") + ">" + esc(b.name) + "</option>"
     ).join("");
     const meta = manifest.find((b) => b.id === ref.book) || manifest[0];
-    const n = meta.chapters;
-    const ch = Math.min(Math.max(1, ref.chapter), n);
-    chSel.innerHTML = Array.from({ length: n }, (_, i) =>
+    const ch = Math.min(Math.max(1, ref.chapter), meta.chapters);
+    chSel.innerHTML = Array.from({ length: meta.chapters }, (_, i) =>
       '<option value="' + (i + 1) + '"' + (i + 1 === ch ? " selected" : "") + ">" + (i + 1) + "</option>"
     ).join("");
   }
-
   function paintBibleBody(book) {
     const ref = w.FG.KJV.storedRef();
     const ch = Math.min(Math.max(1, ref.chapter), book.chapters.length);
-    const verses = book.chapters[ch - 1] || [];
-    qs("#kjvBody").innerHTML = verses.map((v, i) =>
+    qs("#kjvBody").innerHTML = (book.chapters[ch - 1] || []).map((v, i) =>
       '<p class="para"><span class="pnum">' + (i + 1) + "</span> " + esc(v) + "</p>"
     ).join("");
   }
-
   function bindBible() {
     const bookSel = qs("#kjvBook");
     if (!bookSel || bookSel.dataset.bound) return;
@@ -248,31 +164,22 @@
     bookSel.addEventListener("change", () => go(bookSel.value, 1));
     qs("#kjvChapter").addEventListener("change", () => go(bookSel.value, Number(qs("#kjvChapter").value)));
     qs("#kjvPrev").addEventListener("click", () => {
-      const m = w.FG.KJV;
-      m.loadManifest().then((list) => {
-        const ref = m.storedRef();
+      w.FG.KJV.loadManifest().then((list) => {
+        const ref = w.FG.KJV.storedRef();
         if (ref.chapter > 1) return go(ref.book, ref.chapter - 1);
         const i = list.findIndex((b) => b.id === ref.book);
         if (i > 0) go(list[i - 1].id, list[i - 1].chapters);
       });
     });
     qs("#kjvNext").addEventListener("click", () => {
-      const m = w.FG.KJV;
-      m.loadManifest().then((list) => {
-        const ref = m.storedRef();
+      w.FG.KJV.loadManifest().then((list) => {
+        const ref = w.FG.KJV.storedRef();
         const meta = list.find((b) => b.id === ref.book);
         if (ref.chapter < meta.chapters) return go(ref.book, ref.chapter + 1);
         const i = list.findIndex((b) => b.id === ref.book);
         if (i < list.length - 1) go(list[i + 1].id, 1);
       });
     });
-  }
-
-  function paneFor(id) {
-    const label = noteLabel(id);
-    if (id === "english") return renderFatherPane("pusey", label);
-    if (id === "latin") return renderFatherPane("lat", label);
-    return renderBiblePane(label);
   }
 
   function applyPanes() {
@@ -299,12 +206,11 @@
       single.hidden = false;
       return;
     }
-    const layout = loadLayout();
-    dual.innerHTML = paneFor(layout.visible[0]) + paneFor(layout.visible[1]);
+    const panes = livePanes();
+    dual.innerHTML = paneFor(panes.left) + paneFor(panes.right);
     dual.hidden = false;
     single.hidden = true;
-    qsa("[data-arrange]").forEach((btn) => btn.addEventListener("click", openArrange));
-    if (layout.visible.indexOf("bible") >= 0 && w.FG.KJV) {
+    if ((panes.left === "bible" || panes.right === "bible") && w.FG.KJV) {
       const ref = w.FG.KJV.storedRef();
       w.FG.KJV.loadManifest().then((m) => {
         fillBibleNav(m, ref);
@@ -317,55 +223,108 @@
     }
   }
 
-  let dragBound = false;
-  function openArrange() {
-    ensureSheet();
-    if (!dragBound) { bindDrag(); dragBound = true; }
-    paintSheet(loadLayout());
-    const back = qs("#parSheet");
-    back.hidden = false;
-    requestAnimationFrame(() => back.classList.add("open"));
-    qs("#parSave").onclick = () => {
-      saveLayout(readSheet());
-      closeArrange();
-      applyPanes();
-    };
-    qs("#parOff").onclick = () => {
-      localStorage.setItem("fg-ios-parallel", "off");
-      closeArrange();
-      document.body.classList.remove("ios-parallel-on");
-      const par = qs("#iosParallel");
-      if (par) { par.classList.remove("active"); par.setAttribute("aria-pressed", "false"); }
-      applyPanes();
-    };
-    back.onclick = (e) => { if (e.target.id === "parSheet") closeArrange(); };
+  function paintSettings() {
+    const host = qs("#parLayout");
+    if (!host) return;
+    const L = loadLayout();
+    host.innerHTML =
+      '<div class="par-board par-board-settings">' +
+      slotCol("Left pane — stays put", "left", L.left) +
+      slotCol("Right pane", "right", L.right) +
+      slotCol("Not visible", "archive", L.archive) +
+      "</div>";
+    bindSettingsDrag(host);
   }
-
-  function closeArrange() {
-    const back = qs("#parSheet");
-    if (!back) return;
-    back.classList.remove("open");
-    setTimeout(() => { back.hidden = true; }, 220);
+  function slotCol(title, key, id) {
+    return (
+      '<section class="par-col" aria-label="' + esc(title) + '">' +
+      "<h3>" + esc(title) + "</h3>" +
+      '<div class="par-slot" data-key="' + key + '">' + cardHtml(id) + "</div></section>"
+    );
+  }
+  function readSettings() {
+    return {
+      left: qs('#parLayout [data-key="left"] .par-card').dataset.src,
+      right: qs('#parLayout [data-key="right"] .par-card').dataset.src,
+      archive: qs('#parLayout [data-key="archive"] .par-card').dataset.src
+    };
+  }
+  function bindSettingsDrag(host) {
+    let drag = null;
+    function slotAt(x, y) {
+      const el = document.elementFromPoint(x, y);
+      return el && el.closest("#parLayout .par-slot");
+    }
+    host.addEventListener("pointerdown", (e) => {
+      const card = e.target.closest(".par-card");
+      if (!card) return;
+      const slot = card.closest(".par-slot");
+      drag = {
+        card: card,
+        from: slot,
+        ox: e.clientX - card.getBoundingClientRect().left,
+        oy: e.clientY - card.getBoundingClientRect().top
+      };
+      card.classList.add("dragging");
+      card.style.pointerEvents = "none";
+      card.style.width = card.getBoundingClientRect().width + "px";
+      card.style.position = "fixed";
+      card.style.zIndex = "120";
+      card.style.left = (e.clientX - drag.ox) + "px";
+      card.style.top = (e.clientY - drag.oy) + "px";
+      card.setPointerCapture(e.pointerId);
+      e.preventDefault();
+    });
+    host.addEventListener("pointermove", (e) => {
+      if (!drag) return;
+      drag.card.style.left = (e.clientX - drag.ox) + "px";
+      drag.card.style.top = (e.clientY - drag.oy) + "px";
+      qsa("#parLayout .par-slot").forEach((s) => s.classList.remove("over"));
+      const over = slotAt(e.clientX, e.clientY);
+      if (over) over.classList.add("over");
+    });
+    function end(e) {
+      if (!drag) return;
+      const over = slotAt(e.clientX, e.clientY);
+      qsa("#parLayout .par-slot").forEach((s) => s.classList.remove("over"));
+      drag.card.classList.remove("dragging");
+      drag.card.style.cssText = "";
+      if (over && over !== drag.from) {
+        const ca = drag.from.querySelector(".par-card");
+        const cb = over.querySelector(".par-card");
+        drag.from.appendChild(cb);
+        over.appendChild(ca);
+        saveLayout(readSettings());
+      } else {
+        drag.from.appendChild(drag.card);
+      }
+      drag = null;
+    }
+    host.addEventListener("pointerup", end);
+    host.addEventListener("pointercancel", end);
   }
 
   function onParallelTap() {
-    const land = document.body.classList.contains("ios-landscape");
-    if (!land) return false;
-    localStorage.setItem("fg-ios-parallel", "on");
-    document.body.classList.add("ios-parallel-on");
-    const par = document.querySelector("#iosParallel");
-    if (par) {
-      par.classList.add("active");
-      par.setAttribute("aria-pressed", "true");
-    }
-    openArrange();
+    if (!document.body.classList.contains("ios-landscape")) return false;
+    const next = localStorage.getItem("fg-ios-parallel") === "on" ? "off" : "on";
+    localStorage.setItem("fg-ios-parallel", next);
+    document.body.classList.toggle("ios-parallel-on", next === "on");
+    applyPanes();
+    return true;
+  }
+  function onSwapTap() {
+    if (localStorage.getItem("fg-ios-parallel") !== "on") return false;
+    setSwapped(!swapped());
+    applyPanes();
     return true;
   }
 
   w.FG = w.FG || {};
   w.FG.parallel = {
-    openArrange: openArrange,
     applyPanes: applyPanes,
-    onParallelTap: onParallelTap
+    onParallelTap: onParallelTap,
+    onSwapTap: onSwapTap,
+    swapped: swapped,
+    mountSettings: paintSettings
   };
 })(window);

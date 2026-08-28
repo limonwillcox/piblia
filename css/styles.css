@@ -684,6 +684,9 @@ body.ios-shell .ios-tabbar { display: flex; }
 .ios-icon svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.7; }
 .ios-icon.active { color: var(--burgundy); }
 .ios-icon.active svg { stroke-width: 2.1; }
+#iosSwap { display: none; }
+body.ios-shell.ios-landscape.ios-parallel-on #iosChi { display: none; }
+body.ios-shell.ios-landscape.ios-parallel-on #iosSwap { display: inline-flex; }
 html[data-theme="night"] .ios-icon.active { color: var(--link); }
 .ios-focus-btn {
   width: 40px; height: 40px; flex: 0 0 40px; margin-left: auto;
@@ -847,6 +850,13 @@ body.ios-shell.ios-landscape .page { padding-left: 14px; padding-right: 14px; }
   grid-template-columns: 1.4fr 1fr;
   gap: 12px;
   align-items: stretch;
+}
+.par-board-settings {
+  grid-template-columns: 1fr;
+  margin: 8px 0 18px;
+}
+@media (min-width: 720px) {
+  .par-board-settings { grid-template-columns: 1fr 1fr 1fr; }
 }
 .par-col {
   border: 1px solid var(--border);

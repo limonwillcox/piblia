@@ -932,6 +932,9 @@
       row("head", "Section headings", storedOpt("head", true)) +
       row("fn", "Notes", storedOpt("fn", true)) +
       row("xref", "Scripture references", storedOpt("xref", true)) +
+      '<h2 id="parallel-layout">Parallel layout</h2>' +
+      "<p>The left pane never moves while you read. Drag the notes. In landscape, the swap button trades Right with Not visible.</p>" +
+      '<div id="parLayout"></div>' +
       "<p class='fineprint'>English editions on this site currently follow Philip Schaff’s NPNF series (Pusey for the Confessions). The translator is not shown in the reader bar — only the Father, the work, and the liber.</p>" +
       "</div>";
     qsa("[data-set]").forEach((btn) => {
@@ -958,6 +961,7 @@
       const n = Math.max(14, Number(localStorage.getItem("fg-font") || 18) - 2);
       localStorage.setItem("fg-font", n); applyFont();
     });
+    if (w.FG.parallel) w.FG.parallel.mountSettings();
   }
 
   const pages = {
