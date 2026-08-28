@@ -819,6 +819,131 @@ body.ios-shell.ios-landscape .page { padding-left: 14px; padding-right: 14px; }
 .give-card p { color: var(--muted); margin: 0; }
 
 @media (prefers-reduced-motion: reduce) {
-  .ios-sheet, .ios-toast, .set-row button.switch::after { transition: none; }
+  .ios-sheet, .ios-toast, .set-row button.switch::after, .par-sheet { transition: none; }
 }
+
+/* Parallel arrange + dual panes */
+.par-sheet-back {
+  display: none; position: fixed; inset: 0; z-index: 100;
+  background: rgba(0, 0, 0, 0.4);
+  align-items: flex-end; justify-content: center;
+}
+.par-sheet-back.open { display: flex; }
+.par-sheet {
+  width: min(720px, 100%);
+  max-height: 92vh;
+  background: var(--bg); color: var(--text);
+  border-radius: 16px 16px 0 0;
+  padding: 8px 16px calc(16px + env(safe-area-inset-bottom, 0px));
+}
+.par-sheet-grab {
+  width: 36px; height: 4px; border-radius: 2px; background: var(--border);
+  margin: 4px auto 10px;
+}
+.par-sheet h2 { margin: 0 0 4px; font-family: var(--serif); font-size: 20px; }
+.par-help { margin: 0 0 14px; font-size: 13px; color: var(--muted); }
+.par-board {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 12px;
+  align-items: stretch;
+}
+.par-col {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 10px 10px 12px;
+  background: var(--panel);
+  min-height: 0;
+}
+.par-col h3 {
+  margin: 0 0 8px;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.par-slots { display: flex; flex-direction: column; gap: 8px; }
+.par-slot {
+  min-height: 64px;
+  border-radius: 10px;
+  border: 1.5px dashed var(--border);
+  background: var(--bg);
+  padding: 4px;
+}
+.par-slot.over { border-color: var(--burgundy); background: #f7ece8; }
+html[data-theme="night"] .par-slot.over { background: #3a2420; }
+.par-card {
+  display: flex; align-items: center; gap: 10px;
+  min-height: 56px; padding: 10px 12px;
+  border-radius: 8px;
+  background: var(--bg);
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.05);
+  touch-action: none;
+  user-select: none;
+  cursor: grab;
+}
+.par-card.dragging { opacity: 0.95; box-shadow: 0 8px 24px rgba(0,0,0,0.18); cursor: grabbing; }
+.par-handle {
+  width: 10px; height: 18px;
+  background: repeating-linear-gradient(to bottom, var(--muted) 0 2px, transparent 2px 4px);
+  opacity: 0.5; flex: 0 0 10px;
+}
+.par-note { font-weight: 700; font-size: 15px; line-height: 1.25; }
+.par-actions {
+  display: flex; gap: 8px; justify-content: flex-end;
+  margin-top: 14px;
+}
+.par-btn {
+  height: 44px; padding: 0 16px; border-radius: 10px;
+  font-weight: 700; font-size: 15px;
+}
+.par-btn-save { background: var(--burgundy); color: #fff; border: 0; }
+.par-btn-ghost { background: transparent; color: var(--text); border: 1px solid var(--border); }
+
+body.ios-shell .page > #iosDualRead,
+body.ios-shell .page > #iosSingleRead { max-width: none; }
+#iosDualRead {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  width: 100%;
+}
+.ios-pane {
+  min-width: 0;
+  display: flex; flex-direction: column;
+  max-height: calc(100dvh - var(--ios-top) - var(--ios-tab) - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px) - 16px);
+}
+.ios-pane + .ios-pane { border-left: 3px solid var(--burgundy); }
+.ios-pane-head {
+  display: flex; flex-direction: column; gap: 4px;
+  padding: 0 10px 8px;
+  border-bottom: 1px solid var(--border);
+  flex: 0 0 auto;
+}
+.ios-pane-note {
+  text-align: left; border: 0; background: none;
+  color: var(--burgundy); font-weight: 700; font-size: 12px;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  padding: 6px 0;
+}
+.ios-pane-body {
+  overflow: auto; padding: 10px 12px 20px;
+  flex: 1; min-height: 0;
+}
+.kjv-nav {
+  display: flex; align-items: center; gap: 4px;
+}
+.kjv-nav select {
+  flex: 1; min-width: 0; height: 32px;
+  border: 1px solid var(--border); background: var(--bg); color: var(--text);
+  border-radius: 6px; font-size: 13px;
+}
+.kjv-nav button {
+  width: 32px; height: 32px; border: 1px solid var(--border);
+  background: var(--bg); color: var(--text); border-radius: 6px; font-size: 16px;
+}
+body.ios-focus #iosDualRead .ios-pane {
+  max-height: calc(100dvh - env(safe-area-inset-top, 0px) - 24px);
+}
+
 

@@ -258,17 +258,10 @@
         toast("Turn the phone sideways to read in parallel.");
         return;
       }
-      const next = parallelOn() ? "off" : "on";
-      localStorage.setItem("fg-ios-parallel", next);
-      if (next === "on" && storedMode() === "original") {
-        localStorage.setItem("fg-mode", "translation");
-        localStorage.setItem("fg-orig-parallel", "on");
-        const u = new URL(location.href);
-        u.searchParams.set("mode", "translation");
-        location.href = u.toString();
+      if (w.FG.parallel && w.FG.parallel.onParallelTap()) {
+        applyShellState();
         return;
       }
-      applyShellState();
     });
     qs("#iosFocus")?.addEventListener("click", () => {
       const next = focusOn() ? "off" : "on";
@@ -276,10 +269,17 @@
       applyShellState();
     });
     w.addEventListener("orientationchange", () => {
-      setTimeout(applyShellState, 80);
+      setTimeout(() => {
+        applyShellState();
+        if (w.FG.parallel) w.FG.parallel.applyPanes();
+      }, 80);
     });
-    w.addEventListener("resize", () => applyShellState());
+    w.addEventListener("resize", () => {
+      applyShellState();
+      if (w.FG.parallel) w.FG.parallel.applyPanes();
+    });
     observeLibri();
+    if (w.FG.parallel) w.FG.parallel.applyPanes();
   }
 
   function mount(page) {
