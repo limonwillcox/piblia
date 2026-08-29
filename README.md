@@ -10,7 +10,7 @@ Public repo: [limonwillcox/piblia](https://github.com/limonwillcox/piblia). GitH
 
 Until DNS is pointed, the site is at **https://limonwillcox.github.io/piblia/**.
 
-Phone visitors are sent to **`get-app.html`** (App Store mock-up). The old web phone shell is archived in **`archive/ios-web/`**. Native SwiftUI app: **`PibliaIOS/`** — plan and goals in `PibliaIOS/docs/PLAN.md`.
+Phone visitors are sent to **`get-app.html`** (App Store mock-up). The old web phone shell is archived in **`archive/ios-web/`**. Native SwiftUI app: **`PibliaIOS/`** — plan and goals in `PibliaIOS/docs/PLAN.md`. Feature parking lot: **`docs/FEATURES.md`**.
 
 Custom domain **piblia.com** is already set in `CNAME`. At your registrar, use:
 

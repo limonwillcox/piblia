@@ -6,6 +6,8 @@ Archived web phone UI (do not delete; copy from here): `archive/ios-web/`.
 
 This folder is the Xcode app. It will not compile in the Linux sandbox. Open it on a Mac.
 
+Logged ideas that are **not** a current goal live in `/docs/FEATURES.md` (author globe, life journey, world-events timeline). Do not start those until they are promoted here as a numbered goal.
+
 ## What we already decided (from the web mock)
 
 - Bottom tabs: Read, Search, About, Give, Settings
