@@ -996,4 +996,85 @@ body.ios-focus #iosDualRead .ios-pane {
   max-height: calc(100dvh - env(safe-area-inset-top, 0px) - 24px);
 }
 
+/* Phone App Store gate — phones never enter the web reader. */
+.app-gate-body {
+  min-height: 100vh;
+  background: var(--burgundy-deep);
+  color: var(--gold);
+}
+.app-gate {
+  min-height: 100vh;
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 72px 28px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.app-gate-mark {
+  margin: 0;
+  font-size: 48px;
+  line-height: 1;
+  color: var(--gold);
+}
+.app-gate-kicker {
+  margin: 12px 0 0;
+  font-family: var(--serif);
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: var(--gold);
+}
+.app-gate h1 {
+  margin: 18px 0 0;
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 1.12;
+  color: #fff8ea;
+}
+.app-gate-lead {
+  margin: 16px 0 0;
+  color: var(--gold);
+  font-size: 17px;
+  line-height: 1.45;
+}
+.store-btn {
+  margin: 28px auto 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 56px;
+  padding: 8px 22px 8px 16px;
+  border-radius: 12px;
+  background: #111;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #000;
+}
+.store-btn svg { width: 28px; height: 28px; fill: #fff; }
+.store-btn span { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.1; font-weight: 700; font-size: 22px; }
+.store-btn small { font-size: 11px; font-weight: 600; letter-spacing: 0.04em; opacity: 0.85; }
+.store-btn[aria-disabled="true"] { opacity: 0.92; pointer-events: none; }
+.app-gate-note {
+  margin: 14px 0 0;
+  font-size: 13px;
+  color: rgba(243, 226, 168, 0.75);
+}
+.app-gate-desk {
+  margin-top: 36px;
+  color: var(--gold);
+  font-size: 14px;
+}
+.app-gate-desk:hover { color: #fff; }
+
+@media (min-width: 761px) {
+  .app-gate-body { background: var(--bg); color: var(--text); }
+  .app-gate { min-height: auto; padding-top: 96px; }
+  .app-gate-mark, .app-gate-kicker, .app-gate-lead, .app-gate-note { color: var(--muted); }
+  .app-gate h1 { color: var(--burgundy); }
+  .app-gate-desk { color: var(--burgundy); }
+}
+
 
