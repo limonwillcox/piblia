@@ -1,0 +1,2465 @@
+{
+  "generated": "2026-09-01T05:02:47.937Z",
+  "note": "Proposed pairs only — review before approving into the app DB. Greek not split.",
+  "counts": {
+    "englishWorksSplit": 63,
+    "proposedPairs": 39,
+    "latinOnly": 46,
+    "englishOnlyWestern": 24
+  },
+  "englishWorks": [
+    {
+      "father": "Ambrose",
+      "work": "Concerning Virgins",
+      "latin": null,
+      "file": "Fathers/English/Ambrose_English/Concerning Virgins.txt",
+      "bytes": 131547,
+      "source": "Fathers/English/NPNF2/Volume X.   Ambrose - Select Works and Letters",
+      "series": "NPNF2",
+      "volume": "Volume X.",
+      "startLine": 36684,
+      "endLine": 39039
+    },
+    {
+      "father": "Ambrose",
+      "work": "Concerning Widows",
+      "latin": null,
+      "file": "Fathers/English/Ambrose_English/Concerning Widows.txt",
+      "bytes": 89469,
+      "source": "Fathers/English/NPNF2/Volume X.   Ambrose - Select Works and Letters",
+      "series": "NPNF2",
+      "volume": "Volume X.",
+      "startLine": 39039,
+      "endLine": 40636
+    },
+    {
+      "father": "Ambrose",
+      "work": "Exposition of the Christian Faith",
+      "latin": null,
+      "file": "Fathers/English/Ambrose_English/Exposition of the Christian Faith.txt",
+      "bytes": 648011,
+      "source": "Fathers/English/NPNF2/Volume X.   Ambrose - Select Works and Letters",
+      "series": "NPNF2",
+      "volume": "Volume X.",
+      "startLine": 20394,
+      "endLine": 32685
+    },
+    {
+      "father": "Ambrose",
+      "work": "Letters",
+      "latin": "Epistulae Variae",
+      "file": "Fathers/English/Ambrose_English/Letters.txt",
+      "bytes": 802281,
+      "source": "Fathers/English/NPNF2/Volume X.   Ambrose - Select Works and Letters",
+      "series": "NPNF2",
+      "volume": "Volume X.",
+      "startLine": 40636,
+      "endLine": 51871
+    },
+    {
+      "father": "Ambrose",
+      "work": "On the Duties of the Clergy",
+      "latin": null,
+      "file": "Fathers/English/Ambrose_English/On the Duties of the Clergy.txt",
+      "bytes": 477105,
+      "source": "Fathers/English/NPNF2/Volume X.   Ambrose - Select Works and Letters",
+      "series": "NPNF2",
+      "volume": "Volume X.",
+      "startLine": 1299,
+      "endLine": 10239
+    },
+    {
+      "father": "Ambrose",
+      "work": "On the Holy Spirit",
+      "latin": null,
+      "file": "Fathers/English/Ambrose_English/On the Holy Spirit.txt",
+      "bytes": 544387,
+      "source": "Fathers/English/NPNF2/Volume X.   Ambrose - Select Works and Letters",
+      "series": "NPNF2",
+      "volume": "Volume X.",
+      "startLine": 10239,
+      "endLine": 20394
+    },
+    {
+      "father": "Ambrose",
+      "work": "On the Mysteries",
+      "latin": "de Mysteriis",
+      "file": "Fathers/English/Ambrose_English/On the Mysteries.txt",
+      "bytes": 211558,
+      "source": "Fathers/English/NPNF2/Volume X.   Ambrose - Select Works and Letters",
+      "series": "NPNF2",
+      "volume": "Volume X.",
+      "startLine": 32685,
+      "endLine": 36684
+    },
+    {
+      "father": "Arnobius",
+      "work": "Against the Heathen",
+      "latin": "Adversus nationes",
+      "file": "Fathers/English/Arnobius_English/Against the Heathen.txt",
+      "bytes": 1250833,
+      "source": "Fathers/English/ANF/Volume VI.   The Fathers of the Third Century",
+      "series": "ANF",
+      "volume": "Volume VI.",
+      "startLine": 38759,
+      "endLine": 59804
+    },
+    {
+      "father": "Augustine",
+      "work": "Letters",
+      "latin": null,
+      "file": "Fathers/English/Augustine_English/Letters.txt",
+      "bytes": 2700609,
+      "source": "Fathers/English/NPNF1/Volume I.   Prolegomena St. Augustine's Life and Work, Confessions, Letters",
+      "series": "NPNF1",
+      "volume": "Volume I.   Prolegomena",
+      "startLine": 20396,
+      "endLine": 64827
+    },
+    {
+      "father": "Augustine",
+      "work": "On Christian Doctrine",
+      "latin": null,
+      "file": "Fathers/English/Augustine_English/On Christian Doctrine.txt",
+      "bytes": 926725,
+      "source": "Fathers/English/NPNF1/Volume II.   The City of God, Christian Doctrine",
+      "series": "NPNF1",
+      "volume": "Volume II.",
+      "startLine": 44079,
+      "endLine": 58945
+    },
+    {
+      "father": "Augustine",
+      "work": "On Faith and the Creed",
+      "latin": "de Fide et Symbolo",
+      "file": "Fathers/English/Augustine_English/On Faith and the Creed.txt",
+      "bytes": 1765852,
+      "source": "Fathers/English/NPNF1/Volume III.   On the Holy Trinity, Doctrinal Treatises, Moral Treatises",
+      "series": "NPNF1",
+      "volume": "Volume III.",
+      "startLine": 26170,
+      "endLine": 53801
+    },
+    {
+      "father": "Augustine",
+      "work": "On the Catechising of the Uninstructed",
+      "latin": "de Catechizandis Rudibus",
+      "file": "Fathers/English/Augustine_English/On Catechising of the Uninstructed.txt",
+      "bytes": 179835,
+      "source": "Fathers/English/NPNF1/Volume III.   On the Holy Trinity, Doctrinal Treatises, Moral Treatises",
+      "series": "NPNF1",
+      "volume": "Volume III.",
+      "startLine": 23263,
+      "endLine": 26170
+    },
+    {
+      "father": "Augustine",
+      "work": "On the Holy Trinity",
+      "latin": "De Trinitate",
+      "file": "Fathers/English/Augustine_English/On the Holy Trinity.txt",
+      "bytes": 1406911,
+      "source": "Fathers/English/NPNF1/Volume III.   On the Holy Trinity, Doctrinal Treatises, Moral Treatises",
+      "series": "NPNF1",
+      "volume": "Volume III.",
+      "startLine": 146,
+      "endLine": 23263
+    },
+    {
+      "father": "Augustine",
+      "work": "The City of God",
+      "latin": "De civitate Dei",
+      "file": "Fathers/English/Augustine_English/The City of God.txt",
+      "bytes": 2754209,
+      "source": "Fathers/English/NPNF1/Volume II.   The City of God, Christian Doctrine",
+      "series": "NPNF1",
+      "volume": "Volume II.",
+      "startLine": 262,
+      "endLine": 44079
+    },
+    {
+      "father": "Augustine",
+      "work": "The Confessions",
+      "latin": "The Confessions of St. Augustine Latin",
+      "file": "Fathers/English/Augustine_English/The Confessions (NPNF Pilkington).txt",
+      "bytes": 1057561,
+      "source": "Fathers/English/NPNF1/Volume I.   Prolegomena St. Augustine's Life and Work, Confessions, Letters",
+      "series": "NPNF1",
+      "volume": "Volume I.   Prolegomena",
+      "startLine": 2421,
+      "endLine": 20396
+    },
+    {
+      "father": "Commodianus",
+      "work": "Instructions of Commodianus",
+      "latin": "Instructiones",
+      "file": "Fathers/English/Commodianus_English/Instructions of Commodianus.txt",
+      "bytes": 1026308,
+      "source": "Fathers/English/ANF/Volume IV.   The Fathers of the Third Century",
+      "series": "ANF",
+      "volume": "Volume IV.",
+      "startLine": 22372,
+      "endLine": 39571
+    },
+    {
+      "father": "Gregory",
+      "work": "The Book of Pastoral Rule",
+      "latin": null,
+      "file": "Fathers/English/Gregory_English/The Book of Pastoral Rule.txt",
+      "bytes": 1610464,
+      "source": "Fathers/English/NPNF2/Volume XII.   Leo the Great, Gregory the Great",
+      "series": "NPNF2",
+      "volume": "Volume XII.",
+      "startLine": 22645,
+      "endLine": 48068
+    },
+    {
+      "father": "Jerome",
+      "work": "Letters",
+      "latin": "Epistulae",
+      "file": "Fathers/English/Jerome_English/Letters.txt",
+      "bytes": 1698333,
+      "source": "Fathers/English/NPNF2/Volume VI.   Jerome - Letters and Select Works",
+      "series": "NPNF2",
+      "volume": "Volume VI.",
+      "startLine": 2383,
+      "endLine": 34221
+    },
+    {
+      "father": "Jerome",
+      "work": "The Life of Malchus",
+      "latin": "Vita Malchi",
+      "file": "Fathers/English/Jerome_English/The Life of Malchus, the Captive Monk.txt",
+      "bytes": 20039,
+      "source": "Fathers/English/NPNF2/Volume VI.   Jerome - Letters and Select Works",
+      "series": "NPNF2",
+      "volume": "Volume VI.",
+      "startLine": 35595,
+      "endLine": 35898
+    },
+    {
+      "father": "Jerome",
+      "work": "The Life of Paulus the First Hermit",
+      "latin": "Vita Pauli",
+      "file": "Fathers/English/Jerome_English/The Life of Paulus the First Hermit.txt",
+      "bytes": 88793,
+      "source": "Fathers/English/NPNF2/Volume VI.   Jerome - Letters and Select Works",
+      "series": "NPNF2",
+      "volume": "Volume VI.",
+      "startLine": 34221,
+      "endLine": 35595
+    },
+    {
+      "father": "Lactantius",
+      "work": "Fragments of Lactantius",
+      "latin": null,
+      "file": "Fathers/English/Lactantius_English/Fragments of Lactantius.txt",
+      "bytes": 3046,
+      "source": "Fathers/English/ANF/Volume VII.   The Fathers of the Third and Fourth Centuries",
+      "series": "ANF",
+      "volume": "Volume VII.",
+      "startLine": 31329,
+      "endLine": 31378
+    },
+    {
+      "father": "Lactantius",
+      "work": "Of the Manner in Which the Persecutors Died",
+      "latin": "DE MORTIBUS PERSECUTORUM",
+      "file": "Fathers/English/Lactantius_English/Of the Manner in Which the Persecutors Died.txt",
+      "bytes": 124558,
+      "source": "Fathers/English/ANF/Volume VII.   The Fathers of the Third and Fourth Centuries",
+      "series": "ANF",
+      "volume": "Volume VII.",
+      "startLine": 29273,
+      "endLine": 31329
+    },
+    {
+      "father": "Lactantius",
+      "work": "On the Anger of God",
+      "latin": null,
+      "file": "Fathers/English/Lactantius_English/On the Anger of God.txt",
+      "bytes": 124255,
+      "source": "Fathers/English/ANF/Volume VII.   The Fathers of the Third and Fourth Centuries",
+      "series": "ANF",
+      "volume": "Volume VII.",
+      "startLine": 25128,
+      "endLine": 27308
+    },
+    {
+      "father": "Lactantius",
+      "work": "On the Workmanship of God",
+      "latin": null,
+      "file": "Fathers/English/Lactantius_English/On the Workmanship of God.txt",
+      "bytes": 116262,
+      "source": "Fathers/English/ANF/Volume VII.   The Fathers of the Third and Fourth Centuries",
+      "series": "ANF",
+      "volume": "Volume VII.",
+      "startLine": 27308,
+      "endLine": 29273
+    },
+    {
+      "father": "Lactantius",
+      "work": "The Divine Institutes",
+      "latin": "Divinae institutiones",
+      "file": "Fathers/English/Lactantius_English/The Divine Institutes.txt",
+      "bytes": 371175,
+      "source": "Fathers/English/ANF/Volume VII.   The Fathers of the Third and Fourth Centuries",
+      "series": "ANF",
+      "volume": "Volume VII.",
+      "startLine": 18815,
+      "endLine": 25128
+    },
+    {
+      "father": "Leo",
+      "work": "Sermons",
+      "latin": "Sermones de Quadragesima",
+      "file": "Fathers/English/Leo_English/Sermons.txt",
+      "bytes": 616219,
+      "source": "Fathers/English/NPNF2/Volume XII.   Leo the Great, Gregory the Great",
+      "series": "NPNF2",
+      "volume": "Volume XII.",
+      "startLine": 12190,
+      "endLine": 22645
+    },
+    {
+      "father": "Minucius_Felix",
+      "work": "The Octavius",
+      "latin": "Octavius",
+      "file": "Fathers/English/Minucius_Felix_English/The Octavius.txt",
+      "bytes": 151633,
+      "source": "Fathers/English/ANF/Volume IV.   The Fathers of the Third Century",
+      "series": "ANF",
+      "volume": "Volume IV.",
+      "startLine": 19950,
+      "endLine": 22372
+    },
+    {
+      "father": "Novatian",
+      "work": "A Treatise Concerning the Trinity",
+      "latin": "De Trinitate",
+      "file": "Fathers/English/Novatian_English/A Treatise Concerning the Trinity.txt",
+      "bytes": 197577,
+      "source": "Fathers/English/ANF/Volume V.   The Fathers of the Third Century",
+      "series": "ANF",
+      "volume": "Volume V.",
+      "startLine": 61065,
+      "endLine": 64341
+    },
+    {
+      "father": "Novatian",
+      "work": "On the Jewish Meats",
+      "latin": null,
+      "file": "Fathers/English/Novatian_English/On the Jewish Meats.txt",
+      "bytes": 666358,
+      "source": "Fathers/English/ANF/Volume V.   The Fathers of the Third Century",
+      "series": "ANF",
+      "volume": "Volume V.",
+      "startLine": 64341,
+      "endLine": 73690
+    },
+    {
+      "father": "Sulpicius_Severus",
+      "work": "On the Life of St. Martin",
+      "latin": "Vita Sancti Martini",
+      "file": "Fathers/English/Sulpicius_Severus_English/On the Life of St. Martin.txt",
+      "bytes": 675817,
+      "source": "Fathers/English/NPNF2/Volume XI.   Sulpitius Severus, Vincent of Lerins, John Cassian",
+      "series": "NPNF2",
+      "volume": "Volume XI.",
+      "startLine": 212,
+      "endLine": 11036
+    },
+    {
+      "father": "Tertullian",
+      "work": "A Treatise on the Soul",
+      "latin": null,
+      "file": "Fathers/English/Tertullian_English/A Treatise on the Soul.txt",
+      "bytes": 319796,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 16285,
+      "endLine": 21504
+    },
+    {
+      "father": "Tertullian",
+      "work": "Ad Martyras",
+      "latin": "ad Martyres",
+      "file": "Fathers/English/Tertullian_English/Ad Martyras.txt",
+      "bytes": 61514,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 68852,
+      "endLine": 69867
+    },
+    {
+      "father": "Tertullian",
+      "work": "Ad Nationes",
+      "latin": "ad Nationes",
+      "file": "Fathers/English/Tertullian_English/Ad Nationes.txt",
+      "bytes": 225469,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 8999,
+      "endLine": 13306
+    },
+    {
+      "father": "Tertullian",
+      "work": "Against All Heresies",
+      "latin": "Adversus Omnes Haereses",
+      "file": "Fathers/English/Tertullian_English/Against All Heresies.txt",
+      "bytes": 36505,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 64449,
+      "endLine": 65143
+    },
+    {
+      "father": "Tertullian",
+      "work": "Against Hermogenes",
+      "latin": null,
+      "file": "Fathers/English/Tertullian_English/Against Hermogenes.txt",
+      "bytes": 149522,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 47195,
+      "endLine": 50162
+    },
+    {
+      "father": "Tertullian",
+      "work": "Against Praxeas",
+      "latin": "Adversus Praxean",
+      "file": "Fathers/English/Tertullian_English/Against Praxeas.txt",
+      "bytes": 190472,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 59495,
+      "endLine": 62997
+    },
+    {
+      "father": "Tertullian",
+      "work": "Against the Valentinians",
+      "latin": null,
+      "file": "Fathers/English/Tertullian_English/Against the Valentinians.txt",
+      "bytes": 103894,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 50162,
+      "endLine": 52218
+    },
+    {
+      "father": "Tertullian",
+      "work": "An Answer to the Jews",
+      "latin": "Adversus Iudaeos",
+      "file": "Fathers/English/Tertullian_English/An Answer to the Jews.txt",
+      "bytes": 136742,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 13306,
+      "endLine": 15845
+    },
+    {
+      "father": "Tertullian",
+      "work": "De Fuga in Persecutione",
+      "latin": null,
+      "file": "Fathers/English/Tertullian_English/De Fuga in Persecutione.txt",
+      "bytes": 273722,
+      "source": "Fathers/English/ANF/Volume IV.   The Fathers of the Third Century",
+      "series": "ANF",
+      "volume": "Volume IV.",
+      "startLine": 11258,
+      "endLine": 19950
+    },
+    {
+      "father": "Tertullian",
+      "work": "Of Patience",
+      "latin": null,
+      "file": "Fathers/English/Tertullian_English/Of Patience.txt",
+      "bytes": 644930,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 69867,
+      "endLine": 78218
+    },
+    {
+      "father": "Tertullian",
+      "work": "On Baptism",
+      "latin": null,
+      "file": "Fathers/English/Tertullian_English/On Baptism.txt",
+      "bytes": 64286,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 66260,
+      "endLine": 67550
+    },
+    {
+      "father": "Tertullian",
+      "work": "On Exhortation to Chastity",
+      "latin": null,
+      "file": "Fathers/English/Tertullian_English/On Exhortation to Chastity.txt",
+      "bytes": 49181,
+      "source": "Fathers/English/ANF/Volume IV.   The Fathers of the Third Century",
+      "series": "ANF",
+      "volume": "Volume IV.",
+      "startLine": 4733,
+      "endLine": 5572
+    },
+    {
+      "father": "Tertullian",
+      "work": "On Fasting",
+      "latin": "de Ieiunio",
+      "file": "Fathers/English/Tertullian_English/On Fasting.txt",
+      "bytes": 77231,
+      "source": "Fathers/English/ANF/Volume IV.   The Fathers of the Third Century",
+      "series": "ANF",
+      "volume": "Volume IV.",
+      "startLine": 9888,
+      "endLine": 11258
+    },
+    {
+      "father": "Tertullian",
+      "work": "On Idolatry",
+      "latin": "de Idololatria",
+      "file": "Fathers/English/Tertullian_English/On Idolatry.txt",
+      "bytes": 95027,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 4807,
+      "endLine": 6491
+    },
+    {
+      "father": "Tertullian",
+      "work": "On Modesty",
+      "latin": "de Pudicitia",
+      "file": "Fathers/English/Tertullian_English/On Modesty.txt",
+      "bytes": 162458,
+      "source": "Fathers/English/ANF/Volume IV.   The Fathers of the Third Century",
+      "series": "ANF",
+      "volume": "Volume IV.",
+      "startLine": 7040,
+      "endLine": 9888
+    },
+    {
+      "father": "Tertullian",
+      "work": "On Monogamy",
+      "latin": null,
+      "file": "Fathers/English/Tertullian_English/On Monogamy.txt",
+      "bytes": 85798,
+      "source": "Fathers/English/ANF/Volume IV.   The Fathers of the Third Century",
+      "series": "ANF",
+      "volume": "Volume IV.",
+      "startLine": 5572,
+      "endLine": 7040
+    },
+    {
+      "father": "Tertullian",
+      "work": "On Prayer",
+      "latin": "de Oratione",
+      "file": "Fathers/English/Tertullian_English/On Prayer.txt",
+      "bytes": 65651,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 67550,
+      "endLine": 68852
+    },
+    {
+      "father": "Tertullian",
+      "work": "On Repentance",
+      "latin": null,
+      "file": "Fathers/English/Tertullian_English/On Repentance.txt",
+      "bytes": 61335,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 65143,
+      "endLine": 66260
+    },
+    {
+      "father": "Tertullian",
+      "work": "On the Apparel of Women",
+      "latin": null,
+      "file": "Fathers/English/Tertullian_English/On the Apparel of Women.txt",
+      "bytes": 71502,
+      "source": "Fathers/English/ANF/Volume IV.   The Fathers of the Third Century",
+      "series": "ANF",
+      "volume": "Volume IV.",
+      "startLine": 1017,
+      "endLine": 2402
+    },
+    {
+      "father": "Tertullian",
+      "work": "On the Flesh of Christ",
+      "latin": "de Carne Christi",
+      "file": "Fathers/English/Tertullian_English/On the Flesh of Christ.txt",
+      "bytes": 125751,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 52218,
+      "endLine": 54588
+    },
+    {
+      "father": "Tertullian",
+      "work": "On the Pallium",
+      "latin": "de Pallio",
+      "file": "Fathers/English/Tertullian_English/On the Pallium.txt",
+      "bytes": 50740,
+      "source": "Fathers/English/ANF/Volume IV.   The Fathers of the Third Century",
+      "series": "ANF",
+      "volume": "Volume IV.",
+      "startLine": 143,
+      "endLine": 1017
+    },
+    {
+      "father": "Tertullian",
+      "work": "On the Resurrection of the Flesh",
+      "latin": null,
+      "file": "Fathers/English/Tertullian_English/On the Resurrection of the Flesh.txt",
+      "bytes": 283482,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 54588,
+      "endLine": 59495
+    },
+    {
+      "father": "Tertullian",
+      "work": "On the Veiling of Virgins",
+      "latin": "de Virginibus Velandis",
+      "file": "Fathers/English/Tertullian_English/On the Veiling of Virgins.txt",
+      "bytes": 66899,
+      "source": "Fathers/English/ANF/Volume IV.   The Fathers of the Third Century",
+      "series": "ANF",
+      "volume": "Volume IV.",
+      "startLine": 2402,
+      "endLine": 3526
+    },
+    {
+      "father": "Tertullian",
+      "work": "Scorpiace",
+      "latin": "Liber Scorpiace",
+      "file": "Fathers/English/Tertullian_English/Scorpiace.txt",
+      "bytes": 87496,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 62997,
+      "endLine": 64449
+    },
+    {
+      "father": "Tertullian",
+      "work": "The Apology",
+      "latin": "Apologeticum",
+      "file": "Fathers/English/Tertullian_English/The Apology.txt",
+      "bytes": 230344,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 1215,
+      "endLine": 4807
+    },
+    {
+      "father": "Tertullian",
+      "work": "The Chaplet",
+      "latin": "de Corona Militis",
+      "file": "Fathers/English/Tertullian_English/The Chaplet (De Corona).txt",
+      "bytes": 62373,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 7635,
+      "endLine": 8670
+    },
+    {
+      "father": "Tertullian",
+      "work": "The Five Books Against Marcion",
+      "latin": "Adversus Marcionem",
+      "file": "Fathers/English/Tertullian_English/The Five Books Against Marcion.txt",
+      "bytes": 1171574,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 24376,
+      "endLine": 47195
+    },
+    {
+      "father": "Tertullian",
+      "work": "The Prescription Against Heretics",
+      "latin": null,
+      "file": "Fathers/English/Tertullian_English/The Prescription Against Heretics.txt",
+      "bytes": 140951,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 21504,
+      "endLine": 24376
+    },
+    {
+      "father": "Tertullian",
+      "work": "The Shows",
+      "latin": "de Spectaculis",
+      "file": "Fathers/English/Tertullian_English/The Shows (De Spectaculis).txt",
+      "bytes": 71931,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 6491,
+      "endLine": 7635
+    },
+    {
+      "father": "Tertullian",
+      "work": "The Soul's Testimony",
+      "latin": "de Testimonio Animae",
+      "file": "Fathers/English/Tertullian_English/The Soul's Testimony.txt",
+      "bytes": 27728,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 15845,
+      "endLine": 16285
+    },
+    {
+      "father": "Tertullian",
+      "work": "To His Wife",
+      "latin": "ad Uxorem",
+      "file": "Fathers/English/Tertullian_English/To His Wife.txt",
+      "bytes": 63117,
+      "source": "Fathers/English/ANF/Volume IV.   The Fathers of the Third Century",
+      "series": "ANF",
+      "volume": "Volume IV.",
+      "startLine": 3526,
+      "endLine": 4733
+    },
+    {
+      "father": "Tertullian",
+      "work": "To Scapula",
+      "latin": "ad Scapulam",
+      "file": "Fathers/English/Tertullian_English/To Scapula.txt",
+      "bytes": 19793,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 8670,
+      "endLine": 8999
+    },
+    {
+      "father": "Vincent",
+      "work": "The Commonitory",
+      "latin": "Commonitorium",
+      "file": "Fathers/English/Vincent_English/The Commonitory.txt",
+      "bytes": 178607,
+      "source": "Fathers/English/NPNF2/Volume XI.   Sulpitius Severus, Vincent of Lerins, John Cassian",
+      "series": "NPNF2",
+      "volume": "Volume XI.",
+      "startLine": 11036,
+      "endLine": 14084
+    }
+  ],
+  "proposedPairs": [
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Ambrose",
+      "latin": {
+        "father": "Ambrose",
+        "work": "de Mysteriis",
+        "file": "Fathers/Latin/Ambrose_Latin/de Mysteriis.txt",
+        "bytes": 34638
+      },
+      "english": {
+        "father": "Ambrose",
+        "work": "On the Mysteries",
+        "latin": "de Mysteriis",
+        "file": "Fathers/English/Ambrose_English/On the Mysteries.txt",
+        "bytes": 211558,
+        "source": "Fathers/English/NPNF2/Volume X.   Ambrose - Select Works and Letters",
+        "series": "NPNF2",
+        "volume": "Volume X.",
+        "startLine": 32685,
+        "endLine": 36684
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Ambrose",
+      "latin": {
+        "father": "Ambrose",
+        "work": "Epistulae Variae",
+        "file": "Fathers/Latin/Ambrose_Latin/Epistulae Variae.txt",
+        "bytes": 209443
+      },
+      "english": {
+        "father": "Ambrose",
+        "work": "Letters",
+        "latin": "Epistulae Variae",
+        "file": "Fathers/English/Ambrose_English/Letters.txt",
+        "bytes": 802281,
+        "source": "Fathers/English/NPNF2/Volume X.   Ambrose - Select Works and Letters",
+        "series": "NPNF2",
+        "volume": "Volume X.",
+        "startLine": 40636,
+        "endLine": 51871
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Arnobius",
+      "latin": {
+        "father": "Arnobius",
+        "work": "Adversus nationes",
+        "file": "Fathers/Latin/Arnobius_Latin/Adversus nationes.txt",
+        "bytes": 482947
+      },
+      "english": {
+        "father": "Arnobius",
+        "work": "Against the Heathen",
+        "latin": "Adversus nationes",
+        "file": "Fathers/English/Arnobius_English/Against the Heathen.txt",
+        "bytes": 1250833,
+        "source": "Fathers/English/ANF/Volume VI.   The Fathers of the Third Century",
+        "series": "ANF",
+        "volume": "Volume VI.",
+        "startLine": 38759,
+        "endLine": 59804
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Augustine",
+      "latin": {
+        "father": "Augustine",
+        "work": "de Catechizandis Rudibus",
+        "file": "Fathers/Latin/Augustine_Latin/de Catechizandis Rudibus.txt",
+        "bytes": 102451
+      },
+      "english": {
+        "father": "Augustine",
+        "work": "On the Catechising of the Uninstructed",
+        "latin": "de Catechizandis Rudibus",
+        "file": "Fathers/English/Augustine_English/On Catechising of the Uninstructed.txt",
+        "bytes": 179835,
+        "source": "Fathers/English/NPNF1/Volume III.   On the Holy Trinity, Doctrinal Treatises, Moral Treatises",
+        "series": "NPNF1",
+        "volume": "Volume III.",
+        "startLine": 23263,
+        "endLine": 26170
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Augustine",
+      "latin": {
+        "father": "Augustine",
+        "work": "De civitate Dei",
+        "file": "Fathers/Latin/Augustine_Latin/De civitate Dei.txt",
+        "bytes": 1891573
+      },
+      "english": {
+        "father": "Augustine",
+        "work": "The City of God",
+        "latin": "De civitate Dei",
+        "file": "Fathers/English/Augustine_English/The City of God.txt",
+        "bytes": 2754209,
+        "source": "Fathers/English/NPNF1/Volume II.   The City of God, Christian Doctrine",
+        "series": "NPNF1",
+        "volume": "Volume II.",
+        "startLine": 262,
+        "endLine": 44079
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Augustine",
+      "latin": {
+        "father": "Augustine",
+        "work": "de Fide et Symbolo",
+        "file": "Fathers/Latin/Augustine_Latin/de Fide et Symbolo.txt",
+        "bytes": 39430
+      },
+      "english": {
+        "father": "Augustine",
+        "work": "On Faith and the Creed",
+        "latin": "de Fide et Symbolo",
+        "file": "Fathers/English/Augustine_English/On Faith and the Creed.txt",
+        "bytes": 1765852,
+        "source": "Fathers/English/NPNF1/Volume III.   On the Holy Trinity, Doctrinal Treatises, Moral Treatises",
+        "series": "NPNF1",
+        "volume": "Volume III.",
+        "startLine": 26170,
+        "endLine": 53801
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Augustine",
+      "latin": {
+        "father": "Augustine",
+        "work": "De Trinitate",
+        "file": "Fathers/Latin/Augustine_Latin/De Trinitate.txt",
+        "bytes": 757898
+      },
+      "english": {
+        "father": "Augustine",
+        "work": "On the Holy Trinity",
+        "latin": "De Trinitate",
+        "file": "Fathers/English/Augustine_English/On the Holy Trinity.txt",
+        "bytes": 1406911,
+        "source": "Fathers/English/NPNF1/Volume III.   On the Holy Trinity, Doctrinal Treatises, Moral Treatises",
+        "series": "NPNF1",
+        "volume": "Volume III.",
+        "startLine": 146,
+        "endLine": 23263
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Augustine",
+      "latin": {
+        "father": "Augustine",
+        "work": "The Confessions of St. Augustine Latin",
+        "file": "Fathers/Latin/Augustine_Latin/The Confessions of St. Augustine Latin.txt",
+        "bytes": 521232
+      },
+      "english": {
+        "father": "Augustine",
+        "work": "The Confessions",
+        "latin": "The Confessions of St. Augustine Latin",
+        "file": "Fathers/English/Augustine_English/The Confessions (NPNF Pilkington).txt",
+        "bytes": 1057561,
+        "source": "Fathers/English/NPNF1/Volume I.   Prolegomena St. Augustine's Life and Work, Confessions, Letters",
+        "series": "NPNF1",
+        "volume": "Volume I.   Prolegomena",
+        "startLine": 2421,
+        "endLine": 20396
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Commodianus",
+      "latin": {
+        "father": "Commodianus",
+        "work": "Instructiones",
+        "file": "Fathers/Latin/Commodianus_Latin/Instructiones.txt",
+        "bytes": 53500
+      },
+      "english": {
+        "father": "Commodianus",
+        "work": "Instructions of Commodianus",
+        "latin": "Instructiones",
+        "file": "Fathers/English/Commodianus_English/Instructions of Commodianus.txt",
+        "bytes": 1026308,
+        "source": "Fathers/English/ANF/Volume IV.   The Fathers of the Third Century",
+        "series": "ANF",
+        "volume": "Volume IV.",
+        "startLine": 22372,
+        "endLine": 39571
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Jerome",
+      "latin": {
+        "father": "Jerome",
+        "work": "Epistulae",
+        "file": "Fathers/Latin/Jerome_Latin/Epistulae.txt",
+        "bytes": 37387
+      },
+      "english": {
+        "father": "Jerome",
+        "work": "Letters",
+        "latin": "Epistulae",
+        "file": "Fathers/English/Jerome_English/Letters.txt",
+        "bytes": 1698333,
+        "source": "Fathers/English/NPNF2/Volume VI.   Jerome - Letters and Select Works",
+        "series": "NPNF2",
+        "volume": "Volume VI.",
+        "startLine": 2383,
+        "endLine": 34221
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Jerome",
+      "latin": {
+        "father": "Jerome",
+        "work": "Vita Malchi",
+        "file": "Fathers/Latin/Jerome_Latin/Vita Malchi.txt",
+        "bytes": 14725
+      },
+      "english": {
+        "father": "Jerome",
+        "work": "The Life of Malchus",
+        "latin": "Vita Malchi",
+        "file": "Fathers/English/Jerome_English/The Life of Malchus, the Captive Monk.txt",
+        "bytes": 20039,
+        "source": "Fathers/English/NPNF2/Volume VI.   Jerome - Letters and Select Works",
+        "series": "NPNF2",
+        "volume": "Volume VI.",
+        "startLine": 35595,
+        "endLine": 35898
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Jerome",
+      "latin": {
+        "father": "Jerome",
+        "work": "Vita Pauli",
+        "file": "Fathers/Latin/Jerome_Latin/Vita Pauli.txt",
+        "bytes": 17521
+      },
+      "english": {
+        "father": "Jerome",
+        "work": "The Life of Paulus the First Hermit",
+        "latin": "Vita Pauli",
+        "file": "Fathers/English/Jerome_English/The Life of Paulus the First Hermit.txt",
+        "bytes": 88793,
+        "source": "Fathers/English/NPNF2/Volume VI.   Jerome - Letters and Select Works",
+        "series": "NPNF2",
+        "volume": "Volume VI.",
+        "startLine": 34221,
+        "endLine": 35595
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Lactantius",
+      "latin": {
+        "father": "Lactantius",
+        "work": "DE MORTIBUS PERSECUTORUM",
+        "file": "Fathers/Latin/Lactantius_Latin/DE MORTIBUS PERSECUTORUM.txt",
+        "bytes": 79749
+      },
+      "english": {
+        "father": "Lactantius",
+        "work": "Of the Manner in Which the Persecutors Died",
+        "latin": "DE MORTIBUS PERSECUTORUM",
+        "file": "Fathers/English/Lactantius_English/Of the Manner in Which the Persecutors Died.txt",
+        "bytes": 124558,
+        "source": "Fathers/English/ANF/Volume VII.   The Fathers of the Third and Fourth Centuries",
+        "series": "ANF",
+        "volume": "Volume VII.",
+        "startLine": 29273,
+        "endLine": 31329
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Lactantius",
+      "latin": {
+        "father": "Lactantius",
+        "work": "Divinae institutiones",
+        "file": "Fathers/Latin/Lactantius_Latin/Divinae institutiones.txt",
+        "bytes": 122806
+      },
+      "english": {
+        "father": "Lactantius",
+        "work": "The Divine Institutes",
+        "latin": "Divinae institutiones",
+        "file": "Fathers/English/Lactantius_English/The Divine Institutes.txt",
+        "bytes": 371175,
+        "source": "Fathers/English/ANF/Volume VII.   The Fathers of the Third and Fourth Centuries",
+        "series": "ANF",
+        "volume": "Volume VII.",
+        "startLine": 18815,
+        "endLine": 25128
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Leo",
+      "latin": {
+        "father": "Leo",
+        "work": "Sermones de Quadragesima",
+        "file": "Fathers/Latin/Leo_Latin/Sermones de Quadragesima.txt",
+        "bytes": 16473
+      },
+      "english": {
+        "father": "Leo",
+        "work": "Sermons",
+        "latin": "Sermones de Quadragesima",
+        "file": "Fathers/English/Leo_English/Sermons.txt",
+        "bytes": 616219,
+        "source": "Fathers/English/NPNF2/Volume XII.   Leo the Great, Gregory the Great",
+        "series": "NPNF2",
+        "volume": "Volume XII.",
+        "startLine": 12190,
+        "endLine": 22645
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Minucius_Felix",
+      "latin": {
+        "father": "Minucius_Felix",
+        "work": "Octavius",
+        "file": "Fathers/Latin/Minucius_Felix_Latin/Octavius.txt",
+        "bytes": 79316
+      },
+      "english": {
+        "father": "Minucius_Felix",
+        "work": "The Octavius",
+        "latin": "Octavius",
+        "file": "Fathers/English/Minucius_Felix_English/The Octavius.txt",
+        "bytes": 151633,
+        "source": "Fathers/English/ANF/Volume IV.   The Fathers of the Third Century",
+        "series": "ANF",
+        "volume": "Volume IV.",
+        "startLine": 19950,
+        "endLine": 22372
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Novatian",
+      "latin": {
+        "father": "Novatian",
+        "work": "De Trinitate",
+        "file": "Fathers/Latin/Novatian_Latin/De Trinitate.txt",
+        "bytes": 135467
+      },
+      "english": {
+        "father": "Novatian",
+        "work": "A Treatise Concerning the Trinity",
+        "latin": "De Trinitate",
+        "file": "Fathers/English/Novatian_English/A Treatise Concerning the Trinity.txt",
+        "bytes": 197577,
+        "source": "Fathers/English/ANF/Volume V.   The Fathers of the Third Century",
+        "series": "ANF",
+        "volume": "Volume V.",
+        "startLine": 61065,
+        "endLine": 64341
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Sulpicius_Severus",
+      "latin": {
+        "father": "Sulpicius_Severus",
+        "work": "Vita Sancti Martini",
+        "file": "Fathers/Latin/Sulpicius_Severus_Latin/Vita Sancti Martini.txt",
+        "bytes": 48589
+      },
+      "english": {
+        "father": "Sulpicius_Severus",
+        "work": "On the Life of St. Martin",
+        "latin": "Vita Sancti Martini",
+        "file": "Fathers/English/Sulpicius_Severus_English/On the Life of St. Martin.txt",
+        "bytes": 675817,
+        "source": "Fathers/English/NPNF2/Volume XI.   Sulpitius Severus, Vincent of Lerins, John Cassian",
+        "series": "NPNF2",
+        "volume": "Volume XI.",
+        "startLine": 212,
+        "endLine": 11036
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Tertullian",
+      "latin": {
+        "father": "Tertullian",
+        "work": "ad Martyres",
+        "file": "Fathers/Latin/Tertullian_Latin/ad Martyres.txt",
+        "bytes": 10988
+      },
+      "english": {
+        "father": "Tertullian",
+        "work": "Ad Martyras",
+        "latin": "ad Martyres",
+        "file": "Fathers/English/Tertullian_English/Ad Martyras.txt",
+        "bytes": 61514,
+        "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+        "series": "ANF",
+        "volume": "Volume III.",
+        "startLine": 68852,
+        "endLine": 69867
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Tertullian",
+      "latin": {
+        "father": "Tertullian",
+        "work": "ad Nationes",
+        "file": "Fathers/Latin/Tertullian_Latin/ad Nationes.txt",
+        "bytes": 111365
+      },
+      "english": {
+        "father": "Tertullian",
+        "work": "Ad Nationes",
+        "latin": "ad Nationes",
+        "file": "Fathers/English/Tertullian_English/Ad Nationes.txt",
+        "bytes": 225469,
+        "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+        "series": "ANF",
+        "volume": "Volume III.",
+        "startLine": 8999,
+        "endLine": 13306
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Tertullian",
+      "latin": {
+        "father": "Tertullian",
+        "work": "ad Scapulam",
+        "file": "Fathers/Latin/Tertullian_Latin/ad Scapulam.txt",
+        "bytes": 10891
+      },
+      "english": {
+        "father": "Tertullian",
+        "work": "To Scapula",
+        "latin": "ad Scapulam",
+        "file": "Fathers/English/Tertullian_English/To Scapula.txt",
+        "bytes": 19793,
+        "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+        "series": "ANF",
+        "volume": "Volume III.",
+        "startLine": 8670,
+        "endLine": 8999
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Tertullian",
+      "latin": {
+        "father": "Tertullian",
+        "work": "ad Uxorem",
+        "file": "Fathers/Latin/Tertullian_Latin/ad Uxorem.txt",
+        "bytes": 30980
+      },
+      "english": {
+        "father": "Tertullian",
+        "work": "To His Wife",
+        "latin": "ad Uxorem",
+        "file": "Fathers/English/Tertullian_English/To His Wife.txt",
+        "bytes": 63117,
+        "source": "Fathers/English/ANF/Volume IV.   The Fathers of the Third Century",
+        "series": "ANF",
+        "volume": "Volume IV.",
+        "startLine": 3526,
+        "endLine": 4733
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Tertullian",
+      "latin": {
+        "father": "Tertullian",
+        "work": "Adversus Iudaeos",
+        "file": "Fathers/Latin/Tertullian_Latin/Adversus Iudaeos.txt",
+        "bytes": 78026
+      },
+      "english": {
+        "father": "Tertullian",
+        "work": "An Answer to the Jews",
+        "latin": "Adversus Iudaeos",
+        "file": "Fathers/English/Tertullian_English/An Answer to the Jews.txt",
+        "bytes": 136742,
+        "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+        "series": "ANF",
+        "volume": "Volume III.",
+        "startLine": 13306,
+        "endLine": 15845
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Tertullian",
+      "latin": {
+        "father": "Tertullian",
+        "work": "Adversus Marcionem",
+        "file": "Fathers/Latin/Tertullian_Latin/Adversus Marcionem.txt",
+        "bytes": 559103
+      },
+      "english": {
+        "father": "Tertullian",
+        "work": "The Five Books Against Marcion",
+        "latin": "Adversus Marcionem",
+        "file": "Fathers/English/Tertullian_English/The Five Books Against Marcion.txt",
+        "bytes": 1171574,
+        "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+        "series": "ANF",
+        "volume": "Volume III.",
+        "startLine": 24376,
+        "endLine": 47195
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Tertullian",
+      "latin": {
+        "father": "Tertullian",
+        "work": "Adversus Omnes Haereses",
+        "file": "Fathers/Latin/Tertullian_Latin/Adversus Omnes Haereses.txt",
+        "bytes": 18496
+      },
+      "english": {
+        "father": "Tertullian",
+        "work": "Against All Heresies",
+        "latin": "Adversus Omnes Haereses",
+        "file": "Fathers/English/Tertullian_English/Against All Heresies.txt",
+        "bytes": 36505,
+        "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+        "series": "ANF",
+        "volume": "Volume III.",
+        "startLine": 64449,
+        "endLine": 65143
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Tertullian",
+      "latin": {
+        "father": "Tertullian",
+        "work": "Adversus Praxean",
+        "file": "Fathers/Latin/Tertullian_Latin/Adversus Praxean.txt",
+        "bytes": 93003
+      },
+      "english": {
+        "father": "Tertullian",
+        "work": "Against Praxeas",
+        "latin": "Adversus Praxean",
+        "file": "Fathers/English/Tertullian_English/Against Praxeas.txt",
+        "bytes": 190472,
+        "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+        "series": "ANF",
+        "volume": "Volume III.",
+        "startLine": 59495,
+        "endLine": 62997
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Tertullian",
+      "latin": {
+        "father": "Tertullian",
+        "work": "Apologeticum",
+        "file": "Fathers/Latin/Tertullian_Latin/Apologeticum.txt",
+        "bytes": 147886
+      },
+      "english": {
+        "father": "Tertullian",
+        "work": "The Apology",
+        "latin": "Apologeticum",
+        "file": "Fathers/English/Tertullian_English/The Apology.txt",
+        "bytes": 230344,
+        "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+        "series": "ANF",
+        "volume": "Volume III.",
+        "startLine": 1215,
+        "endLine": 4807
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Tertullian",
+      "latin": {
+        "father": "Tertullian",
+        "work": "de Carne Christi",
+        "file": "Fathers/Latin/Tertullian_Latin/de Carne Christi.txt",
+        "bytes": 64308
+      },
+      "english": {
+        "father": "Tertullian",
+        "work": "On the Flesh of Christ",
+        "latin": "de Carne Christi",
+        "file": "Fathers/English/Tertullian_English/On the Flesh of Christ.txt",
+        "bytes": 125751,
+        "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+        "series": "ANF",
+        "volume": "Volume III.",
+        "startLine": 52218,
+        "endLine": 54588
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Tertullian",
+      "latin": {
+        "father": "Tertullian",
+        "work": "de Corona Militis",
+        "file": "Fathers/Latin/Tertullian_Latin/de Corona Militis.txt",
+        "bytes": 34990
+      },
+      "english": {
+        "father": "Tertullian",
+        "work": "The Chaplet",
+        "latin": "de Corona Militis",
+        "file": "Fathers/English/Tertullian_English/The Chaplet (De Corona).txt",
+        "bytes": 62373,
+        "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+        "series": "ANF",
+        "volume": "Volume III.",
+        "startLine": 7635,
+        "endLine": 8670
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Tertullian",
+      "latin": {
+        "father": "Tertullian",
+        "work": "de Idololatria",
+        "file": "Fathers/Latin/Tertullian_Latin/de Idololatria.txt",
+        "bytes": 102278
+      },
+      "english": {
+        "father": "Tertullian",
+        "work": "On Idolatry",
+        "latin": "de Idololatria",
+        "file": "Fathers/English/Tertullian_English/On Idolatry.txt",
+        "bytes": 95027,
+        "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+        "series": "ANF",
+        "volume": "Volume III.",
+        "startLine": 4807,
+        "endLine": 6491
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Tertullian",
+      "latin": {
+        "father": "Tertullian",
+        "work": "de Ieiunio",
+        "file": "Fathers/Latin/Tertullian_Latin/de Ieiunio.txt",
+        "bytes": 42858
+      },
+      "english": {
+        "father": "Tertullian",
+        "work": "On Fasting",
+        "latin": "de Ieiunio",
+        "file": "Fathers/English/Tertullian_English/On Fasting.txt",
+        "bytes": 77231,
+        "source": "Fathers/English/ANF/Volume IV.   The Fathers of the Third Century",
+        "series": "ANF",
+        "volume": "Volume IV.",
+        "startLine": 9888,
+        "endLine": 11258
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Tertullian",
+      "latin": {
+        "father": "Tertullian",
+        "work": "de Oratione",
+        "file": "Fathers/Latin/Tertullian_Latin/de Oratione.txt",
+        "bytes": 32260
+      },
+      "english": {
+        "father": "Tertullian",
+        "work": "On Prayer",
+        "latin": "de Oratione",
+        "file": "Fathers/English/Tertullian_English/On Prayer.txt",
+        "bytes": 65651,
+        "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+        "series": "ANF",
+        "volume": "Volume III.",
+        "startLine": 67550,
+        "endLine": 68852
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Tertullian",
+      "latin": {
+        "father": "Tertullian",
+        "work": "de Pallio",
+        "file": "Fathers/Latin/Tertullian_Latin/de Pallio.txt",
+        "bytes": 25057
+      },
+      "english": {
+        "father": "Tertullian",
+        "work": "On the Pallium",
+        "latin": "de Pallio",
+        "file": "Fathers/English/Tertullian_English/On the Pallium.txt",
+        "bytes": 50740,
+        "source": "Fathers/English/ANF/Volume IV.   The Fathers of the Third Century",
+        "series": "ANF",
+        "volume": "Volume IV.",
+        "startLine": 143,
+        "endLine": 1017
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Tertullian",
+      "latin": {
+        "father": "Tertullian",
+        "work": "de Pudicitia",
+        "file": "Fathers/Latin/Tertullian_Latin/de Pudicitia.txt",
+        "bytes": 98357
+      },
+      "english": {
+        "father": "Tertullian",
+        "work": "On Modesty",
+        "latin": "de Pudicitia",
+        "file": "Fathers/English/Tertullian_English/On Modesty.txt",
+        "bytes": 162458,
+        "source": "Fathers/English/ANF/Volume IV.   The Fathers of the Third Century",
+        "series": "ANF",
+        "volume": "Volume IV.",
+        "startLine": 7040,
+        "endLine": 9888
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Tertullian",
+      "latin": {
+        "father": "Tertullian",
+        "work": "de Spectaculis",
+        "file": "Fathers/Latin/Tertullian_Latin/de Spectaculis.txt",
+        "bytes": 45843
+      },
+      "english": {
+        "father": "Tertullian",
+        "work": "The Shows",
+        "latin": "de Spectaculis",
+        "file": "Fathers/English/Tertullian_English/The Shows (De Spectaculis).txt",
+        "bytes": 71931,
+        "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+        "series": "ANF",
+        "volume": "Volume III.",
+        "startLine": 6491,
+        "endLine": 7635
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Tertullian",
+      "latin": {
+        "father": "Tertullian",
+        "work": "de Testimonio Animae",
+        "file": "Fathers/Latin/Tertullian_Latin/de Testimonio Animae.txt",
+        "bytes": 15452
+      },
+      "english": {
+        "father": "Tertullian",
+        "work": "The Soul's Testimony",
+        "latin": "de Testimonio Animae",
+        "file": "Fathers/English/Tertullian_English/The Soul's Testimony.txt",
+        "bytes": 27728,
+        "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+        "series": "ANF",
+        "volume": "Volume III.",
+        "startLine": 15845,
+        "endLine": 16285
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Tertullian",
+      "latin": {
+        "father": "Tertullian",
+        "work": "de Virginibus Velandis",
+        "file": "Fathers/Latin/Tertullian_Latin/de Virginibus Velandis.txt",
+        "bytes": 39737
+      },
+      "english": {
+        "father": "Tertullian",
+        "work": "On the Veiling of Virgins",
+        "latin": "de Virginibus Velandis",
+        "file": "Fathers/English/Tertullian_English/On the Veiling of Virgins.txt",
+        "bytes": 66899,
+        "source": "Fathers/English/ANF/Volume IV.   The Fathers of the Third Century",
+        "series": "ANF",
+        "volume": "Volume IV.",
+        "startLine": 2402,
+        "endLine": 3526
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Tertullian",
+      "latin": {
+        "father": "Tertullian",
+        "work": "Liber Scorpiace",
+        "file": "Fathers/Latin/Tertullian_Latin/Liber Scorpiace.txt",
+        "bytes": 55967
+      },
+      "english": {
+        "father": "Tertullian",
+        "work": "Scorpiace",
+        "latin": "Liber Scorpiace",
+        "file": "Fathers/English/Tertullian_English/Scorpiace.txt",
+        "bytes": 87496,
+        "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+        "series": "ANF",
+        "volume": "Volume III.",
+        "startLine": 62997,
+        "endLine": 64449
+      }
+    },
+    {
+      "status": "proposed-pair",
+      "confidence": "explicit",
+      "father": "Vincent",
+      "latin": {
+        "father": "Vincent",
+        "work": "Commonitorium",
+        "file": "Fathers/Latin/Vincent_Latin/Commonitorium.txt",
+        "bytes": 122201
+      },
+      "english": {
+        "father": "Vincent",
+        "work": "The Commonitory",
+        "latin": "Commonitorium",
+        "file": "Fathers/English/Vincent_English/The Commonitory.txt",
+        "bytes": 178607,
+        "source": "Fathers/English/NPNF2/Volume XI.   Sulpitius Severus, Vincent of Lerins, John Cassian",
+        "series": "NPNF2",
+        "volume": "Volume XI.",
+        "startLine": 11036,
+        "endLine": 14084
+      }
+    }
+  ],
+  "latinOnly": [
+    {
+      "status": "latin-only",
+      "father": "Ambrose",
+      "latin": {
+        "father": "Ambrose",
+        "work": "Epistula ad Sororem",
+        "file": "Fathers/Latin/Ambrose_Latin/Epistula ad Sororem.txt",
+        "bytes": 15429
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Ambrose",
+      "latin": {
+        "father": "Ambrose",
+        "work": "Hymni",
+        "file": "Fathers/Latin/Ambrose_Latin/Hymni.txt",
+        "bytes": 7544
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Augustine",
+      "latin": {
+        "father": "Augustine",
+        "work": "Contra secundam Iuliani responsionem",
+        "file": "Fathers/Latin/Augustine_Latin/Contra secundam Iuliani responsionem.txt",
+        "bytes": 194189
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Augustine",
+      "latin": {
+        "father": "Augustine",
+        "work": "de Dialectica",
+        "file": "Fathers/Latin/Augustine_Latin/de Dialectica.txt",
+        "bytes": 38711
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Augustine",
+      "latin": {
+        "father": "Augustine",
+        "work": "Regula Sancti Augustini",
+        "file": "Fathers/Latin/Augustine_Latin/Regula Sancti Augustini.txt",
+        "bytes": 15787
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Augustine",
+      "latin": {
+        "father": "Augustine",
+        "work": "SERMONES",
+        "file": "Fathers/Latin/Augustine_Latin/SERMONES.txt",
+        "bytes": 643523
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Bede",
+      "latin": {
+        "father": "Bede",
+        "work": "Historia ecclesiastica gentis Anglorum",
+        "file": "Fathers/Latin/Bede_Latin/Historia ecclesiastica gentis Anglorum.txt",
+        "bytes": 565202
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Bede",
+      "latin": {
+        "father": "Bede",
+        "work": "PROVERBIORUM LIBER",
+        "file": "Fathers/Latin/Bede_Latin/PROVERBIORUM LIBER.txt",
+        "bytes": 64262
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Benedict",
+      "latin": {
+        "father": "Benedict",
+        "work": "Regula Benedicti",
+        "file": "Fathers/Latin/Benedict_Latin/Regula Benedicti.txt",
+        "bytes": 92590
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Cassiodorus",
+      "latin": {
+        "father": "Cassiodorus",
+        "work": "Epistulae Theodericianae Variae",
+        "file": "Fathers/Latin/Cassiodorus_Latin/Epistulae Theodericianae Variae.txt",
+        "bytes": 7494
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Cassiodorus",
+      "latin": {
+        "father": "Cassiodorus",
+        "work": "Orationum Reliquiae",
+        "file": "Fathers/Latin/Cassiodorus_Latin/Orationum Reliquiae.txt",
+        "bytes": 11732
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Cassiodorus",
+      "latin": {
+        "father": "Cassiodorus",
+        "work": "Variae",
+        "file": "Fathers/Latin/Cassiodorus_Latin/Variae.txt",
+        "bytes": 868517
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Commodianus",
+      "latin": {
+        "father": "Commodianus",
+        "work": "Carmen de Duobus Populis",
+        "file": "Fathers/Latin/Commodianus_Latin/Carmen de Duobus Populis.txt",
+        "bytes": 49389
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Commodianus",
+      "latin": {
+        "father": "Commodianus",
+        "work": "De Saeculi Istius Fine",
+        "file": "Fathers/Latin/Commodianus_Latin/De Saeculi Istius Fine.txt",
+        "bytes": 1147
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Desert_Fathers",
+      "latin": {
+        "father": "Desert_Fathers",
+        "work": "Regula ad monachos",
+        "file": "Fathers/Latin/Desert_Fathers_Latin/Regula ad monachos.txt",
+        "bytes": 40524
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Egeria",
+      "latin": {
+        "father": "Egeria",
+        "work": "Itinerarium",
+        "file": "Fathers/Latin/Egeria_Latin/Itinerarium.txt",
+        "bytes": 114330
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Ennodius",
+      "latin": {
+        "father": "Ennodius",
+        "work": "Panegyricus regi Theoderico",
+        "file": "Fathers/Latin/Ennodius_Latin/Panegyricus regi Theoderico.txt",
+        "bytes": 36129
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Eucherius",
+      "latin": {
+        "father": "Eucherius",
+        "work": "De laude eremi",
+        "file": "Fathers/Latin/Eucherius_Latin/De laude eremi.txt",
+        "bytes": 28382
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Eugippius",
+      "latin": {
+        "father": "Eugippius",
+        "work": "Vita Sancti Severini",
+        "file": "Fathers/Latin/Eugippius_Latin/Vita Sancti Severini.txt",
+        "bytes": 88021
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Gelasius",
+      "latin": {
+        "father": "Gelasius",
+        "work": "Decretum Gelasianum",
+        "file": "Fathers/Latin/Gelasius_Latin/Decretum Gelasianum.txt",
+        "bytes": 15529
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Gregory",
+      "latin": {
+        "father": "Gregory",
+        "work": "Epistola ad Constantinam Augustam (IV.30)",
+        "file": "Fathers/Latin/Gregory_Latin/Epistola ad Constantinam Augustam (IV.30).txt",
+        "bytes": 5714
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Hydatius",
+      "latin": {
+        "father": "Hydatius",
+        "work": "Chronicon",
+        "file": "Fathers/Latin/Hydatius_Latin/Chronicon.txt",
+        "bytes": 41316
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Hydatius",
+      "latin": {
+        "father": "Hydatius",
+        "work": "Fasti",
+        "file": "Fathers/Latin/Hydatius_Latin/Fasti.txt",
+        "bytes": 47000
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Isidore",
+      "latin": {
+        "father": "Isidore",
+        "work": "Etymologiae",
+        "file": "Fathers/Latin/Isidore_Latin/Etymologiae.txt",
+        "bytes": 1199167
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Isidore",
+      "latin": {
+        "father": "Isidore",
+        "work": "HISTORIA DE REGIBUS GOTHORUM, WANDALORUM ET SUEVORUM",
+        "file": "Fathers/Latin/Isidore_Latin/HISTORIA DE REGIBUS GOTHORUM, WANDALORUM ET SUEVORUM.txt",
+        "bytes": 51684
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Isidore",
+      "latin": {
+        "father": "Isidore",
+        "work": "Sententiae",
+        "file": "Fathers/Latin/Isidore_Latin/Sententiae.txt",
+        "bytes": 189512
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Jerome",
+      "latin": {
+        "father": "Jerome",
+        "work": "Contra Ioannem",
+        "file": "Fathers/Latin/Jerome_Latin/Contra Ioannem.txt",
+        "bytes": 92838
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Junillus",
+      "latin": {
+        "father": "Junillus",
+        "work": "Instituta regularia divinae legis",
+        "file": "Fathers/Latin/Junillus_Latin/Instituta regularia divinae legis.txt",
+        "bytes": 72222
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Macarius_Alexandria",
+      "latin": {
+        "father": "Macarius_Alexandria",
+        "work": "Regula ad monachos",
+        "file": "Fathers/Latin/Macarius_Alexandria_Latin/Regula ad monachos.txt",
+        "bytes": 10730
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Macarius_Great",
+      "latin": {
+        "father": "Macarius_Great",
+        "work": "Apophthegmata",
+        "file": "Fathers/Latin/Macarius_Great_Latin/Apophthegmata.txt",
+        "bytes": 33486
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Orosius",
+      "latin": {
+        "father": "Orosius",
+        "work": "Historiae adversum paganos",
+        "file": "Fathers/Latin/Orosius_Latin/Historiae adversum paganos.txt",
+        "bytes": 561584
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Paulinus",
+      "latin": {
+        "father": "Paulinus",
+        "work": "Poemata",
+        "file": "Fathers/Latin/Paulinus_Latin/Poemata.txt",
+        "bytes": 175708
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Prosper",
+      "latin": {
+        "father": "Prosper",
+        "work": "Epistola ad Augustinum",
+        "file": "Fathers/Latin/Prosper_Latin/Epistola ad Augustinum.txt",
+        "bytes": 16478
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Prosper",
+      "latin": {
+        "father": "Prosper",
+        "work": "Epistola ad Rufinum",
+        "file": "Fathers/Latin/Prosper_Latin/Epistola ad Rufinum.txt",
+        "bytes": 29114
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Prosper",
+      "latin": {
+        "father": "Prosper",
+        "work": "Liber Sententiarum",
+        "file": "Fathers/Latin/Prosper_Latin/Liber Sententiarum.txt",
+        "bytes": 100886
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Prudentius",
+      "latin": {
+        "father": "Prudentius",
+        "work": "Peristephanon",
+        "file": "Fathers/Latin/Prudentius_Latin/Peristephanon.txt",
+        "bytes": 131971
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Prudentius",
+      "latin": {
+        "father": "Prudentius",
+        "work": "Psychomachia",
+        "file": "Fathers/Latin/Prudentius_Latin/Psychomachia.txt",
+        "bytes": 44525
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Sedulius",
+      "latin": {
+        "father": "Sedulius",
+        "work": "A solis ortus cardine",
+        "file": "Fathers/Latin/Sedulius_Latin/A solis ortus cardine.txt",
+        "bytes": 2577
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Sedulius",
+      "latin": {
+        "father": "Sedulius",
+        "work": "Carmen paschale",
+        "file": "Fathers/Latin/Sedulius_Latin/Carmen paschale.txt",
+        "bytes": 82587
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Sulpicius_Severus",
+      "latin": {
+        "father": "Sulpicius_Severus",
+        "work": "Chronica",
+        "file": "Fathers/Latin/Sulpicius_Severus_Latin/Chronica.txt",
+        "bytes": 183101
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Tertullian",
+      "latin": {
+        "father": "Tertullian",
+        "work": "Carmen ad Senatorem",
+        "file": "Fathers/Latin/Tertullian_Latin/Carmen ad Senatorem.txt",
+        "bytes": 12164
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Tertullian",
+      "latin": {
+        "father": "Tertullian",
+        "work": "Carmen de Iona Propheta",
+        "file": "Fathers/Latin/Tertullian_Latin/Carmen de Iona Propheta.txt",
+        "bytes": 10059
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Tertullian",
+      "latin": {
+        "father": "Tertullian",
+        "work": "Carmen de Iudicio Domini",
+        "file": "Fathers/Latin/Tertullian_Latin/Carmen de Iudicio Domini.txt",
+        "bytes": 35933
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Tertullian",
+      "latin": {
+        "father": "Tertullian",
+        "work": "Carmen Genesis",
+        "file": "Fathers/Latin/Tertullian_Latin/Carmen Genesis.txt",
+        "bytes": 22475
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Tertullian",
+      "latin": {
+        "father": "Tertullian",
+        "work": "de Execrandis Gentium Diis",
+        "file": "Fathers/Latin/Tertullian_Latin/de Execrandis Gentium Diis.txt",
+        "bytes": 5068
+      },
+      "english": null
+    },
+    {
+      "status": "latin-only",
+      "father": "Toledo_400",
+      "latin": {
+        "father": "Toledo_400",
+        "work": "Professio contra sectam Priscilliani",
+        "file": "Fathers/Latin/Toledo_400_Latin/Professio contra sectam Priscilliani.txt",
+        "bytes": 8847
+      },
+      "english": null
+    }
+  ],
+  "englishOnlyWestern": [
+    {
+      "father": "Ambrose",
+      "work": "Concerning Virgins",
+      "latin": null,
+      "file": "Fathers/English/Ambrose_English/Concerning Virgins.txt",
+      "bytes": 131547,
+      "source": "Fathers/English/NPNF2/Volume X.   Ambrose - Select Works and Letters",
+      "series": "NPNF2",
+      "volume": "Volume X.",
+      "startLine": 36684,
+      "endLine": 39039
+    },
+    {
+      "father": "Ambrose",
+      "work": "Concerning Widows",
+      "latin": null,
+      "file": "Fathers/English/Ambrose_English/Concerning Widows.txt",
+      "bytes": 89469,
+      "source": "Fathers/English/NPNF2/Volume X.   Ambrose - Select Works and Letters",
+      "series": "NPNF2",
+      "volume": "Volume X.",
+      "startLine": 39039,
+      "endLine": 40636
+    },
+    {
+      "father": "Ambrose",
+      "work": "Exposition of the Christian Faith",
+      "latin": null,
+      "file": "Fathers/English/Ambrose_English/Exposition of the Christian Faith.txt",
+      "bytes": 648011,
+      "source": "Fathers/English/NPNF2/Volume X.   Ambrose - Select Works and Letters",
+      "series": "NPNF2",
+      "volume": "Volume X.",
+      "startLine": 20394,
+      "endLine": 32685
+    },
+    {
+      "father": "Ambrose",
+      "work": "On the Duties of the Clergy",
+      "latin": null,
+      "file": "Fathers/English/Ambrose_English/On the Duties of the Clergy.txt",
+      "bytes": 477105,
+      "source": "Fathers/English/NPNF2/Volume X.   Ambrose - Select Works and Letters",
+      "series": "NPNF2",
+      "volume": "Volume X.",
+      "startLine": 1299,
+      "endLine": 10239
+    },
+    {
+      "father": "Ambrose",
+      "work": "On the Holy Spirit",
+      "latin": null,
+      "file": "Fathers/English/Ambrose_English/On the Holy Spirit.txt",
+      "bytes": 544387,
+      "source": "Fathers/English/NPNF2/Volume X.   Ambrose - Select Works and Letters",
+      "series": "NPNF2",
+      "volume": "Volume X.",
+      "startLine": 10239,
+      "endLine": 20394
+    },
+    {
+      "father": "Augustine",
+      "work": "Letters",
+      "latin": null,
+      "file": "Fathers/English/Augustine_English/Letters.txt",
+      "bytes": 2700609,
+      "source": "Fathers/English/NPNF1/Volume I.   Prolegomena St. Augustine's Life and Work, Confessions, Letters",
+      "series": "NPNF1",
+      "volume": "Volume I.   Prolegomena",
+      "startLine": 20396,
+      "endLine": 64827
+    },
+    {
+      "father": "Augustine",
+      "work": "On Christian Doctrine",
+      "latin": null,
+      "file": "Fathers/English/Augustine_English/On Christian Doctrine.txt",
+      "bytes": 926725,
+      "source": "Fathers/English/NPNF1/Volume II.   The City of God, Christian Doctrine",
+      "series": "NPNF1",
+      "volume": "Volume II.",
+      "startLine": 44079,
+      "endLine": 58945
+    },
+    {
+      "father": "Gregory",
+      "work": "The Book of Pastoral Rule",
+      "latin": null,
+      "file": "Fathers/English/Gregory_English/The Book of Pastoral Rule.txt",
+      "bytes": 1610464,
+      "source": "Fathers/English/NPNF2/Volume XII.   Leo the Great, Gregory the Great",
+      "series": "NPNF2",
+      "volume": "Volume XII.",
+      "startLine": 22645,
+      "endLine": 48068
+    },
+    {
+      "father": "Lactantius",
+      "work": "Fragments of Lactantius",
+      "latin": null,
+      "file": "Fathers/English/Lactantius_English/Fragments of Lactantius.txt",
+      "bytes": 3046,
+      "source": "Fathers/English/ANF/Volume VII.   The Fathers of the Third and Fourth Centuries",
+      "series": "ANF",
+      "volume": "Volume VII.",
+      "startLine": 31329,
+      "endLine": 31378
+    },
+    {
+      "father": "Lactantius",
+      "work": "On the Anger of God",
+      "latin": null,
+      "file": "Fathers/English/Lactantius_English/On the Anger of God.txt",
+      "bytes": 124255,
+      "source": "Fathers/English/ANF/Volume VII.   The Fathers of the Third and Fourth Centuries",
+      "series": "ANF",
+      "volume": "Volume VII.",
+      "startLine": 25128,
+      "endLine": 27308
+    },
+    {
+      "father": "Lactantius",
+      "work": "On the Workmanship of God",
+      "latin": null,
+      "file": "Fathers/English/Lactantius_English/On the Workmanship of God.txt",
+      "bytes": 116262,
+      "source": "Fathers/English/ANF/Volume VII.   The Fathers of the Third and Fourth Centuries",
+      "series": "ANF",
+      "volume": "Volume VII.",
+      "startLine": 27308,
+      "endLine": 29273
+    },
+    {
+      "father": "Novatian",
+      "work": "On the Jewish Meats",
+      "latin": null,
+      "file": "Fathers/English/Novatian_English/On the Jewish Meats.txt",
+      "bytes": 666358,
+      "source": "Fathers/English/ANF/Volume V.   The Fathers of the Third Century",
+      "series": "ANF",
+      "volume": "Volume V.",
+      "startLine": 64341,
+      "endLine": 73690
+    },
+    {
+      "father": "Tertullian",
+      "work": "A Treatise on the Soul",
+      "latin": null,
+      "file": "Fathers/English/Tertullian_English/A Treatise on the Soul.txt",
+      "bytes": 319796,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 16285,
+      "endLine": 21504
+    },
+    {
+      "father": "Tertullian",
+      "work": "Against Hermogenes",
+      "latin": null,
+      "file": "Fathers/English/Tertullian_English/Against Hermogenes.txt",
+      "bytes": 149522,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 47195,
+      "endLine": 50162
+    },
+    {
+      "father": "Tertullian",
+      "work": "Against the Valentinians",
+      "latin": null,
+      "file": "Fathers/English/Tertullian_English/Against the Valentinians.txt",
+      "bytes": 103894,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 50162,
+      "endLine": 52218
+    },
+    {
+      "father": "Tertullian",
+      "work": "De Fuga in Persecutione",
+      "latin": null,
+      "file": "Fathers/English/Tertullian_English/De Fuga in Persecutione.txt",
+      "bytes": 273722,
+      "source": "Fathers/English/ANF/Volume IV.   The Fathers of the Third Century",
+      "series": "ANF",
+      "volume": "Volume IV.",
+      "startLine": 11258,
+      "endLine": 19950
+    },
+    {
+      "father": "Tertullian",
+      "work": "Of Patience",
+      "latin": null,
+      "file": "Fathers/English/Tertullian_English/Of Patience.txt",
+      "bytes": 644930,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 69867,
+      "endLine": 78218
+    },
+    {
+      "father": "Tertullian",
+      "work": "On Baptism",
+      "latin": null,
+      "file": "Fathers/English/Tertullian_English/On Baptism.txt",
+      "bytes": 64286,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 66260,
+      "endLine": 67550
+    },
+    {
+      "father": "Tertullian",
+      "work": "On Exhortation to Chastity",
+      "latin": null,
+      "file": "Fathers/English/Tertullian_English/On Exhortation to Chastity.txt",
+      "bytes": 49181,
+      "source": "Fathers/English/ANF/Volume IV.   The Fathers of the Third Century",
+      "series": "ANF",
+      "volume": "Volume IV.",
+      "startLine": 4733,
+      "endLine": 5572
+    },
+    {
+      "father": "Tertullian",
+      "work": "On Monogamy",
+      "latin": null,
+      "file": "Fathers/English/Tertullian_English/On Monogamy.txt",
+      "bytes": 85798,
+      "source": "Fathers/English/ANF/Volume IV.   The Fathers of the Third Century",
+      "series": "ANF",
+      "volume": "Volume IV.",
+      "startLine": 5572,
+      "endLine": 7040
+    },
+    {
+      "father": "Tertullian",
+      "work": "On Repentance",
+      "latin": null,
+      "file": "Fathers/English/Tertullian_English/On Repentance.txt",
+      "bytes": 61335,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 65143,
+      "endLine": 66260
+    },
+    {
+      "father": "Tertullian",
+      "work": "On the Apparel of Women",
+      "latin": null,
+      "file": "Fathers/English/Tertullian_English/On the Apparel of Women.txt",
+      "bytes": 71502,
+      "source": "Fathers/English/ANF/Volume IV.   The Fathers of the Third Century",
+      "series": "ANF",
+      "volume": "Volume IV.",
+      "startLine": 1017,
+      "endLine": 2402
+    },
+    {
+      "father": "Tertullian",
+      "work": "On the Resurrection of the Flesh",
+      "latin": null,
+      "file": "Fathers/English/Tertullian_English/On the Resurrection of the Flesh.txt",
+      "bytes": 283482,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 54588,
+      "endLine": 59495
+    },
+    {
+      "father": "Tertullian",
+      "work": "The Prescription Against Heretics",
+      "latin": null,
+      "file": "Fathers/English/Tertullian_English/The Prescription Against Heretics.txt",
+      "bytes": 140951,
+      "source": "Fathers/English/ANF/Volume III.   Latin Christianity Its Founder, Tertullian",
+      "series": "ANF",
+      "volume": "Volume III.",
+      "startLine": 21504,
+      "endLine": 24376
+    }
+  ]
+}

@@ -22,22 +22,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm build
       - uses: actions/configure-pages@v5
         with:
           enablement: true
-      - name: Stage site files
-        run: |
-          mkdir -p _site
-          rsync -a \
-            --exclude '.git/' \
-            --exclude '.github/' \
-            --exclude 'node_modules/' \
-            --exclude 'scripts/latin-library/cache/' \
-            --exclude 'scripts/shots/' \
-            --exclude '_site/' \
-            ./ _site/
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: dist
       - id: deployment
         uses: actions/deploy-pages@v4

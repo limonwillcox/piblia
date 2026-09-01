@@ -1,4 +1,7 @@
 node_modules/
+dist/
 package-lock.json
 scripts/shots/
 scripts/latin-library/cache/
+data/confessions.json
+*.local

@@ -1,4 +1,4 @@
-import { readdirSync, readFileSync, writeFileSync } from "fs";
+import { mkdirSync, readdirSync, readFileSync, writeFileSync } from "fs";
 import { dirname, join, relative } from "path";
 import { fileURLToPath } from "url";
 
@@ -155,13 +155,8 @@ const out = {
   books
 };
 
-const js =
-  "/* Generated from Fathers/The Confessions of St. Augustine. Augustine.txt and the Latin companion — do not edit by hand. */\n" +
-  "window.FG_CONFESSIONS = " +
-  JSON.stringify(out) +
-  ";\n";
-
-writeFileSync(join(root, "js", "confessions-data.js"), js);
+mkdirSync(join(root, "data"), { recursive: true });
+writeFileSync(join(root, "data", "confessions.json"), JSON.stringify(out));
 const paraCount = books.reduce((n, b) => n + b.paras.length, 0);
 const latinCount = books.reduce((n, b) => n + b.latin.length, 0);
 const noteCount = books.reduce((n, b) => n + b.notes.length, 0);

@@ -1,14 +1,33 @@
 {
   "name": "fathers-gateway",
   "private": true,
-  "description": "Mock open-source Church Fathers literature hub in the Bible Gateway reading layout.",
+  "type": "module",
+  "description": "Searchable public-domain Church Fathers library.",
+  "packageManager": "pnpm@11.24.0",
   "scripts": {
-    "start": "npx --yes http-server -p 8080 -c-1",
-    "verify": "node scripts/verify.mjs",
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "start": "vite preview --host 127.0.0.1 --port 4173",
+    "test": "vitest run",
+    "parse-confessions": "node scripts/parse-confessions.mjs",
     "latin-library": "node scripts/latin-library/scrape.mjs --all",
     "latin-library:dry": "node scripts/latin-library/scrape.mjs --dry-run"
   },
   "dependencies": {
-    "cheerio": "^1.2.0"
+    "cheerio": "^1.2.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.2",
+    "playwright": "^1.62.1",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.5",
+    "vitest": "^3.2.4"
   }
 }

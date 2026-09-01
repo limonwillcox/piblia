@@ -1,0 +1,597 @@
+[
+  {
+    "father": "Ambrose",
+    "folder": "Ambrose_Latin",
+    "work": "de Mysteriis",
+    "file": "Fathers\\Latin\\Ambrose_Latin\\de Mysteriis.txt",
+    "bytes": 34638
+  },
+  {
+    "father": "Ambrose",
+    "folder": "Ambrose_Latin",
+    "work": "Epistula ad Sororem",
+    "file": "Fathers\\Latin\\Ambrose_Latin\\Epistula ad Sororem.txt",
+    "bytes": 15429
+  },
+  {
+    "father": "Ambrose",
+    "folder": "Ambrose_Latin",
+    "work": "Epistulae Variae",
+    "file": "Fathers\\Latin\\Ambrose_Latin\\Epistulae Variae.txt",
+    "bytes": 209443
+  },
+  {
+    "father": "Ambrose",
+    "folder": "Ambrose_Latin",
+    "work": "Hymni",
+    "file": "Fathers\\Latin\\Ambrose_Latin\\Hymni.txt",
+    "bytes": 7544
+  },
+  {
+    "father": "Arnobius",
+    "folder": "Arnobius_Latin",
+    "work": "Adversus nationes",
+    "file": "Fathers\\Latin\\Arnobius_Latin\\Adversus nationes.txt",
+    "bytes": 482947
+  },
+  {
+    "father": "Augustine",
+    "folder": "Augustine_Latin",
+    "work": "Contra secundam Iuliani responsionem",
+    "file": "Fathers\\Latin\\Augustine_Latin\\Contra secundam Iuliani responsionem.txt",
+    "bytes": 194189
+  },
+  {
+    "father": "Augustine",
+    "folder": "Augustine_Latin",
+    "work": "de Catechizandis Rudibus",
+    "file": "Fathers\\Latin\\Augustine_Latin\\de Catechizandis Rudibus.txt",
+    "bytes": 102451
+  },
+  {
+    "father": "Augustine",
+    "folder": "Augustine_Latin",
+    "work": "De civitate Dei",
+    "file": "Fathers\\Latin\\Augustine_Latin\\De civitate Dei.txt",
+    "bytes": 1891573
+  },
+  {
+    "father": "Augustine",
+    "folder": "Augustine_Latin",
+    "work": "de Dialectica",
+    "file": "Fathers\\Latin\\Augustine_Latin\\de Dialectica.txt",
+    "bytes": 38711
+  },
+  {
+    "father": "Augustine",
+    "folder": "Augustine_Latin",
+    "work": "de Fide et Symbolo",
+    "file": "Fathers\\Latin\\Augustine_Latin\\de Fide et Symbolo.txt",
+    "bytes": 39430
+  },
+  {
+    "father": "Augustine",
+    "folder": "Augustine_Latin",
+    "work": "De Trinitate",
+    "file": "Fathers\\Latin\\Augustine_Latin\\De Trinitate.txt",
+    "bytes": 757898
+  },
+  {
+    "father": "Augustine",
+    "folder": "Augustine_Latin",
+    "work": "Regula Sancti Augustini",
+    "file": "Fathers\\Latin\\Augustine_Latin\\Regula Sancti Augustini.txt",
+    "bytes": 15787
+  },
+  {
+    "father": "Augustine",
+    "folder": "Augustine_Latin",
+    "work": "SERMONES",
+    "file": "Fathers\\Latin\\Augustine_Latin\\SERMONES.txt",
+    "bytes": 643523
+  },
+  {
+    "father": "Augustine",
+    "folder": "Augustine_Latin",
+    "work": "The Confessions of St. Augustine Latin",
+    "file": "Fathers\\Latin\\Augustine_Latin\\The Confessions of St. Augustine Latin.txt",
+    "bytes": 521232
+  },
+  {
+    "father": "Bede",
+    "folder": "Bede_Latin",
+    "work": "Historia ecclesiastica gentis Anglorum",
+    "file": "Fathers\\Latin\\Bede_Latin\\Historia ecclesiastica gentis Anglorum.txt",
+    "bytes": 565202
+  },
+  {
+    "father": "Bede",
+    "folder": "Bede_Latin",
+    "work": "PROVERBIORUM LIBER",
+    "file": "Fathers\\Latin\\Bede_Latin\\PROVERBIORUM LIBER.txt",
+    "bytes": 64262
+  },
+  {
+    "father": "Benedict",
+    "folder": "Benedict_Latin",
+    "work": "Regula Benedicti",
+    "file": "Fathers\\Latin\\Benedict_Latin\\Regula Benedicti.txt",
+    "bytes": 92590
+  },
+  {
+    "father": "Cassiodorus",
+    "folder": "Cassiodorus_Latin",
+    "work": "Epistulae Theodericianae Variae",
+    "file": "Fathers\\Latin\\Cassiodorus_Latin\\Epistulae Theodericianae Variae.txt",
+    "bytes": 7494
+  },
+  {
+    "father": "Cassiodorus",
+    "folder": "Cassiodorus_Latin",
+    "work": "Orationum Reliquiae",
+    "file": "Fathers\\Latin\\Cassiodorus_Latin\\Orationum Reliquiae.txt",
+    "bytes": 11732
+  },
+  {
+    "father": "Cassiodorus",
+    "folder": "Cassiodorus_Latin",
+    "work": "Variae",
+    "file": "Fathers\\Latin\\Cassiodorus_Latin\\Variae.txt",
+    "bytes": 868517
+  },
+  {
+    "father": "Commodianus",
+    "folder": "Commodianus_Latin",
+    "work": "Carmen de Duobus Populis",
+    "file": "Fathers\\Latin\\Commodianus_Latin\\Carmen de Duobus Populis.txt",
+    "bytes": 49389
+  },
+  {
+    "father": "Commodianus",
+    "folder": "Commodianus_Latin",
+    "work": "De Saeculi Istius Fine",
+    "file": "Fathers\\Latin\\Commodianus_Latin\\De Saeculi Istius Fine.txt",
+    "bytes": 1147
+  },
+  {
+    "father": "Commodianus",
+    "folder": "Commodianus_Latin",
+    "work": "Instructiones",
+    "file": "Fathers\\Latin\\Commodianus_Latin\\Instructiones.txt",
+    "bytes": 53500
+  },
+  {
+    "father": "Desert_Fathers",
+    "folder": "Desert_Fathers_Latin",
+    "work": "Regula ad monachos",
+    "file": "Fathers\\Latin\\Desert_Fathers_Latin\\Regula ad monachos.txt",
+    "bytes": 40524
+  },
+  {
+    "father": "Egeria",
+    "folder": "Egeria_Latin",
+    "work": "Itinerarium",
+    "file": "Fathers\\Latin\\Egeria_Latin\\Itinerarium.txt",
+    "bytes": 114330
+  },
+  {
+    "father": "Ennodius",
+    "folder": "Ennodius_Latin",
+    "work": "Panegyricus regi Theoderico",
+    "file": "Fathers\\Latin\\Ennodius_Latin\\Panegyricus regi Theoderico.txt",
+    "bytes": 36129
+  },
+  {
+    "father": "Eucherius",
+    "folder": "Eucherius_Latin",
+    "work": "De laude eremi",
+    "file": "Fathers\\Latin\\Eucherius_Latin\\De laude eremi.txt",
+    "bytes": 28382
+  },
+  {
+    "father": "Eugippius",
+    "folder": "Eugippius_Latin",
+    "work": "Vita Sancti Severini",
+    "file": "Fathers\\Latin\\Eugippius_Latin\\Vita Sancti Severini.txt",
+    "bytes": 88021
+  },
+  {
+    "father": "Gelasius",
+    "folder": "Gelasius_Latin",
+    "work": "Decretum Gelasianum",
+    "file": "Fathers\\Latin\\Gelasius_Latin\\Decretum Gelasianum.txt",
+    "bytes": 15529
+  },
+  {
+    "father": "Gregory",
+    "folder": "Gregory_Latin",
+    "work": "Epistola ad Constantinam Augustam (IV.30)",
+    "file": "Fathers\\Latin\\Gregory_Latin\\Epistola ad Constantinam Augustam (IV.30).txt",
+    "bytes": 5714
+  },
+  {
+    "father": "Hydatius",
+    "folder": "Hydatius_Latin",
+    "work": "Chronicon",
+    "file": "Fathers\\Latin\\Hydatius_Latin\\Chronicon.txt",
+    "bytes": 41316
+  },
+  {
+    "father": "Hydatius",
+    "folder": "Hydatius_Latin",
+    "work": "Fasti",
+    "file": "Fathers\\Latin\\Hydatius_Latin\\Fasti.txt",
+    "bytes": 47000
+  },
+  {
+    "father": "Isidore",
+    "folder": "Isidore_Latin",
+    "work": "Etymologiae",
+    "file": "Fathers\\Latin\\Isidore_Latin\\Etymologiae.txt",
+    "bytes": 1199167
+  },
+  {
+    "father": "Isidore",
+    "folder": "Isidore_Latin",
+    "work": "HISTORIA DE REGIBUS GOTHORUM, WANDALORUM ET SUEVORUM",
+    "file": "Fathers\\Latin\\Isidore_Latin\\HISTORIA DE REGIBUS GOTHORUM, WANDALORUM ET SUEVORUM.txt",
+    "bytes": 51684
+  },
+  {
+    "father": "Isidore",
+    "folder": "Isidore_Latin",
+    "work": "Sententiae",
+    "file": "Fathers\\Latin\\Isidore_Latin\\Sententiae.txt",
+    "bytes": 189512
+  },
+  {
+    "father": "Jerome",
+    "folder": "Jerome_Latin",
+    "work": "Contra Ioannem",
+    "file": "Fathers\\Latin\\Jerome_Latin\\Contra Ioannem.txt",
+    "bytes": 92838
+  },
+  {
+    "father": "Jerome",
+    "folder": "Jerome_Latin",
+    "work": "Epistulae",
+    "file": "Fathers\\Latin\\Jerome_Latin\\Epistulae.txt",
+    "bytes": 37387
+  },
+  {
+    "father": "Jerome",
+    "folder": "Jerome_Latin",
+    "work": "Vita Malchi",
+    "file": "Fathers\\Latin\\Jerome_Latin\\Vita Malchi.txt",
+    "bytes": 14725
+  },
+  {
+    "father": "Jerome",
+    "folder": "Jerome_Latin",
+    "work": "Vita Pauli",
+    "file": "Fathers\\Latin\\Jerome_Latin\\Vita Pauli.txt",
+    "bytes": 17521
+  },
+  {
+    "father": "Junillus",
+    "folder": "Junillus_Latin",
+    "work": "Instituta regularia divinae legis",
+    "file": "Fathers\\Latin\\Junillus_Latin\\Instituta regularia divinae legis.txt",
+    "bytes": 72222
+  },
+  {
+    "father": "Lactantius",
+    "folder": "Lactantius_Latin",
+    "work": "DE MORTIBUS PERSECUTORUM",
+    "file": "Fathers\\Latin\\Lactantius_Latin\\DE MORTIBUS PERSECUTORUM.txt",
+    "bytes": 79749
+  },
+  {
+    "father": "Lactantius",
+    "folder": "Lactantius_Latin",
+    "work": "Divinae institutiones",
+    "file": "Fathers\\Latin\\Lactantius_Latin\\Divinae institutiones.txt",
+    "bytes": 122806
+  },
+  {
+    "father": "Leo",
+    "folder": "Leo_Latin",
+    "work": "Sermones de Quadragesima",
+    "file": "Fathers\\Latin\\Leo_Latin\\Sermones de Quadragesima.txt",
+    "bytes": 16473
+  },
+  {
+    "father": "Macarius_Alexandria",
+    "folder": "Macarius_Alexandria_Latin",
+    "work": "Regula ad monachos",
+    "file": "Fathers\\Latin\\Macarius_Alexandria_Latin\\Regula ad monachos.txt",
+    "bytes": 10730
+  },
+  {
+    "father": "Macarius_Great",
+    "folder": "Macarius_Great_Latin",
+    "work": "Apophthegmata",
+    "file": "Fathers\\Latin\\Macarius_Great_Latin\\Apophthegmata.txt",
+    "bytes": 33486
+  },
+  {
+    "father": "Minucius_Felix",
+    "folder": "Minucius_Felix_Latin",
+    "work": "Octavius",
+    "file": "Fathers\\Latin\\Minucius_Felix_Latin\\Octavius.txt",
+    "bytes": 79316
+  },
+  {
+    "father": "Novatian",
+    "folder": "Novatian_Latin",
+    "work": "De Trinitate",
+    "file": "Fathers\\Latin\\Novatian_Latin\\De Trinitate.txt",
+    "bytes": 135467
+  },
+  {
+    "father": "Orosius",
+    "folder": "Orosius_Latin",
+    "work": "Historiae adversum paganos",
+    "file": "Fathers\\Latin\\Orosius_Latin\\Historiae adversum paganos.txt",
+    "bytes": 561584
+  },
+  {
+    "father": "Paulinus",
+    "folder": "Paulinus_Latin",
+    "work": "Poemata",
+    "file": "Fathers\\Latin\\Paulinus_Latin\\Poemata.txt",
+    "bytes": 175708
+  },
+  {
+    "father": "Prosper",
+    "folder": "Prosper_Latin",
+    "work": "Epistola ad Augustinum",
+    "file": "Fathers\\Latin\\Prosper_Latin\\Epistola ad Augustinum.txt",
+    "bytes": 16478
+  },
+  {
+    "father": "Prosper",
+    "folder": "Prosper_Latin",
+    "work": "Epistola ad Rufinum",
+    "file": "Fathers\\Latin\\Prosper_Latin\\Epistola ad Rufinum.txt",
+    "bytes": 29114
+  },
+  {
+    "father": "Prosper",
+    "folder": "Prosper_Latin",
+    "work": "Liber Sententiarum",
+    "file": "Fathers\\Latin\\Prosper_Latin\\Liber Sententiarum.txt",
+    "bytes": 100886
+  },
+  {
+    "father": "Prudentius",
+    "folder": "Prudentius_Latin",
+    "work": "Peristephanon",
+    "file": "Fathers\\Latin\\Prudentius_Latin\\Peristephanon.txt",
+    "bytes": 131971
+  },
+  {
+    "father": "Prudentius",
+    "folder": "Prudentius_Latin",
+    "work": "Psychomachia",
+    "file": "Fathers\\Latin\\Prudentius_Latin\\Psychomachia.txt",
+    "bytes": 44525
+  },
+  {
+    "father": "Sedulius",
+    "folder": "Sedulius_Latin",
+    "work": "A solis ortus cardine",
+    "file": "Fathers\\Latin\\Sedulius_Latin\\A solis ortus cardine.txt",
+    "bytes": 2577
+  },
+  {
+    "father": "Sedulius",
+    "folder": "Sedulius_Latin",
+    "work": "Carmen paschale",
+    "file": "Fathers\\Latin\\Sedulius_Latin\\Carmen paschale.txt",
+    "bytes": 82587
+  },
+  {
+    "father": "Sulpicius_Severus",
+    "folder": "Sulpicius_Severus_Latin",
+    "work": "Chronica",
+    "file": "Fathers\\Latin\\Sulpicius_Severus_Latin\\Chronica.txt",
+    "bytes": 183101
+  },
+  {
+    "father": "Sulpicius_Severus",
+    "folder": "Sulpicius_Severus_Latin",
+    "work": "Vita Sancti Martini",
+    "file": "Fathers\\Latin\\Sulpicius_Severus_Latin\\Vita Sancti Martini.txt",
+    "bytes": 48589
+  },
+  {
+    "father": "Tertullian",
+    "folder": "Tertullian_Latin",
+    "work": "ad Martyres",
+    "file": "Fathers\\Latin\\Tertullian_Latin\\ad Martyres.txt",
+    "bytes": 10988
+  },
+  {
+    "father": "Tertullian",
+    "folder": "Tertullian_Latin",
+    "work": "ad Nationes",
+    "file": "Fathers\\Latin\\Tertullian_Latin\\ad Nationes.txt",
+    "bytes": 111365
+  },
+  {
+    "father": "Tertullian",
+    "folder": "Tertullian_Latin",
+    "work": "ad Scapulam",
+    "file": "Fathers\\Latin\\Tertullian_Latin\\ad Scapulam.txt",
+    "bytes": 10891
+  },
+  {
+    "father": "Tertullian",
+    "folder": "Tertullian_Latin",
+    "work": "ad Uxorem",
+    "file": "Fathers\\Latin\\Tertullian_Latin\\ad Uxorem.txt",
+    "bytes": 30980
+  },
+  {
+    "father": "Tertullian",
+    "folder": "Tertullian_Latin",
+    "work": "Adversus Iudaeos",
+    "file": "Fathers\\Latin\\Tertullian_Latin\\Adversus Iudaeos.txt",
+    "bytes": 78026
+  },
+  {
+    "father": "Tertullian",
+    "folder": "Tertullian_Latin",
+    "work": "Adversus Marcionem",
+    "file": "Fathers\\Latin\\Tertullian_Latin\\Adversus Marcionem.txt",
+    "bytes": 559103
+  },
+  {
+    "father": "Tertullian",
+    "folder": "Tertullian_Latin",
+    "work": "Adversus Omnes Haereses",
+    "file": "Fathers\\Latin\\Tertullian_Latin\\Adversus Omnes Haereses.txt",
+    "bytes": 18496
+  },
+  {
+    "father": "Tertullian",
+    "folder": "Tertullian_Latin",
+    "work": "Adversus Praxean",
+    "file": "Fathers\\Latin\\Tertullian_Latin\\Adversus Praxean.txt",
+    "bytes": 93003
+  },
+  {
+    "father": "Tertullian",
+    "folder": "Tertullian_Latin",
+    "work": "Apologeticum",
+    "file": "Fathers\\Latin\\Tertullian_Latin\\Apologeticum.txt",
+    "bytes": 147886
+  },
+  {
+    "father": "Tertullian",
+    "folder": "Tertullian_Latin",
+    "work": "Carmen ad Senatorem",
+    "file": "Fathers\\Latin\\Tertullian_Latin\\Carmen ad Senatorem.txt",
+    "bytes": 12164
+  },
+  {
+    "father": "Tertullian",
+    "folder": "Tertullian_Latin",
+    "work": "Carmen de Iona Propheta",
+    "file": "Fathers\\Latin\\Tertullian_Latin\\Carmen de Iona Propheta.txt",
+    "bytes": 10059
+  },
+  {
+    "father": "Tertullian",
+    "folder": "Tertullian_Latin",
+    "work": "Carmen de Iudicio Domini",
+    "file": "Fathers\\Latin\\Tertullian_Latin\\Carmen de Iudicio Domini.txt",
+    "bytes": 35933
+  },
+  {
+    "father": "Tertullian",
+    "folder": "Tertullian_Latin",
+    "work": "Carmen Genesis",
+    "file": "Fathers\\Latin\\Tertullian_Latin\\Carmen Genesis.txt",
+    "bytes": 22475
+  },
+  {
+    "father": "Tertullian",
+    "folder": "Tertullian_Latin",
+    "work": "de Carne Christi",
+    "file": "Fathers\\Latin\\Tertullian_Latin\\de Carne Christi.txt",
+    "bytes": 64308
+  },
+  {
+    "father": "Tertullian",
+    "folder": "Tertullian_Latin",
+    "work": "de Corona Militis",
+    "file": "Fathers\\Latin\\Tertullian_Latin\\de Corona Militis.txt",
+    "bytes": 34990
+  },
+  {
+    "father": "Tertullian",
+    "folder": "Tertullian_Latin",
+    "work": "de Execrandis Gentium Diis",
+    "file": "Fathers\\Latin\\Tertullian_Latin\\de Execrandis Gentium Diis.txt",
+    "bytes": 5068
+  },
+  {
+    "father": "Tertullian",
+    "folder": "Tertullian_Latin",
+    "work": "de Idololatria",
+    "file": "Fathers\\Latin\\Tertullian_Latin\\de Idololatria.txt",
+    "bytes": 102278
+  },
+  {
+    "father": "Tertullian",
+    "folder": "Tertullian_Latin",
+    "work": "de Ieiunio",
+    "file": "Fathers\\Latin\\Tertullian_Latin\\de Ieiunio.txt",
+    "bytes": 42858
+  },
+  {
+    "father": "Tertullian",
+    "folder": "Tertullian_Latin",
+    "work": "de Oratione",
+    "file": "Fathers\\Latin\\Tertullian_Latin\\de Oratione.txt",
+    "bytes": 32260
+  },
+  {
+    "father": "Tertullian",
+    "folder": "Tertullian_Latin",
+    "work": "de Pallio",
+    "file": "Fathers\\Latin\\Tertullian_Latin\\de Pallio.txt",
+    "bytes": 25057
+  },
+  {
+    "father": "Tertullian",
+    "folder": "Tertullian_Latin",
+    "work": "de Pudicitia",
+    "file": "Fathers\\Latin\\Tertullian_Latin\\de Pudicitia.txt",
+    "bytes": 98357
+  },
+  {
+    "father": "Tertullian",
+    "folder": "Tertullian_Latin",
+    "work": "de Spectaculis",
+    "file": "Fathers\\Latin\\Tertullian_Latin\\de Spectaculis.txt",
+    "bytes": 45843
+  },
+  {
+    "father": "Tertullian",
+    "folder": "Tertullian_Latin",
+    "work": "de Testimonio Animae",
+    "file": "Fathers\\Latin\\Tertullian_Latin\\de Testimonio Animae.txt",
+    "bytes": 15452
+  },
+  {
+    "father": "Tertullian",
+    "folder": "Tertullian_Latin",
+    "work": "de Virginibus Velandis",
+    "file": "Fathers\\Latin\\Tertullian_Latin\\de Virginibus Velandis.txt",
+    "bytes": 39737
+  },
+  {
+    "father": "Tertullian",
+    "folder": "Tertullian_Latin",
+    "work": "Liber Scorpiace",
+    "file": "Fathers\\Latin\\Tertullian_Latin\\Liber Scorpiace.txt",
+    "bytes": 55967
+  },
+  {
+    "father": "Toledo_400",
+    "folder": "Toledo_400_Latin",
+    "work": "Professio contra sectam Priscilliani",
+    "file": "Fathers\\Latin\\Toledo_400_Latin\\Professio contra sectam Priscilliani.txt",
+    "bytes": 8847
+  },
+  {
+    "father": "Vincent",
+    "folder": "Vincent_Latin",
+    "work": "Commonitorium",
+    "file": "Fathers\\Latin\\Vincent_Latin\\Commonitorium.txt",
+    "bytes": 122201
+  }
+]

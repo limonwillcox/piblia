@@ -1,0 +1,163 @@
+{
+  "source": "https://www.ccel.org/",
+  "downloadedAt": "2026-09-01T04:31:31.896Z",
+  "note": "Public-domain Schaff ANF/NPNF plain-text dumps, organized by series. Work-level splitting comes later. Windows-safe filenames replace : with  -.",
+  "ANF": [
+    {
+      "name": "Volume I.   The Apostolic Fathers with Justin Martyr and Irenaeus",
+      "bytes": 3207129
+    },
+    {
+      "name": "Volume II.   Fathers of the Second Century",
+      "bytes": 3840318
+    },
+    {
+      "name": "Volume III.   Latin Christianity Its Founder, Tertullian",
+      "bytes": 4507801
+    },
+    {
+      "name": "Volume IV.   The Fathers of the Third Century",
+      "bytes": 4313069
+    },
+    {
+      "name": "Volume IX.   Recently Discovered Additions to Early Christian Literature; Commentaries of Origen",
+      "bytes": 3102163
+    },
+    {
+      "name": "Volume V.   The Fathers of the Third Century",
+      "bytes": 4378127
+    },
+    {
+      "name": "Volume VI.   The Fathers of the Third Century",
+      "bytes": 3500681
+    },
+    {
+      "name": "Volume VII.   The Fathers of the Third and Fourth Centuries",
+      "bytes": 4058915
+    },
+    {
+      "name": "Volume VIII.   The Twelve Patriarchs, Excerpts and Epistles, The Clementia, Apocrypha, Decretals, Memoirs of Edessa and Syriac Documents, Remains of the First Ages",
+      "bytes": 4509278
+    },
+    {
+      "name": "Volume X.   Bibliographic Synopsis; General Index [not reproduced]",
+      "bytes": 27030285
+    }
+  ],
+  "NPNF1": [
+    {
+      "name": "Volume I.   Prolegomena St. Augustine's Life and Work, Confessions, Letters",
+      "bytes": 3902123
+    },
+    {
+      "name": "Volume II.   The City of God, Christian Doctrine",
+      "bytes": 3692898
+    },
+    {
+      "name": "Volume III.   On the Holy Trinity, Doctrinal Treatises, Moral Treatises",
+      "bytes": 3357503
+    },
+    {
+      "name": "Volume IV.   The Anti-Manichaean Writings, The Anti-Donatist Writings",
+      "bytes": 3849596
+    },
+    {
+      "name": "Volume IX.   On the Priesthood, Ascetic Treatises, Select Homilies and Letters, Homilies on the Statutes",
+      "bytes": 2752950
+    },
+    {
+      "name": "Volume V.   Anti-Pelagian Writings",
+      "bytes": 3756609
+    },
+    {
+      "name": "Volume VI.   Sermon on the Mount, Harmony of the Gospels, Homilies on the Gospels",
+      "bytes": 3873176
+    },
+    {
+      "name": "Volume VII.   Homilies on the Gospel of John, Homilies on the First Epistle of John, Soliloquies",
+      "bytes": 3204445
+    },
+    {
+      "name": "Volume VIII.   Expositions on the Psalms",
+      "bytes": 5029159
+    },
+    {
+      "name": "Volume X.   Homilies on the Gospel of St. Matthew",
+      "bytes": 3345978
+    },
+    {
+      "name": "Volume XI.   Homilies on the Acts of the Apostles and the Epistle to the Romans",
+      "bytes": 4443151
+    },
+    {
+      "name": "Volume XII.   Homilies on First and Second Corinthians",
+      "bytes": 2897359
+    },
+    {
+      "name": "Volume XIII.   Homilies on the Epistles to the Galatians, Ephesians, Philippians, Colossians, Thessalonians, Timothy, Titus, and Philemon",
+      "bytes": 3933882
+    },
+    {
+      "name": "Volume XIV.   Homilies on the Gospel of St. John and the Epistle to the Hebrews",
+      "bytes": 3943878
+    }
+  ],
+  "NPNF2": [
+    {
+      "name": "Volume I.   Eusebius - Church History from A.D. 1-324, Life of Constantine the Great, Oration in Praise of Constantine",
+      "bytes": 4860228
+    },
+    {
+      "name": "Volume II.   Socrates - Church History from A.D. 305-438; Sozomenus - Church History from A.D. 323-425",
+      "bytes": 3002300
+    },
+    {
+      "name": "Volume III.   Theodoret, Jerome and Gennadius, Rufinus and Jerome",
+      "bytes": 3455580
+    },
+    {
+      "name": "Volume IV.   Athanasius - Select Writings and Letters",
+      "bytes": 4570263
+    },
+    {
+      "name": "Volume IX.   Hilary of Poitiers, John of Damascus",
+      "bytes": 2606804
+    },
+    {
+      "name": "Volume V.   Gregory of Nyssa - Dogmatic Treatises; Select Writings and Letters",
+      "bytes": 3490499
+    },
+    {
+      "name": "Volume VI.   Jerome - Letters and Select Works",
+      "bytes": 3559723
+    },
+    {
+      "name": "Volume VII.   Cyril of Jerusalem, Gregory Nazianzen",
+      "bytes": 3388014
+    },
+    {
+      "name": "Volume VIII.   Basil - Letters and Select Works",
+      "bytes": 2645735
+    },
+    {
+      "name": "Volume X.   Ambrose - Select Works and Letters",
+      "bytes": 2963575
+    },
+    {
+      "name": "Volume XI.   Sulpitius Severus, Vincent of Lerins, John Cassian",
+      "bytes": 3470230
+    },
+    {
+      "name": "Volume XII.   Leo the Great, Gregory the Great",
+      "bytes": 2906681
+    },
+    {
+      "name": "Volume XIII.   Gregory the Great II, Ephraim Syrus, Aphrahat",
+      "bytes": 1921581
+    },
+    {
+      "name": "Volume XIV.   The Seven Ecumenical Councils",
+      "bytes": 2570287
+    }
+  ]
+}
