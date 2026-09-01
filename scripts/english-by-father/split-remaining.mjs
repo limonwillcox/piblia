@@ -27,8 +27,16 @@ function first(lines, re, from = 1) {
   return -1;
 }
 
+function fatherFolder(father) {
+  // Ambrose_English / Clement_Rome_English — match existing casing
+  return father
+    .split("_")
+    .map((p) => (p ? p[0].toUpperCase() + p.slice(1) : p))
+    .join("_") + "_English";
+}
+
 function writeWork(father, file, work, latin, body, meta) {
-  const folder = join(englishRoot, `${father}_English`);
+  const folder = join(englishRoot, fatherFolder(father));
   mkdirSync(folder, { recursive: true });
   const dest = join(folder, file);
   const header = [
