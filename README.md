@@ -1,4 +1,4 @@
-# Fathers Gateway
+# Piblia
 
 A searchable public-domain Church Fathers library, laid out like [Bible Gateway](https://www.biblegateway.com/): search bar, writings list, a reading column, and page options.
 

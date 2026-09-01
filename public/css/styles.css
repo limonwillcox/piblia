@@ -1,4 +1,4 @@
-/* Fathers Gateway — BibleGateway-inspired reading chrome */
+/* Piblia — Church Fathers reading chrome */
 :root {
   --burgundy: #952004;
   --burgundy-deep: #6f1602;
@@ -82,8 +82,22 @@ img { max-width: 100%; display: block; }
   background: var(--bg);
   position: sticky; top: 0; z-index: 40;
 }
-.brand { display: flex; align-items: center; gap: 10px; color: var(--text); }
-.brand .logo { height: 32px; width: auto; display: block; }
+.brand { display: flex; align-items: center; gap: 10px; color: var(--text); text-decoration: none; }
+.brand .logo {
+  height: 32px;
+  width: 32px;
+  display: block;
+  border-radius: 8px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.brand-name {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--text);
+}
 .header-actions { display: flex; align-items: center; gap: 14px; }
 .header-actions a, .header-actions button.linkish {
   color: var(--text); font-size: 14px; font-weight: 600;
@@ -605,7 +619,8 @@ html[data-theme="night"] mark { background: #e8cc4a; color: #1a1408; }
   .rail-pages, .rail-tools { align-items: stretch; }
   .rail-tools { border-top-color: rgba(255,255,255,.18); }
   .hamburger { display: inline-flex; position: relative; z-index: 90; }
-  .brand .logo { height: 24px; }
+  .brand .logo { height: 28px; width: 28px; }
+  .brand-name { font-size: 1.2rem; }
   .site-header { padding-left: 12px; padding-right: 10px; gap: 8px; }
   .site-header, .search-strip, .page, .site-footer { margin-left: 0; }
   .search-strip, .page, .site-footer { padding-left: 16px; padding-right: 16px; }
@@ -1019,6 +1034,15 @@ body.ios-focus #iosDualRead .ios-pane {
   font-size: 48px;
   line-height: 1;
   color: var(--gold);
+}
+.app-gate-logo {
+  display: block;
+  width: 88px;
+  height: 88px;
+  margin: 0 auto;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
 }
 .app-gate-kicker {
   margin: 12px 0 0;

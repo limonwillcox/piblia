@@ -11,7 +11,7 @@ export function AboutPage() {
     <div className="prose">
       <h1>Augustine’s Confessions</h1>
       <p>
-        Fathers Gateway is a searchable reader for public-domain patristic texts. The first work in the library is{" "}
+        Piblia is a searchable reader for public-domain patristic texts. The first work in the library is{" "}
         <em>The Confessions of Saint Augustine</em>: Pusey's English (1838) and the Latin <em>Confessiones</em>. The thirteen
         books are one scrollable work; Original and Split put the Latin on the page.
       </p>

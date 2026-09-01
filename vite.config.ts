@@ -111,7 +111,7 @@ function extrasPlugin() {
           .join("\n");
         const title = escapeHtml(w.title + " — " + (author?.name || w.author));
         const desc = escapeHtml(
-          "Public-domain English text of " + w.title + " by " + (author?.name || w.author) + ". Read on Piblia / Fathers Gateway."
+          "Public-domain English text of " + w.title + " by " + (author?.name || w.author) + ". Read on Piblia."
         );
         writeFileSync(
           pagePath,
@@ -127,7 +127,7 @@ function extrasPlugin() {
             "  <style>body{font-family:Georgia,serif;max-width:42rem;margin:1.5rem auto;padding:0 1rem;line-height:1.55;color:#1a1a1a}h1,h2{font-family:system-ui,sans-serif}a{color:#952004}</style>",
             "</head>",
             "<body>",
-            "  <p><a href=\"/\">Fathers Gateway</a> · <a href=\"/browse\">Browse</a> · <a href=\"/read?work=" +
+            "  <p><a href=\"/\">Piblia</a> · <a href=\"/browse\">Browse</a> · <a href=\"/read?work=" +
               encodeURIComponent(w.id) +
               '">Open in reader</a></p>',
             "  <h1>" + escapeHtml(w.title) + "</h1>",

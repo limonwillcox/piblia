@@ -7,20 +7,9 @@ import { ICONS } from "./Icons";
 
 function Brand() {
   return (
-    <Link className="brand" to="/" aria-label="Fathers Gateway">
-      <svg className="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 40" role="img" aria-hidden="true">
-        <g fill="none" stroke="#952004" strokeWidth="1.7" strokeLinecap="round">
-          <path d="M8 30 V14 Q8 6 16 6 h12 Q36 6 36 14 V30" />
-          <path d="M14 30 V18 Q14 13 20 13 h4 Q30 13 30 18 V30" />
-          <path d="M8 30 H36" />
-        </g>
-        <text x="48" y="28" fontFamily="Georgia, Times New Roman, serif" fontSize="22" fill="currentColor">
-          Fathers
-        </text>
-        <text x="142" y="28" fontFamily="Georgia, Times New Roman, serif" fontSize="22" fill="#952004">
-          Gateway
-        </text>
-      </svg>
+    <Link className="brand" to="/" aria-label="Piblia">
+      <img className="logo" src="/assets/piblia-logo.jpg" alt="" width={32} height={32} />
+      <span className="brand-name">Piblia</span>
     </Link>
   );
 }
@@ -326,9 +315,8 @@ function Footer() {
         </div>
       </div>
       <p className="legal">
-        Fathers Gateway is a searchable library of public-domain Church Father writings, with a reading layout inspired by Bible
-        Gateway. Texts come from the Ante-Nicene Fathers and Nicene and Post-Nicene Fathers series (ed. Roberts, Donaldson, Schaff)
-        and related 19th-century editions. This is a demonstration site, not an official Bible Gateway product.
+        Piblia is a searchable library of public-domain Church Father writings. Texts come from the Ante-Nicene Fathers and Nicene
+        and Post-Nicene Fathers series (ed. Roberts, Donaldson, Schaff) and related 19th-century editions.
       </p>
     </footer>
   );
