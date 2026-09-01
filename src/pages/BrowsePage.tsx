@@ -15,7 +15,7 @@ export function BrowsePage() {
     <>
       <div className="prose">
         <h1>Writings list</h1>
-        <p>Browse the demo corpus the way Bible Gateway lists books of the Bible — by era, then father, then work and chapter.</p>
+        <p>Browse the library by era, then father, then work. Open a title to read the English text.</p>
       </div>
       <div className="browse-grid">
         {catalog.eras.map((era) => {

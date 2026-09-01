@@ -1,6 +1,7 @@
 import { existsSync, readdirSync, readFileSync } from "fs";
 import { dirname, join, relative } from "path";
 import { fileURLToPath } from "url";
+import { loadEnglishAppWorks } from "./englishWorks";
 import type { Catalog, Footnote, Passage } from "./types";
 
 const ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII"];
@@ -8,6 +9,7 @@ const ROMAN_SET = ROMAN.join("|");
 
 export const VERSIONS = [
   { id: "pusey", label: "Pusey (1838)", short: "Pusey", group: "translation" as const },
+  { id: "schaff", label: "Schaff / NPNF", short: "Schaff", group: "translation" as const },
   { id: "lat", label: "Latin", short: "Latin", group: "original" as const }
 ];
 
@@ -261,11 +263,24 @@ export function loadLibrary(root = repoRoot()): Library {
   const englishSrc = readFileSync(sources.english, "utf8");
   const latinSrc = readFileSync(sources.latin, "utf8");
   const parsed = parseConfessions(englishSrc, latinSrc, { ...sources, root });
+  const confessionsPassages = passagesFromParsed(parsed);
+  const catalog = catalogFromParsed(parsed);
+  const english = loadEnglishAppWorks(root);
+
+  const authors = [...catalog.authors];
+  for (const a of english.authors) {
+    if (!authors.some((x) => x.id === a.id)) authors.push(a);
+  }
+
   return {
     parsed,
     sources,
-    catalog: catalogFromParsed(parsed),
-    passages: passagesFromParsed(parsed)
+    catalog: {
+      ...catalog,
+      authors,
+      works: [...catalog.works, ...english.works]
+    },
+    passages: [...confessionsPassages, ...english.passages]
   };
 }
 

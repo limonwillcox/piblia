@@ -27,10 +27,16 @@ export async function fetchSearch(q: string): Promise<{ query: Query; hits: Sear
   const res = await fetch("/api/search?q=" + encodeURIComponent(q));
   if (res.ok) return res.json() as Promise<{ query: Query; hits: SearchHit[] }>;
   const catalog = await fetchCatalog();
-  const work = await fetchWork("confessions");
   const query = parseQuery(q, catalog);
-  if (query.type === "keyword") {
-    return { query, hits: searchKeyword(query.q, catalog, work.chapters) };
+  if (query.type !== "keyword") return { query, hits: [] as SearchHit[] };
+  const passages: Passage[] = [];
+  for (const w of catalog.works) {
+    try {
+      const payload = await fetchWork(w.id);
+      passages.push(...payload.chapters);
+    } catch {
+      /* skip missing work JSON */
+    }
   }
-  return { query, hits: [] as SearchHit[] };
+  return { query, hits: searchKeyword(query.q, catalog, passages) };
 }

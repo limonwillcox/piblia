@@ -9,8 +9,27 @@ describe("corpus from Fathers/ (shipped loadLibrary)", () => {
     expect(lib.parsed.books).toHaveLength(13);
     expect(lib.parsed.books.every((b) => b.paras.length > 0)).toBe(true);
     expect(lib.parsed.books.every((b) => b.latin.length > 0)).toBe(true);
-    expect(lib.passages).toHaveLength(13);
-    expect(lib.catalog.works[0]?.chapters).toBe(13);
+    expect(lib.passages.filter((p) => p.work === "confessions")).toHaveLength(13);
+    expect(lib.catalog.works.find((w) => w.id === "confessions")?.chapters).toBe(13);
+  });
+
+  it("loads English allowlist works (Virgins chapters, City of God 22 books)", () => {
+    const lib = getLibrary();
+    expect(lib.catalog.authors.some((a) => a.id === "ambrose")).toBe(true);
+    const virgins = lib.catalog.works.find((w) => w.id === "concerning-virgins");
+    const city = lib.catalog.works.find((w) => w.id === "city-of-god");
+    expect(virgins).toBeTruthy();
+    expect(city).toBeTruthy();
+    expect(city!.chapters).toBe(22);
+    const vPassages = lib.passages.filter((p) => p.work === "concerning-virgins");
+    const cPassages = lib.passages.filter((p) => p.work === "city-of-god");
+    expect(vPassages.length).toBeGreaterThan(10);
+    expect(vPassages.every((p) => (p.versions.schaff || []).length > 0)).toBe(true);
+    expect(cPassages).toHaveLength(22);
+    expect(cPassages[0]!.heading).toMatch(/Book I\b/i);
+    expect(cPassages.every((p) => (p.versions.schaff || []).length > 0)).toBe(true);
+    expect(getWork("city-of-god")?.chapters).toHaveLength(22);
+    expect(getWork("concerning-virgins")?.work.title).toMatch(/Virgins/i);
   });
 
   it("reads Confessions chapter 1 translation from Pusey and Latin opening from the source files", () => {
