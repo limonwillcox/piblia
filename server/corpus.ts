@@ -48,8 +48,26 @@ function repoRoot(): string {
   return process.cwd();
 }
 
-/** Same discovery rule as scripts/parse-confessions.mjs */
+/** Prefer the Pusey English + Augustine Latin Confessions sources. */
 export function findSources(root = repoRoot()): { english: string; latin: string } {
+  const preferredEnglish = join(
+    root,
+    "Fathers",
+    "English",
+    "Augustine_English",
+    "The Confessions of St. Augustine. Augustine.txt"
+  );
+  const preferredLatin = join(
+    root,
+    "Fathers",
+    "Latin",
+    "Augustine_Latin",
+    "The Confessions of St. Augustine Latin.txt"
+  );
+  if (existsSync(preferredEnglish) && existsSync(preferredLatin)) {
+    return { english: preferredEnglish, latin: preferredLatin };
+  }
+
   const english: string[] = [];
   const latin: string[] = [];
   function walk(dir: string) {
@@ -60,8 +78,8 @@ export function findSources(root = repoRoot()): { english: string; latin: string
         continue;
       }
       if (!/\.txt$/i.test(ent.name)) continue;
-      if (/latin/i.test(ent.name)) latin.push(p);
-      else if (/confessions/i.test(ent.name)) english.push(p);
+      if (/latin/i.test(ent.name) && /confessions/i.test(ent.name)) latin.push(p);
+      else if (/confessions/i.test(ent.name) && !/pilkington/i.test(ent.name)) english.push(p);
     }
   }
   walk(join(root, "Fathers"));

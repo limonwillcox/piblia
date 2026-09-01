@@ -4,6 +4,35 @@ A searchable public-domain Church Fathers library, laid out like [Bible Gateway]
 
 The live work is Augustine’s *Confessions*: E. B. Pusey’s English (Project Gutenberg eBook #3296) and the Latin *Confessiones*, both read from files under `Fathers/`. This is not affiliated with Bible Gateway or HarperCollins Christian Publishing.
 
+## Live site
+
+Public repo: [limonwillcox/piblia](https://github.com/limonwillcox/piblia). GitHub Pages deploys from `main` via `pnpm build` → `dist/`.
+
+Until DNS is pointed, the site is at **https://limonwillcox.github.io/piblia/**.
+
+Phone visitors are sent to **`get-app.html`** (App Store mock-up). The old web phone shell is archived in **`archive/ios-web/`**. Native SwiftUI app: **`PibliaIOS/`** — plan and goals in `PibliaIOS/docs/PLAN.md`. Feature parking lot: **`docs/FEATURES.md`**.
+
+Custom domain **piblia.com** is already set in `CNAME`. At your registrar, use:
+
+**Apex `piblia.com` (A records)**
+
+| Type | Name | Value |
+| --- | --- | --- |
+| A | `@` | `185.199.108.153` |
+| A | `@` | `185.199.109.153` |
+| A | `@` | `185.199.110.153` |
+| A | `@` | `185.199.111.153` |
+
+**`www.piblia.com` (CNAME)**
+
+| Type | Name | Value |
+| --- | --- | --- |
+| CNAME | `www` | `limonwillcox.github.io` |
+
+Optional IPv6 AAAA records: `2606:50c0:8000::153`, `2606:50c0:8001::153`, `2606:50c0:8002::153`, `2606:50c0:8003::153`.
+
+After DNS propagates, GitHub will issue HTTPS for `piblia.com`. Enforce HTTPS in **Settings → Pages**.
+
 ## Run it locally
 
 Requires [pnpm](https://pnpm.io/) (Node 18+).
@@ -42,16 +71,13 @@ Reading plans and audio are archived under `archive/`.
 
 ## Corpus and ingest
 
-Keep `Fathers/` (English, Latin, Greek) and `Regulations/` as the source texts. Ingest scripts are unchanged in behavior:
+Keep `Fathers/` (English, Latin, Greek) and `Regulations/` as the source texts:
 
 - `scripts/parse-confessions.mjs` — English + Latin Confessions → structured books
-- `scripts/latin-library/scrape.mjs`, `extract.mjs`, `pd-gate.mjs` — Latin Library harvest
-- `scripts/latin-library/test-extract.mjs` — extract-quality check against cached HTML
+- `scripts/ccel-english/download.mjs` — Schaff ANF/NPNF volume dumps from CCEL
+- `scripts/english-by-father/split-aligned.mjs` — father/work English extracts + Latin overlap report
+- `scripts/latin-library/scrape.mjs` — Latin Library harvest
 
 ## Cloudflare (later)
 
 The production build is a static SPA (`dist/`) plus JSON API handlers in `server/api.ts`. A later Cloudflare Pages deploy can serve the SPA with `public/_redirects` (`/* → /index.html`), and a Worker can reuse `server/worker.ts` for `/api/*`. No live Cloudflare account is required to develop or verify this repo.
-
-## Live site
-
-Public repo: [limonwillcox/piblia](https://github.com/limonwillcox/piblia). Custom domain **piblia.com** is set in `CNAME`.

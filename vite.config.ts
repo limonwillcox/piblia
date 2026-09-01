@@ -53,6 +53,23 @@ function extrasPlugin() {
       const nojekyll = join(root, ".nojekyll");
       if (existsSync(nojekyll)) copyFileSync(nojekyll, join(dist, ".nojekyll"));
       else writeFileSync(join(dist, ".nojekyll"), "");
+
+      // Companion static pages (phone gate, give, settings) + assets they need
+      for (const name of ["get-app.html", "give.html", "settings.html"]) {
+        const src = join(root, name);
+        if (existsSync(src)) copyFileSync(src, join(dist, name));
+      }
+      mkdirSync(join(dist, "js"), { recursive: true });
+      mkdirSync(join(dist, "css"), { recursive: true });
+      if (existsSync(join(root, "js", "gate.js"))) {
+        copyFileSync(join(root, "js", "gate.js"), join(dist, "js", "gate.js"));
+      }
+      if (existsSync(join(root, "src", "styles.css"))) {
+        copyFileSync(join(root, "src", "styles.css"), join(dist, "css", "styles.css"));
+      }
+      // GitHub Pages SPA fallback
+      copyFileSync(join(dist, "index.html"), join(dist, "404.html"));
+
       const apiDir = join(dist, "api");
       const worksDir = join(apiDir, "works");
       mkdirSync(worksDir, { recursive: true });
@@ -64,6 +81,9 @@ function extrasPlugin() {
         [
           "/api/catalog  /api/catalog.json  200",
           "/api/works/confessions  /api/works/confessions.json  200",
+          "/get-app.html  /get-app.html  200",
+          "/give.html  /give.html  200",
+          "/settings.html  /settings.html  200",
           "/*    /index.html   200",
           ""
         ].join("\n")
