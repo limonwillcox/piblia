@@ -35,6 +35,8 @@ const AUTHOR_META: Record<string, AuthorMeta> = {
   augustine: { name: "Augustine of Hippo", dates: "354–430", era: "post-nicene", region: "North Africa" },
   commodianus: { name: "Commodianus", dates: "fl. 3rd–5th c.", era: "ante-nicene", region: "West" },
   gregory: { name: "Gregory the Great", dates: "c. 540–604", era: "post-nicene", region: "Italy" },
+  gregory_thaumaturgus: { name: "Gregory Thaumaturgus", dates: "c. 213–c. 270", era: "ante-nicene", region: "Pontus" },
+  methodius: { name: "Methodius of Olympus", dates: "d. c. 311", era: "ante-nicene", region: "Olympus" },
   jerome: { name: "Jerome", dates: "c. 347–420", era: "post-nicene", region: "Rome / Palestine" },
   lactantius: { name: "Lactantius", dates: "c. 250–325", era: "ante-nicene", region: "North Africa / Gaul" },
   leo: { name: "Leo the Great", dates: "c. 400–461", era: "post-nicene", region: "Italy" },
@@ -62,7 +64,6 @@ const AUTHOR_META: Record<string, AuthorMeta> = {
   hippolytus: { name: "Hippolytus", dates: "c. 170–c. 235", era: "ante-nicene", region: "Rome" },
   cyprian: { name: "Cyprian of Carthage", dates: "d. 258", era: "ante-nicene", region: "North Africa" },
   dionysius: { name: "Dionysius", dates: "fl. 3rd c.", era: "ante-nicene", region: "Various" },
-  methodius: { name: "Methodius", dates: "d. c. 311", era: "ante-nicene", region: "Olympus" },
   eusebius: { name: "Eusebius of Caesarea", dates: "c. 260–c. 339", era: "post-nicene", region: "Palestine" },
   athanasius: { name: "Athanasius of Alexandria", dates: "c. 296–373", era: "post-nicene", region: "Egypt" },
   basil: { name: "Basil the Great", dates: "c. 330–379", era: "post-nicene", region: "Cappadocia" },
@@ -285,8 +286,45 @@ export function parseEnglishWork(spec: EnglishWorkSpec, root: string): { work: W
   const raw = stripMetaHeaders(readFileSync(file, "utf8"));
 
   let mode: ChunkMode | "blob" = spec.chunk === "auto" ? detectChunk(raw) : spec.chunk;
+
+  // Soft-cap ultra-dense chapter scans (e.g. verse/psalm dumps) for MVP memory.
+  if (mode !== "blob" && mode !== "book") {
+    const previewMarks = findMarks(raw, unitRegex(mode));
+    if (previewMarks.length > 400) {
+      const books = findMarks(raw, BOOK_RE).length;
+      mode = books >= 2 ? "book" : "blob";
+    }
+  }
+
   if (mode === "blob") {
     const paras = parasFromBlock(raw);
+    // Split giant blobs into navigable chunks (~40 paras) so the reader/API stay usable.
+    if (paras.length > 80) {
+      const chunkSize = 40;
+      const passages: Passage[] = [];
+      for (let i = 0; i < paras.length; i += chunkSize) {
+        const slice = paras.slice(i, i + chunkSize);
+        const n = passages.length + 1;
+        passages.push({
+          work: spec.id,
+          chapter: n,
+          heading: spec.title + " · Part " + n,
+          versions: { schaff: slice },
+          footnotes: []
+        });
+      }
+      return {
+        work: {
+          id: spec.id,
+          author: spec.author,
+          title: spec.title,
+          short: spec.short,
+          chapters: passages.length,
+          series: spec.series
+        },
+        passages
+      };
+    }
     return {
       work: {
         id: spec.id,

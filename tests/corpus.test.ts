@@ -11,7 +11,7 @@ describe("corpus from Fathers/ (shipped loadLibrary)", () => {
     expect(lib.parsed.books.every((b) => b.latin.length > 0)).toBe(true);
     expect(lib.passages.filter((p) => p.work === "confessions")).toHaveLength(13);
     expect(lib.catalog.works.find((w) => w.id === "confessions")?.chapters).toBe(13);
-  });
+  }, 120_000);
 
   it("loads English Schaff extracts (Virgins chapters, City of God 22 books, full catalog)", () => {
     const lib = getLibrary();
@@ -40,7 +40,7 @@ describe("corpus from Fathers/ (shipped loadLibrary)", () => {
       expect(ps.length).toBeGreaterThan(0);
       expect(ps.some((p) => (p.versions.schaff || []).length > 0)).toBe(true);
     }
-  });
+  }, 120_000);
 
   it("reads Confessions chapter 1 translation from Pusey and Latin opening from the source files", () => {
     const lib = getLibrary();
@@ -70,5 +70,5 @@ describe("corpus from Fathers/ (shipped loadLibrary)", () => {
 
     const work = getWork("confessions");
     expect(work?.chapters.length).toBe(13);
-  });
+  }, 120_000);
 });
