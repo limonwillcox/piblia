@@ -13,9 +13,13 @@ describe("corpus from Fathers/ (shipped loadLibrary)", () => {
     expect(lib.catalog.works.find((w) => w.id === "confessions")?.chapters).toBe(13);
   });
 
-  it("loads English allowlist works (Virgins chapters, City of God 22 books)", () => {
+  it("loads English Schaff extracts (Virgins chapters, City of God 22 books, full catalog)", () => {
     const lib = getLibrary();
     expect(lib.catalog.authors.some((a) => a.id === "ambrose")).toBe(true);
+    expect(lib.catalog.authors.some((a) => a.id === "tertullian")).toBe(true);
+    expect(lib.catalog.eras.some((e) => e.id === "ante-nicene")).toBe(true);
+    // All *_English extracts except Pusey + Pilkington Confessions duplicates
+    expect(lib.catalog.works.length).toBeGreaterThanOrEqual(60);
     const virgins = lib.catalog.works.find((w) => w.id === "concerning-virgins");
     const city = lib.catalog.works.find((w) => w.id === "city-of-god");
     expect(virgins).toBeTruthy();
@@ -30,6 +34,12 @@ describe("corpus from Fathers/ (shipped loadLibrary)", () => {
     expect(cPassages.every((p) => (p.versions.schaff || []).length > 0)).toBe(true);
     expect(getWork("city-of-god")?.chapters).toHaveLength(22);
     expect(getWork("concerning-virgins")?.work.title).toMatch(/Virgins/i);
+    // Every catalogued English Schaff work has at least one non-empty schaff passage
+    for (const w of lib.catalog.works.filter((x) => x.id !== "confessions")) {
+      const ps = lib.passages.filter((p) => p.work === w.id);
+      expect(ps.length).toBeGreaterThan(0);
+      expect(ps.some((p) => (p.versions.schaff || []).length > 0)).toBe(true);
+    }
   });
 
   it("reads Confessions chapter 1 translation from Pusey and Latin opening from the source files", () => {

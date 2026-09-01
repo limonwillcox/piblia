@@ -17,7 +17,10 @@ export const AUTHORS = [
   { id: "augustine", name: "Augustine of Hippo", dates: "354–430", era: "post-nicene", region: "North Africa" }
 ];
 
-export const ERAS = [{ id: "post-nicene", label: "Post-Nicene" }];
+export const ERAS = [
+  { id: "ante-nicene", label: "Ante-Nicene" },
+  { id: "post-nicene", label: "Post-Nicene" }
+];
 
 export type ParsedConfessions = {
   title: string;
