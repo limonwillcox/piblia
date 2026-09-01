@@ -103,12 +103,20 @@ function extrasPlugin() {
         mkdirSync(fatherDir, { recursive: true });
         const pagePath = join(fatherDir, w.id + ".html");
         const translationId = Object.keys(payload.chapters[0]?.versions || {}).find((id) => id !== "lat" && id !== "grk") || "schaff";
-        const sections = payload.chapters
+        // MVP: keep crawler HTML lean — full text lives in /api/works JSON + SPA reader.
+        const previewChapters = payload.chapters.slice(0, Math.min(3, payload.chapters.length));
+        const sections = previewChapters
           .map((ch) => {
-            const paras = (ch.versions[translationId] || []).map((p) => "<p>" + escapeHtml(p) + "</p>").join("\n");
+            const paras = (ch.versions[translationId] || []).slice(0, 8).map((p) => "<p>" + escapeHtml(p) + "</p>").join("\n");
             return "<section id=\"ch-" + ch.chapter + "\"><h2>" + escapeHtml(ch.heading) + "</h2>\n" + paras + "</section>";
           })
           .join("\n");
+        const moreNote =
+          payload.chapters.length > 3
+            ? "<p><em>Preview only — open in the reader for the full " +
+              payload.chapters.length +
+              " sections.</em></p>"
+            : "";
         const title = escapeHtml(w.title + " — " + (author?.name || w.author));
         const desc = escapeHtml(
           "Public-domain English text of " + w.title + " by " + (author?.name || w.author) + ". Read on Piblia."
@@ -133,6 +141,7 @@ function extrasPlugin() {
             "  <h1>" + escapeHtml(w.title) + "</h1>",
             "  <p>" + escapeHtml(author?.name || "") + (author?.dates ? " (" + escapeHtml(author.dates) + ")" : "") + "</p>",
             sections,
+            moreNote,
             "</body>",
             "</html>",
             ""

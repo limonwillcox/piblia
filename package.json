@@ -6,10 +6,10 @@
   "packageManager": "pnpm@11.24.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit && vite build",
+    "build": "NODE_OPTIONS=--max-old-space-size=8192 tsc --noEmit && NODE_OPTIONS=--max-old-space-size=8192 vite build",
     "preview": "vite preview --host 127.0.0.1 --port 4173",
     "start": "vite preview --host 127.0.0.1 --port 4173",
-    "test": "vitest run",
+    "test": "NODE_OPTIONS=--max-old-space-size=8192 vitest run",
     "parse-confessions": "node scripts/parse-confessions.mjs",
     "latin-library": "node scripts/latin-library/scrape.mjs --all",
     "latin-library:dry": "node scripts/latin-library/scrape.mjs --dry-run"
