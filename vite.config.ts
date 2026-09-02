@@ -90,7 +90,7 @@ function extrasPlugin() {
         "/give.html  /give.html  200",
         "/settings.html  /settings.html  200"
       ];
-      const sitemapUrls = ["https://piblia.com/", "https://piblia.com/browse", "https://piblia.com/about"];
+      const sitemapUrls = ["https://piblia.com/", "https://piblia.com/browse", "https://piblia.com/about", "https://piblia.com/give"];
 
       for (const w of catalog.works) {
         const payload = getWork(w.id);

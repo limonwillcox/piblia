@@ -44,6 +44,10 @@ function Rail() {
           {ICONS.about}
           <span>About</span>
         </NavLink>
+        <NavLink to="/give" className={({ isActive }) => (isActive ? "active" : "")} onClick={() => setNavOpen(false)}>
+          {ICONS.give}
+          <span>Give</span>
+        </NavLink>
       </div>
       <div className="rail-tools" aria-label="Reading options">
         {tools.map((t) => (
@@ -312,6 +316,7 @@ function Footer() {
             </a>
           )}
           <Link to="/about#privacy">Privacy</Link>
+          <Link to="/give">Give</Link>
         </div>
       </div>
       <p className="legal">
