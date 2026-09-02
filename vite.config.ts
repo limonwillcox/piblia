@@ -132,8 +132,9 @@ function extrasPlugin() {
       if (existsSync(nojekyll)) copyFileSync(nojekyll, join(dist, ".nojekyll"));
       else writeFileSync(join(dist, ".nojekyll"), "");
 
-      // Companion static pages (phone gate, give, settings) + assets they need
-      for (const name of ["get-app.html", "give.html", "settings.html"]) {
+      // Companion static pages (phone gate, settings) + assets they need.
+      // Do not copy give.html: GitHub Pages serves it at /give and would hide the React Give route.
+      for (const name of ["get-app.html", "settings.html"]) {
         const src = join(root, name);
         if (existsSync(src)) copyFileSync(src, join(dist, name));
       }
@@ -145,8 +146,10 @@ function extrasPlugin() {
       if (existsSync(join(root, "src", "styles.css"))) {
         copyFileSync(join(root, "src", "styles.css"), join(dist, "css", "styles.css"));
       }
-      // GitHub Pages SPA fallback
+      // GitHub Pages SPA fallback. Also overwrite give.html so /give is the React app
+      // (Pages maps /give → give.html if that file exists).
       copyFileSync(join(dist, "index.html"), join(dist, "404.html"));
+      copyFileSync(join(dist, "index.html"), join(dist, "give.html"));
 
       const apiDir = join(dist, "api");
       const worksDir = join(apiDir, "works");
