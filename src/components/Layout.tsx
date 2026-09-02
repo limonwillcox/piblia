@@ -421,7 +421,6 @@ function AuthModal() {
 
 export function Layout({ children }: { children: ReactNode }) {
   const { setNavOpen, setBooklistOpen, setLoginOpen, toast, navOpen } = useApp();
-  const [promo, setPromo] = useState(true);
   const location = useLocation();
 
   useEffect(() => {
@@ -461,14 +460,6 @@ export function Layout({ children }: { children: ReactNode }) {
         Skip to content
       </a>
       <Rail />
-      {promo ? (
-        <div className="promo-bar">
-          A searchable library of public-domain Church Father writings.
-          <button className="dismiss" type="button" aria-label="Dismiss" onClick={() => setPromo(false)}>
-            ×
-          </button>
-        </div>
-      ) : null}
       <Header />
       <SearchStrip />
       <Booklist />
