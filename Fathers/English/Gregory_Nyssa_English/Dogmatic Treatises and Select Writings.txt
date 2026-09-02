@@ -1,11 +1,12 @@
-# source: Fathers/English/NPNF2/Volume V.   Gregory of Nyssa - Dogmatic Treatises; Select Writings and Letters
+﻿# source: Fathers/English/NPNF2/Volume V.   Gregory of Nyssa - Dogmatic Treatises; Select Writings and Letters
 # series: NPNF2
 # volume: Volume V.
 # father: gregory_nyssa
-# work: Dogmatic Treatises and Select Writings
+# work: Dogmatic Treatises; Select Writings and Letters
 # latin_match_candidate: (none)
 # extracted: 2026-09-01
 # note: Public-domain Schaff English extract. Volume archives retained under ANF/NPNF1/NPNF2.
+
 GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    T&T CLARK
@@ -203,7 +204,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    extremes is necessary to guide him to the goal of a successful
    Imitation.
 
-   It was right, too, that the Church should possess her Phædo, or
+   It was right, too, that the Church should possess her PhÃ¦do, or
    Death-bed Dialogue; and it is Gregory who has supplied this in his On
    the Soul and the Resurrection. But the copy becomes an original. The
    dialogue is between a sister and a brother; the one a saintly
@@ -246,10 +247,10 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    of history; and yet, beyond this, its effects are for all Creation. Who
    made this theology? Origen doubtless; and his philosophy of Scripture,
    based on a few leading texts, became, one point excepted, the property
-   of the Church: she at last possessed a Théodicée that borrowed nothing
+   of the Church: she at last possessed a ThÃ©odicÃ©e that borrowed nothing
    from Greek ideas. So far, then, every one who used it was an Origenist:
    and yet Gregory alone has suffered from this charge. In using this
-   Théodicée he has in some points surpassed his master, i.e. in showing
+   ThÃ©odicÃ©e he has in some points surpassed his master, i.e. in showing
    in details the skilfulness (sophia) which effected the real "touching"
    of humanity; and how the "touched" soul and the "touched" body shall
    follow in the path of the Redeemer's Resurrection.
@@ -308,10 +309,10 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    Rupp (Dr. Julius), Gregors des Bischofs von Nyssa Leben und Meinungen.
    Leipzig, 1834.
 
-   Möller (E. W.) Gregori Nysseni doctrinam de hominis naturâ et
-   illustravit et cum Origenianâ comparavit. Halle, 1854.
+   MÃ¶ller (E. W.) Gregori Nysseni doctrinam de hominis naturÃ¢ et
+   illustravit et cum OrigenianÃ¢ comparavit. Halle, 1854.
 
-   Denys (J.), De la Philosophie d'Origéne. Paris, 1884.
+   Denys (J.), De la Philosophie d'OrigÃ©ne. Paris, 1884.
 
    Dorner (Dr. J. A.), Doctrine of the Person of Christ. Clark's English
    translation. Edinburgh.
@@ -321,14 +322,14 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    Alzog (Dr. J.), Handbuch d. Patrologie. 3rd ed. 1876.
 
-   Ceillier (Rémi), Histoire Générale des Auteurs Sacrés et
-   Ecclésiastiques. Paris, 1858 sqq.
+   Ceillier (RÃ©mi), Histoire GÃ©nÃ©rale des Auteurs SacrÃ©s et
+   EcclÃ©siastiques. Paris, 1858 sqq.
 
-   Tillemont (Louis Sebastien Le Nain De), Mémoires pour servir â
-   l'Histoire Ecclésiastique des six premiers Siécles, Vol. IX. Paris,
+   Tillemont (Louis Sebastien Le Nain De), MÃ©moires pour servir Ã¢
+   l'Histoire EcclÃ©siastique des six premiers SiÃ©cles, Vol. IX. Paris,
    1693-1712.
 
-   Fabricius (J. A.), Bibliotheca Græca. Hamburg, 1718-28.
+   Fabricius (J. A.), Bibliotheca GrÃ¦ca. Hamburg, 1718-28.
 
    Prolegomena to the Paris edition of all Gregory's Works, with notes by
    Father Fronto Du Duc, 1638.
@@ -337,7 +338,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    Du Pin (Dr. L. E.) Library of Ecclesiastical Authors. Paris, 1686.
 
-   Fessler (Joseph), Institutiones Patrologiæ: Dr. B. Jungmann's edition.
+   Fessler (Joseph), Institutiones PatrologiÃ¦: Dr. B. Jungmann's edition.
    Innsbruck, 1890.
      __________________________________________________________________
 
@@ -424,15 +425,15 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    Gregory of Nyssa was equally fortunate in his country, the name he
    bore, and the family which produced him. He was a native of Cappadocia,
-   and was born most probably at Cæsarea, the capital, about a.d. 335 or
+   and was born most probably at CÃ¦sarea, the capital, about a.d. 335 or
    336. No province of the Roman Empire had in those early ages received
    more eminent Christian bishops than Cappadocia and the adjoining
    district of Pontus.
 
    In the previous century the great prelate Firmilian, the disciple and
    friend of Origen, who visited him at his See, had held the Bishopric of
-   Cæsarea. In the same age another saint, Gregory Thaumaturgus, a friend
-   also and disciple of Origen, was bishop of Neo-Cæsarea in Pontus.
+   CÃ¦sarea. In the same age another saint, Gregory Thaumaturgus, a friend
+   also and disciple of Origen, was bishop of Neo-CÃ¦sarea in Pontus.
    During the same century, too, no less than four other Gregories shed
    more or less lustre on bishoprics in that country. The family of
    Gregory of Nyssa was one of considerable wealth and distinction, and
@@ -443,7 +444,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    and privations. It is said that his maternal grandfather, whose name is
    unknown, eventually lost both life and property. After a retirement of
    some few years the family appear to have returned and settled at
-   Cæsarea in Cappadocia, or else at Neo-Cæsarea in Pontus, for there is
+   CÃ¦sarea in Cappadocia, or else at Neo-CÃ¦sarea in Pontus, for there is
    some uncertainty in the account.
 
    Gregory's father, Basil, who gave his name to his eldest son, was known
@@ -521,9 +522,9 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    is worthier of note, grandmother, mother, or daughter. Of the first,
    Basil, who attributes his early religious impressions to his
    grandmother, tells us that as a child she taught him a Creed, which had
-   been drawn up for the use of the Church of Neo-Cæsarea by Gregory
+   been drawn up for the use of the Church of Neo-CÃ¦sarea by Gregory
    Thaumaturgus. This Creed, it is said, was revealed to the Saint in a
-   vision. It has been translated by Bishop Bull in his "Fidei Nicænæ
+   vision. It has been translated by Bishop Bull in his "Fidei NicÃ¦nÃ¦
    Defensio." In its language and spirit it anticipates the Creed of
    Constantinople.
 
@@ -654,7 +655,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    of his great brother Basil.
 
    About a.d. 365 Basil was summoned from his retirement to act as
-   coadjutor to Eusebius, the Metropolitan of Cæsarea in Cappadocia, and
+   coadjutor to Eusebius, the Metropolitan of CÃ¦sarea in Cappadocia, and
    aid him in repelling the assaults of the Arian faction on the Faith. In
    these assaults the Arians were greatly encouraged and assisted by the
    proclivities of the Emperor Valens. After some few years of strenuous
@@ -779,7 +780,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    From henceforth the labours of Gregory have a far more extended range.
    He steps into the place vacated by the death of Basil, and takes
-   foremost rank among the defenders of the Faith of Nicæa. He is not,
+   foremost rank among the defenders of the Faith of NicÃ¦a. He is not,
    however, without trouble still from the heretical party. Certain
    Galatians had been busy in sowing the seeds of their heresy among his
    own people. He is subjected, too, to great annoyance from the
@@ -841,7 +842,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    Bishops who were to be regarded as the central authorities of Catholic
    Communion. In other words, the primacy of Rome or Alexandria in the
    East was to be replaced by that of other Sees, especially
-   Constantinople. Helladius of Cæsarea was to be Gregory's colleague in
+   Constantinople. Helladius of CÃ¦sarea was to be Gregory's colleague in
    his province. The connexion led to a misunderstanding. As to the
    grounds of this there is much uncertainty. The account of it is
    entirely derived from Gregory himself in his Letter to Flavian, and
@@ -881,18 +882,18 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    The prophecy of Basil had come true. Nyssa was ennobled by the name of
    its bishop appearing on the roll of this Synod, between those of the
-   Metropolitans of Cæsarea and Iconium. Even in outward rank he is equal
+   Metropolitans of CÃ¦sarea and Iconium. Even in outward rank he is equal
    to the highest. The character of Gregory could not be more justly drawn
    than in the words of Tillemont (IX. p. 269). "Autant en effet, qu'on
-   peut juger de lui par ses écrits, cétoit un esprit doux, bon, facile,
-   qui avec beaucoup d'élevation et de lumière, avoit néanmois beaucoup de
-   simplicité et de candeur, qui aimoit plus le repos que l'action, et le
-   travail du cabinet que le tumulte des affaires, qui avec cela étoit
-   sans faste, disposé à estimer et à louer les autres et à se mettre à
-   dessous d'eux. Mais quoiqu' il ne cherchât que le repos, nous avons vû
-   que son zèle pour ses frères l'avoit souvent engagé à de grands
-   travaux, et que Dieu avait honoré sa simplicité en le faisant regarder
-   comme le maitre, le docteur, le pacificateur et l'arbitre des églises."
+   peut juger de lui par ses Ã©crits, cÃ©toit un esprit doux, bon, facile,
+   qui avec beaucoup d'Ã©levation et de lumiÃ¨re, avoit nÃ©anmois beaucoup de
+   simplicitÃ© et de candeur, qui aimoit plus le repos que l'action, et le
+   travail du cabinet que le tumulte des affaires, qui avec cela Ã©toit
+   sans faste, disposÃ© Ã  estimer et Ã  louer les autres et Ã  se mettre Ã 
+   dessous d'eux. Mais quoiqu' il ne cherchÃ¢t que le repos, nous avons vÃ»
+   que son zÃ¨le pour ses frÃ¨res l'avoit souvent engagÃ© Ã  de grands
+   travaux, et que Dieu avait honorÃ© sa simplicitÃ© en le faisant regarder
+   comme le maitre, le docteur, le pacificateur et l'arbitre des Ã©glises."
 
    His death (probably 395) is commemorated by the Greek Church on January
    10, by the Latin on March 9.
@@ -921,7 +922,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    doctrines' to defend, philosophy becomes the handmaid of theology.
    Gregory, in this respect, has done the most important service of any of
    the writers of the Church in the fourth century. He treats each single
-   philosophical view only as a help to grasp the formulæ of faith; and
+   philosophical view only as a help to grasp the formulÃ¦ of faith; and
    the truth of that view consists with him only in its adaptability to
    that end. Notwithstanding strong speculative leanings he does not
    defend orthodoxy either in the fashion of the Alexandrian school or in
@@ -1230,7 +1231,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    In treating the Sacrament of the Eucharist, Gregory was the first
    Father who developed the view of transformation, for which
-   transubstantiation was afterwards substituted to suit the mediæval
+   transubstantiation was afterwards substituted to suit the mediÃ¦val
    philosophy; that is, he put this view already latent into actual words.
    There is a locus classicusin the Oratio Catechetica, c. 37.
 
@@ -1355,7 +1356,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [19] In Sermon On the Baptism of Christ.
 
-   [20] A. 1560 fol.; also Antwerp, p. 1562 (Latinè).
+   [20] A. 1560 fol.; also Antwerp, p. 1562 (LatinÃ¨).
 
    [21] His comparison of the hidden meaning of the proverb or parable
    (III. c. Eunom. p. 236) to the turned up' side of the peacock's feather
@@ -1398,7 +1399,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    Origen's. But in some respects it will be seen Gregory is even more an
    idealist than Origen himself. Alike, then, from purpose and tradition
    as from sympathy he would look back to Origen. Though a gulf was
-   between them, and, since the Council of Nicæa, there were some things
+   between them, and, since the Council of NicÃ¦a, there were some things
    that could come no more into controversy, Gregory saw, where the Church
    had not spoken, with the same eyes as Origen: he uses the same keys as
    he did for the problems which Scripture has not solved; he uses the
@@ -1479,7 +1480,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    panton must be effected. Then, after the Resurrection, the fire
    akoimetos, aionios, as he continually calls it, will have to do its
    work. The avenging flame will be the more ardent the more it has to
-   consume' (De Animâ et Resurr., p. 227). But at last the evil will be
+   consume' (De AnimÃ¢ et Resurr., p. 227). But at last the evil will be
    annihilated, and the bad saved by nearness to the good.' There is to
    rise a giving of thanks from all nature. Nevertheless [24] passages
    have been adduced from Gregory's writings in which the language of
@@ -1508,7 +1509,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    claim as their own. But as Rupp well says, Origen is not great by
    virtue of those particular doctrines, which are usually exhibited to
    the world as heretical by weak heads who think to take the measure of
-   everything with the mere formulæ of orthodoxy. He is great by virtue of
+   everything with the mere formulÃ¦ of orthodoxy. He is great by virtue of
    one single thought, i.e. that of bringing philosophy into union with
    religion, and thereby creating a theology. With Clement of Alexandria
    this thought was a mere instinct: Origen gave it consciousness: and so
@@ -1533,7 +1534,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    outlines sketched by the master. First and chiefly, Origen's doctrine
    of the pre-existence of the soul could not be retained; and we know
    that Gregory not only abandoned it, but attacked it with all his powers
-   of logic in his treatise, De Animâ et Resurrectione: for which he
+   of logic in his treatise, De AnimÃ¢ et Resurrectione: for which he
    receives the applause of the Emperor Justinian. Souls, according to
    Origen, had pre-existed from eternity: they were created certainly, but
    there never was a time when they did not exist: so that the procession
@@ -1542,7 +1543,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    and a consequent cooling of the fire of love within them, plunged them
    in this material bodily existence, which their own sin made a suffering
    one. This view had certainly great merits: it absolved the Deity from
-   being the author of evil, and so was a théodicée;' it entirely got rid
+   being the author of evil, and so was a thÃ©odicÃ©e;' it entirely got rid
    of the two rival principles, good and evil, of the Gnostics; and it
    avoided the seeming incongruity of what was to last for ever in the
    future being not eternal in the past. Why then was it rejected? Not
@@ -1588,7 +1589,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    of that doctrine to the merely Platonic view of the nature and origin
    of souls and of matter.
 
-   Amongst the defenders of the Creed of Nicæa, Gregory, we know, stands
+   Amongst the defenders of the Creed of NicÃ¦a, Gregory, we know, stands
    well-nigh foremost. In his long and numerous treatises on the Trinity
    he employs every possible argument and illustration to show the
    contents of the substance of the Deity as transcendent, incommunicable
@@ -1677,7 +1678,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    into the prison of the flesh.'
 
    His own theory of the origin of the soul, or at least that to which he
-   visibly inclines, is stated in the treatise, De Animâ et Resurrectione,
+   visibly inclines, is stated in the treatise, De AnimÃ¢ et Resurrectione,
    p. 241. It is that of Tertullian and some Greek Fathers also: and goes
    by the name of traducianism.' The soul is transmitted in the generating
    seed. This of course is the opposite pole to Origen's teaching, and is
@@ -1710,7 +1711,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    carries him away again in the opposite direction. After reading words
    in his treatise which Locke might have written we come upon others
    which are exactly the teaching of Berkeley. There is a passage in the
-   De Animâ et Resurrectione where he deals with the question how an
+   De AnimÃ¢ et Resurrectione where he deals with the question how an
    intelligent Being could have created matter, which is neither
    intelligent or intelligible. But what if matter is only a concourse of
    qualities, ennoiai, or psila noemata as he elsewhere calls them? Then
@@ -1946,7 +1947,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    excluded by the Possibility and the free will' of Origen and Gregory.
      __________________________________________________________________
 
-   [22] Cf. Dallæus, de poenis et satisfactionibus, I. IV. c. 7, p. 368.
+   [22] Cf. DallÃ¦us, de poenis et satisfactionibus, I. IV. c. 7, p. 368.
 
    [23] Cf. De An. et Resurr., 227 C.D.
 
@@ -1964,7 +1965,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [30] De Hom. Op. c. viii.
 
-   [31] He does so De Principiis I. præf. 5. C. Cels. II. 77, VIII. 49 sq.
+   [31] He does so De Principiis I. prÃ¦f. 5. C. Cels. II. 77, VIII. 49 sq.
 
    [32] De Anim. et Resurrectione, p. 198, 199, 213 sq.
 
@@ -1974,11 +1975,11 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [35] This is an independent division to that mentioned above.
 
-   [36] De la Philosophie D'Origéne (Paris, 1884).
+   [36] De la Philosophie D'OrigÃ©ne (Paris, 1884).
 
    [37] De eo quod immut., p. 30.
 
-   [38] See De iis qui præmature abripiuntur, p. 231, quoted above, p. 4.
+   [38] See De iis qui prÃ¦mature abripiuntur, p. 231, quoted above, p. 4.
      __________________________________________________________________
 
    Chapter IV.--His Teaching on the Holy Trinity.
@@ -1988,7 +1989,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    so far as Eastern Christendom is concerned, of the terminology employed
    for the expression of that doctrine, is a task which can hardly be
    satisfactorily carried out. His teaching on the subject is so closely
-   bound up with that of his brother, S. Basil of Cæsarea,--his "master,"
+   bound up with that of his brother, S. Basil of CÃ¦sarea,--his "master,"
    to use his own phrase,--that the two can hardly be separated with any
    certainty. Where a disciple, carrying on the teaching he has himself
    received from another, with perhaps almost imperceptible variations of
@@ -2116,7 +2117,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    the Son and to the Holy Spirit: so far as the ousia is concerned,
    whatever is predicated of any one of the Persons may be predicated
    equally of each of the Three Persons, just as the properties of man,
-   quâ man, belong alike to Paul and Barnabas and Timothy: and as these
+   quÃ¢ man, belong alike to Paul and Barnabas and Timothy: and as these
    individual men are differentiated by their own particular attributes,
    so each Person of the Trinity is distinguished by a certain attribute
    from the other two Persons. This way of putting the case naturally
@@ -2387,7 +2388,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    for a more original theology like that or Marcellus of Ancyra, or for
    the compromise which the Homoean or Semi-Arian school were in danger of
    being led to accept, the weapons with which S. Athanasius had conquered
-   at Nicæa.
+   at NicÃ¦a.
      __________________________________________________________________
 
    [39] See Dorner, Doctrine of the Person of Christ, Div. I. vol. ii. p.
@@ -2401,9 +2402,9 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [41] S. Athanasius, Tom. ad Antioch, 5.
 
-   [42] Ad Afr. Episc. §4. S. Athanasius, however, does not shrink from
+   [42] Ad Afr. Episc. Â§4. S. Athanasius, however, does not shrink from
    the phrase treis hupostaseis in contradistinction to the mia ousia: see
-   the treatise, In illud, Omnia mihi tradita sunt.' §6.
+   the treatise, In illud, Omnia mihi tradita sunt.' Â§6.
 
    [43] [1]S. Bas. Ep. 125 (being the confession of faith drawn up by S.
    Basil for the subscription of Eustathius).
@@ -2421,7 +2422,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    express attributes or operations of the ousia, must be excluded from
    them.
 
-   [46] [3]S. Bas. Ep. 214, §4.
+   [46] [3]S. Bas. Ep. 214, Â§4.
 
    [47] The differentia here assigned to the Third Person is not, in S.
    Basil's own view, a differentia at all: for he would no doubt have been
@@ -2432,7 +2433,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [48] [4]S. Bas. Ep. 38 (Benedictine Ed.).
 
-   [49] De Spir. Sancto, §18.
+   [49] De Spir. Sancto, Â§18.
 
    [50] On S. Basil's language on this subject, see Dorner, Doctrine of
    the Person of Christ, Div. 1. vol. ii. pp. 309-11. (Eng. Trans.)
@@ -2453,7 +2454,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [53] See Dorner, ut sup., pp. 317-18.
 
-   [54] Especially in the treatise, De Animâ et Resurrectione, and in that
+   [54] Especially in the treatise, De AnimÃ¢ et Resurrectione, and in that
    De Conditione Hominis. A notable instance is to be found in the former
    (p. 242 A.).
 
@@ -2482,7 +2483,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    1. Venice (Library of S. Mark; cotton, 13 Cent., No. 69). This he says
    wonderfully agrees' with the Munich (both, for instance, supply the
-   lacunæ of the Paris Edition of Book I: he concludes, therefore, that
+   lacunÃ¦ of the Paris Edition of Book I: he concludes, therefore, that
    these are not due to Gretser's negligence, who gives the Latin for
    these passages, but to that of the printers).
 
@@ -2495,7 +2496,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    Cent., No. 17, Plut. vi. It contains the Summaries).
 
    These, and the Munich ms., which he chiefly used, are "all of the same
-   family:" and from them he has been able to supply more than 50 lacunæ
+   family:" and from them he has been able to supply more than 50 lacunÃ¦
    in the Books against Eunomius. This family is the first of the two
    separated by G. H. Forbes (see below). The Munich ms. (No. 47, on
    paper, 16 Cent.), already used by Sifanus for his Latin version (1562),
@@ -2516,7 +2517,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    Naupliensis Murmureus the copyist; and Sifanus' corrections.
 
    The Hasselman,' 14th Cent. J. Christopher Wolf, who annotated this
-   treatise (Aneedota Græca, Hamburgh, 1722), says of this ms. "very
+   treatise (Aneedota GrÃ¦ca, Hamburgh, 1722), says of this ms. "very
    carefully written." It was lent by Zach. Hasselman, Minister of
    Oldenburgh.
 
@@ -2537,12 +2538,12 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    taken from the Vatican ms. on silk.' The end of this treatise is not
    found in Mai. Perhaps it is in the ms. of Florence.
 
-   For fourteen of the Letters, Zacagni (Præfect of the Vatican Library,
+   For fourteen of the Letters, Zacagni (PrÃ¦fect of the Vatican Library,
    1698-1713) is the only editor. His text from the Vatican ms., No. 424,
    is printed in his Collectan. Monument. ret. (pp. 354-400), Rome, 1698.
 
    He had not the use of the Medicean ms. which Caraccioli (see below)
-   testifies to be much superior to the Vatican; there are lacunæ in the
+   testifies to be much superior to the Vatican; there are lacunÃ¦ in the
    latter, however, which Zacagni occasionally fills by a happy guess with
    the very words supplied by the Medicean.
 
@@ -2550,7 +2551,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    Amphilochius, J. B. Caraccioli (Professor of Philosophy at Pisa)
    furnishes a text (Florence, 1731) from the Medicean ms. The Letters in
    this collection are seven in all. Of the last of these (including that
-   to Amphilochius) Bandinus says non sincerâ fide ex Codice descriptas,
+   to Amphilochius) Bandinus says non sincerÃ¢ fide ex Codice descriptas,
    and that a fresh collation is necessary.
 
    For the treatise On the Making of Man, the text employed has been that
@@ -2586,8 +2587,8 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    in the French Revolution.)
 
    Of the two Paris Editions it must be confessed that they are based for
-   the most part on inferior mss.' (Oehler.) The frequent lacunæ attest
-   this. Fronto Ducæus aided Claude, the brother of F. Morel, in settling
+   the most part on inferior mss.' (Oehler.) The frequent lacunÃ¦ attest
+   this. Fronto DucÃ¦us aided Claude, the brother of F. Morel, in settling
    the text, and the mss. mentioned in the notes of the former are as
    follows:
 
@@ -2606,7 +2607,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    5. Olivar's. "Multo emendatius" than (2.)
 
-   6. J. Vulcobius', Abbot of Belpré.
+   6. J. Vulcobius', Abbot of BelprÃ©.
 
    7. The Vatican. For the treatise On Virginity. (The Paris Editors used
    Livineius' Edition, based on (7) and (8).
@@ -2622,7 +2623,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    Other important mss. existing for treatises here translated are
 
-   On Pilgrimages: ms. Cæsareus (Vienna): "valde vetustus" (Nessel, on the
+   On Pilgrimages: ms. CÃ¦sareus (Vienna): "valde vetustus" (Nessel, on the
    Imperial Library), vellum, No. 160, burnt at beginning.
 
    mss. Florence (xx. 17: xvi. 8).
@@ -2646,7 +2647,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    Great Catechetical:
 
-   mss. Augsburgh, Florence, Turin, Cæsareus.
+   mss. Augsburgh, Florence, Turin, CÃ¦sareus.
 
    Many other mss., for these and other treatises, are given by S. Heyns
    (Disputatio de Greg. Nyss. Leyden, 1835). But considering the mutilated
@@ -2664,9 +2665,9 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    Eugippius.' This Dedication and the Latin of Gregory's Preface was only
    once printed (i.e. in J. Mabillon's Analecta, Paris, 1677).
 
-   This ancient Latin Version was revised by Fronto Ducæus, the Jesuit,
+   This ancient Latin Version was revised by Fronto DucÃ¦us, the Jesuit,
    and Combeficius. There is a copy of it at Leyden. It stimulated J.
-   Leünclaius (see below), who judged it "foeda pollutum barbariâ planeque
+   LeÃ¼nclaius (see below), who judged it "foeda pollutum barbariÃ¢ planeque
    perversum," to make another. Basle, 1567.
 
    2. Of Daniel Augentius: On the Soul. Paris 1557.
@@ -2677,7 +2678,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    4. Of Pet. Galesinius: On Virginity and On Prayer. Rome, 1563, ap. P.
    Manutium.
 
-   5. Of Johann. Leünclaius: On the Making of Man. Basle, 1567, ap.
+   5. Of Johann. LeÃ¼nclaius: On the Making of Man. Basle, 1567, ap.
    Oporinum.
 
    6. Of Pet. Morelius, of Tours: Great Catechetical. Paris, 1568.
@@ -2702,13 +2703,13 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    German.
 
    1. Of Glauber: Great Catechetical, &c. Gregorius von Nyssa und
-   Augustinus über den ersten Christlichen Religions-unterricht. Leipzic,
+   Augustinus Ã¼ber den ersten Christlichen Religions-unterricht. Leipzic,
    1781.
 
-   2. Of Julius Rupp, Königsberg: On Meletius. Gregors Leben und
+   2. Of Julius Rupp, KÃ¶nigsberg: On Meletius. Gregors Leben und
    Meinungen. Leipzic, 1834.
 
-   3. Of Oehler: Various treatises. Bibliothek der Kirchenväter I. Theil.
+   3. Of Oehler: Various treatises. Bibliothek der KirchenvÃ¤ter I. Theil.
    Leipzic, 1858-59.
 
    4. Herm. Schmidt, paraphrased rather than translated: On the Soul.
@@ -2786,7 +2787,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [56] both his pamphlets. The sheets' which Gregory says that he has
    collected are the 12 Books that follow. They are written in reply to
-   Eunomius' pamphlet, Apologia Apologiæ,' itself a reply to Basil's
+   Eunomius' pamphlet, Apologia ApologiÃ¦,' itself a reply to Basil's
    Refutation. The other pamphlet of Eunomius seems to have come out
    during the composition of Gregory's 12 Books: and was afterwards
    answered by the latter in a second 12th Book, but not now, because of
@@ -2843,7 +2844,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    Book I. [57]
 
-   §1. Preface.--It is useless to attempt to benefit those who will not
+   Â§1. Preface.--It is useless to attempt to benefit those who will not
    accept help.
 
    It seems that the wish to benefit all, and to lavish indiscriminately
@@ -2926,7 +2927,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    first essay against the foetus of Eunomius had been published, he
    raised his bruised head like a trodden worm, seized his pen, and began
    to rave more poisonously still as well against Basil as the orthodox
-   faith.' This was Eunomius' Apologia Apologiæ:' of it Photius says, His
+   faith.' This was Eunomius' Apologia ApologiÃ¦:' of it Photius says, His
    reply to Basil was composed for many Olympiads while shut up in his
    cell. This, like another Saturn, he concealed from the eyes of Basil
    till it had grown up, i.e. he concealed it, by devouring it, as long as
@@ -2942,7 +2943,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    marg.).
      __________________________________________________________________
 
-   §2. We have been justly provoked to make this Answer, being stung by
+   Â§2. We have been justly provoked to make this Answer, being stung by
    Eunomius' accusations of our brother.
 
    If indeed that godlike and saintly soul were still in the flesh looking
@@ -2977,7 +2978,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    cap. 9, tis he apoklerosis, k.t.l. How arbitrarily he praises himself.'
      __________________________________________________________________
 
-   §3. We see nothing remarkable in logical force in the treatise of
+   Â§3. We see nothing remarkable in logical force in the treatise of
    Eunomius, and so embark on our Answer with a just confidence.
 
    Let no one think, that in saying this I exaggerate and make an idle
@@ -3032,19 +3033,19 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    had taken up this science late in life, and had not gone very deeply
    into it, he is often found making mistakes.' The book of Eunomius which
    Photius had read is still extant: it is his Apologeticus' in 28
-   sections, and has been published by Canisius (Lectiones Antiquæ, I. 172
+   sections, and has been published by Canisius (Lectiones AntiquÃ¦, I. 172
    ff.). His ektheois tes tisteos, presented to the emperor Theodosius in
    the year 383, is also extant. This last is found in the Codex
    Theodosius and in the mss. which Livineius of Ghent used for his Greek
    and Latin edition of Gregory, 1574: it follows the Books against
-   Eunomius. His Apologia Apologiæ,' which he wrote in answer to Basil's 5
+   Eunomius. His Apologia ApologiÃ¦,' which he wrote in answer to Basil's 5
    (or 3) books against him, is not extant: nor the deuteros logos which
    Gregory answered in his second 12th Book. Most of the quotations, then,
    from Eunomius, in these books of Gregory cannot be verified, in the
    case of a doubtful reading, &c.
      __________________________________________________________________
 
-   §4. Eunomius displays much folly and fine writing, but very little
+   Â§4. Eunomius displays much folly and fine writing, but very little
    seriousness about vital points.
 
    In these and such like antics I allow him to have the advantage; and to
@@ -3152,10 +3153,10 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [67] taxin. We have no context to explain these allusions, the treatise
    of Eunomius being lost, which Gregory is now answering, i.e. the
-   Apologia Apologiæ.
+   Apologia ApologiÃ¦.
      __________________________________________________________________
 
-   §5. His peculiar caricature of the bishops, Eustathius of Armenia and
+   Â§5. His peculiar caricature of the bishops, Eustathius of Armenia and
    Basil of Galatia, is not well drawn.
 
    But, not to linger longer on these absurdities in the very act of
@@ -3237,7 +3238,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    bank of the Halys, where Galatia and Cappadocia join.
      __________________________________________________________________
 
-   §6. A notice of Aetius, Eunomius' master in heresy, and of Eunomius
+   Â§6. A notice of Aetius, Eunomius' master in heresy, and of Eunomius
    himself, describing the origin and avocations of each.
 
    Verily this did great damage to our declamation-writer, or rather to
@@ -3248,7 +3249,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    have listened to Athanasius, the former bishop of the Galatians, when
    he was speaking of the life of Aetius; Athanasius was a man who valued
    truth above all things; and he exhibited also the letter of George of
-   Laodicæa, so that a number might attest the truth of his words. He told
+   LaodicÃ¦a, so that a number might attest the truth of his words. He told
    us that originally Aetius did not attempt to teach his monstrous
    doctrines, but only after some interval of time put forth these
    novelties as a trick to gain his livelihood; that having escaped from
@@ -3292,7 +3293,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    But although his bread became thereby well buttered he thought he ought
    not to remain in such a profession; so he gradually gave up the
    medical, after the tinkering. Arius, the enemy of God, had already sown
-   those wicked tares which bore the Anomæans as their fruit, and the
+   those wicked tares which bore the AnomÃ¦ans as their fruit, and the
    schools of medicine resounded then with the disputes about that
    question. Accordingly Aetius studied the controversy, and, having laid
    a train of syllogisms from what he remembered of Aristotle, he became
@@ -3406,11 +3407,11 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [73] Probably the Indian' Theophilus, who afterwards helped to organize
    the Anomoean schism in the reign of Jovian.
 
-   [74] Gallus, Cæsar 350-354, brother of Julian, not a little influenced
+   [74] Gallus, CÃ¦sar 350-354, brother of Julian, not a little influenced
    by Aetius, executed by Constantius at Flanon in Dalmatia. During his
    short reign at Antioch, Domitian, who was sent to bring him to Italy,
-   and his quæstor Montius were dragged to death through the streets by
-   the guards of the young Cæsar.
+   and his quÃ¦stor Montius were dragged to death through the streets by
+   the guards of the young CÃ¦sar.
 
    [75] The same phrase occurs again: Refutation of Eunomius' Second
    Essay, p. 844: hoi te prounikou sophi& 139; engumnasthentes; ex ekeines
@@ -3420,7 +3421,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    appears to have had the same meaning. We might venture, therefore, to
    translate that knowing trick' of short-hand: but why Prunicus is
    personified, if it is personified, as in the Gnostic Prunicos Sophia,
-   does not appear. See Epiphanius Hæres. 253 for the feminine Proper
+   does not appear. See Epiphanius HÃ¦res. 253 for the feminine Proper
    name. The other possible explanation is that given in the margin of the
    Paris Edition, and is based on Suidas, i.e. Prunici sunt cursores
    celeres; hic pro celer scriba. Hesychius also says of the word; hoi
@@ -3429,7 +3430,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    such porter's' skill, easy going and superficial, is opposed to the
    more laborious task of tilling the soil.
 
-   [76] For the baptisms of Eunomius, compare Epiphanius Hær. 765. Even
+   [76] For the baptisms of Eunomius, compare Epiphanius HÃ¦r. 765. Even
    Arians who were not Anomoeans he rebaptized. The helps of nature' may
    possibly refer to the miracles' which Philostorgius ascribes both to
    Aetius and Eunomius. Sozomen (vi. 26) says, "Eunomius introduced, it is
@@ -3442,7 +3443,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [77] hupothesis.
      __________________________________________________________________
 
-   §7. Eunomius himself proves that the confession of faith which He made
+   Â§7. Eunomius himself proves that the confession of faith which He made
    was not impeached.
 
    Let us see for a moment now what kind of truth is dealt with by this
@@ -3559,16 +3560,16 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [80] genikes.
 
-   [81] sunekrotei. The word has this meaning in Origen. In Philo (de Vitâ
+   [81] sunekrotei. The word has this meaning in Origen. In Philo (de VitÃ¢
    Mosis, p. 476, l. 48, quoted by Viger.), it has another meaning,
    sunekrotoun allos allon, me apokamnein, i.e. cheered.'
 
    [82] kathuphesousin. This is the reading of the Venetian ms. The word
-   bears the same forensic sense as the Latin prævaricari. The common
+   bears the same forensic sense as the Latin prÃ¦varicari. The common
    reading is kathubrisousin
      __________________________________________________________________
 
-   §8. Facts show that the terms of abuse which he has employed against
+   Â§8. Facts show that the terms of abuse which he has employed against
    Basil are more suitable for himself.
 
    But these remarks are by the way, and come from our not keeping close
@@ -3630,7 +3631,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    adopted the reading of the Ven. ms.
      __________________________________________________________________
 
-   §9. In charging Basil with not defending his faith at the time of the
+   Â§9. In charging Basil with not defending his faith at the time of the
    Trials,' he lays himself open to the same charge.
 
    He hints at a certain locality where this trial for heresy took place;
@@ -3747,7 +3748,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    Gregory.
      __________________________________________________________________
 
-   §10. All his insulting epithets are shewn by facts to be false.
+   Â§10. All his insulting epithets are shewn by facts to be false.
 
    I therefore pass over everything else, as mere insolent mockery and
    scoffing abuse, and hasten to the question of his doctrine. Should any
@@ -3902,7 +3903,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    anti, though it gives the sense translated in the text, is not so good
    as he anti (i.e. eschatia), which Oehler suggests, but does not adopt.
    With regard to Eunomius' birthplace, Sozomen and Philostorgius give
-   Dacora (which the former describes as on the slopes of Mt. Argæus: but
+   Dacora (which the former describes as on the slopes of Mt. ArgÃ¦us: but
    that it must have been on the borders of Galatia and Cappadocia is
    certain from what Gregory says here): Probably Dacora was his paternal
    estate: Oltiseris the village to which it belonged' (Dict. Christ.
@@ -3917,7 +3918,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [97] epseusthai dokein.
      __________________________________________________________________
 
-   §11. The sophistry which he employs to prove our acknowledgment that he
+   Â§11. The sophistry which he employs to prove our acknowledgment that he
    had been tried, and that the confession of his faith had not been
    unimpeached, is feeble.
 
@@ -3981,7 +3982,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    against ourselves, he must accept both these consequences, or neither.
      __________________________________________________________________
 
-   §12. His charge of cowardice is baseless: for Basil displayed the
+   Â§12. His charge of cowardice is baseless: for Basil displayed the
    highest courage before the Emperor and his Lord-Lieutenants.
 
    He treats our words so; and in the rest of his presumptuous statements
@@ -4182,7 +4183,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    succeeded no better than the fatherly counsel of Enippius.' Gwatkins
    Arians.
 
-   [102] Other words of Basil, before Modestus at Cæsarea, are also
+   [102] Other words of Basil, before Modestus at CÃ¦sarea, are also
    recorded; "I cannot worship any created thing, being as I am God's
    creation, and having been bidden to be a God."
 
@@ -4197,7 +4198,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    Arian.
      __________________________________________________________________
 
-   §13. Résumé of his dogmatic teaching. Objections to it in detail.
+   Â§13. RÃ©sumÃ© of his dogmatic teaching. Objections to it in detail.
 
    But somehow our discourse has swerved considerably from the mark; it
    has had to turn round and face each of this slanderer's insults. To
@@ -4309,7 +4310,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    proton kinoun akineton (Arist. Metaph. XII. 7).
      __________________________________________________________________
 
-   §14. He did wrong, when mentioning the Doctrines of Salvation, in
+   Â§14. He did wrong, when mentioning the Doctrines of Salvation, in
    adopting terms of his own choosing instead of the traditional terms
    Father, Son, and Holy Spirit.
 
@@ -4370,7 +4371,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [108] Eccles. vii. 16.
      __________________________________________________________________
 
-   §15. He does wrong in making the being of the Father alone proper and
+   Â§15. He does wrong in making the being of the Father alone proper and
    supreme, implying by his omission of the Son and the Spirit that theirs
    is improperly spoken of, and is inferior.
 
@@ -4521,7 +4522,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    statement.
      __________________________________________________________________
 
-   §16. Examination of the meaning of subjection:' in that he says that
+   Â§16. Examination of the meaning of subjection:' in that he says that
    the nature of the Holy Spirit is subject to that of the Father and the
    Son. It is shewn that the Holy Spirit is of an equal, not inferior,
    rank to the Father and the Son.
@@ -4633,7 +4634,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    anything definite about the procession of the Third Person.
      __________________________________________________________________
 
-   §17. Discussion as to the exact nature of the energies' which, this man
+   Â§17. Discussion as to the exact nature of the energies' which, this man
    declares, follow' the being of the Father and of the Son.
 
    Then he says "there must of course be included in this account the
@@ -4685,7 +4686,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    being.
      __________________________________________________________________
 
-   §18. He has no reason for distinguishing a plurality of beings in the
+   Â§18. He has no reason for distinguishing a plurality of beings in the
    Trinity. He offers no demonstration that it is so.
 
    Let us examine the following as well. He calls one Being the work of
@@ -4784,7 +4785,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    Eunomius was endeavouring to create in the supra-natural world.
      __________________________________________________________________
 
-   §19. His acknowledgment that the Divine Being is single' is only
+   Â§19. His acknowledgment that the Divine Being is single' is only
    verbal.
 
    "Each Being has, in fact and in conception, a nature unmixed, single,
@@ -4925,7 +4926,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [114] 1 Timothy i. 15.
      __________________________________________________________________
 
-   §20. He does wrong in assuming, to account for the existence of the
+   Â§20. He does wrong in assuming, to account for the existence of the
    Only-Begotten, an energy' that produced Christ's Person.
 
    That such is his intention in using these phrases will be clear from
@@ -5052,7 +5053,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    was called by virtue of this passage essentially ho theologos
      __________________________________________________________________
 
-   §21. The blasphemy of these heretics is worse than the Jewish unbelief.
+   Â§21. The blasphemy of these heretics is worse than the Jewish unbelief.
 
    But let us assume that this is not so: for they allow, forsooth, in
    theoretic kindness towards humanity, that the Only-begotten and the
@@ -5103,7 +5104,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    rhetorician, had not been thrown away on Gregory.
      __________________________________________________________________
 
-   §22. He has no right to assert a greater and less in the Divine being.
+   Â§22. He has no right to assert a greater and less in the Divine being.
    A systematic statement of the teaching of the Church.
 
    Then they discover in His being a certain shortness in the way of
@@ -5361,7 +5362,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    tried to resist this tendency so far as to bring back divinity to the
    Supreme Being; but it was at the expense of the divinity of the Son,
    Who was with him just as much a created Intermediate between God and
-   man, as one of the Æons: and Aetius and Eunomius treated the Holy Ghost
+   man, as one of the Ã†ons: and Aetius and Eunomius treated the Holy Ghost
    also as their master had treated the Son. But Arianism tended at once
    to Judaism and, in making creatures adorable, to Greek polytheism.
    There was only one way of cutting short the phantasmagoria of divine
@@ -5416,7 +5417,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [128] Proverbs viii. 27 (LXX).
      __________________________________________________________________
 
-   §23. These doctrines of our Faith witnessed to and confirmed by
+   Â§23. These doctrines of our Faith witnessed to and confirmed by
    Scripture passages.
 
    It is therefore clear that these are metaphors, which contain a deeper
@@ -5564,7 +5565,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [136] tois anagennomenois
      __________________________________________________________________
 
-   §24. His elaborate account of degrees and differences in works' and
+   Â§24. His elaborate account of degrees and differences in works' and
    energies' within the Trinity is absurd.
 
    Now let us see what he adds, as the consequence of this. After saying
@@ -5773,7 +5774,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    involves a contradiction.
      __________________________________________________________________
 
-   §25. He who asserts that the Father is prior' to the Son with any
+   Â§25. He who asserts that the Father is prior' to the Son with any
    thought of an interval must perforce allow that even the Father is not
    without beginning.
 
@@ -5898,7 +5899,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [148] brightness. Heb. i. 3, apaugasma tes doxes.
      __________________________________________________________________
 
-   §26. It will not do to apply this conception, as drawn out above, of
+   Â§26. It will not do to apply this conception, as drawn out above, of
    the Father and Son to the Creation, as they insist on doing: but we
    must contemplate the Son apart with the Father, and believe that the
    Creation had its origin from a definite point.
@@ -6088,7 +6089,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [151] kai ton tou kuriotatou logon epechei;
 
    [152] The generation of the Son does not fall within time. On this
-   "eternal generation" Denys (De la Philosophie d'Origéne, p. 452) has
+   "eternal generation" Denys (De la Philosophie d'OrigÃ©ne, p. 452) has
    the following remarks, illustrating the probable way that Athanasians
    would have dealt with Eunomius: "If we do not see how God's
    indivisibility remains in the co-existence of the three Persons, we can
@@ -6127,7 +6128,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [154] antidiastole
      __________________________________________________________________
 
-   §27. He falsely imagines that the same energies produce the same works,
+   Â§27. He falsely imagines that the same energies produce the same works,
    and that variation in the works indicates variation in the energies.
 
    Of the same strain is that which he adds in the next paragraph; "the
@@ -6245,8 +6246,8 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    reproduced in the speech of S. Stephen, Acts vii. 19: cf. Luke xvii.
    33, "shall preserve (his life)."
 
-   [156] apokritikous, activè, so, the Medical writers. The Latin is in
-   meatus destinato descendit' takes it passivè (apokritikous).
+   [156] apokritikous, activÃ¨, so, the Medical writers. The Latin is in
+   meatus destinato descendit' takes it passivÃ¨ (apokritikous).
 
    [157] neura. So since Galen's time: not tendon.'
 
@@ -6263,7 +6264,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [161] ugras.
      __________________________________________________________________
 
-   §28. He falsely imagines that we can have an unalterable series of
+   Â§28. He falsely imagines that we can have an unalterable series of
    harmonious natures existing side by side.
 
    But this man of science still declares that varied works have energies
@@ -6454,7 +6455,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [164] only one thing amongst the things which follow, &c. The Latin
    translation is manifestly wrong here, "si recte a te assertum est, iis
-   etiam quæ ad primam substantiam sequuntur aliquam operationem inesse."
+   etiam quÃ¦ ad primam substantiam sequuntur aliquam operationem inesse."
    The Greek is eiper he energeia ton parepomenon tis einai te prote ousia
    memarturetai
 
@@ -6462,7 +6463,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    note 6.).
      __________________________________________________________________
 
-   §29. He vainly thinks that the doubt about the energies is to be solved
+   Â§29. He vainly thinks that the doubt about the energies is to be solved
    by the beings, and reversely.
 
    Now let us see what comes next. The doubt about the energies is to be
@@ -6488,7 +6489,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    may be easily solved by looking at the being of His producer!
      __________________________________________________________________
 
-   §30. There is no Word of God that commands such investigations: the
+   Â§30. There is no Word of God that commands such investigations: the
    uselessness of the philosophy which makes them is thereby proved.
 
    I should like also to ask him this. Does he mean that energies are
@@ -6518,7 +6519,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    should be known from each other.
      __________________________________________________________________
 
-   §31. The observations made by watching Providence are sufficient to
+   Â§31. The observations made by watching Providence are sufficient to
    give us the knowledge of sameness of Being.
 
    And yet, if he could see the consequences of his own statements, he
@@ -6549,7 +6550,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    view of it. Anyone who has gazed on the brightness of fire and
    experienced its power of warming, when he approaches another such
    brightness and another such warmth, will assuredly be led on to think
-   of fire; for his senses through the medium of these similar phænomena
+   of fire; for his senses through the medium of these similar phÃ¦nomena
    will conduct him to the fact of a kindred element producing both;
    anything that was not fire could not work on all occasions like fire.
    Just so, when we perceive a similar and equal amount of providential
@@ -6573,7 +6574,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    identity of the fruits of Providence by which we know it.
      __________________________________________________________________
 
-   §32. His dictum that the manner of the likeness must follow the manner
+   Â§32. His dictum that the manner of the likeness must follow the manner
    of the generation' is unintelligible.
 
    But to prevent such a thought being entertained, and pretending to be
@@ -6684,7 +6685,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [167] Matt. xi. 27.
      __________________________________________________________________
 
-   §33. He declares falsely that the manner of the generation is to be
+   Â§33. He declares falsely that the manner of the generation is to be
    known from the intrinsic worth of the generator'.
 
    He goes back, for instance, to the begetting being, and from thence
@@ -6828,7 +6829,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [172] anarchos.
      __________________________________________________________________
 
-   §34. The Passage where he attacks the Omoousion, and the contention in
+   Â§34. The Passage where he attacks the Omoousion, and the contention in
    answer to it.
 
    I will omit to speak of the words which occur before this passage which
@@ -7017,7 +7018,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [176] your own words, i.e. not ours, as you say. The Codex of Turin has
    tois hemeterois, and hemin above: but Oehler has wisely followed that
-   of Venice. Eunomius had said of Basil's party (§34) justice records in
+   of Venice. Eunomius had said of Basil's party (Â§34) justice records in
    your own words a verdict against yourselves.' No,' Gregory answers;
    your words (interpreting our doctrine) alone lend themselves to that.'
    But to change kath' hemon of the Codd. also to kath' humon would supply
@@ -7037,7 +7038,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    perfected into one." (R.V.)
      __________________________________________________________________
 
-   §35. Proof that the Anomoean teaching tends to Manichæism.
+   Â§35. Proof that the Anomoean teaching tends to ManichÃ¦ism.
 
    We hear our Lord saying. "I and My Father are one," and we are taught
    in that utterance the dependence of our Lord on a cause, and yet the
@@ -7046,10 +7047,10 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    distinct the properties of the Persons, while, on the other hand, not
    dividing in the Persons the oneness of their substance; and so the
    supposition of two diverse principles in the category of Cause is
-   avoided, and there is no loophole for the Manichæan heresy to enter.
+   avoided, and there is no loophole for the ManichÃ¦an heresy to enter.
    For the created and the uncreate are as diametrically opposed to each
    other as their names are; and so if the two are to be ranked as First
-   Causes, the mischief of Manichæism will thus under cover be brought
+   Causes, the mischief of ManichÃ¦ism will thus under cover be brought
    into the Church. I say this, because my zeal against our antagonists
    makes me scrutinize their doctrine very closely. Now I think that none
    would deny that we were bringing this scrutiny very near the truth,
@@ -7063,11 +7064,11 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    the gratification of its wish; and if the power of each is thus equal
    to its wish, the primacy will become a doubtful point with the two: and
    it will end in a drawn battle from the inexhaustibleness of their
-   powers. Thus will the Manichæan heresy creep in, two opposite
+   powers. Thus will the ManichÃ¦an heresy creep in, two opposite
    principles appearing with counter claims in the category of Cause,
    parted and opposed by reason of difference both in nature and in will.
    They will find, therefore, that assertion of diminution (in the Divine
-   being) is the beginning of Manichæism; for their teaching organizes a
+   being) is the beginning of ManichÃ¦ism; for their teaching organizes a
    discord within that being, which comes to two leading principles, as
    our account of it has shewn; namely the created and the uncreated.
 
@@ -7094,7 +7095,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    that the having no generation is Being, and in like manner again that
    generation is admitted into Being. If, then, one were to follow out
    carefully these statements in all their meaning, even this way the
-   Manichæan heresy will be reconstructed seeing that the Manichees are
+   ManichÃ¦an heresy will be reconstructed seeing that the Manichees are
    wont to take as an axiom the oppositions of good and bad, light and
    darkness, and all such naturally antagonistic things. I think that any
    who will not be satisfied with a superficial view of the matter will be
@@ -7150,7 +7151,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    good, must be considered as belonging to the generated nature.
 
    To ensure clearness, we must dwell upon this point. As the peculiar
-   phænomena of heat and cold--which are themselves by nature opposed to
+   phÃ¦nomena of heat and cold--which are themselves by nature opposed to
    each other (let us take fire and ice as examples of each), each being
    that which the other is not--are at variance with each other, cooling
    being the peculiarity of ice, heating of fire; so if in accordance with
@@ -7169,7 +7170,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    Indeed, if we are to speak the truth boldly, without any reserve,
    Manes, who for having been the first, they say, to venture to entertain
-   the Manichæan view, gave his name to that heresy, may fairly be
+   the ManichÃ¦an view, gave his name to that heresy, may fairly be
    considered the less offensive of the two. I say this, just as if one
    had to choose between a viper and an asp for the most affection towards
    man; still, if we consider, there is some difference between brutes
@@ -7265,7 +7266,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    Greg Naz.
      __________________________________________________________________
 
-   §36. A passing repetition of the teaching of the Church.
+   Â§36. A passing repetition of the teaching of the Church.
 
    But if a man keeps steadfast to the sound doctrine, and believes that
    the Son is of the nature which is divine without admixture, he will
@@ -7320,14 +7321,14 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    greatly differ from their own, as far as related to the manner of
    sacrifice, and the belief in a One first Cause...came up with them to
    worship," &c. Philo had already used the word so (De Charit.).
-   Athanasius opposes it to polutheia (Quæst. ad Antioch. I.).
+   Athanasius opposes it to polutheia (QuÃ¦st. ad Antioch. I.).
 
    [189] 1 Cor. xii. 3.
 
    [190] enoesamen: aorist of instantaneous action.
      __________________________________________________________________
 
-   §37. Defence of S. Basil's statement, attacked by Eunomius, that the
+   Â§37. Defence of S. Basil's statement, attacked by Eunomius, that the
    terms Father' and The Ungenerate' can have the same meaning.
 
    The stream of his abuse is very strong; insolence is at the bottom of
@@ -7440,7 +7441,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [196] 1 Cor. viii. 13.
      __________________________________________________________________
 
-   §38. Several ways of controverting his quibbling syllogisms.
+   Â§38. Several ways of controverting his quibbling syllogisms.
 
    Let us, if you please, examine his irrefragable syllogisms, and his
    subtle transpositions [197] of the terms in his own false premisses, by
@@ -8008,7 +8009,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [209] en te periodo kai anastrophe ton homoion rhematon.
      __________________________________________________________________
 
-   §39. Answer to the question he is always asking, "Can He who is be
+   Â§39. Answer to the question he is always asking, "Can He who is be
    begotten?"
 
    Eunomius does not like the meaning of the Ungenerate to be conveyed by
@@ -8017,7 +8018,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    pupils, "How can He who (always) is be begotten?" This comes, I take
    it, of not weaning oneself from the human application of words, when we
    have to think about God. But let us without bitterness at once expose
-   the actual falseness of this arrière pensée' of his [210] , stating
+   the actual falseness of this arriÃ¨re pensÃ©e' of his [210] , stating
    first our conclusions upon the matter.
 
    These names have a different meaning with us, Eunomius; when we come to
@@ -8275,7 +8276,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [220] ethelothreskeias, "will worship."
      __________________________________________________________________
 
-   §40. His unsuccessful attempt to be consistent with his own statements
+   Â§40. His unsuccessful attempt to be consistent with his own statements
    after Basil has confuted him.
 
    For notice how bitter he is against one who did detect the rottenness
@@ -8344,7 +8345,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    are like the unlikenesses which you see between the Three Persons.'
      __________________________________________________________________
 
-   §41. The thing that follows is not the same as the thing that it
+   Â§41. The thing that follows is not the same as the thing that it
    follows.
 
    He first says, "the attribute of being ungenerate follows the Deity."
@@ -8433,7 +8434,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    more.
      __________________________________________________________________
 
-   §42. Explanation of Ungenerate,' and a study' of Eternity.
+   Â§42. Explanation of Ungenerate,' and a study' of Eternity.
 
    The eternity of God's life, to sketch it in mere outline, is on this
    wise. He is always to be apprehended as in existence; He admits not a
@@ -8685,7 +8686,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    Book II.
 
-   §1. The second book declares the Incarnation of God the Word, and the
+   Â§1. The second book declares the Incarnation of God the Word, and the
    faith delivered by the Lord to His disciples, and asserts that the
    heretics who endeavour to overthrow this faith and devise other
    additional names are of their father the devil.
@@ -8747,7 +8748,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [248] Cf. S. John viii. 44.
      __________________________________________________________________
 
-   §2. Gregory then makes an explanation at length touching the eternal
+   Â§2. Gregory then makes an explanation at length touching the eternal
    Father, the Son, and the Holy Spirit.
 
    Since then this doctrine is put forth by the Truth itself, it follows
@@ -8893,7 +8894,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [259] hupostaseon
      __________________________________________________________________
 
-   §3. Gregory proceeds to discuss the relative force of the unnameable
+   Â§3. Gregory proceeds to discuss the relative force of the unnameable
    name of the Holy Trinity and the mutual relation of the Persons, and
    moreover the unknowable character of the essence, and the condescension
    on His part towards us, His generation of the Virgin, and His second
@@ -8979,7 +8980,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [264] S. John v. 29
      __________________________________________________________________
 
-   §4. He next skilfully confutes the partial, empty and blasphemous
+   Â§4. He next skilfully confutes the partial, empty and blasphemous
    statement of Eunomius on the subject of the absolutely existent.
 
    Now the wording of their doctrine is as follows: "We believe in the one
@@ -9160,7 +9161,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [288] S. John xiv. 11
      __________________________________________________________________
 
-   §5. He next marvellously overthrows the unintelligible statements of
+   Â§5. He next marvellously overthrows the unintelligible statements of
    Eunomius which assert that the essence of the Father is not separated
    or divided, and does not become anything else.
 
@@ -9236,7 +9237,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [289] hupsiston, whence the name of the sect.
      __________________________________________________________________
 
-   §6. He then shows the unity of the Son with the Father and Eunomius'
+   Â§6. He then shows the unity of the Son with the Father and Eunomius'
    lack of understanding and knowledge in the Scriptures.
 
    What he adds next after this is as follows:--"Having no sharer," he
@@ -9449,7 +9450,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [309] S. John xiv. 6
      __________________________________________________________________
 
-   §7. Gregory further shows that the Only-Begotten being begotten not
+   Â§7. Gregory further shows that the Only-Begotten being begotten not
    only of the Father, but also impassibly of the Virgin by the Holy
    Ghost, does not divide the substance; seeing that neither is the nature
    of men divided or severed from the parents by being begotten, as is
@@ -9759,7 +9760,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [326] S. John i. 3
      __________________________________________________________________
 
-   §8. He further very appositely expounds the meaning of the term
+   Â§8. He further very appositely expounds the meaning of the term
    "Only-Begotten," and of the term "First born," four times used by the
    Apostle.
 
@@ -9910,7 +9911,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [349] S. John i. 14
      __________________________________________________________________
 
-   §9. Gregory again discusses the generation of the Only-Begotten, and
+   Â§9. Gregory again discusses the generation of the Only-Begotten, and
    other different modes of generation, material and immaterial, and nobly
    demonstrates that the Son is the brightness of the Divine glory, and
    not a creature.
@@ -10227,7 +10228,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [366] Rom. ix. 5.
      __________________________________________________________________
 
-   §10. He explains the phrase "The Lord created Me," and the argument
+   Â§10. He explains the phrase "The Lord created Me," and the argument
    about the origination of the Son, the deceptive character of Eunomius'
    reasoning, and the passage which says, "My glory will I not give to
    another," examining them from different points of view.
@@ -10401,7 +10402,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
      __________________________________________________________________
 
    [367] Prov. viii. 22 (LXX.). The versions of Aquila, Theodotion, and
-   Symmachus (to one or more of which perhaps §9 refers), all render the
+   Symmachus (to one or more of which perhaps Â§9 refers), all render the
    Hebrew by ektesato ("possessed"), not by ektise ("created"). But
    Gregory may be referring to mss. of the LXX. version which read
    ektesato. It is clear from what follows that Mr. Gwatkin is hardly
@@ -10456,7 +10457,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [388] Joel ii. 28; Acts ii. 17.
      __________________________________________________________________
 
-   §11. After expounding the high estate of the Almighty, the Eternity of
+   Â§11. After expounding the high estate of the Almighty, the Eternity of
    the Son, and the phrase "being made obedient," he shows the folly of
    Eunomius in his assertion that the Son did not acquire His sonship by
    obedience.
@@ -10740,7 +10741,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [410] S. Luke xxiii. 43.
      __________________________________________________________________
 
-   §12. He thus proceeds to a magnificent discourse of the interpretation
+   Â§12. He thus proceeds to a magnificent discourse of the interpretation
    of "Mediator," "Like," "Ungenerate," and "generate," and of "The
    likeness and seal of the energy of the Almighty and of His Works."
 
@@ -11063,7 +11064,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    remarkable.
      __________________________________________________________________
 
-   §13. He expounds the passage of the Gospel, "The Father judgeth no
+   Â§13. He expounds the passage of the Gospel, "The Father judgeth no
    man," and further speaks of the assumption of man with body and soul
    wrought by the Lord, of the transgression of Adam, and of death and the
    resurrection of the dead.
@@ -11254,7 +11255,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [450] Acts vii. 14. Cf. Gen. xlvi. 27, and Deut. x. 22.
      __________________________________________________________________
 
-   §14. He proceeds to discuss the views held by Eunomius, and by the
+   Â§14. He proceeds to discuss the views held by Eunomius, and by the
    Church, touching the Holy Spirit; and to show that the Father, the Son,
    and the Holy Ghost are not three Gods, but one God. He also discusses
    different senses of "Subjection," and therein shows that the subjection
@@ -11549,7 +11550,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [483] Cf. Ps. lxii. 1 (LXX.).
      __________________________________________________________________
 
-   §15. Lastly he displays at length the folly of Eunomius, who at times
+   Â§15. Lastly he displays at length the folly of Eunomius, who at times
    speaks of the Holy Spirit as created, and as the fairest work of the
    Son, and at other times confesses, by the operations attributed to Him,
    that He is God, and thus ends the book.
@@ -11867,7 +11868,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    follies, could possibly tell us.
      __________________________________________________________________
 
-   [484] See above, §8 of this book.
+   [484] See above, Â§8 of this book.
 
    [485] Or, "not the first-born of beings of a different race, but of
    those of his own stock."
@@ -11954,7 +11955,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    Book III.
 
-   §1. This third book shows a third fall of Eunomius, as refuting
+   Â§1. This third book shows a third fall of Eunomius, as refuting
    himself, and sometimes saying that the Son is to be called
    Only-begotten in virtue of natural generation, and that Holy Scripture
    proves this from the first; at other times, that by reason of His being
@@ -12178,7 +12179,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [533] Rom. viii. 21.
      __________________________________________________________________
 
-   §2. He then once more excellently, appropriately, and clearly examines
+   Â§2. He then once more excellently, appropriately, and clearly examines
    and expounds the passage, "The Lord Created Me."
 
    Perhaps that passage in the Proverbs might be brought forward against
@@ -12576,7 +12577,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    excellent property.
      __________________________________________________________________
 
-   [534] Prov. viii. 22 (LXX.). On this passage see also Book II. §10.
+   [534] Prov. viii. 22 (LXX.). On this passage see also Book II. Â§10.
 
    [535] 1 Cor. i. 24.
 
@@ -12671,7 +12672,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [573] Prov. viii. 32 (not verbally agreeing with the LXX.).
      __________________________________________________________________
 
-   §3. He then shows, from the instance of Adam and Abel, and other
+   Â§3. He then shows, from the instance of Adam and Abel, and other
    examples, the absence of alienation of essence in the case of the
    "generate" and "ungenerate."
 
@@ -12842,7 +12843,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [578] S. Luke x. 16
      __________________________________________________________________
 
-   §4. He thus shows the oneness of the Eternal Son with the Father the
+   Â§4. He thus shows the oneness of the Eternal Son with the Father the
    identity of essence and the community of nature (wherein is a natural
    inquiry into the production of wine), and that the terms "Son" and
    "product" in the naming of the Only-Begotten include a like idea of
@@ -13026,7 +13027,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [586] gennemata echidnon. E.g. S. Matt. iii. 7.
      __________________________________________________________________
 
-   §5. He discusses the incomprehensibility of the Divine essence, and the
+   Â§5. He discusses the incomprehensibility of the Divine essence, and the
    saying to the woman of Samaria, "Ye worship ye know not what."
 
    Now if any one should ask for some interpretation, and description, and
@@ -13125,7 +13126,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [592] Cf. 1 Cor. ii. 9
      __________________________________________________________________
 
-   §6. Thereafter he expounds the appellation of "Son," and of "product of
+   Â§6. Thereafter he expounds the appellation of "Son," and of "product of
    generation," and very many varieties of "sons," of God, of men, of
    rams, of perdition, of light, and of day.
 
@@ -13276,7 +13277,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    huioi loimou.
      __________________________________________________________________
 
-   §7. Then he ends the book with an exposition of the Divine and Human
+   Â§7. Then he ends the book with an exposition of the Divine and Human
    names of the Only-Begotten, and a discussion of the terms "generate"
    and "ungenerate."
 
@@ -13448,7 +13449,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    Book IV.
 
-   §1. The fourth book discusses the account of the nature of the "product
+   Â§1. The fourth book discusses the account of the nature of the "product
    of generation," and of the passionless generation of the Only-Begotten,
    and the text, "In the beginning was the Word," and the birth of the
    Virgin.
@@ -13742,7 +13743,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [615] S. Luke ii. 6, 7.
      __________________________________________________________________
 
-   §2. He convicts Eunomius of having used of the Only-begotten terms
+   Â§2. He convicts Eunomius of having used of the Only-begotten terms
    applicable to the existence of the earth, and thus shows that his
    intention is to prove the Son to be a being mutable and created.
 
@@ -13904,7 +13905,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [621] Oehler's punctuation here seems to be unsatisfactory.
      __________________________________________________________________
 
-   §3. He then again admirably discusses the term prototokos as it is four
+   Â§3. He then again admirably discusses the term prototokos as it is four
    times employed by the Apostle.
 
    But that the readers of our work may find no ambiguity left of such a
@@ -14052,7 +14053,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [622] Cf. Col. i. 15 Prototokos may be, as it is in the Authorized
    Version, translated either by "first born," or by "first-begotten."
-   Compare with this passage Book II. §8, where the use of the word in
+   Compare with this passage Book II. Â§8, where the use of the word in
    Holy Scripture is discussed.
 
    [623] Cf. Col. i. 15
@@ -14083,10 +14084,10 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [632] Acts ii. 24.
 
-   [633] See Book II. §§4 and 8, and note on the former passage.
+   [633] See Book II. Â§Â§4 and 8, and note on the former passage.
 
    [634] With this passage may be compared the parallel passage in Bk. II.
-   §8. The interpretation of the "many brethren" of those baptized
+   Â§8. The interpretation of the "many brethren" of those baptized
    suggests that Gregory understood the "predestination" spoken of in Rom.
    viii. 29 to be predestination to baptism.
 
@@ -14101,7 +14102,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [639] Cf. Phil. ii. 6
      __________________________________________________________________
 
-   §4. He proceeds again to discuss the impassibility of the Lord's
+   Â§4. He proceeds again to discuss the impassibility of the Lord's
    generation; and the folly of Eunomius, who says that the generated
    essence involves the appellation of Son, and again, forgetting this,
    denies the relation of the Son to the Father: and herein he speaks of
@@ -14343,7 +14344,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    rendering with which the Vulgate version practically agrees.
      __________________________________________________________________
 
-   §5. He again shows Eunomius, constrained by truth, in the character of
+   Â§5. He again shows Eunomius, constrained by truth, in the character of
    an advocate of the orthodox doctrine, confessing as most proper and
    primary, not only the essence of the Father, but the essence also of
    the Only-begotten.
@@ -14426,7 +14427,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [648] S. John xi. 51
      __________________________________________________________________
 
-   §6. He then exposes argument about the "Generate," and the "product of
+   Â§6. He then exposes argument about the "Generate," and the "product of
    making," and "product of creation," and shows the impious nature of the
    language of Eunomius and Theognostus on the "immediate" and "undivided"
    character of the essence, and its "relation to its creator and maker."
@@ -14756,10 +14757,10 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    Athanasius as an authority against the Arians. An account of his work
    is to be found in Photius, and this is extracted and printed with the
    few remaining fragments of his actual writings in the 3rd volume of
-   Routh's Reliquiæ Sacræ.
+   Routh's ReliquiÃ¦ SacrÃ¦.
      __________________________________________________________________
 
-   §7. He then clearly and skilfully criticises the doctrine of the
+   Â§7. He then clearly and skilfully criticises the doctrine of the
    impossibility of comparison with the things made after the Son, and
    exposes the idolatry contrived by Eunomius, and concealed by the
    terminology of "Son" and "Only-begotten," to deceive his readers.
@@ -14899,7 +14900,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [666] Cf. Ps. xiii. 2
      __________________________________________________________________
 
-   §8. He proceeds to show that there is no "variance" in the essence of
+   Â§8. He proceeds to show that there is no "variance" in the essence of
    the Father and the Son: wherein he expounds many forms of variation and
    harmony, and explains the "form," the "seal," and the "express image."
 
@@ -15074,7 +15075,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [678] Prov. viii. 5 (LXX.).
      __________________________________________________________________
 
-   §9. Then, distinguishing between essence and generation, he declares
+   Â§9. Then, distinguishing between essence and generation, he declares
    the empty and frivolous language of Eunomius to be like a rattle. He
    proceeds to show that the language used by the great Basil on the
    subject of the generation of the Only-begotten has been grievously
@@ -15273,7 +15274,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    Book V.
 
-   §1. The fifth book promises to speak of the words contained in the
+   Â§1. The fifth book promises to speak of the words contained in the
    saying of the Apostle Peter, but delays their exposition. He discourses
    first of the creation, to the effect that, while nothing therein is
    deserving of worship, yet men, led astray by their ill-informed and
@@ -15345,7 +15346,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    For as they perceived all these circles moving in mutual relation,
    seeing that they had gone astray as to the most exalted, they
    maintained the same error by logical sequence, even to the last of
-   them. And in addition to these, the æther itself, and the atmosphere
+   them. And in addition to these, the Ã¦ther itself, and the atmosphere
    diffused beneath it, the earth and sea and the subterranean region, and
    in the earth itself all things which are useful or needful for man's
    life,--of all these there was none which they held to be without part
@@ -15428,7 +15429,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [695] Taking the whole phrase to met' eme on as a loose quotation.
      __________________________________________________________________
 
-   §2. He then explains the phrase of S. Peter, "Him God made Lord and
+   Â§2. He then explains the phrase of S. Peter, "Him God made Lord and
    Christ." And herein he sets forth the opposing statement of Eunomius,
    which he made on account of such phrase against S. Basil, and his
    lurking revilings and insults.
@@ -15617,7 +15618,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [711] 2 Cor. iii. 17.
      __________________________________________________________________
 
-   §3. A remarkable and original reply to these utterances, and a
+   Â§3. A remarkable and original reply to these utterances, and a
    demonstration of the power of the Crucified, and of the fact that this
    subjection was of the Human Nature, not that which the Only-Begotten
    has from the Father. Also an explanation of the figure of the Cross,
@@ -15834,10 +15835,10 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    of his accusation.
      __________________________________________________________________
 
-   [712] Or "resuming." Cf. Book II. §8 (sup. p. 113, where see note 7).
+   [712] Or "resuming." Cf. Book II. Â§8 (sup. p. 113, where see note 7).
 
    [713] With S. Gregory's language here may be compared that of S.
-   Athanasius (Or. adv. Arian. iii. 53), "It was not the Wisdom, quâ
+   Athanasius (Or. adv. Arian. iii. 53), "It was not the Wisdom, quÃ¢
    Wisdom, that advanced'; but the humanity in the Wisdom that did
    advance, gradually ascending above the human nature and being made
    Divine (theopoioumenon)."
@@ -15881,7 +15882,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [726] Cf. S. Mark xiv. 38
      __________________________________________________________________
 
-   §4. He shows the falsehood of Eunomius' calumnious charge that the
+   Â§4. He shows the falsehood of Eunomius' calumnious charge that the
    great Basil had said that "man was emptied to become man," and
    demonstrates that the "emptying" of the Only-begotten took place with a
    view to the restoration to life of the Man Who had suffered [727] .
@@ -16007,7 +16008,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [732] Cf. Rom. viii. 21.
      __________________________________________________________________
 
-   §5. Thereafter he shows that there are not two Christs or two Lords,
+   Â§5. Thereafter he shows that there are not two Christs or two Lords,
    but one Christ and one Lord, and that the Divine nature, after mingling
    with the Human, preserved the properties of each nature without
    confusion, and declares that the operations are, by reason of the
@@ -16226,7 +16227,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    Book VI.
 
-   §1. The sixth book shows that He Who came for man's salvation was not a
+   Â§1. The sixth book shows that He Who came for man's salvation was not a
    mere man, as Eunomius, falsely slandering him, affirmed that the great
    Basil had said, but the Only-begotten Son of God, putting on human
    flesh, and becoming a mediator between God and man, on Whom we believe,
@@ -16363,7 +16364,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [760] 2 Cor. v. 21.
      __________________________________________________________________
 
-   §2. Then he again mentions S. Peter's word, "made," and the passage in
+   Â§2. Then he again mentions S. Peter's word, "made," and the passage in
    the Epistle to the Hebrews, which says that Jesus was made by God "an
    Apostle and High Priest": and, after giving a sufficient answer to the
    charges brought against him by Eunomius, shows that Eunomius himself
@@ -16560,7 +16561,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [779] Cf. 2 Cor. v. 16
      __________________________________________________________________
 
-   §3. He then gives a notable explanation of the saying of the Lord to
+   Â§3. He then gives a notable explanation of the saying of the Lord to
    Philip, "He that hath seen Me hath seen the Father;" and herein he
    excellently discusses the suffering of the Lord in His love to man, and
    the impassibility, creative power, and providence of the Father, and
@@ -16707,7 +16708,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    is Christ, wrought for men their freedom from death?
      __________________________________________________________________
 
-   [780] See above, Book V. §4.
+   [780] See above, Book V. Â§4.
 
    [781] That is, in a nature created like itself.
 
@@ -16748,7 +16749,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    Christ) wrought the salvation of men.
      __________________________________________________________________
 
-   §4. Then returning to the words of Peter, "God made Him Lord and
+   Â§4. Then returning to the words of Peter, "God made Him Lord and
    Christ," he skilfully explains it by many arguments, and herein shows
    Eunomius as an advocate of the orthodox doctrine, and concludes the
    book by showing that the Divine and Human names are applied, by reason
@@ -16879,7 +16880,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    existence first, and after that the Word? was the flesh more ancient
    than the Godhead? did Gabriel bring glad tidings to Mary before the
    world was? did not the Man that was in Christ take beginning by way of
-   birth in the days of Cæsar Augustus, while the Word that was God in the
+   birth in the days of CÃ¦sar Augustus, while the Word that was God in the
    beginning is our King, as the prophet testifies, before all ages [799]
    ? See you not what confusion you bring upon the matter, turning, as the
    phrase goes, things upside down? It was the fiftieth day after the
@@ -17091,7 +17092,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    Book VII.
 
-   §1. The seventh book shows from various statements made to the
+   Â§1. The seventh book shows from various statements made to the
    Corinthians and to the Hebrews, and from the words of the Lord, that
    the word "Lord" is not expressive of essence, according to Eunomius'
    exposition, but of dignity. and after many notable remarks concerning
@@ -17446,7 +17447,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [833] Cf. 1 Cor. viii. 6.
      __________________________________________________________________
 
-   §2. He then declares that the close relation between names and things
+   Â§2. He then declares that the close relation between names and things
    is immutable, and thereafter proceeds accordingly, in the most
    excellent manner, with his discourse concerning "generated" and
    "ungenerate."
@@ -17539,7 +17540,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    illicitly for the term "ungenerate."
      __________________________________________________________________
 
-   §3. Thereafter he discusses the divergence of names and of things,
+   Â§3. Thereafter he discusses the divergence of names and of things,
    speaking, of that which is ungenerate as without a cause, and of that
    which is non-existent, as the Scindapsus, Minotaur, Blityri, Cyclops,
    Scylla, which never were generated at all, and shows that things which
@@ -17597,7 +17598,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    "ungenerate" is not only employed of that which exists without a cause,
    but has also a proper application to that which is nonexistent. The
    Scindapsus [836] is called ungenerate, the Blityri [837] is ungenerate,
-   the Minotaur is ungenerate, the Cyclops, Scylla, the Chimæra are
+   the Minotaur is ungenerate, the Cyclops, Scylla, the ChimÃ¦ra are
    ungenerate, not in the sense of existing without generation, but in the
    sense of never having come into being at all. If, then, the names more
    peculiarly Divine are common to the Son with the Father, and if it is
@@ -17672,7 +17673,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    Nature.
      __________________________________________________________________
 
-   §4. He says that all things that are in creation have been named by
+   Â§4. He says that all things that are in creation have been named by
    man, if, as is the case, they are called differently by every nation,
    as also the appellation of "Ungenerate" is conferred by us: but that
    the proper appellation of the Divine essence itself which expresses the
@@ -17742,7 +17743,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [842] Ps. cxlv. 3.
      __________________________________________________________________
 
-   §5. After much discourse concerning the actually existent, and
+   Â§5. After much discourse concerning the actually existent, and
    ungenerate and good, and upon the consubstantiality of the heavenly
    powers, showing the uncharted character of their essence, yet the
    difference of their ranks, he ends the book.
@@ -17879,7 +17880,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    Book VIII.
 
-   §1. The eighth book very notably overthrows the blasphemy of the
+   Â§1. The eighth book very notably overthrows the blasphemy of the
    heretics who say that the Only-begotten came from nothing, and that
    there was a time when He was not, and shows the Son to be no new being,
    but from everlasting, from His having said to Moses, "I am He that is,"
@@ -18050,7 +18051,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [853] Exod. iii. 4.
 
-   [854] See note 4 on Book V. §1, where these words are also treated of.
+   [854] See note 4 on Book V. Â§1, where these words are also treated of.
 
    [855] Cf. Judges xiii. 18 (LXX.).
 
@@ -18073,7 +18074,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [864] Heb. i. 3.
      __________________________________________________________________
 
-   §2. He then discusses the "willing" of the Father concerning the
+   Â§2. He then discusses the "willing" of the Father concerning the
    generation of the Son, and shows that the object of that good will is
    from eternity, which is the Son, existing in the Father, and being
    closely related to the process of willing, as the ray to the flame, or
@@ -18171,7 +18172,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [865] Oehler's punctuation here seems faulty.
      __________________________________________________________________
 
-   §3. Then, thus passing over what relates to the essence of the Son as
+   Â§3. Then, thus passing over what relates to the essence of the Son as
    having been already discussed, he treats of the sense involved in
    "generation," saying that there are diverse generations, those effected
    by matter and art, and of buildings,--and that by succession of
@@ -18270,7 +18271,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    not logon. The whole section of the analysis is rather confused, and
    does not clearly reproduce S. Gregory's division of the subject. A
    large part of this section, and of that which follows it, is repeated
-   with very slight alteration from Bk. II. §9 (see pp. 113-115 above).
+   with very slight alteration from Bk. II. Â§9 (see pp. 113-115 above).
    The resemblances are much closer in the Greek text than they appear in
    the present translation, in which different hands have been at work in
    the two books.
@@ -18286,7 +18287,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    "the ordering of nature."
      __________________________________________________________________
 
-   §4. He further shows the operations of God to be expressed by human
+   Â§4. He further shows the operations of God to be expressed by human
    illustrations; for what hands and feet and the other parts of the body
    with which men work are, that, in the case of God, the will alone is,
    in place of these. And so also arises the divergence of generation;
@@ -18415,7 +18416,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [880] S. John vii. 24
      __________________________________________________________________
 
-   §5. Then, after showing that the Person of the Only-begotten and Maker
+   Â§5. Then, after showing that the Person of the Only-begotten and Maker
    of things has no beginning, as have the things that were made by Him,
    as Eunomius says, but that the Only-begotten is without beginning and
    eternal, and has no community, either of essence or of names, with the
@@ -18890,7 +18891,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    Book IX.
 
-   §1. The ninth book declares that Eunomius' account of the Nature of God
+   Â§1. The ninth book declares that Eunomius' account of the Nature of God
    is, up to a certain point, well stated. Then in succession he mixes up
    with his own argument, on account of its affinity, the expression from
    Philo's writings, "God is before all other things, which are
@@ -19039,7 +19040,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    exochotatos theou but) of ho Theos pro ton allon hosa genneta.
      __________________________________________________________________
 
-   §2. He then ingeniously shows that the generation of the Son is not
+   Â§2. He then ingeniously shows that the generation of the Son is not
    according to the phrase of Eunomius, "The Father begat Him at that time
    when He chose, and not before:" but that the Son, being the fulness of
    all that is good and excellent, is always contemplated in the Father;
@@ -19176,13 +19177,13 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    might be more certain of the meaning to be attached to the word
    oktadas, which is also possibly borrowed from the Gnostic phraseology,
    being akin to the form ogdoadas. [On the Gnostic conception of
-   "Prunicus," see the note on the subject in Harvey's Irenæus (vol. I. p.
+   "Prunicus," see the note on the subject in Harvey's IrenÃ¦us (vol. I. p.
    225), and Smith and Wace's Dict. Chr. Biogr. s.v. On the Gnostic
    Ogdoads, see Mansel's Gnostic Heresies, pp. 152 sqq., 170 sqq., and the
    articles on Basilides and Valentinus in Dict. Chr. Biogr.]
      __________________________________________________________________
 
-   §3. He further shows that the pretemporal generation of the Son is not
+   Â§3. He further shows that the pretemporal generation of the Son is not
    the subject of influences drawn from ordinary and carnal generation,
    but is without beginning and without end, and not according to the
    fabrications constructed by Eunomius, in ignorance of His power, from
@@ -19275,7 +19276,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    extension, it has no limit; and that which is limitless is infinite,
    and is spoken of accordingly. Thus it is idle to try to circumscribe
    the infinite by "beginning" and "ending"--for what is circumscribed
-   cannot be infinite. How comes it, then, that this Platonic Phædrus
+   cannot be infinite. How comes it, then, that this Platonic PhÃ¦drus
    disconnectedly tacks on to his own doctrine those speculations on the
    soul which Plato makes in that dialogue? For as Plato there spoke of
    "cessation of motion," so this writer too was eager to speak of
@@ -19396,7 +19397,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    implies eternity.
      __________________________________________________________________
 
-   §4. Then, having shown that Eunomius' calumny against the great Basil,
+   Â§4. Then, having shown that Eunomius' calumny against the great Basil,
    that he called the Only-begotten "Ungenerate," is false, and having
    again with much ingenuity discussed the eternity, being, and
    endlessness of the Only-begotten, and the creation of light and of
@@ -19622,7 +19623,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    Book X.
 
-   §1. The tenth book discusses the unattainable and incomprehensible
+   Â§1. The tenth book discusses the unattainable and incomprehensible
    character of the enquiry into entities. And herein he strikingly sets
    forth the points concerning the nature and formation of the ant, and
    the passage in the Gospel, "I am the door" and "the way," and also
@@ -19654,7 +19655,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    of the bones are filled with marrow, whether its joints are united by
    the tension of sinews and ligaments, whether the position of the sinews
    is maintained by enclosures of muscles and glands, whether the marrow
-   extends along the vertebræ from the sinciput to the tail, whether it
+   extends along the vertebrÃ¦ from the sinciput to the tail, whether it
    imparts to the limbs that are moved the power of motion by means of the
    enclosure of sinewy membrane; whether the creature has a liver, and in
    connection with the liver a gall-bladder; whether it has kidneys and
@@ -19796,7 +19797,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [938] Cf. Judges xx. 16.
      __________________________________________________________________
 
-   §2. He then wonderfully displays the Eternal Life, which is Christ, to
+   Â§2. He then wonderfully displays the Eternal Life, which is Christ, to
    those who confess Him not, and applies to them the mournful lamentation
    of Jeremiah over Jehoiakim, as being closely allied to Montanus and
    Sabellius.
@@ -19936,7 +19937,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [949] Cf. S. John v. 26
      __________________________________________________________________
 
-   §3. He then shows the eternity of the Son's generation, and the
+   Â§3. He then shows the eternity of the Son's generation, and the
    inseparable identity of His essence with Him that begat Him, and likens
    the folly of Eunomius to children playing with sand.
 
@@ -20042,7 +20043,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [952] 1 Tim. i. 7.
      __________________________________________________________________
 
-   §4. After this he shows that the Son, who truly is, and is in the bosom
+   Â§4. After this he shows that the Son, who truly is, and is in the bosom
    of the Father, is simple and uncompounded, and that, He Who redeemed us
    from bondage is not under dominion of the Father, nor in a state of
    slavery: and that otherwise not He alone, but also the Father Who is in
@@ -20446,8 +20447,8 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    Book XI.
 
-   §1. The eleventh book shows that the title of "Good" is due, not to the
-   Father alone, as Eunomius, the imitator of Manichæus and Bardesanes,
+   Â§1. The eleventh book shows that the title of "Good" is due, not to the
+   Father alone, as Eunomius, the imitator of ManichÃ¦us and Bardesanes,
    alleges, but to the Son also, Who formed man in goodness and
    loving-kindness, and reformed him by His Cross and Death.
 
@@ -20488,7 +20489,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    pitied for his irrationality in allowing to the Father merely the sound
    of an empty name. But if he thinks that the conception expressed by the
    term "good" belongs to God the Father only, he is to be abominated for
-   his impiety, reviving as he does the plague of the Manichæan heresy in
+   his impiety, reviving as he does the plague of the ManichÃ¦an heresy in
    his own opinions. For as health and disease, even so goodness and
    badness exist on terms of mutual destruction, so that the absence of
    the one is the presence of the other. If then he says that goodness
@@ -20547,7 +20548,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [975] Heb. xii. 2.
      __________________________________________________________________
 
-   §2. He also ingeniously shows from the passage of the Gospel which
+   Â§2. He also ingeniously shows from the passage of the Gospel which
    speaks of "Good Master," from the parable of the Vineyard, from Isaiah
    and from Paul, that there is not a dualism in the Godhead of good and
    evil, as Eunomius' ally Marcion supposes, and declares that the Son
@@ -20720,7 +20721,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [989] Cf. S. John x. 30
      __________________________________________________________________
 
-   §3. He then exposes the ignorance of Eunomius, and the incoherence and
+   Â§3. He then exposes the ignorance of Eunomius, and the incoherence and
    absurdity of his arguments, in speaking of the Son as "the Angel of the
    Existent," and as being as much below the Divine Nature as the Son is
    superior to the things created by Himself. And in this connection there
@@ -20983,7 +20984,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [1005] Phil. ii. 9.
      __________________________________________________________________
 
-   §4. After this, fearing to extend his reply to great length, he passes
+   Â§4. After this, fearing to extend his reply to great length, he passes
    by most of his adversary's statements as already refuted. But the
    remainder, for the sake of those who deem them of much force, he
    briefly summarizes, and refutes the blasphemy of Eunomius, who says of
@@ -21042,7 +21043,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    demonstration.
      __________________________________________________________________
 
-   §5. [1006] Eunomius again speaks of the Son as Lord and God, and Maker
+   Â§5. [1006] Eunomius again speaks of the Son as Lord and God, and Maker
    of all creation intelligible and sensible, having received from the
    Father the power and the commission for creation, being entrusted with
    the task of creation as if He were an artizan commissioned by some one
@@ -21056,7 +21057,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    differs not at all from the genesis of all things, and reproaches Him
    with reverencing neither the Divine mystery nor the custom of the
    Church, nor following in his attempt to discover godliness any teacher
-   of pious doctrine, but Manichæus, Colluthus, Arius, Aetius, and those
+   of pious doctrine, but ManichÃ¦us, Colluthus, Arius, Aetius, and those
    like to them, supposing that Christianity in general is folly, and that
    the customs of the Church and the venerable sacraments are a jest,
    wherein he differs in nothing from the pagans, who borrowed from our
@@ -21146,7 +21147,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    doctrines. For he will be found to exhibit the sacrament of
    regeneration as an idle thing, the mystic oblation as profitless, and
    the participation in them as of no advantage to those who are partakers
-   therein. For after those high-wrought æons [1013] in which, by way of
+   therein. For after those high-wrought Ã¦ons [1013] in which, by way of
    disparagement of our doctrine, he names as its supporters a Valentinus,
    a Cerinthus, a Basilides, a Montanus, and a Marcion, and after laying
    it down that those who affirm that the Divine nature is unknowable, and
@@ -21160,7 +21161,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    the guidance of evangelists, apostles, or any of the authors of the Old
    Testament, is plain to every one who has any acquaintance with the
    sacred and Divine Scripture. We should naturally be led to suppose that
-   by "holy and blessed men" he meant Manichæus, Nicolaus, Colluthus,
+   by "holy and blessed men" he meant ManichÃ¦us, Nicolaus, Colluthus,
    Aetius, Arius, and the rest of the same band, with whom he is in strict
    accord in laying down this principle, that neither the confession of
    sacred names, nor the customs of the Church, nor her sacramental
@@ -21317,7 +21318,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    Book XII.
 
-   §1. This twelfth book gives a notable interpretation of the words of
+   Â§1. This twelfth book gives a notable interpretation of the words of
    the Lord to Mary, "Touch Me not, for I am not yet ascended to My
    Father."
 
@@ -21519,8 +21520,8 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [1030] Jer. xvii. 11 (LXX.).
 
-   [1031] Cf. Book IV. §3 (p. 158 sup.). With the general statement may be
-   compared the parallel passage in Book II. §8.
+   [1031] Cf. Book IV. Â§3 (p. 158 sup.). With the general statement may be
+   compared the parallel passage in Book II. Â§8.
 
    [1032] Cf. 2 Cor. v. 21
 
@@ -21554,7 +21555,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    sentences.
      __________________________________________________________________
 
-   §2. Then referring to the blasphemy of Eunomius, which had been refuted
+   Â§2. Then referring to the blasphemy of Eunomius, which had been refuted
    by the great Basil, where he banished the Only-begotten God to the
    realm of darkness, and the apology or explanation which Eunomius puts
    forth for his blasphemy, he shows that his present blasphemy is
@@ -21672,7 +21673,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [1046] 1 Tim. vi. 16.
      __________________________________________________________________
 
-   §3. He further proceeds notably to interpret the language of the
+   Â§3. He further proceeds notably to interpret the language of the
    Gospel, "In the beginning was the Word," and "Life" and "Light," and
    "The Word was made flesh," which had been misinterpreted by Eunomius;
    and overthrows his blasphemy, and shows that the dispensation of the
@@ -21824,7 +21825,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [1049] S. John i. 14
 
-   [1050] The passage has already been cited by S. Gregory, Book V §3 (p.
+   [1050] The passage has already been cited by S. Gregory, Book V Â§3 (p.
    176 sup.).
 
    [1051] S. John v. 21
@@ -21846,7 +21847,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [1059] 1 Cor. i. 24.
      __________________________________________________________________
 
-   §4. He then again charges Eunomius with having learnt his term
+   Â§4. He then again charges Eunomius with having learnt his term
    agennesiafrom the hieroglyphic writings, and from the Egyptian
    mythology and idolatry, and with bringing in Anubis, Osiris, and Isis
    to the creed of Christians, and shows that, considered as admitting His
@@ -21878,7 +21879,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    concerning the Only-begotten. For it is reported that they say that
    their fantastic mode of compounding their idols, when they adapt the
    forms of certain irrational animals to human limbs, is an enigmatic
-   symbol of that mixed nature which they call "dæmon," and that this is
+   symbol of that mixed nature which they call "dÃ¦mon," and that this is
    more subtle than that of men, and far surpasses our nature in power,
    but has the Divine element in it not unmingled or uncompounded, but is
    combined with the nature of the soul and the perceptions of the body,
@@ -21933,7 +21934,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    confused.
      __________________________________________________________________
 
-   §5. Then, again discussing the true Light and unapproachable Light of
+   Â§5. Then, again discussing the true Light and unapproachable Light of
    the Father and of the Son, special attributes, community and essence,
    and showing the relation of "generate" and "ungenerate," as involving
    no opposition in sense [1061] , but presenting an opposition and
@@ -22000,12 +22001,12 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    But let us pass on, if it seems good, to another of his statements, and
    dismiss the nonsense that comes between. He who laboriously reiterates
    against our argument the Aristotelian division of existent things, has
-   elaborated "genera," and "species," and "differentiæ," and
+   elaborated "genera," and "species," and "differentiÃ¦," and
    "individuals," and advanced all the technical language of the
    categories for the injury of our doctrines. Let us pass by all this,
    and turn our discourse to deal with his heavy and irresistible
    argument. For having braced his argument with Demosthenic fervour, he
-   has started up to our view as a second Pæanian of Oltiseris [1064] ,
+   has started up to our view as a second PÃ¦anian of Oltiseris [1064] ,
    imitating that orator's severity in his struggle with us. I will
    transcribe the language of our author word for word. "Yes," he says,
    "but if, as the generate is contrary to the ungenerate, the Generate
@@ -22044,7 +22045,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    of the previous contradictory terms "generate" and "ungenerate." Such
    is the clumsy answer which we, who as our disparaging author says, have
    attempted to write without logical training, deliver in our rustic
-   dialect to our new Pæanian. But to see how he contended with this
+   dialect to our new PÃ¦anian. But to see how he contended with this
    contradiction, advancing against us those hot and fire-breathing words
    of his with Demosthenic intensity, let those who like to have a laugh
    study the treatise of our orator itself. For our pen is not very hard
@@ -22061,7 +22062,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [1063] Oehler's punctuation seems rather to obscure the sense.
 
    [1064] That is, a new Demosthenes, with a difference. Demosthenes'
-   native place was the Attic deme of Pæania. Eunomius, according to S.
+   native place was the Attic deme of PÃ¦ania. Eunomius, according to S.
    Gregory, was born at Oltiseris (see p. 38, note 6, sup.).
 
    [1065] Reading genesetai
@@ -23480,7 +23481,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    But that we might gain some sort of comprehension of what with
    reverence may be thought respecting Him, we have stamped our different
    ideas with certain words and syllables, labelling, as it were, our
-   mental processes with verbal formulæ to serve as characteristic notes
+   mental processes with verbal formulÃ¦ to serve as characteristic notes
    and indications, with the object of giving a clear and simple
    declaration of our mental processes by means of words attached to, and
    expressive of, our ideas. Why, then, does he find fault with our
@@ -26407,7 +26408,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    alike apparent in all things whose life, by reason of their
    immortality, goes on to infinity, archangels, that is, angels, human
    souls, and, it may be also, in the Apostate host, the Devil and his
-   dæmons. For if that which is without end, and imperishable, must also
+   dÃ¦mons. For if that which is without end, and imperishable, must also
    by your argument be ungenerately imperishable, then in whatsoever is
    without end and imperishable there must be connoted ungeneracy. These
    are the absurdities into which those men fall who, before they have
@@ -26669,7 +26670,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    of sound thinking is directed as far as it is possible to the knowledge
    and the contemplation of some reality. But then the whole world of
    realities is divided into two parts; that is, into the intelligible and
-   the sensible. With regard to sensible phænomena, knowledge, on account
+   the sensible. With regard to sensible phÃ¦nomena, knowledge, on account
    of the perception of them being so near at hand, is open for all to
    acquire; the judgment of the senses gives occasion to no doubt about
    the subject before them. The differences in colour, and the differences
@@ -26703,7 +26704,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    turning from the mere sound of phrases, uttered well or ill according
    to the mental faculty of the speaker, we search for the thought, and
    that alone, which is found within the phrases, to see whether that
-   itself be sound, or otherwise; and we leave the minutiæ of phrase and
+   itself be sound, or otherwise; and we leave the minutiÃ¦ of phrase and
    name to be dealt with by the artificialities of grammarians. Now,
    seeing that we mark with an appellation only those things which we
    know, and those things which are above our knowledge it is not possible
@@ -26720,7 +26721,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    by a beginning or an end where the non-existent bounds it in each
    direction (for everything that has a beginning and an end of its
    existence, begins from the non-existent, and ends in the non-existent),
-   or, lastly, we grasp the phænomenon by means of an association of
+   or, lastly, we grasp the phÃ¦nomenon by means of an association of
    qualities wherein dying, and sufferance, and change, and alteration,
    and such-like are combined. Considering this, in order that the Supreme
    Being may not appear to have any connection whatever with things below,
@@ -27228,7 +27229,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    Son is generated. Rather, the mind of the believer rises above every
    sensible and intelligible essence, and does not stop even at the
    generation of the Son, but mounts above, aspiring to possess the First
-   Cause. Is this bold assertion, Denys (De la Philosophie d'Origène, p.
+   Cause. Is this bold assertion, Denys (De la Philosophie d'OrigÃ¨ne, p.
    446) asks, so contrary as it is to the teaching of the Fathers, a
    reminiscence of Origen, or a direct borrowing from Plato or the
    Neoplatonists? The language in which it is expressed certainly belongs
@@ -27466,7 +27467,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [1123] kai tis. This reading (and not the interrogative tis, as Oehler)
    is required by the context, where Gregory actually favours this theory
    of the lateness of the Hebrew tongue: and is confirmed by Gretser's
-   Latin, "Et nescio quis Prophetæ sermo."
+   Latin, "Et nescio quis ProphetÃ¦ sermo."
 
    [1124] Ps. lxxxi. 5.
 
@@ -27624,7 +27625,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    into Greek: some new expression given to Isaac,' and Jacob': and, while
    he who repeats the incantation or the oath names the God of Abraham, of
    Isaac, and of Jacob,' he produces those particular effects by the mere
-   force and working of those names: because the dæmons are mustered by
+   force and working of those names: because the dÃ¦mons are mustered by
    him who utters them: but if on the other hand he says, God of the
    chosen Father of the Crowd,' of the Laughter,' of the Supplanter,' he
    can do nothing with the names so expressed, any more than with any
@@ -27716,8 +27717,8 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [1188] Cf. Ps. xliv. 4, and xlviii. 14, with lxxiv. 12.
 
    [1189] Valentinus "placed in the pleroma (so the Gnostics called the
-   habitation of the Deity) thirty æons (ages), of which one half were
-   male, and the other female" (Mosheim), i.e. these æons were co-eternal
+   habitation of the Deity) thirty Ã¦ons (ages), of which one half were
+   male, and the other female" (Mosheim), i.e. these Ã¦ons were co-eternal
    with the Deity.
 
    [1190] barbaroi here being not opposed to "Greeks" must imply mere
@@ -27739,7 +27740,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [1194] Reading eiper to haploun with the editt., which is manifestly
    required by the sense.
 
-   [1195] sunetheias, lit. usage of language. Cf. Plato, Theæt. 168 B, ek
+   [1195] sunetheias, lit. usage of language. Cf. Plato, TheÃ¦t. 168 B, ek
    sunetheias rhematon te kai onomaton. It is used absolutely, by the
    Grammarians, for the "Vulgar dialect."
 
@@ -27792,7 +27793,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    side on which we gain this idea.
 
    [1209] But there are two meanings of athanatos,--and of these perhaps
-   Eunomius was thinking,--i.e. 1. Not dead; 2. Immortal. In Plato's Phædo
+   Eunomius was thinking,--i.e. 1. Not dead; 2. Immortal. In Plato's PhÃ¦do
    there is an argument for the immortality of the soul, certainly not the
    strongest one, drawn from this. It is assumed there that the thing,
    whose nature is such that so long as it exists it neither is nor can be
@@ -27824,7 +27825,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [1213] tas stomphodeis...xerostomias kakosunthetos diaperainonta. The
    editt. have diaperainontes, which Gulonius' Latin follows, "arrogantes
-   has sicci oris voces malâ compositione trajicientes," i.e. his hearers
+   has sicci oris voces malÃ¢ compositione trajicientes," i.e. his hearers
    get through them with bad pronunciation.
 
    [1214] eisphtheiromenos
@@ -28688,7 +28689,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    Fathers then assembled. 2. It is extremely doubtful if any symbol at
    all was set forth at Constantinople. Neither Socrates, nor Sozomen, nor
    Theodoret makes mention of one: but all speak of adherence to the
-   evangelic faith ratified at Nicæa. It is significant too that the
+   evangelic faith ratified at NicÃ¦a. It is significant too that the
    expanded form was entirely ignored by the Council of Ephesus, 431. But
    at the Council of Chalcedon, 451, it was brought forward: though even
    then it appears that it was far from attaining general acceptance. By
@@ -28731,7 +28732,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [1223] eis asebeian graphein. This is Mai's reading. Cf. asebeias
    graphe. The active (instead of middle) in this sense is found in
    Aristoph. Av. 1052: the passive is not infrequent in Demosthenes and
-   Æschines.
+   Ã†schines.
 
    [1224] From God, and of the Christ, according to Scripture. This is
    noticeable. The Greek is ek tou Theou esti, kai tou Christou esti,
@@ -28768,7 +28769,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    illustration of this. So Greg. Naz., Orat. I. de Filio, "standing on
    our definitions, we introduce the Ungenerate, the Generated, and that
    which proceeds from the Father." This last expression was so known and
-   public, that it is recorded even by Lucian in his Philopatris, §12.
+   public, that it is recorded even by Lucian in his Philopatris, Â§12.
 
    [1233] Reading kai tes eusebous ennoias.
 
@@ -28923,7 +28924,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    by a success of falsehood against truth, many might be injured.
 
    I may say that those who conceived this causeless hatred for us seemed
-   to be acting very much on the principle of Æsop's fable. For just as he
+   to be acting very much on the principle of Ã†sop's fable. For just as he
    makes his wolf bring some charges against the lamb (feeling ashamed, I
    suppose, of seeming to destroy, without just pretext, one who had done
    him no hurt), and then, when the lamb easily swept away all the
@@ -31052,7 +31053,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [1386] kairou sustolen
 
    [1387] ten ek sumphonou katharoteta te schole ton proseuchon aphorizon,
-   "durch häufiges Gebet die innige Reinheit festzustellen sucht," J.
+   "durch hÃ¤ufiges Gebet die innige Reinheit festzustellen sucht," J.
    Rupp. The Latin fails to give the full force, "ex convenientia quadam
    munditiam animi in orationum studio constituit:" schole is abundant
    time from the business of life.
@@ -31118,7 +31119,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [1390] ouden houto te phusei pheukton estin, hos, k. t. l. Both
    Livineius and Galesinius have missed the meaning here. Jac. Billius has
-   rightly interpreted, "Nihil naturâ tam turpe ac fugiendum est, quin,
+   rightly interpreted, "Nihil naturÃ¢ tam turpe ac fugiendum est, quin,
    si," &c.
 
    [1391] epi ta ano, Reg. Cod., better than to
@@ -31358,18 +31359,18 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [1402] Ps. lv. 6.
 
    [1403] Cf. Augustine, Tract. 6 in Joann.: "Columba fel non habet. Simon
-   habebat; ideo separatus est a columbæ visceribus." Aristotle asserts
+   habebat; ideo separatus est a columbÃ¦ visceribus." Aristotle asserts
    the contrary; but even Galen denies that it possesses a bladder (lib.
    de atr. bil. sub fin.).
 
    [1404] diattontas, corrected by Livineius, the transcriber of the
    Vatican ms., for diatattontas. Cf. Arist. Meteor. I. iv: kai homoios
    kata platos kai bathos hoi dokountes asteres diattein ginontai: and, in
-   the same chapter, diatheontes asteres. Cf. Seneca. Nat. Quæst. iii. 14:
-   "Videmus ergo Stellarum longos a tergo albescere tractus.' Hæc velut
-   stellæ exsiliunt et transvolant." This and much else, in the preceding
+   the same chapter, diatheontes asteres. Cf. Seneca. Nat. QuÃ¦st. iii. 14:
+   "Videmus ergo Stellarum longos a tergo albescere tractus.' HÃ¦c velut
+   stellÃ¦ exsiliunt et transvolant." This and much else, in the preceding
    and following notes to this treatise, is taken from those of Fronto
-   Ducæus, printed in the Paris Edit. The Paris Editors, Fronto Ducæus and
+   DucÃ¦us, printed in the Paris Edit. The Paris Editors, Fronto DucÃ¦us and
    Claude Morell, used Livineius' edition (1574) of this treatise, which
    is based on the Vatican Cod. and Bricman's (of Cologne); and they
    corrected from the Cod. of F. Morell, Regius Professor of Theology; and
@@ -32201,9 +32202,9 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [1475] di' hes oimai kai ten Theotokon prodiatupousthai Marian. These
    words are absent from the Munich Cod. i.e. the German; not from Vat.
-   and Reg. Ambrose, Ep. 25, has "Quid de alterâ Moysi sorore Mariâ
-   loquar, quæ foeminei dux agminis pede transmisit pelagi freta," when
-   speaking "de gloriâ virginitatis."
+   and Reg. Ambrose, Ep. 25, has "Quid de alterÃ¢ Moysi sorore MariÃ¢
+   loquar, quÃ¦ foeminei dux agminis pede transmisit pelagi freta," when
+   speaking "de gloriÃ¢ virginitatis."
 
    [1476] tou eikotos...apeschoinistai
 
@@ -32383,7 +32384,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    to kakon.
 
    [1497] Cf. Cicero, 2 De Fin. Bon.: "Socratem audio dicentem cibi
-   condimentum esse famem; potionis sitim;" so Antiphanes (apud Stobæum),
+   condimentum esse famem; potionis sitim;" so Antiphanes (apud StobÃ¦um),
    hapanth' ho limos glukea, plen hautou, poiei.
 
    [1498] kata to proegoumenon, principaliter. Cf. Clem. Alexand. Strom.,
@@ -32464,12 +32465,12 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    but to the peaceful action of the soul's functions.
      __________________________________________________________________
 
-   [1499] tois alogoterois. Fronto Ducæus translates "bardis objiciat,"
+   [1499] tois alogoterois. Fronto DucÃ¦us translates "bardis objiciat,"
    i.e. "savages," not "beasts."
 
    [1500] Heb. vi. 8. "The Apostle" here is to be noticed. The same
    teaching, as to there being no necessity for pleasure, is found in
-   Clement of Alexandria. He says it is not our skopos, 2 Pæd. c. i. and 2
+   Clement of Alexandria. He says it is not our skopos, 2 PÃ¦d. c. i. and 2
    Strom., katholou gar ouk anankaion to tes hedones pathos,
    epakolouthimon de chreiais tais phusikais, k. t. l.
 
@@ -32611,7 +32612,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    want a guide)." Billius. But this is very awkward.
 
    [1508] Livineius had conjectured that episphales must be supplied, from
-   a quotation of this passage in Antonius Monachus, Sententiæ, serm. 20,
+   a quotation of this passage in Antonius Monachus, SententiÃ¦, serm. 20,
    and in Abbas Maximus, Capita, serm. 41; and this is confirmed by Codd.
    Reg. and Morell.
 
@@ -32633,7 +32634,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [1514] Prov. xv. 19.
 
    [1515] The alternative reading is ton therion; but oneiron is confirmed
-   by three of the Codd. Cf. Theodoret, lib. 4, Hæretic. fab., of the
+   by three of the Codd. Cf. Theodoret, lib. 4, HÃ¦retic. fab., of the
    Messaliani; and lib. 4, Histor. c. 10, hupno de sphas autous ekdidontes
    tas ton oneiron phantasias propheteias apokalousi
 
@@ -33511,24 +33512,24 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [1531] This treatise is written for Hierius, in Gregory's old age. It
    has been thought to be spurious (Oudin, p. 605), because of Fronto
-   Ducæus' insertion (p. 374) about the Purgatorial Fire. But Tillemont,
+   DucÃ¦us' insertion (p. 374) about the Purgatorial Fire. But Tillemont,
    Semler, and Schroeckh have shown that there are no grounds for this
-   opinion. Anastasius Sinaita mentions it (Quæst. xvi.).
+   opinion. Anastasius Sinaita mentions it (QuÃ¦st. xvi.).
 
    [1532] eiper hebosin hoi kata tous nun tois logois akmazontes. The
    Latin translator Laurent. Sifanus, I. U. Doct. (Basle, 1562), must have
    had a different text to this of the Paris Edit.: "si quidem ita
-   floreret ut qui nunc eloquentiâ vigent."
+   floreret ut qui nunc eloquentiÃ¢ vigent."
 
    [1533] plinthotes, playing upon plinthon just above; a word seemingly
    peculiar to Gregory. We cannot help thinking here of Plato's definition
    of the good man, tetragonos aneu psogou: though the idea here is that
    of richness rather than shape.
 
-   [1534] i.e.Er the Armenian. See Plato, Repub. x. §614, &c.
+   [1534] i.e.Er the Armenian. See Plato, Repub. x. Â§614, &c.
 
    [1535] An anecdote resembling what follows, but not quite the same, is
-   told of Xerxes in Ælian's Var. Hist. xii. 40. Erasmus also refers to it
+   told of Xerxes in Ã†lian's Var. Hist. xii. 40. Erasmus also refers to it
    in his Adagia.
 
    [1536] te aplanei periphora. This is of course the Ptolemaic system
@@ -33559,7 +33560,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    life everlasting,' has no place as yet in these sufferings." In other
    words, the commentator sees here the doctrine of Purgatory, as held by
    the Roman Church. And when we compare the other passages in Gregory
-   about the "cleansing fire," especially that De Animâ et Resurrectione,
+   about the "cleansing fire," especially that De AnimÃ¢ et Resurrectione,
    247 B, we shall see that he contemplates the judgment ("the
    incorruptible tribunal") as coming not only after the Resurrection, but
    also after the chastising process. Not till the Judgment will the moral
@@ -33581,7 +33582,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [1545] Gen. i. 27.
 
-   [1546] ton ginomenon. The Latin has overlooked this; "Hæc autem omnia
+   [1546] ton ginomenon. The Latin has overlooked this; "HÃ¦c autem omnia
    huc spectant ut," &c. (Sifanus).
 
    [1547] he phusis, i.e. the intellectual phusis mentioned above. If this
@@ -33644,7 +33645,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [1559] S. Matt. xxvi. 24.
 
    [1560] eis apeiron parateinetai. Such passages as these must be set
-   against others in Gregory, such as the concluding part of the De Animâ
+   against others in Gregory, such as the concluding part of the De AnimÃ¢
    et Resurrectione,in arriving at an exact knowledge of his views about a
    Universal 'Apokatastasis
 
@@ -33827,9 +33828,9 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [1581] The modern history of this Letter is curious. Its genuineness
    though suspected by Bellarmine, is admitted by Tillemont, and even by
-   Cæsar Baronius. After having been edited by Morel in Greek and Latin,
+   CÃ¦sar Baronius. After having been edited by Morel in Greek and Latin,
    1551, it was omitted from his son's edition of the works of Gregory by
-   the advice of Fronto Ducæus, lest it should seem to reflect upon the
+   the advice of Fronto DucÃ¦us, lest it should seem to reflect upon the
    practice of pilgrimages. But in 1607 it was again edited (Hannov.) by
    Du Moulin, with a defence of it, and a translation into French by R.
    Stephen: this is the only instance of a vernacular version of Gregory
@@ -33855,7 +33856,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [1585] thusiasteria, the sanctuaries (with the Altar), into which at
    this time no layman except the Emperor might enter (Balsamon's note to
-   decrees of Council of Laodicæa).
+   decrees of Council of LaodicÃ¦a).
 
    [1586] Cyril's Catecheses in the year 348 had combated the practical
    immorality of the Holy City.
@@ -33871,7 +33872,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    ------------------------
 
-   This work was intended to supplement and complete the Hexaëmeron of S.
+   This work was intended to supplement and complete the HexaÃ«meron of S.
    Basil, and presupposes an acquaintance with that treatise. The
    narrative of the creation of the world is not discussed in detail: it
    is referred to, but chiefly in order to insist on the idea that the
@@ -33970,7 +33971,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    discourses), but so that the glory of the teacher may not seem to be
    failing among his disciples.
 
-   For if, the consideration of man being lacking in his Hexaëmeron, none
+   For if, the consideration of man being lacking in his HexaÃ«meron, none
    of those who had been his disciples contributed any earnest effort to
    supply the defect, the scoffer would perhaps have had a handle against
    his great fame, on the ground that he had not cared to produce in his
@@ -34296,7 +34297,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    likewise; and to these no single thing in creation is equal. So great a
    wonder is formed by a word alone, and the saying indicates neither
    when, nor how, nor any such detail. So too in all particular cases, the
-   æther, the stars, the intermediate air, the sea, the earth, the
+   Ã¦ther, the stars, the intermediate air, the sea, the earth, the
    animals, the plants,--all are brought into being with a word, while
    only to the making of man does the Maker of all draw near with
    circumspection, so as to prepare beforehand for him material for his
@@ -34722,9 +34723,9 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [1618] It is not absolutely clear whether logos in the following
    passage means speech or reason--and whether logikos means "capable of
-   speech," or "rational." But as logikos in §7 clearly has the force of
+   speech," or "rational." But as logikos in Â§7 clearly has the force of
    "rational," it would seem too abrupt a transition to make it mean
-   "capable of speech" in the first line of §8, and this may determine the
+   "capable of speech" in the first line of Â§8, and this may determine the
    meaning of logos.
 
    [1619] Reading ton for ton, with some of Forbes' mss.
@@ -34965,7 +34966,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    images that fall upon the pupils, while the qualities of scents are
    discerned in it by being drawn in through the nose, and the sense of
    taste is tried by the test of the cerebral membrane, which sends down
-   from itself, by the veterbræ of the neck, sensitive nerve-processes to
+   from itself, by the veterbrÃ¦ of the neck, sensitive nerve-processes to
    the isthmoidal passage, and unites them with the muscles there.
 
    3. I admit it to be true that the intellectual part of the soul is
@@ -35153,12 +35154,12 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    in a few words.
      __________________________________________________________________
 
-   [1627] In the Latin version chap. xii. includes only §§1--8 (incl.), to
+   [1627] In the Latin version chap. xii. includes only Â§Â§1--8 (incl.), to
    which the Bodleian ms. gives the title:--"That the principle of man
    does not all reside in the brain, but in the whole body."
 
    [1628] This view of the position of the heart is perhaps shared by
-   Gregory himself: see e.g. ch. xxx. §15.
+   Gregory himself: see e.g. ch. xxx. Â§15.
 
    [1629] dia ton kata ten basin poron. The meaning of this is obscure. If
    we might read ton kata ten opsin poron, we should have a parallel to
@@ -35585,7 +35586,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    something like that given; but if we might read sunkechremene the sense
    of the passage would be much plainer.
 
-   [1645] Reading phutikes for phusikes as before, ch. 8, §4 (where see
+   [1645] Reading phutikes for phusikes as before, ch. 8, Â§4 (where see
    note).
 
    [1646] Cf. Gen. ix. 3. The quotation, except the last few words, is not
@@ -35744,9 +35745,9 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    from nonexistence to existence is a certain motion and change of the
    non-existent transmuted by the Divine purpose into being.
 
-   13. As the Gospel calls the stamp upon the coin "the image of Cæsar
+   13. As the Gospel calls the stamp upon the coin "the image of CÃ¦sar
    [1656] ," whereby we learn that in that which was fashioned to resemble
-   Cæsar there was resemblance as to outward look, but difference as to
+   CÃ¦sar there was resemblance as to outward look, but difference as to
    material, so also in the present saying, when we consider the
    attributes contemplated both in the Divine and human nature, in which
    the likeness consists, to be in the place of the features, we find in
@@ -35842,12 +35843,12 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    and the reason is, that the race of man, and not the individual, is
    that spoken of as "created in the image of God." With this view that
    all humanity is included in the first creation may be compared a
-   passage near the end of the De Animâ, where the first man is compared
+   passage near the end of the De AnimÃ¢, where the first man is compared
    to a full ear of corn, afterwards "divided into a multitude of bare
    grain."
 
    [1659] With this passage, again, may be compared the teaching of the De
-   Animâ on the subject of the Resurrection.
+   AnimÃ¢ on the subject of the Resurrection.
 
    [1660] The explanation of the reason, however, is deferred; see xvii.
    4.
@@ -36482,7 +36483,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [1690] Gen. i. 26, 27.
 
-   [1691] This Realism is expressed even more strongly in the De Animâ et
+   [1691] This Realism is expressed even more strongly in the De AnimÃ¢ et
    Resurrectione.
 
    [1692] 1 Cor. xv. 47.
@@ -36571,7 +36572,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    other--that of Him Who operates as an artificer, and that of the thing
    which admits this skilled operation; and if any one under pressure of
    this argument should assume a material substratum for the Creator of
-   all things, what a support will the Manichæan find for his special
+   all things, what a support will the ManichÃ¦an find for his special
    doctrine, who opposes by virtue of ungenerateness a material existence
    to a Good Being. Yet we do believe that all things are of God, as we
    hear the Scripture say so; and as to the question how they were in God,
@@ -36777,7 +36778,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    10. Still in addition to these acts He exceeds them in wonder, and by a
    more exalted act of power prepares for men the way of faith in the
-   resurrection. The Scripture tells us of a city called Nain in Judæa: a
+   resurrection. The Scripture tells us of a city called Nain in JudÃ¦a: a
    widow there had an only child, no longer a child in the sense of being
    among boys, but already passing from childhood to man's estate: the
    narrative calls him "a young man." The story conveys much in few words:
@@ -36823,7 +36824,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    has befallen Lazarus, and also of his own setting out to him to raise
    him up when laid low. They, however, were exceedingly afraid on account
    of the fury of the Jews, thinking it a difficult and dangerous matter
-   to turn again towards Judæa, in the midst of those who sought to slay
+   to turn again towards JudÃ¦a, in the midst of those who sought to slay
    Him: and thus, lingering and delaying, they return slowly from Galilee:
    but they do return, for His command prevailed, and the disciples were
    led by the Lord to be initiated at Bethany in the preliminary mysteries
@@ -37378,7 +37379,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [1735] Otherwise Chap. xxx. But in the Latin translation of Dionysius,
    the new chapter does not begin till the end of the first sentence of
    the Greek text. As Forbes remarks, either place is awkward: a better
-   beginning would be found at §8 of the preceding chapter. The Bodleian
+   beginning would be found at Â§8 of the preceding chapter. The Bodleian
    ms. of the Latin version gives as the title:--"That God equally made
    the soul and the body of man."
 
@@ -37392,7 +37393,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [1739] Deut. iv. 23.
 
-   [1740] Reading phutikon for phusikon, see note 6 on ch. 8, §4.
+   [1740] Reading phutikon for phusikon, see note 6 on ch. 8, Â§4.
      __________________________________________________________________
 
    XXX. A brief examination of the construction of our bodies from a
@@ -37682,7 +37683,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    brain, and hence in turn, being rarefied to the most pure condition,
    the exhalation that proceeds from that organ anoints the membrane which
    encloses the brain, which, reaching from above downwards like a pipe,
-   extending through the successive vertebræ, is (itself and the marrow
+   extending through the successive vertebrÃ¦, is (itself and the marrow
    which is contained in it) conterminous with the base of the spine,
    itself giving like a charioteer the impulse and power to all the
    meeting-points of bones and joints, and to the branches of the muscles,
@@ -37690,9 +37691,9 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    25. For this cause too it seems to me that it has been granted a more
    secure defence, being distinguished, in the head, by a double shelter
-   of bones round about, and in the vertebræ of the neck by the bulwarks
+   of bones round about, and in the vertebrÃ¦ of the neck by the bulwarks
    formed by the projections of the spine as well as by the diversified
-   interlacings of the very form of those vertebræ, by which it is kept in
+   interlacings of the very form of those vertebrÃ¦, by which it is kept in
    freedom from all harm, enjoying safety by the defence that surrounds
    it.
 
@@ -37991,7 +37992,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    heaven.
 
    6. Attribute every birth to a vice, and therefore are either Atheist or
-   Manichæan.
+   ManichÃ¦an.
 
    7. Make a life a chapter of accidents.
 
@@ -38498,7 +38499,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    a good man; when we say "unmanly," we have expressed that a man is a
    coward; and it is possible to suggest a great many things in like
    fashion, wherein we either convey the idea of goodness by the negation
-   of badness [1768] , or vice versâ. Well, then, if one thinks so with
+   of badness [1768] , or vice versÃ¢. Well, then, if one thinks so with
    regard to the matter now before us, one will not fail to gain a proper
    conception of it. The question is,--What are we to think of Mind in its
    very essence? Now granted that the inquirer has had his doubts set at
@@ -38885,7 +38886,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    means of sensations, and since sensation is already found subsisting in
    the brute creation, necessarily as it were, by reason of this one
    condition, our soul has touch with the other things which are knit up
-   with it [1801] ; and these are all those phænomena within us that we
+   with it [1801] ; and these are all those phÃ¦nomena within us that we
    call "passions"; which have not been allotted to human nature for any
    bad purpose at all (for the Creator would most certainly be the author
    of evil, if in them, so deeply rooted as they are in our nature, any
@@ -40793,7 +40794,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [1752] antipiptonton pros ton skopon touton hupoklethenton: the reading
    of the Parisian Editions. But the preponderance of ms. authority is in
-   favour of hupekluthenton, "si quæ ad hoc propositum opponuntur soluta
+   favour of hupekluthenton, "si quÃ¦ ad hoc propositum opponuntur soluta
    fuerint," Krabinger. The force of hupo will then be "by way of
    rejoinder." The idea in skopon seems to be that of a butt set up to be
    shot at. All the mss. but not the Paris Editions, have the article
@@ -40833,7 +40834,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [1756] enarmonious apostaseis, i.e. to which the music of the spheres
    was due: see Macrobius, Somnium Scipionis, c. 4: for the "retrograde"
-   motion of the planets above, see Joannes de Sacro Bosco, Sphæra (1564),
+   motion of the planets above, see Joannes de Sacro Bosco, SphÃ¦ra (1564),
    p. 47, sqq.
 
    [1757] See On the Making of Man, c. viii. 5.
@@ -40893,13 +40894,13 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [1765] Reading ousian ouk an apodeiknuoito e to med' holos einai;
 
-   [1766] According to an author quoted by Athenæus (iv. 75), the first
+   [1766] According to an author quoted by AthenÃ¦us (iv. 75), the first
    organist (hudraules), or rather organ-builder, was Ctesibius of
    Alexandria, about b.c. 200.
 
    [1767] Remove comma after zetoumenou, in Paris Editt.
 
-   [1768] or vice versâ, i.e. the idea of badness by the negation of
+   [1768] or vice versÃ¢, i.e. the idea of badness by the negation of
    goodness. Krabinger appositely quotes a passage from Plotinus: "Who
    could picture to himself evil as a specific thing, appearing as it does
    only in the absence of each good?...it will be necessary for all who
@@ -40962,7 +40963,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [1778] her vessel. Of course this is not the "vehicle" of the soul
    (after death) which the later Platonists speak of, but the body itself.
    The word ochema is used in connection with a ship, Soph. Trach. 656;
-   and though in Plato (Timæus, p. 69), whose use of this word for the
+   and though in Plato (TimÃ¦us, p. 69), whose use of this word for the
    body was afterwards followed, it is not clear whether a car or a ship
    is most thought of, yet that the latter is Gregory's meaning appears
    from his next words.
@@ -41012,7 +41013,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [1784] para ten proten (i.e. horan understood). This is the reading of
    all the Codd. for the faulty para ten auten of the Editions.
 
-   [1785] prostithenai. Sifanus translates "illorum commentationi de animâ
+   [1785] prostithenai. Sifanus translates "illorum commentationi de animÃ¢
    adjicere sermonem," which Krabinger wonders at. The Greek could
    certainly bear this meaning: but perhaps the other reading is better,
    i.e. protithenai, "to propose for consideration."
@@ -41027,20 +41028,20 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    ii. p. 393), capable of manifestation. The human soul, uniting in
    itself all the faculties of the other orders of animate existence, is a
    Microcosm. The other parts of the soul are inseparable from the body,
-   and are hence perishable (De Animâ, ii. 2); but the nous exists before
+   and are hence perishable (De AnimÃ¢, ii. 2); but the nous exists before
    the body, into which it enters from without as something divine and
    immortal (De Gen. Animal. ii. 3). But he makes a distinction between
    the form-receiving, and the form-giving nous: substantial eternal
-   existence belongs only to the latter (De Animâ, iii. 5). The secret of
+   existence belongs only to the latter (De AnimÃ¢, iii. 5). The secret of
    the difference between him and Plato, with whom "all the soul is
-   immortal" (Phædrus, p. 245 C), lies in this; that Plato regarded the
+   immortal" (PhÃ¦drus, p. 245 C), lies in this; that Plato regarded the
    soul as always in motion, while Aristotle denied it, in itself, any
    motion at all. "It is one of the things that are impossible that motion
-   should exist in it" (De Animâ, i. 4). It cannot be moved at all;
+   should exist in it" (De AnimÃ¢, i. 4). It cannot be moved at all;
    therefore it cannot move itself. Plotinus and Porphyry, as well as
-   Nemesius the Platonizing Bishop of Emesa (whose treatise De Animâ is
+   Nemesius the Platonizing Bishop of Emesa (whose treatise De AnimÃ¢ is
    wrongly attributed to Gregory), attacked this teaching of an
-   "entelechy." Cf. also Justin Martyr (ad Græc. cohort, c. 6, p. 12);
+   "entelechy." Cf. also Justin Martyr (ad GrÃ¦c. cohort, c. 6, p. 12);
    "Plato declares that all the soul is immortal; Aristotle calls her an
    entelechy,' and not immortal. The one says she is ever-moving, the
    other that she is never-moving, but prior to all motion." Also Gregory
@@ -41086,8 +41087,8 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    with Sifanus.
 
    [1797] hosa de tes psuches en methori& 251; keitai. Moller (Gregorii
-   Nysseni doctrina de hominis naturâ) remarks rightly that Krabinger's
-   translation is here incorrect: "quæcunque autem in animæ confinio
+   Nysseni doctrina de hominis naturÃ¢) remarks rightly that Krabinger's
+   translation is here incorrect: "quÃ¦cunque autem in animÃ¦ confinio
    posita sunt"; and that tes psuches should on the contrary be joined
    closely to hosa. The opposition is not between elements which lie in,
    and on the confines of the soul, but between the divine and
@@ -41099,7 +41100,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    of man.
 
    [1799] hode de. The Teacher introduces this logos with some reserve.
-   "We do not lay it down ex cathedrâ, we put it forward as open to
+   "We do not lay it down ex cathedrÃ¢, we put it forward as open to
    challenge and discussion as we might do in the schools (hos en gumnasi&
    251;)." It is best then to take diaphugoi as a pure optative. Gregory
    appears in his answer to congratulate her on the success of this
@@ -41131,7 +41132,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    a form of virtue: for anger produces courage; terror, caution; fear,
    obedience; hatred, aversion from vice; the power of love, the desire
    for what is truly beautiful, &c." Just below, the allusion is to
-   Plato's charioteer, Phædrus, p. 253 C, and the old custom of having the
+   Plato's charioteer, PhÃ¦drus, p. 253 C, and the old custom of having the
    reins round the driver's waist is to be noticed.
 
    [1803] are implanted. All the Codd. have enkeimenes here, instead of
@@ -41212,7 +41213,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    this conclusion and the present break in the discussion has been a
    digression on the Passions and on Hades. Now Gregory asks, how can the
    soul possibly recognize the atoms that once belonged to her? Oehler
-   therefore does not translate aright, "ich bitte nur den geführten
+   therefore does not translate aright, "ich bitte nur den gefÃ¼hrten
    Beweis...in derselben Folge zu wiederholen:" but Krabinger expresses
    the true sense, "ut rursus mihi ad eandem consequentiam reducatur
    oratio," i.e. the discussion (not the proof), which is here again,
@@ -41274,13 +41275,13 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    surely not, with Oehler, "is not occupied with the present world"!
 
    [1830] kolles. The metaphor is Platonic. "The soul...absolutely bound
-   and glued to the body" (Phædo, p. 82 E).
+   and glued to the body" (PhÃ¦do, p. 82 E).
 
-   [1831] her soaring. Plato first spoke (Phædrus, p. 248 C) of "that
+   [1831] her soaring. Plato first spoke (PhÃ¦drus, p. 248 C) of "that
    growth of wing, by which the soul is lifted." Once these natural wings
    can get expanded, her flight upwards is a matter of course. This image
    is reproduced by Plotinus p. 769 A (end of Enneads); Libanius, Pro
-   Socrate, p. 258; Synesius, De Providentiâ, p. 90 D, and Hymn i. III,
+   Socrate, p. 258; Synesius, De ProvidentiÃ¢, p. 90 D, and Hymn i. III,
    where he speaks of the halma kouphon of the soul, and Hymn iii. 42. But
    there is mixed here with the idea of a flight upwards (i.e. anadrome),
    that of the running-ground as well (cf. Greg. De scopo Christian. III.
@@ -41293,7 +41294,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    Cels. ii. 60 (in answer to Celsus' "Epicurean" opinion that ghosts are
    pure illusion): "He who does believe this (i.e. in ghosts) necessarily
    believes in the immortality, or at all events the long continuance of
-   the soul: as Plato does in his treatise on the soul (i.e. the Phædo)
+   the soul: as Plato does in his treatise on the soul (i.e. the PhÃ¦do)
    when he says that the shadowy apparitions of the dead hover round their
    tombs. These apparitions, then, have some substance: it is the
    so-called radiant' frame in which the soul exists. But Celsus, not
@@ -41304,7 +41305,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    melancholy mad." But Origen here quotes Plato in connection with the
    reality of the Resurrection body of Christ: Gregory refers to ghosts
    only, with regard to the philosomatoi, whose whole condition after
-   death he represents very much in Plato's words. See Phædo, p. 81 B.
+   death he represents very much in Plato's words. See PhÃ¦do, p. 81 B.
 
    [1834] prolabon; on the authority of five Codd., for proslabon
 
@@ -41351,7 +41352,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    in his Poems (p. 32 A), and may have been suggested to both by some
    poet, now lost. "Familiarity breeds contempt" is the modern equivalent.
 
-   [1846] But suppose, &c. Möller (Gregorii doctrina de hom. natur., p.
+   [1846] But suppose, &c. MÃ¶ller (Gregorii doctrina de hom. natur., p.
    99) shows that the following view of Purgatory is not that taught by
    the Roman Church.
 
@@ -41374,7 +41375,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    suit the sense. Krabinger's reproduction of Sifanus' Latin, "ignis ille
    consumens," makes the sentence a tautology.
 
-   [1850] pros holon ai& 242;na. But cf. Plato, Timæus, 37, 39 D.
+   [1850] pros holon ai& 242;na. But cf. Plato, TimÃ¦us, 37, 39 D.
 
    [1851] Macrina's answer must begin here, though the Paris Editt. take
    no notice of a break. Krabinger on the authority of one of his Codd.
@@ -41451,7 +41452,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [1857] But, when A. Jahn, as quoted by Krabinger asserts that Gregory
    and Origen derived their denial of the eternity of punishment from a
    source "merely extraneous," i.e. the Platonists, we must not forget
-   that Plato himself in the Phædo, 113 F (cf. also Gorgias, 525 C, and
+   that Plato himself in the PhÃ¦do, 113 F (cf. also Gorgias, 525 C, and
    Republic, x. 615), expressly teaches the eternity of punishment
    hereafter, for he uses there not the word ai& 240;n or aionios, but
    oupote. They were influenced rather by the late Platonists.
@@ -41459,7 +41460,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [1858] Reading sumphorais, i.e. death especially.
 
    [1859] Such are the wonders. There is here, Denys (De la Philosophie
-   d'Origène, p. 484) remarks, a great difference between Gregory and
+   d'OrigÃ¨ne, p. 484) remarks, a great difference between Gregory and
    Origen. Both speak of an "eternal sabbath," which will end the circle
    of our destinies. But Origen, after all the progress and peregrinations
    of the soul, which he loves to describe, establishes "the reasoning
@@ -41499,7 +41500,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    instance. Cf. Philosophumena (of Hippolytus, falsely attributed to
    Origen), p. 50, where two lines of his are quoted. Chrysostom's words
    (I. iv. p. 196), "There are those amongst them who carry souls into
-   plants, into shrubs, and into dogs," are taken by Matthæus to refer to
+   plants, into shrubs, and into dogs," are taken by MatthÃ¦us to refer to
    Empedocles. Cf. Celsus also (quoted in Origen, c. Cels. viii. 53),
    "Seeing then men are born bound to a body--no matter whether the
    economy of the world required this, or that they are paying the penalty
@@ -41588,7 +41589,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [1876] huponoia.
 
-   [1877] Such theories are developed in the Phædo of Plato; and
+   [1877] Such theories are developed in the PhÃ¦do of Plato; and
    constitute ho heteros ton logon, criticized more fully below.
 
    [1878] Reading dokei, e to empalin, instead of the corrupt dokeie to
@@ -41611,7 +41612,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    departed does assume another body.
 
    [1880] he kat' auton (i.e. bion) diexodos. The Editions have kat'
-   auton. Krabinger well translates by "percursatio." Cf. Phædrus, p. 247
+   auton. Krabinger well translates by "percursatio." Cf. PhÃ¦drus, p. 247
    A.
 
    [1881] suntropho
@@ -41687,7 +41688,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    sober, and more scriptural.
 
    [1898] The situation here is, as Dr. H. Schmidt points out, just like
-   that in the Phædo of Plato, where all are satisfied with Socrates'
+   that in the PhÃ¦do of Plato, where all are satisfied with Socrates'
    discourse, except Kebes and Simmias, who seize the precious moments
    still left, to bring forward an objection which none but their great
    Teacher could remove.
@@ -41712,7 +41713,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    Theos kurios, kai epephanen hemin; sustesasthe ten eorten en tois
    pukazousin heos ton keraton tou thusiasteriou. [Krabinger has replaced
    sustesasthe from one of his Codd. for the common sustesasthai; but if
-   this is retained hoste must be understood. Cf. Matt., Gr. Gr. §532.]
+   this is retained hoste must be understood. Cf. Matt., Gr. Gr. Â§532.]
    The LXX. is rendered by the Psalterium Romanum "constitute diem in
    confrequentationibus." So also Eusebius, Theodoret, and Chrysostom
    interpret. But the Psalterium Gallicanum reproduces the LXX. otherwise,
@@ -41743,7 +41744,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    chastising detailed above. The latter is represented by Gregory as a
    necessary process of nature: but not till the Judgment will the moral
    value of each life be revealed. There is no contradiction, such as
-   Möller tries to find, between this Dialogue and Gregory's Oratio
+   MÃ¶ller tries to find, between this Dialogue and Gregory's Oratio
    Catechetica. There too he is speaking of chastisement after the
    Resurrection and before the Judgment. "For not everything that is
    granted in the resurrection a return to existence will return to the
@@ -41821,7 +41822,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [1918] saved to the last. The word here is diasozein; lit. to "preserve
    through danger," but it is used by later writers mostly of dialectic
-   battles, and Plato himself uses it so (e.g. Timæus, p. 56, 68, Polit.
+   battles, and Plato himself uses it so (e.g. TimÃ¦us, p. 56, 68, Polit.
    p. 395) always of "probability." It is used by Gregory, literally, in
    his letter to Flavian, "we at last arrived alive in our own district,"
    and, with a slight difference, On Pilgrimages, "it is impossible for a
@@ -41900,9 +41901,9 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    much 1 Cor. xv. 37, as 2 Cor. v. 4: "For we that are in this tabernacle
    do groan, being burdened: not for that we would be unclothed, but
    clothed upon." Tertullian's words (de resurr. carnis c. 52) deserve to
-   be quoted, "Seritur granum sine folliculi veste, sine fundamento spicæ,
-   sine munimento aristæ, sine superbiâ culmi. Exsurgit copiâ feneratum,
-   compagine ædificatum, ordine structum, cultu munitum, et usquequaque
+   be quoted, "Seritur granum sine folliculi veste, sine fundamento spicÃ¦,
+   sine munimento aristÃ¦, sine superbiÃ¢ culmi. Exsurgit copiÃ¢ feneratum,
+   compagine Ã¦dificatum, ordine structum, cultu munitum, et usquequaque
    vestitum." In allusion to this passage (2 Cor. v. 4), Origen says, "Our
    theory of the Resurrection teaches that the relations of a seed attach
    to that which the Scriptures call the tabernacle of the soul,' in which
@@ -41948,7 +41949,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    he says, "a dry unsoakable seed, which never sinks into the ground, or
    fattens with the rain; it is harder than horn; its horn has struck the
    horn of the ox, what time the ploughman's hand is scattering the grain
-   over his land." Ruhnken (ad Timæum, p. 155) has collected the ancient
+   over his land." Ruhnken (ad TimÃ¦um, p. 155) has collected the ancient
    authorities on this point. The word is used by Plato of a "hard,"
    "intractable" person. The "bare grain" of the wicked is here compared
    to these hard seeds, which even though they may sink into the earth and
@@ -43423,7 +43424,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [1975] fastening on the material. The word (haptesthai) could mean
    either "fastening on," or "depending on," or "kindled from" (it has
    been used in this last sense just above). Krabinger selects the second,
-   "quæ a subjecto dependet."
+   "quÃ¦ a subjecto dependet."
      __________________________________________________________________
 
    Chapter XI.
@@ -43754,7 +43755,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    not as the offence, so also is the free gift. For if through the
    offence of one many be dead, much more the grace of God, and the gift
    by grace, which is by one man, Jesus Christ, hath abounded unto many."
-   Krabinger's translation, "generaliori quâdam ratione," therefore seems
+   Krabinger's translation, "generaliori quÃ¢dam ratione," therefore seems
    correct. The mode of the union of soul and body is described in
    Gregory's Treatise on the Soul as kreitton logos, and in his Making of
    Man as aphrastos logos, but in neither is there any comparison but with
@@ -43792,7 +43793,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
      __________________________________________________________________
 
    [1985] the Prophet, i.e. David; Ps. xxxi. 19: hos polu to plethos tes
-   chrestotetos sou, k.t.l. Hervetus translates Gregory here "divitiæ
+   chrestotetos sou, k.t.l. Hervetus translates Gregory here "divitiÃ¦
    benignitatis," as if he had found ploutos in the text, which does not
    appear. Jerome twice translates the chrestotes of LXX. by "bonitas";
    Aquila and Symmachus have ti polu to agathon sou. This is the later
@@ -44174,7 +44175,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [1998] the absolution of the damned. These words, wanting in all
    others, Krabinger has restored from the Codex B. Morell translates
    "damnatorum absolutio." The Greek is ten ton katadikon ana& 207;rhusin.
-   "Hæc Origenem sapiunt, qui damnatorum poenis finem statuit:" Krabinger.
+   "HÃ¦c Origenem sapiunt, qui damnatorum poenis finem statuit:" Krabinger.
    But here at all events it is not necessary to accuse Gregory of this,
    since he is clearly speaking only of Christ's forgiveness of sins
    during His earthly ministry.
@@ -44388,7 +44389,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [2003] te men dikaiosune. The dative is not governed by antididonta but
    corresponds to te de agathoteti (a dative of reference), which has no
    such verb after it. Krabinger therefore hardly translates correctly
-   "justitiæ quod datur, pro meritis tribuendo."
+   "justitiÃ¦ quod datur, pro meritis tribuendo."
 
    [2004] hoi therapeutai tou chrusiou On the margin of one of Krabinger's
    Codd. is written here in Latin, "This must be read with caution: it
@@ -44399,7 +44400,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [2006] te katharsei. This is the reading of three of Krabinger's Codd.
    and that of Hervetus and Zinus; "purgatione," "purgationis": the
    context too of the whole chapter seems to require it. But Morell's Cod.
-   had te aphtharsi& 139;, and Ducæus approved of retaining it. For this
+   had te aphtharsi& 139;, and DucÃ¦us approved of retaining it. For this
    katharsis see especially Origen, c. Cels. vi. 44.
 
    [2007] "Far otherwise was it with the great thinkers of the early
@@ -44490,7 +44491,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    His death that we contemplate Him as the sin-bearer: but throughout His
    life He was as it were conditioned by the sinfulness of those with whom
    His human nature brought Him into close and manifold relations."--Lux
-   Mundi, p. 217 (Augustine, de Musicâ, vi. 4, quoted in note, "Hominem
+   Mundi, p. 217 (Augustine, de MusicÃ¢, vi. 4, quoted in note, "Hominem
    sine peccato, non sine peccatoris conditione, suscepit").
      __________________________________________________________________
 
@@ -44807,7 +44808,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    humanum intueri, in modo autem perscrutari quod est divinius." Glauber,
    however, translates the common text, "Man muss bei dem Unsterblichen
    zwar das Menschliche betrachten, aber bei dem Menschen auch das
-   Göttliche hervorsuchen:" notwithstanding that he hints his preference
+   GÃ¶ttliche hervorsuchen:" notwithstanding that he hints his preference
    for another reading, skopo for this last; cf. just above, "but the
    secret sense represents the Divine," which would then be parallel to
    this last sentence.
@@ -44820,7 +44821,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    form of the Cross, in nature and art: in the sail-yards of a ship, as
    here, and in the flight of birds on the wing. This is the reading of
    Codd. Morell., Reg., and three of Krabinger's: but gaian in the margin
-   of that of J. Vulcobius (Abbot of Belpré) has got into the text of both
+   of that of J. Vulcobius (Abbot of BelprÃ©) has got into the text of both
    Paris Editt., though the second asterisks it. Hervetus ("et fastigium")
    seems to have read kai akran.
      __________________________________________________________________
@@ -45085,21 +45086,21 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [2026] ek tes kata didachen huphegeseos. This is what Krabinger finds
    in three Codd., and Morell and Hervetus have rendered in the Latin. But
    the editions have diadochen Uphegesis does not refer to any "preceding"
-   ("præeunte," Hervetus) teaching; but to "instruction" of any kind,
+   ("prÃ¦eunte," Hervetus) teaching; but to "instruction" of any kind,
    whether "in the way of teaching," or of example, as below.
 
    [2027] the flesh which He has assumed, and at the same time deified.
-   "Un terme cher aux Pères du IV^e siècle, de nous déifier" (Denis,
-   Philosophie d'Origène, p. 458). This theopoiesis or theosis is more
+   "Un terme cher aux PÃ¨res du IV^e siÃ¨cle, de nous dÃ©ifier" (Denis,
+   Philosophie d'OrigÃ¨ne, p. 458). This theopoiesis or theosis is more
    than a metaphor even from the first; "vere fideles vocantur theoi, non
-   naturâ quidem, sed te homoiosei, ait Athanasius;" Casaubon, In Epist.
+   naturÃ¢ quidem, sed te homoiosei, ait Athanasius;" Casaubon, In Epist.
    ad Eustath. "We become gods' by grasping the Divine power and
    substance;" Clement, Stromata, iv. That the Platonists had thus used
    the word of to pros meizona doxan anupsothen is clear. Synesius in one
    of his Hymns says to his soul:-- "Soon commingled with the Father Thou
    shalt dance a god' with God." Just as elsewhere (in Dione, p. 50) he
    says, "it is not sufficient not to be bad; each must be even a god.'"
-   Cf. also Gregory Thaum. Panegyr Origenis, §142. When we come to the
+   Cf. also Gregory Thaum. Panegyr Origenis, Â§142. When we come to the
    Fathers of the 4th century and later, these words are used more
    especially of the work of the Holy Spirit upon man. Cf. Cyrill. Alex.:
    "If to be able to deify' is a greater thing than a creature can do, and
@@ -45141,7 +45142,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [2028] Heb. ii. 10; xii. 2.
 
    [2029] adiexodon...phrouran. Krabinger's excellent reading. Cf. Plato,
-   Phæd. p. 62 B, "We men are in a sort of prison."
+   PhÃ¦d. p. 62 B, "We men are in a sort of prison."
 
    [2030] S. John iii. 31: 1 Cor. xv. 47 (anothen = ex ouranou).
 
@@ -45312,7 +45313,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [2037] Gregory seems here to refer to Eve's eating the apple, which
    introduced a moral and physical poison into our nature. General
    Gordon's thoughts ("in Palestine") took the same direction as the whole
-   of this passage; which Fronto Ducæus (as quoted by Krabinger) would
+   of this passage; which Fronto DucÃ¦us (as quoted by Krabinger) would
    even regard as a proof of transubstantiation.
 
    [2038] 1 Cor. v. 6.
@@ -45345,7 +45346,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    (metastoicheiosas) the natural quality (phusin) of these visible things
    to that immortal thing." Harnack does not attempt to weaken the force
    of these and other passages, but only points out that the idea of this
-   change does not exactly correspond (how could it?) with the mediæval
+   change does not exactly correspond (how could it?) with the mediÃ¦val
    scholastically-philosophical "transubstantiation." Gregory's belief is
    that, just as the Word, when Christ was here in the flesh, rendered
    holy His body that assimilated bread, which still in a manner remained
@@ -45360,7 +45361,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    to substantiam convertere, i.e. to change by an addition of grace into
    another mode or use. In the passages from Epiphanius which Suicer
    adduces for "figure," "mode," as a meaning of stoicheion itself, that
-   word means a sign of the zodiac (as in our Gregory's De Animâ et
+   word means a sign of the zodiac (as in our Gregory's De AnimÃ¢ et
    Resurr., it means the moon), only because the heavenly bodies are the
    elements or first principles as it were of the celestial alphabet. The
    other meaning of metastoicheioun which he gives, i.e. to unteach, with
@@ -45554,7 +45555,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    falsely accused, the man whom he has forcibly deprived of his property,
    these, as far as they are concerned, see no change in him though he has
    been washed in the laver of baptism. They do not hear the cry of
-   Zacchæus from him as well: "If I have taken any thing from any man by
+   ZacchÃ¦us from him as well: "If I have taken any thing from any man by
    false accusation, I restore fourfold [2056] ." What they said of him
    before his baptism, the same they now more fully declare; they call him
    by the same names, a covetous person, one who is greedy of what belongs
@@ -46000,7 +46001,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    disturbed state of the Church should be attributed by Gregory Nazianzen
    to "Envy" is well enough, but he in the same strain as his namesake
    speaks thus in connection with the death of his darling brother
-   Cæsarius, and of Basil. Our Gregory uses the word also in lamenting
+   CÃ¦sarius, and of Basil. Our Gregory uses the word also in lamenting
    Pulcheria and Flacilla. It only proves, however, how strong the habit
    still was of using heathen expressions.
 
@@ -46052,7 +46053,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [2083] This is from the LXX. of Is. xxii. 4, me katischusete parakalein
    me epi to suntrimma, k.t.l.: "Nolite contendere ut me consolemini super
-   contritione:" S. Jerome. Ducæus has rightly restored this, for
+   contritione:" S. Jerome. DucÃ¦us has rightly restored this, for
    katischusetai
 
    [2084] prosopon alethos memorphomenon. This is the reading of the best
@@ -46103,7 +46104,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    [2096] en iteais. The best mss. support this reading, so that Krabinger
    has not dared to alter it to itea, as Morell's ms. Sifanus has "plane
    enim in salicibus vita consistit;" but Rupp, "Unser Leben ist in der
-   That ein Weidengebüsche." In Bellarmine's mystical interpretation the
+   That ein WeidengebÃ¼sche." In Bellarmine's mystical interpretation the
    willows are the citizens of Babylon, who resemble willows "in being
    unfruitful, bitter in themselves, and dwelling by choice in the midst
    of Babylon," to whom the instruments of worldly mirth are left.
@@ -46132,7 +46133,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [2104] 1 Thess. iv. 13.
 
-   [2105] kalos. "Atticæ urbanitatis proprium," Krabinger. But David is
+   [2105] kalos. "AtticÃ¦ urbanitatis proprium," Krabinger. But David is
    described as "of a fair countenance."
 
    [2106] 2 Sam. vi. 14. "That ark," very probably refers to the remains
@@ -46165,7 +46166,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    leads a life consecrated to Jehovah.
 
    [2111] Prov. xxxi. 6. Just above pros hemas is the reading of
-   Krabinger's mss. and of the Paris Editt.: Sifanus and Ducæus have
+   Krabinger's mss. and of the Paris Editt.: Sifanus and DucÃ¦us have
    rendered humas.
 
    [2112] S. Gregory has misapplied both this passage from Ps. civ. 15 and
@@ -46610,11 +46611,11 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    course of conduct. For as darkness is dispelled by light, and black
    disappears as whiteness is spread over it, so the old man also
    disappears when adorned with the works of righteousness. Thou seest how
-   Zacchæus also by the change of his life slew the publican, making
+   ZacchÃ¦us also by the change of his life slew the publican, making
    fourfold restitution to those whom he had unjustly damaged, and the
    rest he divided with the poor--the treasure which he had before got by
    ill means from the poor whom he oppressed. The Evangelist Matthew,
-   another publican, of the same business with Zacchæus, at once after his
+   another publican, of the same business with ZacchÃ¦us, at once after his
    call changed his life as if it had been a mask. Paul was a persecutor,
    but after the grace bestowed on him an Apostle, bearing the weight of
    his fetters for Christ's sake, as an act of amends and repentance for
@@ -46903,7 +46904,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    They are found also in the Medicean ms., of which Bandinus gives an
    accurate account, and which is much superior, on the authority of
    Caraccioli, who saw both, to the Vatican. Zacagni did not see the
-   Medicean: but many of his felicitous emendations of the Vatican lacunæ
+   Medicean: but many of his felicitous emendations of the Vatican lacunÃ¦
    correspond with it. They are here translated by the late Reverend
    Harman Chaloner Ogle, Fellow of Magdalen College, Oxford (Ireland
    Scholar), who died suddenly (1887), to the grief of very many, and the
@@ -46950,7 +46951,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    will be required even of idle words in that trial of our life which we
    must all look for: they say that the charges which are being circulated
    against us are such as these; that we entertain opinions opposed to
-   those who at Nicæa set forth the right and sound faith, and that
+   those who at NicÃ¦a set forth the right and sound faith, and that
    without due discrimination and inquiry we received into the communion
    of the Catholic Church those who formerly assembled at Ancyra under the
    name of Marcellus. Therefore, that falsehood may not overpower the
@@ -47021,7 +47022,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    Constantinople in 336, for teaching the doctrine of Paul of Samosata.
    Basil and Athanasius successively separated from their communion all
    who were united to Marcellus; and these, knowing that Valens the
-   Emperor had exiled several bishops of Egypt to Diocæsarea, went to find
+   Emperor had exiled several bishops of Egypt to DiocÃ¦sarea, went to find
    them (375) and were admitted to their communion. Armed with letters
    from them, they demanded to be received into that of the other bishops
    of the East, and at length Basil and others, having examined the matter
@@ -47039,8 +47040,8 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    "fulfil thy ministry;" 2 Tim. iv. 17; S. Luke i. 1, peplerophoremenon,
    "most surely believed" (A.V.): in all which the R.V. follows the
    Vulgate interpretation. In the Latin translation of this passage in
-   Gregory, "(professionem) quâ sacris nos Scripturis ac Patrum traditioni
-   penitus inhærere persuasum omnibus foret," the meaning put upon
+   Gregory, "(professionem) quÃ¢ sacris nos Scripturis ac Patrum traditioni
+   penitus inhÃ¦rere persuasum omnibus foret," the meaning put upon
    plerophoreisthai by A.V. in the last text is adopted, "we are fully
    believed to follow," with a very harsh construction.
 
@@ -47125,7 +47126,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [2177] Adopting the conjecture of the Latin translator bareia for
    bracheia. His translation, however, though ingenious, would require
-   something different in the Greek. It runs "jamque nubes, quæ nostro
+   something different in the Greek. It runs "jamque nubes, quÃ¦ nostro
    impendebat capiti, postquam acri vehementique vento abrepta alio delata
    fuit, hiemem peperit." As the text stands hupolephtheisa cannot bear
    this translation (H. C. O.)
@@ -47159,11 +47160,11 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    to hear from me.
      __________________________________________________________________
 
-   [2178] Cynegius was "prefect of the prætorium," from 384 to 390. Cod.
+   [2178] Cynegius was "prefect of the prÃ¦torium," from 384 to 390. Cod.
    Medic. has on the title, Ieri& 251; Egemoni: but this must be wrong. It
    was this Cynegius, not then Prefect of the East, whom Libanius was to
    lead however unwilling, to the study of eloquence (see end of Letter
-   xi.). The four Prætorian Prefects remained, after Diocletian's
+   xi.). The four PrÃ¦torian Prefects remained, after Diocletian's
    institution of the four Princes, under whom they served, had been
    abolished by Constantine. The Prefect of the East stretched his
    jurisdiction "from the cataracts of the Nile to the banks of the
@@ -47207,7 +47208,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
      __________________________________________________________________
 
    [2179] diegemasin. "He believed in fidelity, and was capable of the
-   sublimest, most intimate friendships. He loved Hephæstion so fervently,
+   sublimest, most intimate friendships. He loved HephÃ¦stion so fervently,
    that....he remained inconsolable for his loss."--F. Schlegel. Achilles
    was his hero: for he too knew the delight of a constant friendship.
      __________________________________________________________________
@@ -47470,7 +47471,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    Gregory still publicly professed belles lettres. They are addressed to
    one of the masters whom Basil had had at Athens. For these see
    Socrates, H. E. iv. 26: it was probably Libanius; rather than
-   Prohæresius, who did not live in Asia Minor, or Himærius who (according
+   ProhÃ¦resius, who did not live in Asia Minor, or HimÃ¦rius who (according
    to Eunapius, Philosoph. Vit. p. 126) had become a Christian before the
    reign of Julian, and it is clear that this Letter is written to a
    pagan. The Cod. Medic. has Libanius' name as a title to both Letters.
@@ -47845,11 +47846,11 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [2212] Reading epholkon: if epholkion, "a boat taken in tow," perhaps
    still regarding S. Peter as the master of a ship: or "an appendage;"
-   Gregory so uses it in his De Animâ. Some suggest ephodion, meaning
+   Gregory so uses it in his De AnimÃ¢. Some suggest ephodion, meaning
    "resource," but epholkon is simpler.
 
-   [2213] i.e.Nicæa. "The whirligig of time has brought about its
-   revenge," and Nicomedia (Ismid) is now more important than Nicæa
+   [2213] i.e.NicÃ¦a. "The whirligig of time has brought about its
+   revenge," and Nicomedia (Ismid) is now more important than NicÃ¦a
    (Isnik). Nicomedia had, in fact, been the residence of the Kings of
    Bithynia; and Diocletian had intended to make it the rival of Rome (cf.
    Lactantius, De Mort. Persec. c. 7). But it had been destroyed by an
@@ -48128,7 +48129,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
 
    [2231] Cf. Hom. Od. vii. 115.
 
-   [2232] The word seems otherwise unknown. It may be a Græcizing of the
+   [2232] The word seems otherwise unknown. It may be a GrÃ¦cizing of the
    Latin "duracinus," for which cf. Plin. XV. xii. 11.
      __________________________________________________________________
 
@@ -48487,10 +48488,10 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    he also makes the astounding statement that both Jerome, Augustine, and
    the whole primitive Church felt that visits to the Sacred Places
    contributed nothing to the alteration of character. But see especially
-   Jerome, De Peregrinat., and Epistle to Marcella. Fronto Ducæus adds,
+   Jerome, De Peregrinat., and Epistle to Marcella. Fronto DucÃ¦us adds,
    "At, velis nolis, soteria sunt illa loca: tum quia aspectu sui corda ad
    poenitentiam et salutares lacrymas non raro commovent, ut patet de
-   Mariâ Ægyptiacâ; tum quia..."
+   MariÃ¢ Ã†gyptiacÃ¢; tum quia..."
 
    [2244] epouranion politeian. Even Casaubon (against Du Moulin here)
    allows this to mean the ascetic or monastic Life; "sublimius
@@ -48555,14 +48556,14 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    (of the Soul in Baptism) and the second (of the Body), see Rev. xx. 5,
    with Bishop Wordsworth's note.
 
-   [2257] i.e.Cæsarea in Cappadocia.
+   [2257] i.e.CÃ¦sarea in Cappadocia.
 
    [2258] Basil, probably: who after Cyril's exile had been called in to
    heal the heresy of Apollinaris, which was spreading in the convents at
    Jerusalem. The factious purism, however, which Gregory deplores here,
    and which led to rival altars, seems to have evinced itself amongst the
-   orthodox themselves, "quo majorem apud omnes opinionem de suâ
-   præstantiâ belli isti cathari excitarent" (Casaubon). Cyril, it is
+   orthodox themselves, "quo majorem apud omnes opinionem de suÃ¢
+   prÃ¦stantiÃ¢ belli isti cathari excitarent" (Casaubon). Cyril, it is
    true, had returned this year, 382; and spent the last years of his life
    in his see; but with more than twenty years interval of Arian rule
    (Herennius, Heraclius, and Hilarius, according to Sozomen) the
@@ -48814,9 +48815,9 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    private interest, consecrated the physician Gerontius (Sozomen, viii.
    6).
 
-   [2260] Sebasteia (Sivâs) was in Pontus on the upper Halys: and the
-   "mountain district" between this and Helladius' "metropolis" (Cæsarea,
-   ad Argæum) must have been some offshoots of the Anti-Taurus.
+   [2260] Sebasteia (SivÃ¢s) was in Pontus on the upper Halys: and the
+   "mountain district" between this and Helladius' "metropolis" (CÃ¦sarea,
+   ad ArgÃ¦um) must have been some offshoots of the Anti-Taurus.
 
    [2261] His brother, who had urged him to write the books against
    Eunomius, and to whom he sent On the Making of Man.
@@ -48869,7 +48870,7 @@ GREGORY OF NYSSA: DOGMATIC TREATISES, ETC.
    Bishop of Nyssa received the supreme honour of being named by
    Theodosius as one of the acknowledged authorities in all matters of
    theological orthodoxy: and he was appointed to regulate the affairs of
-   the Church in Asia Minor, conjointly with Helladius of Cæsarea, and
+   the Church in Asia Minor, conjointly with Helladius of CÃ¦sarea, and
    Otreius of Melitene:" Farrar's Lives of the Fathers, 1889.
 
    [2273] He is speaking of the funds of his Diocese, which at one period
@@ -54671,3 +54672,4 @@ References
 3660. file:///ccel/s/schaff/npnf205/cache/npnf205.html3#xiii.xix-Page_541
 3661. file:///ccel/s/schaff/npnf205/cache/npnf205.html3#xiii.xix-Page_542
 3662. file:///ccel/s/schaff/npnf205/cache/npnf205.html3#xiii.xix-Page_543
+

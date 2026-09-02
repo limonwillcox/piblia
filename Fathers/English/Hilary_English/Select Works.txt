@@ -1,4 +1,4 @@
-# source: Fathers/English/NPNF2/Volume IX.   Hilary of Poitiers, John of Damascus
+﻿# source: Fathers/English/NPNF2/Volume IX.   Hilary of Poitiers, John of Damascus
 # series: NPNF2
 # volume: Volume IX.
 # father: hilary
@@ -6,6 +6,7 @@
 # latin_match_candidate: (none)
 # extracted: 2026-09-01
 # note: Public-domain Schaff English extract. Volume archives retained under ANF/NPNF1/NPNF2.
+
 Hilary of Poitiers, John of Damascus
 
    T&T CLARK
@@ -379,7 +380,7 @@ Hilary of Poitiers, John of Damascus
    acquaintance with, physical and physiological matters, and Hilary
    shares the taste. The conditions of human or animal birth and life and
    death are often discussed [11] ; he believes in universal remedies for
-   disease [12] , and knows of the employment of anæsthetics in surgery
+   disease [12] , and knows of the employment of anÃ¦sthetics in surgery
    [13] . Sometimes he wanders further afield, as, for instance, in his
    account of the natural history of the fig-tree [14] and the worm [15] ,
    and in the curious little piece of information concerning Troglodytes
@@ -398,7 +399,7 @@ Hilary of Poitiers, John of Damascus
    the pagan creed, had certainly been inspired by Neoplatonism. We cannot
    take the account of his spiritual progress up to the full Catholic
    faith, which he gives in the beginning of the De Trinitate, and of
-   which we find a less finished sketch in the Homily on Psalm lxi. § 2,
+   which we find a less finished sketch in the Homily on Psalm lxi. Â§ 2,
    as literal history. It is too symmetrical in its advance through
    steadily increasing light to the perfect knowledge, too well prepared
    as a piece of literary workmanship--it is indeed an admirable example
@@ -798,7 +799,7 @@ Hilary of Poitiers, John of Damascus
    indistinguishable from Catholic; and unless ultimate principles were
    questioned, Catholic clergy might work, and the multitudes of Catholic
    laity might live and die, without knowing that their bishop's creed was
-   different from their own. The Abbé Duchesne has made the very probable
+   different from their own. The AbbÃ© Duchesne has made the very probable
    suggestion that the stately Ambrosian ritual of Milan was really
    introduced from the East by Auxentius, the Arian intruder from
    Cappadocia, of whom we have spoken [41] . Arian Baptism and the Arian
@@ -888,10 +889,10 @@ Hilary of Poitiers, John of Damascus
    Empire. The letter was, in fact, a singularly bold manifesto, and one
    which Hilary himself must have foreseen was likely to bring upon him
    the punishment which had befallen the recusants at Arles and Milan. He
-   begins (§ 1) in studiously general terms, making no mention of the
+   begins (Â§ 1) in studiously general terms, making no mention of the
    provinces in which the offenses were being committed, with a complaint
    of the tyrannical interference of civil officers in religious matters.
-   If there is to be peace (§ 2), there must be liberty; Catholics must
+   If there is to be peace (Â§ 2), there must be liberty; Catholics must
    not be forced to become Arians. The voice of resistance was being
    raised; men were beginning to say that it was better to die than to see
    the faith defiled at the bidding of an individual. Equity required that
@@ -900,24 +901,24 @@ Hilary of Poitiers, John of Damascus
    obey with a good conscience. Truth and falsehood, light and darkness
    could not combine. He entreated the Emperor to allow the people to
    choose for themselves to what teachers they would listen, with whom
-   they would join in the Eucharist and in prayer for him. Next (§ 3) he
+   they would join in the Eucharist and in prayer for him. Next (Â§ 3) he
    denies that there is any purpose of treason, or any discontent. The
    only disturbance is that caused by Arian propagators of heresy, who are
-   busily engaged in misleading the ignorant. He now (§ 4) prays that the
+   busily engaged in misleading the ignorant. He now (Â§ 4) prays that the
    excellent bishops who have been sent into exile may be restored;
-   liberty and joy would be the result. Then (§ 5) he attacks the modern
+   liberty and joy would be the result. Then (Â§ 5) he attacks the modern
    and deadly Arian pestilence. Borrowing, somewhat incautiously, the
    words of the Council of Sardica, now twelve years old, he gives a list
    of Arian chiefs which ends with "those two ignorant and unprincipled
    youths, Ursacius and Valens." Communion with such men as these, even
    communion in ignorance, is a participation in their guilt, a fatal sin.
-   He proceeds, in § 6, to combine denunciation of the atrocities
+   He proceeds, in Â§ 6, to combine denunciation of the atrocities
    committed in Egypt with a splendid plea for liberty of conscience; it
    is equally vain and wicked to attempt to drive men into Arianism, and
-   an enforced faith is, in any case, worthless. The Arians (§ 7) were
+   an enforced faith is, in any case, worthless. The Arians (Â§ 7) were
    themselves legally convicted long ago and Athanasius acquitted; it is a
    perversion of justice that the condemned should now be intriguing
-   against one so upright and so faithful to the truth. And lastly (§ 8)
+   against one so upright and so faithful to the truth. And lastly (Â§ 8)
    he comes to the wrong just done at Milan, and tells the well-known
    story of the violence practiced upon Eusebius of Vercelli and others in
    the Synagogue of malignants,' as he calls it. Here also he takes
@@ -957,16 +958,16 @@ Hilary of Poitiers, John of Damascus
    Gaul would, if their wishes were disregarded, support an orthodox
    pretender. And there was a special reason for suspicion. At this very
    time Constantius had just conferred the government of the West upon his
-   cousin Julian, who was installed as Cæsar on the 6th November, 355.
+   cousin Julian, who was installed as CÃ¦sar on the 6th November, 355.
    From the first, probably, Constantius distrusted Julian, and Julian
    certainly distrusted Constantius. Thus it might well seem that the
-   materials were ready for an explosion; that a disloyal Cæsar would find
+   materials were ready for an explosion; that a disloyal CÃ¦sar would find
    ready allies in discontented Catholics.
 
    We cannot wonder that Hilary's letter had no effect upon the policy of
    Constantius. It is somewhat surprising that several months elapsed
    before he was punished. In the spring of the year 356 Saturninus
-   presided at a Council held at Béziers, at which Hilary was, he tells
+   presided at a Council held at BÃ©ziers, at which Hilary was, he tells
    us, compelled to attend. In what the compulsion consisted we do not
    know. It may simply have been that he was summoned to attend; a summons
    which he could not with dignity refuse, knowing, as he must have done,
@@ -993,7 +994,7 @@ Hilary of Poitiers, John of Damascus
    by the Synod, and condemned almost unanimously. Only Rodanius of
    Toulouse was punished with him; the sufferers would certainly have been
    more numerous had there been any strenuous remonstrance against the
-   injustice. The Synod sent their decision to the Cæsar Julian, their
+   injustice. The Synod sent their decision to the CÃ¦sar Julian, their
    immediate ruler. Julian took no action; he may have felt that the
    matter was too serious for him to decide without reference to the
    Emperor, but it is more likely that he had no wish to outrage the
@@ -1024,7 +1025,7 @@ Hilary of Poitiers, John of Damascus
    argues forcibly and often against both. Like Athanasius again, he has
    no mercy upon Photinus the disciple, while he spares Marcellus the
    master; and it is a small, though clear, sign of dependence that he
-   occasionally applies Athanasius' nickname of Ariomanitæ, or Arian
+   occasionally applies Athanasius' nickname of AriomanitÃ¦, or Arian
    lunatics,' to his opponents. It is certain that Hilary was familiar
    with the writings of Athanasius, and borrowed freely from them. But so
    little has yet been done towards ascertaining the progress of Christian
@@ -1106,7 +1107,7 @@ Hilary of Poitiers, John of Damascus
    diocese, so far as administration by letter was possible, without
    interruption. And his diocese did not forget him. We learn from
    Sulpicius Severus [55] that he and the others of the little band of
-   exiles, who had suffered at Arles, and Milan, and Béziers, were the
+   exiles, who had suffered at Arles, and Milan, and BÃ©ziers, were the
    heroes of the day in their own country. That orthodox bishops should
    suffer for the Faith was a new thing in the West; we cannot wonder that
    subsidies were raised for their support and delegations sent to assure
@@ -1143,7 +1144,7 @@ Hilary of Poitiers, John of Damascus
 
    It was a time when new combinations of parties were being formed.
    Arianism was shewing itself openly, as it had not dared to do since
-   Nicæa. In 357 Hilary's adversaries, Ursacius and Valens, in a Synod at
+   NicÃ¦a. In 357 Hilary's adversaries, Ursacius and Valens, in a Synod at
    Sirmium, published a creed which was Arian without concealment; it was,
    indeed, as serious a blow to the Emperor's policy of compromise as
    anything that Athanasius or Hilary had ventured. But it was the work of
@@ -1428,7 +1429,7 @@ Hilary of Poitiers, John of Damascus
    transferred his favour once more to the party of Valens. The address is
    written with great dignity of style and of matter. Hilary begins by
    declaring that the importance of his theme is such that it enforces
-   attention, however insignificant the speaker may be; yet (§ 2) his
+   attention, however insignificant the speaker may be; yet (Â§ 2) his
    position entitles him to speak. He is a bishop, in communion with all
    the churches and bishops of Gaul, and to that very day distributing the
    Eucharist by the hands of his presbyters to his own Church. He is in
@@ -1445,7 +1446,7 @@ Hilary of Poitiers, John of Damascus
    an insult to Julian; if he fails, he will no longer petition to be
    allowed to return to the exercise of his office, but will retire to
    pass the rest of his days as a layman in repentance. To this end he
-   asks to be confronted with Saturninus (§ 3), or rather takes for
+   asks to be confronted with Saturninus (Â§ 3), or rather takes for
    granted that Constantius will do as he wishes. He leaves the Emperor to
    determine all the conditions of the debate, in which, as he repeats, he
    will wring from Saturninus the confession of his falsehood. Meanwhile
@@ -1454,7 +1455,7 @@ Hilary of Poitiers, John of Damascus
    guilt of silence, the judgment of God, fill him with fear; he is
    constrained to speak when his own salvation and that of the Emperor and
    of mankind is at stake, and encouraged by the consciousness of
-   multitudes who sympathise with him. He bids the Emperor (§ 4) call back
+   multitudes who sympathise with him. He bids the Emperor (Â§ 4) call back
    to his mind the Faith which (so he says) Constantius is longing in vain
    to hear from his bishops. Those whose duty is to proclaim the Faith of
    God are employed, instead, in composing faiths of their own, and so
@@ -1470,7 +1471,7 @@ Hilary of Poitiers, John of Damascus
    took the place of loyalty to ancient truth, and the creed of the year
    displaced the creed of the Gospels. Every one framed his confession
    according to his own desire or his own character; while creeds were
-   multiplying, the one Faith was perishing. Since the Council of Nicæa (§
+   multiplying, the one Faith was perishing. Since the Council of NicÃ¦a (Â§
    5) there had been no end to this writing of creeds. So busily were men
    wrangling over words, seeking novelties, debating knotty points,
    forming factions and pursuing ambitions, refusing to agree and hurling
@@ -1483,7 +1484,7 @@ Hilary of Poitiers, John of Damascus
    like the Father'; whether this likeness were perfect or imperfect was
    left in obscurity. The result of constant change and ceaseless dispute
    was self-contradiction and mutual destruction. This search for a faith
-   (§ 6) involved the assumption that the true Faith was not ready to the
+   (Â§ 6) involved the assumption that the true Faith was not ready to the
    believer's hand. They would have it in writing, as though the heart
    were not its place. Baptism implied the Faith and was useless without
    its acceptance; to teach a new Christ after Baptism, or to alter the
@@ -1492,7 +1493,7 @@ Hilary of Poitiers, John of Damascus
    invented grandiloquent paraphrases in place of the Apostles' Creed, to
    delude the vulgar, to conceal their aberrations, to effect a compromise
    with other forms of error. They would do anything rather than confess
-   that they had been wrong. When the storm arises (§ 7) the mariner
+   that they had been wrong. When the storm arises (Â§ 7) the mariner
    returns to the harbour he had left; the spendthrift youth, with ruin in
    prospect, to the sober habits of his father's home. So Christians, with
    shipwreck of the Faith in sight and the heavenly patrimony almost lost,
@@ -1502,7 +1503,7 @@ Hilary of Poitiers, John of Damascus
    Faith and to denials of the truth on the ground of novelty. There is
    danger lest innovation creep in, excused as improvement of this creed;
    and emendation is an endless process, which leads the emenders to
-   condemnation of each other. Hilary now (§8) professes his sincere
+   condemnation of each other. Hilary now (Â§8) professes his sincere
    admiration of Constantius' devout purpose and earnestness in seeking
    the truth, which he who denies is antichrist, and he who feigns is
    anathema. He entreats the Emperor to allow him to expound the Faith, in
@@ -1515,13 +1516,13 @@ Hilary of Poitiers, John of Damascus
    philosophy, but of the teaching of the Gospel. He asks audience rather
    for the Emperor's sake and for God's Churches than for himself. He is
    sure of the faith that is in him; it is God's, and he will never change
-   it. But (§ 9) the Emperor must bear in mind that every heretic
+   it. But (Â§ 9) the Emperor must bear in mind that every heretic
    professes that his own is the Scriptural doctrine. So say Marcellus,
-   Photinus, and the rest. He prays (§ 10) for the Emperor's best
+   Photinus, and the rest. He prays (Â§ 10) for the Emperor's best
    attention; his plea will be for faith and unity and eternal life. He
    will speak in all reverence for Constantius' royal position, and for
    his faith, and what he says shall tend to peace between East and West.
-   Finally (§ 11) he gives, as an outline of the address he proposes to
+   Finally (Â§ 11) he gives, as an outline of the address he proposes to
    deliver, the series of texts on which he will base his argument. This
    is what the Holy Spirit has taught him to believe. To this faith he
    will ever adhere, loyal to the Faith of his fathers, and the creed of
@@ -1543,7 +1544,7 @@ Hilary of Poitiers, John of Damascus
    advance. Saturninus, as we saw, was one of the Court party among the
    bishops, and he was an enemy of Julian, who was soon to permit his
    deposition. Julian's knowledge of Hilary can have been but small; his
-   exile began within a month or two of the Cæsar's arrival in Gaul, and
+   exile began within a month or two of the CÃ¦sar's arrival in Gaul, and
    Julian was not responsible for it. For good or for evil, he had little
    to say in the case. But the suspicions were already aroused which were
    soon to lead to Julian's revolt, and Constantius had begun to give the
@@ -1551,7 +1552,7 @@ Hilary of Poitiers, John of Damascus
    supposed, intended to prepare his downfall. To appeal to Julian and to
    attack Saturninus was to remind Constantius very broadly that great
    interests were at stake, and that a protector might be found for the
-   creed which he persecuted. And his double mention of the West (§§ 8,
+   creed which he persecuted. And his double mention of the West (Â§Â§ 8,
    10) as able to teach the truth, and as needing to be reconciled with
    the East, has a political ring. It suggests that the Western provinces
    are a united force, with which the Emperor must reckon. The fact that
@@ -1563,7 +1564,7 @@ Hilary of Poitiers, John of Damascus
 
    The theological part of the letter is even more remarkable. Its
    doctrine is, of course, exactly that of the De Trinitate. The summary
-   of Scripture proofs for the doctrine in § 11, the allusion to unlearned
+   of Scripture proofs for the doctrine in Â§ 11, the allusion to unlearned
    fishermen who have been teachers of the Faith [62] , and several other
    passages, are either anticipations or reminiscences of that work. But
    the interest of the letter lies in its bold proposal to go behind all
@@ -1577,7 +1578,7 @@ Hilary of Poitiers, John of Damascus
    which, when we welcome it and listen to it, brings the right faith.
    [63] I do not mean that we should condemn as a godless and blasphemous
    writing the work of the Synod of our fathers; yet rash men make use of
-   it as a means of gain saying' (§ 7). The Nicene Creed [64] , Hilary
+   it as a means of gain saying' (Â§ 7). The Nicene Creed [64] , Hilary
    goes on to say, had been the starting-point of an endless chain of
    innovations and amendments, and thus had done harm instead of good. We
    have seen that Hilary was not only acting with the Semiarians, but was
@@ -1596,8 +1597,8 @@ Hilary of Poitiers, John of Damascus
    proposal was sincerely meant, and that his words, uncompromising as
    they are in assertion of the truth, were not intended for a simple
    defiance of the enemy, is shewn by the list of heretics whom he
-   advances, in § 9, in proof of his contention that all error claims to
-   be based on Scripture. Three of them, Montanus, Manichæus and Marcion,
+   advances, in Â§ 9, in proof of his contention that all error claims to
+   be based on Scripture. Three of them, Montanus, ManichÃ¦us and Marcion,
    were heretics in the eyes of an Arian as much as of a Catholic; the
    other three, Marcellus, Photinus and Sabellius, were those with whom
    the Arians were constantly taunting their adversaries. Hilary avoids,
@@ -1666,13 +1667,13 @@ Hilary of Poitiers, John of Damascus
    around. With such words on our lips let us go forth to martyrdom, for
    the angel of Satan has transfigured himself into an angel of light.'
    After more Scriptural language of the same kind, Hilary goes on to say
-   (§ 2) that, though he had been fully conscious of the extent of the
+   (Â§ 2) that, though he had been fully conscious of the extent of the
    danger to the Faith, he had been strictly moderate in his conduct.
    After the exiling of orthodox bishops at Arles and Milan, he and the
    bishops of Gaul had contented themselves with abstaining from communion
    with Saturninus, Ursacius and Valens. Other heretical bishops had been
    allowed a time for repentance. And even after he had been forced to
-   attend the Synod of Béziers, refused a hearing for the charges of
+   attend the Synod of BÃ©ziers, refused a hearing for the charges of
    heresy which he wished to bring, and finally exiled, he had never, in
    word or writing, uttered any denunciation against his opponents, the
    Synagogue of Satan, who falsely claimed to be the Church of Christ. He
@@ -1681,13 +1682,13 @@ Hilary of Poitiers, John of Damascus
    from blaming those who associated or worshipped with the excommunicate.
    Setting all personal considerations on one side, he had laboured for a
    restoration of the Church through a general repentance. His reserve and
-   consistency (§ 3) is evidence that what he is about to say is not due
+   consistency (Â§ 3) is evidence that what he is about to say is not due
    to personal irritation. He speaks in the name of Christ, and his
    prolonged silence makes it his duty to speak plainly. It had been happy
-   for him had he lived in the days of Nero or Decius (§ 4). The Holy
+   for him had he lived in the days of Nero or Decius (Â§ 4). The Holy
    Spirit would have fired him to endure as did the martyrs of Scripture;
    torments and death would have been welcome. It would have been a fair
-   fight with an open enemy. But now (§ 5) Constantius was Antichrist, and
+   fight with an open enemy. But now (Â§ 5) Constantius was Antichrist, and
    waged his warfare by deceit and flattery. It was scourging then,
    pampering now; no longer freedom in prison, but slavery at court, and
    gold as deadly as the sword had been; martyrs no longer burnt at the
@@ -1696,16 +1697,16 @@ Hilary of Poitiers, John of Damascus
    severity to heretics, his reverence for bishops, his building of
    churches, is perverted to evil ends. He professes loyalty to Christ,
    but his constant aim is to prevent Christ from being honoured equally
-   with the Father. Hence (§ 6) it is a clear duty to speak out, as the
+   with the Father. Hence (Â§ 6) it is a clear duty to speak out, as the
    Baptist to Herod and the Maccabees to Antiochus. Constantius is
-   addressed (§ 7) in the words in which Hilary would have addressed Nero
+   addressed (Â§ 7) in the words in which Hilary would have addressed Nero
    or Decius or Maximian had he been arraigned before them, as the enemy
    of God and His Church, a persecutor and a tyrant. But he has a peculiar
    infamy, worse than theirs, for it is as a pretended Christian that he
    opposes Christ, imprisons bishops, overawes the Church by military
    force, threatens and starves one council (at Rimini) into submission,
    and frustrates the purpose of another (Seleucia) by sowing dissension.
-   To the pagan Emperors the Church owed a great debt (§ 8); the Martyrs
+   To the pagan Emperors the Church owed a great debt (Â§ 8); the Martyrs
    with whom they had enriched her were still working daily wonders,
    healing the sick, casting out evil spirits, suspending the law of
    gravitation [66] . But Constantius' guilt has no mitigation. A nominal
@@ -1713,14 +1714,14 @@ Hilary of Poitiers, John of Damascus
    his perversion cannot even plead bodily suffering as an excuse for
    their lapse. The devil is his father, from whom he has learnt his skill
    in misleading. He says to Christ, Lord, Lord, but shall not enter the
-   kingdom of heaven (§ 9), for he denies the Son, and therefore the
+   kingdom of heaven (Â§ 9), for he denies the Son, and therefore the
    fatherhood of God. The old persecutors were enemies of Christ only;
    Constantius insults the Father also, by making Him lie. He is a wolf in
-   sheep's clothing (§ 10). He loads the Church with the gold of the state
+   sheep's clothing (Â§ 10). He loads the Church with the gold of the state
    and the spoil of pagan temples; it is the kiss with which Judas
    betrayed his Master. The clergy receive immunities and remissions of
    taxation: it is to tempt them to deny Christ. He will only relate such
-   acts of Constantius' tyranny as affect the Church (§ 11). He will not
+   acts of Constantius' tyranny as affect the Church (Â§ 11). He will not
    press, for he does not know the offence alleged, his conduct in
    branding bishops on the forehead, as convicts, and setting them to
    labour in the mines. But he recounts his long course of oppression and
@@ -1737,20 +1738,20 @@ Hilary of Poitiers, John of Damascus
    had been shamefully maltreated, and gross irreverence committed in the
    Church. These are the deeds of Antichrist. Hitherto, Hilary has spoken
    of matters of public notoriety, though not of his own observation. Now
-   (§ 12) he comes to the Synod of Seleucia, at which he had been present.
+   (Â§ 12) he comes to the Synod of Seleucia, at which he had been present.
    He found there as many blasphemers as Constantius chose. Only the
    Egyptians, with the exception of George, the intruder into the See of
    Athanasius, were avowedly Homoousian. Yet of the one hundred and five
    bishops who professed the Homoeousian Creed, he found some piety in the
-   words of some.' But the Anomoeans were rank blasphemers; he gives, in §
+   words of some.' But the Anomoeans were rank blasphemers; he gives, in Â§
    13, words from a sermon by their leader, Eudoxius of Antioch, which
    were quoted by the opposition, and received with the abhorrence they
-   deserved. This party found (§ 14) that no toleration was to be expected
+   deserved. This party found (Â§ 14) that no toleration was to be expected
    for such doctrines, and so forged the Homoean creed, which condemned
    equally the homoousion, the homoiousion and the anomoion. Their
    insincerity in thus rejecting their own belief was manifest to the
    Council, and one of them, who canvassed Hilary's support, avowed blank
-   Arianism in the conversation. The large Homoeousian majority (§ 15)
+   Arianism in the conversation. The large Homoeousian majority (Â§ 15)
    deposed the authors of the Homoean confession, who flew for aid to
    Constantius, who received them with honour and allowed them to air
    their heresy. The tables were turned; the minority, aided by the
@@ -1759,26 +1760,26 @@ Hilary of Poitiers, John of Damascus
    the prefect, the bishops threatened within the palace walls; the chief
    cities of the East were provided with heretical Bishops. It was nothing
    less than making a present to the devil of the whole world for which
-   Christ died. Constantius professed (§ 16) that his aim was to abolish
+   Christ died. Constantius professed (Â§ 16) that his aim was to abolish
    unscriptural words. But what right had he to give orders to bishops or
    dictate the language of their sermons? A new disease needed new
    remedies; warfare was inevitable when fresh enemies arose. And, after
    all, the Homoean formula, like the Father,' was itself unscriptural.
-   Scripture is adduced (§ 17) by Hilary to prove that the Son is not
-   merely like, but equal to, the Father; and (§ 18) one in nature with
-   Him, having (§ 19) the form and the glory of God. This likeness' is a
-   trap (§ 20); chaff strewn on water, straw covering a pit, a hook hidden
+   Scripture is adduced (Â§ 17) by Hilary to prove that the Son is not
+   merely like, but equal to, the Father; and (Â§ 18) one in nature with
+   Him, having (Â§ 19) the form and the glory of God. This likeness' is a
+   trap (Â§ 20); chaff strewn on water, straw covering a pit, a hook hidden
    in the bait. The Catholic sense is the only true sense in which the
    word can be used, as is shewn more fully, by arguments to be found in
-   the De Trinitate, in §§ 21, 22. And now he asks Constantius (§ 23) the
+   the De Trinitate, in Â§Â§ 21, 22. And now he asks Constantius (Â§ 23) the
    plain question, what his creed is. He has made a hasty progress, by a
    steep descent, to the nethermost pit of blasphemy. He began with the
-   Faith, which deserved the name, of Nicæa; he changed it at Antioch. But
+   Faith, which deserved the name, of NicÃ¦a; he changed it at Antioch. But
    he was a clumsy builder; the structure he raised was always falling,
    and had to be constantly renewed; creed after creed had been framed,
    the safeguards and anathemas of which would have been needless had he
    remained steadfast to the Nicene. Hilary does not lament the creeds
-   which Constantius had abandoned (§ 24); they might be harmless in
+   which Constantius had abandoned (Â§ 24); they might be harmless in
    themselves, but they represented no real belief. Yet why should he
    reject his own creeds? There was no such reason for his discontent with
    them as there had been, in his heresy, for his rejection of the Nicene.
@@ -1791,17 +1792,17 @@ Hilary of Poitiers, John of Damascus
    returning to their vomit, to accept what they had rejected. So many had
    been the contradictory creeds that every one was now, or had been in
    the past, a heretic confessed. And this result had only been attained
-   (§ 26) by violence, as for instance in the cases of the Eastern and
+   (Â§ 26) by violence, as for instance in the cases of the Eastern and
    African bishops. The latter had committed to writing their sentence
    upon Ursacius and Valens; the Emperor had seized the document. It might
    go to the flames, as would Constantius himself, but the sentence was
-   registered with God. Other men (§ 27) had waged war with the living,
+   registered with God. Other men (Â§ 27) had waged war with the living,
    but Constantius extended his hostility to the dead; he contradicted the
    teaching of the saints, and his bishops rejected their predecessors, to
    whom they owed their orders, by denying their doctrine. The three
-   hundred and eighteen at Nicæa were anathema to him, and his own father
+   hundred and eighteen at NicÃ¦a were anathema to him, and his own father
    who had presided there. Yet though he might scorn the past, he could
-   not control the future. The truth defined at Nicæa had been solemnly
+   not control the future. The truth defined at NicÃ¦a had been solemnly
    committed to writing and remained, however Constantius might condemn
    it. Give ear,' Hilary concludes, to the holy meaning of the words, to
    the unalterable determination of the Church, to the faith which thy
@@ -2000,7 +2001,7 @@ Hilary of Poitiers, John of Damascus
    other Western theologian, the developed and clearly expressed thought
    of Three coequal Persons was strange. Since, then, the word and the
    thought were rarely present in his mind, we cannot accept as the title
-   of his work what is, after all, only a mediæval description.
+   of his work what is, after all, only a mediÃ¦val description.
 
    The composite character of the treatise, which must still for
    convenience be called the De Trinitate, is manifest. The beginnings of
@@ -2031,7 +2032,7 @@ Hilary of Poitiers, John of Damascus
    of the Old Testament. In the sixth book, for the reason already given,
    the Arian Creed is repeated, after a vivid account of the evils of the
    time, and the refutation continued by arguments from the New Testament.
-   In § 2 of this book there is further evidence of the composite
+   In Â§ 2 of this book there is further evidence of the composite
    character of the treatise. Hilary says that though in the first book he
    has already set out the Arian manifesto, yet he thinks good, as he is
    still dealing with it, to repeat it in this sixth. Hilary seems to have
@@ -2277,8 +2278,8 @@ Hilary of Poitiers, John of Damascus
    doubtless his effort was as sincere as his prayer. Had there been less
    effort, there would certainly, in the judgment of a modern reader, have
    been more success. But he could not foresee the future, and ingenious
-   affectations such as occur at the end of book viii. § 1, impietati
-   insolenti, et insolentiæ vaniloquæ, et vaniloquio seducenti, with the
+   affectations such as occur at the end of book viii. Â§ 1, impietati
+   insolenti, et insolentiÃ¦ vaniloquÃ¦, et vaniloquio seducenti, with the
    jingle of rhymes which follows, are too frequent for our taste in his
    pages [91] . Sometimes we find purple patches which remind us of the
    rhetoric of Apuleius [92] ; sometimes an excessive display of symmetry
@@ -2540,7 +2541,7 @@ Hilary of Poitiers, John of Damascus
    that his conduct furnished sufficient grounds for his punishment. The
    fall of its chief, Sulpicius Severus says, destroyed the party. The
    other Arian prelates, who must have been few in number, submitted to
-   the orthodox tests, with one exception. Paternus of Périgord, a man of
+   the orthodox tests, with one exception. Paternus of PÃ©rigord, a man of
    no fame, had the courage of his convictions. He stubbornly asserted his
    belief, and shared the fate of Saturninus. Thus Hilary obtained, what
    he had failed to get in the case of the more prominent offender, a
@@ -2644,7 +2645,7 @@ Hilary of Poitiers, John of Damascus
    others on the titles of Psalms 9 and 91, which are probably spurious
    [108] . Some more Homilies of uncertain origin which have been fathered
    upon Hilary, and may be found in the editions, may be left out of
-   account. In the Homily on Psalm 59, § 2, he mentions one, unknown to
+   account. In the Homily on Psalm 59, Â§ 2, he mentions one, unknown to
    Jerome as to ourselves, on Psalm 44; and this allusion, isolated though
    it is, suggests that the Homilies contained, or were meant to contain,
    a commentary on the whole Book of Psalms, composed in the order in
@@ -2655,7 +2656,7 @@ Hilary of Poitiers, John of Damascus
    continuous as well as complete. The incidental allusions to the events
    of the times contain nothing inconsistent with the supposition that he
    began at the beginning of the Psalter and went on to the end. We might,
-   indeed, construe the language of that on Psalm 52, § 13, concerning
+   indeed, construe the language of that on Psalm 52, Â§ 13, concerning
    prosperous clergy, who heap up wealth for themselves and live in
    luxury, as an allusion to men like Saturninus, but the passage is
    vague, and a vivid recollection, not a present evil, may have suggested
@@ -2663,8 +2664,8 @@ Hilary of Poitiers, John of Damascus
    Psalm 63, where heathenism is aggressive and is become a real danger,
    of which Hilary speaks in the same terms as he does of heresy. This
    contrasts strongly with such language as that of the Homily on Psalm
-   67, § 20, where the heathen are daily flocking into the Church, or of
-   that on Psalm 137, § 10, where paganism has collapsed, its temples are
+   67, Â§ 20, where the heathen are daily flocking into the Church, or of
+   that on Psalm 137, Â§ 10, where paganism has collapsed, its temples are
    ruined and its oracles silent; such words as the former could only have
    been written in the short reign of Julian. Other indications, such as
    the frequent warnings against heresy and denunciations of heretics, are
@@ -2676,7 +2677,7 @@ Hilary of Poitiers, John of Damascus
 
    He was conversing in pastoral intimacy with his people, and hence we
    cannot be surprised that he draws, perhaps unconsciously, on the
-   results of his own previous labours. For instance, on Psalm 61, § 2, he
+   results of his own previous labours. For instance, on Psalm 61, Â§ 2, he
    gives what is evidently a reminiscence, yet with features of its own
    and not as a professed autobiography, of his mental history as
    described in the opening of the De Trinitate. And while the direct
@@ -2690,7 +2691,7 @@ Hilary of Poitiers, John of Damascus
    more perfect form. But the Homilies contain much that is of far less
    permanent interest. Wherever he can [109] , he brings in the mystical
    interpretation of numbers, that strange vagary of the Eastern mind
-   which had, at least from the time of Irenæus and the Epistle of
+   which had, at least from the time of IrenÃ¦us and the Epistle of
    Barnabas, found a congenial home in Christian thought. This and other
    distortions of the sense of Scripture, which are the result in Hilary,
    as in Origen, of a prosaic rather than a poetical turn of mind, will
@@ -2718,8 +2719,8 @@ Hilary of Poitiers, John of Damascus
    work. Yet other authors have been consulted, and this not only for
    general information, as in the case, already cited, of the elder Pliny,
    but for interpretation of the Psalms. For instance, a strange legend
-   concerning Mount Hermon is cited on Psalm 132, § 6, from a writer whose
-   name Hilary does not know; and on Psalm 133, § 4, he has consulted
+   concerning Mount Hermon is cited on Psalm 132, Â§ 6, from a writer whose
+   name Hilary does not know; and on Psalm 133, Â§ 4, he has consulted
    several writers and rejects the opinion of them all. But these
    authorities, whoever they may have been, were of little importance for
    his purpose in comparison with Origen. Still we can only accept
@@ -2737,7 +2738,7 @@ Hilary of Poitiers, John of Damascus
 
    Unhappily the remains of Origen's work upon the Psalms, though
    considerable, are fragmentary, and of the fragments scattered through
-   Catenæ no complete or critical edition has yet been made. Still,
+   CatenÃ¦ no complete or critical edition has yet been made. Still,
    insufficient as the material would be for a detailed study and
    comparison, enough survives to enable us to form a general idea of the
    relation between the two writers. Origen [113] composed Homilies upon
@@ -2748,13 +2749,13 @@ Hilary of Poitiers, John of Damascus
    survive, all treat of Psalms on which Hilary's Homilies are lost. But
    it is doubtful whether Hilary knew the other writings of Origen upon
    the Psalter. We have ourselves a very small knowledge of them, for the
-   Catenæ are not in the habit of giving more than the name of the author
+   CatenÃ¦ are not in the habit of giving more than the name of the author
    whom they cite. Yet it may well be that some of the apparent
    discrepancies between the explanations given by Hilary and by Origen
    are due to the loss of the passage from Origen's Homily which would
    have agreed with Hilary, and to the survival of the different rendering
    given in the Commentary or the Enchiridion; some, no doubt, are also
-   due to the carelessness and even dishonesty of the compilers of Catenæ
+   due to the carelessness and even dishonesty of the compilers of CatenÃ¦
    in stating the authorship of their selections. But though it is
    possible that Hilary had access to all Origen's writings on the Psalms,
    there is no reason to suppose that he possessed a copy of his Hexapla.
@@ -2768,7 +2769,7 @@ Hilary of Poitiers, John of Damascus
    A comparison of the two writers shews the closeness of their relation,
    and if we had Origen's complete Homilies, and not mere excerpts, the
    debt of Hilary would certainly be still more manifest. For the
-   compilers of Catenæ have naturally selected what was best in Origen,
+   compilers of CatenÃ¦ have naturally selected what was best in Origen,
    and most suited for short extracts; his eccentricities have been in
    great measure omitted. Hence we may err in attributing to Hilary much
    that is perverse in his comments; there is an abundance of wild
@@ -2800,7 +2801,7 @@ Hilary of Poitiers, John of Damascus
    that he has in his mind, and is refuting for his own satisfaction, an
    alternative which he does not think good to lay before his audience
    [118] . A similar liberty with his original occurs in the Homily on
-   Psalm 135, § 12:--The purposes of the present discourse and of this
+   Psalm 135, Â§ 12:--The purposes of the present discourse and of this
    place forbid us to search more deeply.' This must have seemed a
    commonplace to his hearers; but it happens that Origen's speculations
    upon the passage have survived, and we can see that Hilary was rather
@@ -2892,7 +2893,7 @@ Hilary of Poitiers, John of Damascus
    historical interest as well as their intrinsic value commands our
    respect.
 
-   In his Homily on Psalm 138, § 4, Hilary briefly mentions the Patriarchs
+   In his Homily on Psalm 138, Â§ 4, Hilary briefly mentions the Patriarchs
    as examples of faith and adds, but these are matters of which we must
    discourse more suitably and fully in their proper place.' This is a
    promise to which till of late no known work of our writer corresponded.
@@ -2966,15 +2967,15 @@ Hilary of Poitiers, John of Damascus
    hymns which we must consider.
 
    Hilary's own opinion concerning the use of hymns can best be learnt
-   from his Homilies of Psalms 64 and 65. In the former (§ 12) the
+   from his Homilies of Psalms 64 and 65. In the former (Â§ 12) the
    Church's delightful exercise of singing hymns at morning and evening is
    one of the chief tokens which she has of God's mercy towards her. In
-   the latter (§ 1) we are told that sacred song requires the
+   the latter (Â§ 1) we are told that sacred song requires the
    accompaniment of instrumental harmonies; that the combination to this
    end of different forms of service and of art produces a result
    acceptable to God. The lifting of the voice to God in exultation, as an
    act of spiritual warfare against the devil and his hosts, is given as
-   an example of the uses of hymnody (§ 4). It is a means of putting the
+   an example of the uses of hymnody (Â§ 4). It is a means of putting the
    enemy to flight; Whoever he be that takes his post outside the Church,
    let him hear the voice of the people at their prayers, let him mark the
    multitudinous sound of our hymns, and in the performance of the divine
@@ -3187,7 +3188,7 @@ Hilary of Poitiers, John of Damascus
    escaped from this difficulty by a complete surrender, to which Hilary
    pinned him down by making him sign an orthodox confession, in terms to
    which he had several times agreed during the course of the debate; that
-   Hilary remitted this confession through the Quæstor, the lay president
+   Hilary remitted this confession through the QuÃ¦stor, the lay president
    of the commission, to the Emperor. This document, which Hilary says
    that he appended to his explanatory letter, is unfortunately lost. The
    brief account of the matter which Auxentius gives is not inconsistent
@@ -3308,11 +3309,11 @@ Hilary of Poitiers, John of Damascus
    as they were by the forerunners of Antichrist, who boasted of the
    peace, in other words of the harmonious concurrence in blasphemy, which
    they had brought about. They bear themselves not as bishops of Christ
-   but as priests of Antichrist. This is not random abuse (§ 2), but sober
+   but as priests of Antichrist. This is not random abuse (Â§ 2), but sober
    recognition of the fact, stated by St. John, that there are many
    Antichrists. For these men assume the cloak of piety, and pretend to
    preach the Gospel, with the one object of inducing others to deny
-   Christ. It was (§ 3) the misery and folly of the day that men
+   Christ. It was (Â§ 3) the misery and folly of the day that men
    endeavoured to promote the cause of God by human means and the favour
    of the world. Hilary asks bishops, who believe in their office, whether
    the Apostles had secular support when by their preaching they converted
@@ -3326,7 +3327,7 @@ Hilary of Poitiers, John of Damascus
    monarch visited, it might be said, every village and every tribe. Yet
    it was these rebels who had the keys of the Kingdom of Heaven; the more
    they were forbidden, the more they preached, and the power of God was
-   made manifest. But now (§ 4) the Faith finds favour with men.
+   made manifest. But now (Â§ 4) the Faith finds favour with men.
 
    The Church seeks for secular support, and in so doing insults Christ by
    the implication that his support is insufficient. She in her turn holds
@@ -3343,26 +3344,26 @@ Hilary of Poitiers, John of Damascus
    conflicting opinions of the time, the doctrine of Arius and of his
    heirs, Valens, Ursacius, Auxentius and their fellows. Their preaching
    of novelties concerning Christ is the work of Antichrist, who is using
-   them to introduce his own worship. This is proved (§ 6) by a statement
+   them to introduce his own worship. This is proved (Â§ 6) by a statement
    of their minimising and prevaricating doctrine, which has, however,
-   made no impression upon the guileless and well-meaning laity. Then (§§
+   made no impression upon the guileless and well-meaning laity. Then (Â§Â§
    7-9) comes Hilary's account of his proceedings at Milan, strongly
    coloured by the intensity of his feelings. The Emperor's first refusal
    to interfere with Auxentius is a command that the Church of the
    Milanese, which confesses that Christ is true God, of one divinity and
    substance with the Father, should be thrown into confusion under the
    pretext, and with the desire, of unity.' The canons of Rimini are
-   described as those of the Thracian Nicæa; Auxentius' protest that he
+   described as those of the Thracian NicÃ¦a; Auxentius' protest that he
    had never known Arius is met by the assertion that he had been ordained
    to the presbyterate in an Arian Church under George of Alexandria.
    Hilary refuses to discuss the Council of Rimini; it had been
    universally and righteously repudiated. His ejection from Milan, in
    spite of his protests that Auxentius was a liar and a renegade, is a
-   revelation of the mystery of ungodliness. For Auxentius (§§ 10, 11) had
+   revelation of the mystery of ungodliness. For Auxentius (Â§Â§ 10, 11) had
    spoken with two contrary voices; the one that of the confession which
    Hilary had driven him to sign, the other that of Rimini. His skill in
    words could deceive even the elect, but he had been clearly exposed.
-   Finally (§ 12) Hilary regrets that he cannot state the case to each
+   Finally (Â§ 12) Hilary regrets that he cannot state the case to each
    bishop and Church in person. He begs them to make the best of his
    letter; he dares not make it fully intelligible by circulating with it
    the Arian blasphemies which he had assailed. He bids them beware of
@@ -3376,7 +3377,7 @@ Hilary of Poitiers, John of Damascus
    already, a heretic by public advertisement, let him direct, at his
    will, the wrath of the mighty against me; yet, being an Arian, he shall
    be nothing less than a devil in my eyes. Never will I desire peace
-   except with them who, following the doctrine of our fathers at Nicæa,
+   except with them who, following the doctrine of our fathers at NicÃ¦a,
    shall make the Arians anathema and proclaim the true divinity of
    Christ.'
 
@@ -3390,7 +3391,7 @@ Hilary of Poitiers, John of Damascus
    whom he could wish to win had given in their adhesion; Auxentius and
    the few who held with him, if such there were, were irreconcilable.
    They took their stand upon the Council of Rimini, and their opponents
-   found in the doctrine of Nicæa the clear and uncompromising challenge
+   found in the doctrine of NicÃ¦a the clear and uncompromising challenge
    which was necessary for effective warfare. But if Hilary's doctrinal
    position is definite, his theory of the relations of church and State,
    if indeed his indignation allowed him to think of them, is obscure. An
@@ -3409,7 +3410,7 @@ Hilary of Poitiers, John of Damascus
    The time had not come, if it ever can come, for the solution of such
    problems. Meantime Hilary did his best, so far as words could do it, to
    brush aside the sophistries behind which Auxentius was defending
-   himself. The doctrine of Rimini is named that of Nicæa, in Thrace,
+   himself. The doctrine of Rimini is named that of NicÃ¦a, in Thrace,
    where the discreditable and insignificant assembly met in which its
    terms were settled; the Church of Alexandria under the intruder George
    is frankly called Arian. It was an appeal to the future as well as an
@@ -3468,19 +3469,19 @@ Hilary of Poitiers, John of Damascus
    which we owe a considerable part of our general knowledge of the time,
    though they tell us comparatively little of his own career. The
    commencement of the work has happily survived, and from it we learn the
-   spirit in which he wrote. He begins (Fragment i. §§ 1, 2) with an
+   spirit in which he wrote. He begins (Fragment i. Â§Â§ 1, 2) with an
    exposition of St. Paul's doctrine of faith, hope, and love. He
    testifies, with the Apostle, that the last is the greatest. The
    inseparable bond, of which he is conscious, of God's love for him and
    his for God, has detached him from worldly interests. He, like others
-   (§ 3), might have enjoyed ease and prosperity and imperial friendship,
+   (Â§ 3), might have enjoyed ease and prosperity and imperial friendship,
    and have been, as they were, a bishop only in name and a burden upon
    the Church. But the condition imposed was that of tampering with Gospel
    truths, wilful blindness to oppression and the condonation of tyranny.
    Public opinion, ill-informed and unused to theological subtleties,
    would not have observed the change. But it would have been a cowardly
    declension from the love of Christ to which he could not stoop. He
-   feels (§ 4) the difficulty of the task he undertakes. The devil and the
+   feels (Â§ 4) the difficulty of the task he undertakes. The devil and the
    heretics had done their worst, multitudes had been terrified into
    denial of their convictions. The story was complicated by the ingenuity
    in evil of the plotters, and evidence was difficult to obtain. The
@@ -3491,19 +3492,19 @@ Hilary of Poitiers, John of Damascus
    in the public mind the belief that the exiled bishops had suffered
    merely for refusing to condemn Athanasius; that they were inspired by
    obstinacy, not by principle. Out of reverence for the Emperor, whose
-   throne is from God (§ 5), Hilary will not comment upon his usurped
+   throne is from God (Â§ 5), Hilary will not comment upon his usurped
    jurisdiction over a bishop, nor on the manner in which it was
    exercised; nor yet on the injustice whereby bishops were forced to pass
    sentence upon the accused in his absence. In this volume he will give
    the true causes of trouble, in comparison of which such tyranny,
    grievous though it be, is of small account. Once before--this, no
-   doubt, was at Béziers--he had spoken his mind upon the matter. But that
+   doubt, was at BÃ©ziers--he had spoken his mind upon the matter. But that
    was a hasty and unprepared utterance, delivered to an audience as eager
-   to silence him as he was to speak. He will, therefore (§ 6), give a
+   to silence him as he was to speak. He will, therefore (Â§ 6), give a
    full and consecutive narrative of events from the council of Arles
    onwards, with such an account of the question there debated as will
    shew the true merits of Paulinus, and make it clear that nothing less
-   than the Faith was at stake. He ends his introduction (§ 7) by warning
+   than the Faith was at stake. He ends his introduction (Â§ 7) by warning
    the reader that this is a work which needs to be seriously studied. The
    multitude of letters and of synods which he must adduce will merely
    confuse and disgust him, if he do not bear in mind the dates and the
@@ -3613,7 +3614,7 @@ Hilary of Poitiers, John of Damascus
    discussed on a later page.
 
    [3] The latest date which I have seen assigned for his birth is 320, by
-   Fechtrup, in Wetzer-Welte's Encyclopædia. But this is surely
+   Fechtrup, in Wetzer-Welte's EncyclopÃ¦dia. But this is surely
    inconsistent with his styling Ursacius and Valens, in his first Epistle
    to Constantine, ignorant and unprincipled youths.' This was written
    about the year 355 before Hilary knew much of the Arian controversy or
@@ -3624,7 +3625,7 @@ Hilary of Poitiers, John of Damascus
    only some thirty-five years of age; at fifty-five they are natural
    enough.
 
-   [4] It is impossible to agree with Zingerle (Comment. Wölfflin. p. 218)
+   [4] It is impossible to agree with Zingerle (Comment. WÃ¶lfflin. p. 218)
    that Hilary was under the necessity of using a Greek and Latin
    Glossary. Such a passage as Tract. in Ps. cxxxviii. 43, to which he
    appeals, shows rather the extent than the smallness of Hilary's
@@ -3665,7 +3666,7 @@ Hilary of Poitiers, John of Damascus
    [12] Trin. ii. 22.
 
    [13] Trin. x. 14. This is a very remarkable allusion. Celsus, vii.
-   præf., confidently assumes that all surgical operation must be painful.
+   prÃ¦f., confidently assumes that all surgical operation must be painful.
 
    [14] Comm. in Matt. xxi. 8.
 
@@ -3686,18 +3687,18 @@ Hilary of Poitiers, John of Damascus
    [21] Hilary's legendary daughter Abra, to whom he is said to have
    written a letter printed in the editions of his works, is now generally
    abandoned by the best authorities, e.g. by Fechtrup, the writer, in
-   Wetzer-Welte's Encyclopædia, of the best short life of Hilary.
+   Wetzer-Welte's EncyclopÃ¦dia, of the best short life of Hilary.
 
    [22] De Doctr. Chr. ii. 40.
 
    [23] Trin. viii. 13-17.
 
-   [24] This is on the assumption, which seems probable, that Irenæus was
+   [24] This is on the assumption, which seems probable, that IrenÃ¦us was
    not yet translated from the Greek. He certainly influenced Tertullian,
    and through him Hilary; and his doctrine of the recapitulation of
    mankind in Christ, reappearing as it does in Hilary, though not in
    Tertullian, suggests that our writer had made an independent study of
-   Irenæus. Even if the present wretched translation existed, he would
+   IrenÃ¦us. Even if the present wretched translation existed, he would
    certainly read the Greek.
 
    [25] Dr. Bigg's Bampton Lectures upon them are full of hints for the
@@ -3724,7 +3725,7 @@ Hilary of Poitiers, John of Damascus
    Marcellus' teaching in xi. 9, which, however, may equally well be a
    reminiscence of some cognate earlier heresy.
 
-   [32] Maffei's Introduction, §15.
+   [32] Maffei's Introduction, Â§15.
 
    [33] xxxi. 3, penes quem erat antequam nasceretur
 
@@ -3747,7 +3748,7 @@ Hilary of Poitiers, John of Damascus
    [40] The Apologia contra Arianos, p. 100 ff. in Dr. Robertson's
    translation.
 
-   [41] Origines du culte chrétien, p. 88.
+   [41] Origines du culte chrÃ©tien, p. 88.
 
    [42] Gwatkin, Studies of Arianism, p. 134.
 
@@ -3761,8 +3762,8 @@ Hilary of Poitiers, John of Damascus
    the African decision in Pelagius' case. But the West was ignorant, as
    well as jealous, of the East. Even in his last years, after his sojourn
    in Asia Minor, Hilary believed that Jerusalem was, as had been
-   prophesied, an uninhabited ruin; Tr. in Ps. cxxiv. § 2, cxxxi. §§ 18,
-   23, cxlvi. § 1.
+   prophesied, an uninhabited ruin; Tr. in Ps. cxxiv. Â§ 2, cxxxi. Â§Â§ 18,
+   23, cxlvi. Â§ 1.
 
    [46] Chron. ii. 39.
 
@@ -3806,7 +3807,7 @@ Hilary of Poitiers, John of Damascus
 
    [59] Sulp. Sev. Chron. ii. 42.
 
-   [60] Sulp. Sev. ii. 42, iuxta ea, quæ Nicææ erant a patribus
+   [60] Sulp. Sev. ii. 42, iuxta ea, quÃ¦ NicÃ¦Ã¦ erant a patribus
    conscripta.
 
    [61] Sulpicius Severus, Chron. ii. 45, says that he addressed at this
@@ -3821,7 +3822,7 @@ Hilary of Poitiers, John of Damascus
    [64] It is true that the Nicene Council is not named here, but the
    allusion is obvious. The Conservatives had actually objected to the
    novelty of the Creed; and the Arians had, as Hilary goes on to say,
-   used the pretext of novelty to destroy the Gospel. The Council of Nicæa
+   used the pretext of novelty to destroy the Gospel. The Council of NicÃ¦a
    was thirty-five years before, and is very accurately described as a
    Synod of our fathers.'
 
@@ -3854,7 +3855,7 @@ Hilary of Poitiers, John of Damascus
    falsehoods in Walker's Sufferings of the Clergy, and in Neal's
    Puritans, which were eagerly believed in and after our own Civil War.
 
-   [69] Hilary had previously (§ 27) asserted that the Apostle has taught
+   [69] Hilary had previously (Â§ 27) asserted that the Apostle has taught
    us to communicate with the tombs of the saints.' This is an allusion to
    Rom. xii. 13, with the strange reading tombs' for necessities' (mneiais
    for chreiais), which has, in fact, considerable authority in the mss.
@@ -3942,7 +3943,7 @@ Hilary of Poitiers, John of Damascus
 
    [100] E.g. i. 17.
 
-   [101] Cf. Krüger, Lucifer Bischof von Calaris, p. 39.
+   [101] Cf. KrÃ¼ger, Lucifer Bischof von Calaris, p. 39.
 
    [102] Fragment xi.
 
@@ -3962,12 +3963,12 @@ Hilary of Poitiers, John of Damascus
    only term, used so early as this for the bishop's address to the
    congregation; in fact, one might almost say that tractare, tractatus in
    Christian language had no other meaning. It is an anachronism in the
-   fourth century to render prædicare by preach;' cf. Duchesne, Liber
+   fourth century to render prÃ¦dicare by preach;' cf. Duchesne, Liber
    Pontificalis, i. 126.
 
    [106] E.g. fundamen, Tr. in Ps. cxxviii. 10, germen, cxxxiv. 1,
    revolubilis, ii. 23, peccamen, ii. 9 fin. and often. The shape of
-   sentences, though simple, is always good; to take one test word, sæpe,
+   sentences, though simple, is always good; to take one test word, sÃ¦pe,
    which was almost if not quite extinct in common use, occurs fairly
    often near the end of a period, where it was needed for rhythm, which
    frequenter would have spoiled. Some Psalms, e.g. xiii., xiv., are
@@ -3981,7 +3982,7 @@ Hilary of Poitiers, John of Damascus
    [108] So Zingerle, Preface, p. xiv, to whom we owe the excellent Vienna
    Edition of the Homilies, the only part of Hilary's writing which has as
    yet appeared in a critical text. The writer of the former of these two
-   Homilies, in § 2, says that the title of a Psalm always corresponds to
+   Homilies, in Â§ 2, says that the title of a Psalm always corresponds to
    the contents. This is quite contrary to Hilary's teaching, who
    frequently points out and ingeniously explains what seem to him, to be
    discrepancies.
@@ -3989,12 +3990,12 @@ Hilary of Poitiers, John of Damascus
    [109] E.g. in the Instruction or discourse preparatory to the Homilies,
    and in the introductory sections of that on Ps. 118 (119).
 
-   [110] E.g. Instr. in Ps., § 12, the fifty days of rejoicing during
+   [110] E.g. Instr. in Ps., Â§ 12, the fifty days of rejoicing during
    which Christians must not prostrate themselves in prayer, nor fast.
 
-   [111] Ps. 118, Ain., § 16.
+   [111] Ps. 118, Ain., Â§ 16.
 
-   [112] The account of exorcism given on Ps. 64, § 10, suggests Cyprian,
+   [112] The account of exorcism given on Ps. 64, Â§ 10, suggests Cyprian,
    Ad. Don. 5, but the subject is such a commonplace that nothing definite
    can be said.
 
@@ -4003,37 +4004,37 @@ Hilary of Poitiers, John of Damascus
    fourth of Dr. Bigg's Bampton Lectures, The Christian Platonists of
    Alexandria.
 
-   [114] Hil. Tr. in Ps. 13, § 3, his igitur ita grassantibus, sq. =
+   [114] Hil. Tr. in Ps. 13, Â§ 3, his igitur ita grassantibus, sq. =
    Origen (ed. Lommatzsch) xii. 38.
 
-   [115] E.g. Instr. in Ps., § 15 = Origen in Eusebius, H.E. vi. 25
-   (Philocalia 3), Hilary on Ps. 51, §§ 3, 7 = Origen xii. 353, 354, and
+   [115] E.g. Instr. in Ps., Â§ 15 = Origen in Eusebius, H.E. vi. 25
+   (Philocalia 3), Hilary on Ps. 51, Â§Â§ 3, 7 = Origen xii. 353, 354, and
    very often on Ps. 118 (119), e.g. the Introduction = Or. xiii. 67 f.,
-   Aleph, § 12 = ib. 70, Beth, § 6 = ib. 71, Caph, §§ 4, 9 = ib. 82, 83,
+   Aleph, Â§ 12 = ib. 70, Beth, Â§ 6 = ib. 71, Caph, Â§Â§ 4, 9 = ib. 82, 83,
    &c.
 
-   [116] Hæres. 64, 12 f.
+   [116] HÃ¦res. 64, 12 f.
 
    [117] Origen xiii. 134. Hilary has omitted this from his Homily on Ps.
-   134, § 12.
+   134, Â§ 12.
 
-   [118] Instances of such independence are Ps. 118, Daleth, § 6 (xiii.
-   74), 119, § 15 (ib. 108), 122, § 2 (ib. 112), 133, § 3 (ib. 131). The
+   [118] Instances of such independence are Ps. 118, Daleth, Â§ 6 (xiii.
+   74), 119, Â§ 15 (ib. 108), 122, Â§ 2 (ib. 112), 133, Â§ 3 (ib. 131). The
    references to Origen are in brackets.
 
-   [119] E.g. Ps. 118, Heth, § 10, 121, § 1; Origen xiii. 80, 111.
+   [119] E.g. Ps. 118, Heth, Â§ 10, 121, Â§ 1; Origen xiii. 80, 111.
 
-   [120] Ps. 118, Gimel, § 21.
+   [120] Ps. 118, Gimel, Â§ 21.
 
-   [121] Origen xiii. 72; Hilary, Ps. 118, Gimel, § 1.
+   [121] Origen xiii. 72; Hilary, Ps. 118, Gimel, Â§ 1.
 
-   [122] Cf. also Ps. 118, Heth, § 7, Koph, § 4, with Origen xiii. 79, 98.
+   [122] Cf. also Ps. 118, Heth, Â§ 7, Koph, Â§ 4, with Origen xiii. 79, 98.
    Here again the spirit of independence manifests itself towards the end
    of the work.
 
-   [123] Cf. Ps. 118, Samech, § 6; Origen xiii. 92.
+   [123] Cf. Ps. 118, Samech, Â§ 6; Origen xiii. 92.
 
-   [124] Ps. 143, § 4; Origen xiii. 149.
+   [124] Ps. 143, Â§ 4; Origen xiii. 149.
 
    [125] Vir. Ill. 100.
 
@@ -4075,10 +4076,10 @@ Hilary of Poitiers, John of Damascus
    tantas penitus credulus assequi, ut incorporeo ex Deo profectus fuerit
    primogenitus Dei. It is written in stanzas of six lines in the ms.; the
    metre is the second Asclepiad. Gamurrini, the discoverer, and Fechtrup
-   (in Wetzer-Welte's Encyclopædia) regard it as the work of Hilary, but
+   (in Wetzer-Welte's EncyclopÃ¦dia) regard it as the work of Hilary, but
    the weight of opinion is against them.
 
-   [135] By Gamurrini in Studì e documenti, 1884, p. 83 f.
+   [135] By Gamurrini in StudÃ¬ e documenti, 1884, p. 83 f.
 
    [136] Printed in full by Mai, Patrum Nova Bibliotheca, p. 490. He
    suspends judgment, and will not say that it is unworthy of Hilary. The
@@ -4094,10 +4095,10 @@ Hilary of Poitiers, John of Damascus
    [138] In Mai's Patrum Nova Bibliotheca, vol. i., is a short treatise on
    the Genealogies of Christ. The method of interpretation is the same as
    Hilary's, but the language is not his; and the terms used of the Virgin
-   in §§ 11, 12, are not as early as the fourth century. In the same
+   in Â§Â§ 11, 12, are not as early as the fourth century. In the same
    volume is an exposition of the beginning of St. John's Gospel in an
    anti-Arian sense. In spite of some difference of vocabulary, there is
-   no strong reason why this should not be by Hilary; cf. especially, §§
+   no strong reason why this should not be by Hilary; cf. especially, Â§Â§
    5-7. Mai also prints in the same volume a short fragment on the
    Paralytic (St. Matt. ix. 2), too brief for a judgment to be formed. In
    Pitra's Spicilegium Solesmense, vol. i., is a brief discussion on the
@@ -4116,9 +4117,9 @@ Hilary of Poitiers, John of Damascus
    published in the Spicilegium Casinense, vol. iii., is there attributed,
    with much reason, to his namesake of Arles.
 
-   [139] Contra Auxentium, §7.
+   [139] Contra Auxentium, Â§7.
 
-   [140] It is clear from Hilary's account (Contra Auxentium, § 7) that
+   [140] It is clear from Hilary's account (Contra Auxentium, Â§ 7) that
    the decision lay with the laymen. Auxentius, in his account of the
    matter, does not even mention the bishops.
 
@@ -4126,18 +4127,18 @@ Hilary of Poitiers, John of Damascus
    400, and probably were less and we must remember that the Homoean
    decision was only obtained by fraud, as Auxentius well knew.
 
-   [142] §4.
+   [142] Â§4.
 
    [143] There are fifteen in the collection, but the second and third
    which are as long as the rest together, and are obviously extracts from
-   the same work, are not by Hilary. He expressly says (Fragm. i. § 6)
+   the same work, are not by Hilary. He expressly says (Fragm. i. Â§ 6)
    that he will commence with the council of Arles and the exile of
    Paulinus. These documents narrate at great length events which began
    six years earlier, and with which Hilary and his province had no direct
    concern. This proves that the fragments are not a portion of the Liber
    adversus Ursacium et Valentem. Internal evidence proves not less
    clearly that they cannot be excerpts from some other work of Hilary. In
-   Fragm. ii. § 21 we are told that apparently in the year 349, Athanasius
+   Fragm. ii. Â§ 21 we are told that apparently in the year 349, Athanasius
    excommunicated Marcellus of Ancyra. It is of course, notorious that he
    never did so; the mistake is one which Hilary could not possibly have
    made. None the less, these fragments are both in themselves and in the
@@ -4399,7 +4400,7 @@ Hilary of Poitiers, John of Damascus
    whether he would or not [168] , yet it is certain that his hearty,
    though not indiscriminate [169] , acceptance of the method led to its
    general adoption in the West. Tertullian and Cyprian had made no great
-   use of such speculations; Irenæus probably had little influence. It was
+   use of such speculations; IrenÃ¦us probably had little influence. It was
    the introduction of Origen's thought to Latin Christendom by Hilary and
    his contemporaries which set the fashion, and none of them can have had
    such influence as Hilary himself. It is a strange irony of fate that so
@@ -4657,7 +4658,7 @@ Hilary of Poitiers, John of Damascus
    the error which he and Paul of Samosata had taught, that God is one
    Person, was still the most dangerous of falsehoods; the supreme victory
    of truth had not been won in their eyes when Arius was condemned at
-   Nicæa, but when Paul was deposed at Antioch. The Nicene leaders had
+   NicÃ¦a, but when Paul was deposed at Antioch. The Nicene leaders had
    certainly counted the cost when they adopted as the test of orthodoxy
    the same word which Paul had used for the inculcation of error. But the
    homoousion, however great its value as a permanent safeguard of truth,
@@ -4995,7 +4996,7 @@ Hilary of Poitiers, John of Damascus
    exclusive. This represents the higher form, that of God, as something
    more than a dress or appearance which could be changed or masked; and
    stronger still is the language used in the Homily on Psalm xviii. There
-   (§ 4) he speaks of Christ being exhausted of His heavenly nature, this
+   (Â§ 4) he speaks of Christ being exhausted of His heavenly nature, this
    being used as a synonym for the form of God, and even of His being
    emptied of His substance. But it is probable that the Homily has
    descended to us, without revision by its author, in the very words
@@ -5629,12 +5630,12 @@ Hilary of Poitiers, John of Damascus
    he received from Origen's vagueness, representative as it was of the
    average theology of the third century, must have predisposed him to
    give weight to the practical consideration. Yet Hilary has not avoided
-   a formal statement of his belief. In Trin. ii. §§ 29-35, which is, as
+   a formal statement of his belief. In Trin. ii. Â§Â§ 29-35, which is, as
    we saw, part of a summary statement of the Christian Faith, he sets it
    forth with Scripture proofs. But he shows clearly, by the short space
    he allows to it, that it is not in his eyes of co-ordinate importance
    with the other truths of which he treats. And the curious language in
-   which he introduces the subject, in § 29, seems to imply that he throws
+   which he introduces the subject, in Â§ 29, seems to imply that he throws
    it in to satisfy others rather than from his own sense of its necessary
    place in such a statement. The doctrine, as he here defines it, is that
    the Holy Spirit undoubtedly exists; the Father and the Son are the
@@ -5647,7 +5648,7 @@ Hilary of Poitiers, John of Damascus
    relation to us. It is through Him that we know God. Our nature is
    capable of knowing Him, as the eye is capable of sight; and the gift of
    the Spirit is to the soul what the gift of light is to the eye. Again,
-   in xii. §§ 55, 56, the subject is introduced, as if by an after
+   in xii. Â§Â§ 55, 56, the subject is introduced, as if by an after
    thought, and even more briefly than in the second book. As he has
    refused to style the Son a creature, so he refuses to give that name to
    the Spirit, Who has gone forth from God, and been sent by Christ. The
@@ -5657,7 +5658,7 @@ Hilary of Poitiers, John of Damascus
    men, is the proof of His oneness in nature with God. The Spirit speaks
    unutterable things and is ineffable in His operation. Hilary cannot
    define, yet he believes. It must suffice to say, with the Apostle,
-   simply that He is the Spirit of God. The tone of § 56 seems that of
+   simply that He is the Spirit of God. The tone of Â§ 56 seems that of
    silent rebuke to some excess of definition, as he would deem it, of
    which he had heard. To these passages must be added another in Trin.
    viii. 19 f., where the possession by Father and Son of one Spirit is
@@ -5778,7 +5779,7 @@ Hilary of Poitiers, John of Damascus
    error of belief, like a key moving in a lock with whose wards it does
    not correspond, forbids all access to the nature and the grace of God.
    A good example of his relative estimate of intellectual and moral
-   offences occurs in the Homily on Psalm i. §§ 6-8, where it is
+   offences occurs in the Homily on Psalm i. Â§Â§ 6-8, where it is
    noteworthy that he does not trace back the former to moral causes [366]
    .
 
@@ -6380,12 +6381,12 @@ Hilary of Poitiers, John of Damascus
      __________________________________________________________________
 
    [146] Those which have been in constant use in the preparation of this
-   chapter have been an excellent article by Th. Förster in the
+   chapter have been an excellent article by Th. FÃ¶rster in the
    Theologische Studien und Kritiken for 1888, p. 645 ff., and two full
    and valuable papers by Dr. Baltzer on the Theologie and Christologie of
    Hilary in the Programm of the Rottweil Gymnasium for 1879 and 1889
-   respectively. I have unfortunately not had access to Wirthmüller's
-   work, Die Lehre d. hl. Hil. über die Selbstentäusserung Christi, but
+   respectively. I have unfortunately not had access to WirthmÃ¼ller's
+   work, Die Lehre d. hl. Hil. Ã¼ber die SelbstentÃ¤usserung Christi, but
    the citations in Baltzer and Schwane give some clue to its contents.
    The Introduction to the Benedictine edition is useful, though its value
    is lessened by an evident desire to make Hilary conform to the accepted
@@ -6418,7 +6419,7 @@ Hilary of Poitiers, John of Damascus
 
    [154] Tr. in Ps. cxxxviii. 3.
 
-   [155] Trin. ix. 62. There is a similar argument in § 63.
+   [155] Trin. ix. 62. There is a similar argument in Â§ 63.
 
    [156] E.g. Tr. in Ps. cxxv. 1.
 
@@ -6466,7 +6467,7 @@ Hilary of Poitiers, John of Damascus
    Athanasian, of vii. 31.
 
    [174] Beside the passages mentioned on p. xxx., it only occurs in
-   Instructio Psalmorum § 13.
+   Instructio Psalmorum Â§ 13.
 
    [175] The translation of the De Trinitate in this volume may give a
    somewhat false impression in this respect. For the sake of conciseness
@@ -6496,9 +6497,9 @@ Hilary of Poitiers, John of Damascus
 
    [179] Tr. in Ps. cxxxi. 6, The supreme achievement of Christ was to
    render man, instructed in the knowledge of God, worthy to be God's
-   dwelling-place;' cf. ib. § 23.
+   dwelling-place;' cf. ib. Â§ 23.
 
-   [180] Tr. in Ps.cxviii, Aleph., § 1.
+   [180] Tr. in Ps.cxviii, Aleph., Â§ 1.
 
    [181] Trin. x. 7.
 
@@ -6607,9 +6608,9 @@ Hilary of Poitiers, John of Damascus
    of the operation; Trin. vii. 28.
 
    [218] Cf. Trin. vii. 28, x. 15, 16. Similarly in the Eumenides 637,
-   Æschylus makes Apollo excuse Orestes' murder of Clytænnestra on the
+   Ã†schylus makes Apollo excuse Orestes' murder of ClytÃ¦nnestra on the
    ground that the mother is not the parent, but only the nurse of the
-   germ. This is contrary to Aristotle's teaching; Æschylus and Hilary
+   germ. This is contrary to Aristotle's teaching; Ã†schylus and Hilary
    evidently represent a rival current of ancient opinion.
 
    [219] Trin. x. 20. In Tr. in Ps. cxviii., Iod, 6, 7, this thought is
@@ -6634,7 +6635,7 @@ Hilary of Poitiers, John of Damascus
    power He sowed for Himself the beginnings of His body and ordained that
    His flesh should commence to exist; and Trin. x 16.
 
-   [223] Trin. x. 16; cf. ib. 17. In the Instructio Psalmorum, § 6, he
+   [223] Trin. x. 16; cf. ib. 17. In the Instructio Psalmorum, Â§ 6, he
    speaks in more usual language;--adventus Domini ex virgine in hominem
    procreandi, and also in some other passages. Dorner's view (I. ii. 403
    f. and note 74, p. 533) differs from that here taken. But he is
@@ -6653,7 +6654,7 @@ Hilary of Poitiers, John of Damascus
 
    [226] Trin. x. 16.
 
-   [227] Irenæus, i. 1, 13.
+   [227] IrenÃ¦us, i. 1, 13.
 
    [228] He often and emphatically repudiates the use which the
    Monarchians made of them, e.g. Trin. iv. 4.
@@ -6680,7 +6681,7 @@ Hilary of Poitiers, John of Damascus
    liquid contents.
 
    [235] Hilary has devoted his Homily on Psalm lxviii. to this subject.
-   In § 25 he asks, How could He exist in the form of man while remaining
+   In Â§ 25 he asks, How could He exist in the form of man while remaining
    in the form of God?' There are many equally emphatic statements
    throughout his writings.
 
@@ -6693,7 +6694,7 @@ Hilary of Poitiers, John of Damascus
 
    [239] E.g. Trin. viii. 45.
 
-   [240] Trin. ix. 14, concursus utriusque formæ.
+   [240] Trin. ix. 14, concursus utriusque formÃ¦.
 
    [241] It is very characteristic that it lies outside Cyprian's
    vocabulary and range of ideas.
@@ -6707,8 +6708,8 @@ Hilary of Poitiers, John of Damascus
    explanations which have been suggested are quite inadmissible. Dorner,
    p. 407, takes the passage cited above about substance' too seriously,
    and wavers between the equally impossible interpretations of
-   countenance' and personality.' Förster (l.c. p. 659) understands the
-   word to mean mode of existence.' Wirthmüller, cited by Schwane, p. 273,
+   countenance' and personality.' FÃ¶rster (l.c. p. 659) understands the
+   word to mean mode of existence.' WirthmÃ¼ller, cited by Schwane, p. 273,
    has the courage to regard form of God' and form of a servant' as
    equivalent to Divinity and humanity.
 
@@ -6724,7 +6725,7 @@ Hilary of Poitiers, John of Damascus
    occurs in Trin. xi. 14, 15, and cf. ib. 40. Elementa is, I think,
    somewhat more frequent.
 
-   [249] Trin. xi. 40, naturæ assumpti corporis nostri natura paternæ
+   [249] Trin. xi. 40, naturÃ¦ assumpti corporis nostri natura paternÃ¦
    divinitatis invecta. Conversely, Trin. ix. 54, nova natura in Deum
    illata. But such expressions are rare; hominem ad sumpsit is the normal
    phrase. In Tr. in Ps. lxviii. 4, he speaks as if the two natures had
@@ -6734,7 +6735,7 @@ Hilary of Poitiers, John of Damascus
 
    [250] Tr. in Ps. liv. 2.
 
-   [251] E.g. Trin. ix. 11, 39, x. 16. The expression utriusque, naturæ
+   [251] E.g. Trin. ix. 11, 39, x. 16. The expression utriusque, naturÃ¦
    persona in Trin. ix. 14 is susceptible of another interpretation.
 
    [252] E.g. Trin. x. 22.
@@ -6786,12 +6787,12 @@ Hilary of Poitiers, John of Damascus
    suffered, in the sense of having wounds and death inflicted upon Him,
    is a fact; that He was conscious of suffering is an inference, a
    supposition (putatur dolere quia patitur, Tr. in Ps. cxxxviii. 3,
-   fallitur ergo humanæ æstimationis opinio putans hunc dolere quod
+   fallitur ergo humanÃ¦ Ã¦stimationis opinio putans hunc dolere quod
    patitur, Trin. x. 47), and one which we are not entitled to make. In
    fact, the passage last cited states that He has no natura dolendi; so
    also x. 23, 35, and cf. Tr. in Ps. liii. 12. Or as Hilary puts it,
-   Trin. x. 24, He is subject to the naturæ passionum not to their
-   iniuriæ.
+   Trin. x. 24, He is subject to the naturÃ¦ passionum not to their
+   iniuriÃ¦.
 
    [269] Tr. in Ps. cxxxviii. 26.
 
@@ -6839,11 +6840,11 @@ Hilary of Poitiers, John of Damascus
 
    [285] Harnack, Dogmengesch. ii. 301 n.
 
-   [286] The words are Förster's, op. cit. p. 662, and are accepted as
+   [286] The words are FÃ¶rster's, op. cit. p. 662, and are accepted as
    representing their opinion by Bardenhewer, Patrologie, p. 382, and
    Baltzer, Christologie, p. 32.
 
-   [287] Strom. vi. § 71. Bigg, Christian Platonists, p. 71, gives other
+   [287] Strom. vi. Â§ 71. Bigg, Christian Platonists, p. 71, gives other
    sources, by which Hilary is less likely to have been influenced, from
    which he may have derived this teaching. This is not the only
    coincidence between him and Clement.
@@ -6939,8 +6940,8 @@ Hilary of Poitiers, John of Damascus
 
    [313] Tr. in Ps. cxviii., Koph, 8.
 
-   [314] Ib. li. 16, naturam in se universæ carnis adsumpsit, ib. liv. 9,
-   universitatis nostræ caro est factus; so also Trin. xi. 16 in., and
+   [314] Ib. li. 16, naturam in se universÃ¦ carnis adsumpsit, ib. liv. 9,
+   universitatis nostrÃ¦ caro est factus; so also Trin. xi. 16 in., and
    often.
 
    [315] This latter is the argument of Trin. viii. 13 f.
@@ -7001,7 +7002,7 @@ Hilary of Poitiers, John of Damascus
 
    [337] Trin. iii. 9.
 
-   [338] Förster, op. cit.
+   [338] FÃ¶rster, op. cit.
 
    [339] Cf. Harnack, Dogmengesch. ii. 281. But Harnack is unjust in
    saying that Hilary had not quite made up his own mind.
@@ -7013,7 +7014,7 @@ Hilary of Poitiers, John of Damascus
    [341] If the word may be admitted for the sake of clearness. Hilary
    never calls the Spirit a Person.
 
-   [342] §§ 23, 25, 30; so also ix. 69 and notably in x. 16. Similarly in
+   [342] Â§Â§ 23, 25, 30; so also ix. 69 and notably in x. 16. Similarly in
    Comm. in Matt. iii. 1, the Spirit means Christ.
 
    [343] Trin. viii. 20, ix. 73 fin., and especially ii. 4. This last is
@@ -7072,7 +7073,7 @@ Hilary of Poitiers, John of Damascus
 
    [364] Tr. in Ps. cxviii., Nun, 11 f.
 
-   [365] Förster, loc. cit.
+   [365] FÃ¶rster, loc. cit.
 
    [366] So also the sin against the Holy Ghost is primarily intellectual,
    not ethical; Comm. in Matt. v. 15, xii. 17.
@@ -7088,10 +7089,10 @@ Hilary of Poitiers, John of Damascus
    [371] Ib. cxlii. 6, cxviii., Iod, 2. In regard to the latter passage we
    must remember once more what importance Hilary attaches to names.
 
-   [372] Comm. in Matt. x. 24, originis nostræ peccata; Tr. in Ps. cxviii,
+   [372] Comm. in Matt. x. 24, originis nostrÃ¦ peccata; Tr. in Ps. cxviii,
    Tau, 6, scit sub peccati origine et sub peccati lege se esse natum.
    Other passages must be cited from quotations in St. Augustine, but
-   Förster, p. 676, has given reason for doubting Hilary's authorship.
+   FÃ¶rster, p. 676, has given reason for doubting Hilary's authorship.
 
    [373] E.g. Comm. in Matt. x. 24.
 
@@ -7230,7 +7231,7 @@ Hilary of Poitiers, John of Damascus
    literally our Lord's command to anoint themselves when they fast. If
    they do, they will render themselves conspicuous and ridiculous. The
    passage, Comm. in Matt. xxvii. 5, 6, on the parables of the Virgins
-   with their lamps and of the Talents cannot be taken, as by Förster, as
+   with their lamps and of the Talents cannot be taken, as by FÃ¶rster, as
    evidence that Hilary rejected the later doctrine of the supererogatory
    righteousness of the Saints. He is speaking of the impossibility of
    contemporaries conveying righteousness to one another in the present
@@ -7372,9 +7373,9 @@ Hilary of Poitiers, John of Damascus
    given in c. 10, Hilary, before proceeding to give the twelve anathemas
    directed against its teaching by the bishops who assembled at Ancyra,
    explains the meaning of essentia and substantia. Concerning the former
-   he says, Essentia est res quæ est, vel ex quibus est, et quæ in eo quod
+   he says, Essentia est res quÃ¦ est, vel ex quibus est, et quÃ¦ in eo quod
    maneat subsistit. This essentia is therefore identical with substantia,
-   quia res quæ est necesse est subsistat in sese. The Ancyran anathemas
+   quia res quÃ¦ est necesse est subsistat in sese. The Ancyran anathemas
    are then appended, with notes and a summary.
 
    In the second division (c. 29-33) of the historical part, Hilary
@@ -7466,7 +7467,7 @@ Hilary of Poitiers, John of Damascus
    illusions, the third was equally fatal to the word homoiousion. Those
    who intelligibly maintained homoousion or homoiousion , meant the same
    thing and condemned the same impiety (c. 82). Why should any one wish
-   to decline the word which the Council of Nicæa had used for an end
+   to decline the word which the Council of NicÃ¦a had used for an end
    which was unquestionably good? The argument is enforced by the
    insertion of the Nicene Creed in full. True, the word homoousion is
    quite capable of misconstruction. But the application of this test to
@@ -7482,7 +7483,7 @@ Hilary of Poitiers, John of Damascus
    Scripture because it is the sense of Scripture, and is truly
    conservative because it alone adequately preserves the faith of the
    fathers. The argument is interwoven with a spirited appeal to the
-   Eastern bishops to return to that faith as expressed at Nicæa.
+   Eastern bishops to return to that faith as expressed at NicÃ¦a.
 
    The last chapter (c. 92) is addressed to the Western bishops. It
    modestly defends the action of Hilary in writing, and urges a
@@ -7497,7 +7498,7 @@ Hilary of Poitiers, John of Damascus
    bishops had stated the true faith at Ancyra, and tells his Lord and
    brother Lucifer that it was against his will that he had mentioned the
    word homoiousion. We must ourselves confess that Hilary puts an
-   interpretation on the meaning of the Eastern formulæ which would have
+   interpretation on the meaning of the Eastern formulÃ¦ which would have
    been impossible if he had written after the Synod of Ariminum. Speaking
    when he did, his arguments were not only pardonable but right.
      __________________________________________________________________
@@ -7549,7 +7550,7 @@ Hilary of Poitiers, John of Damascus
    for the unshaken stability of your noble hearts, for your firm house
    built on the foundation of the faithful rock, for the undefiled and
    unswerving constancy of a will that has proved immaculate! For since
-   the good profession at the Council of Biterræ, where I denounced the
+   the good profession at the Council of BiterrÃ¦, where I denounced the
    ringleaders of this heresy with some of you for my witnesses, it has
    remained and still continues to remain, pure, unspotted and scrupulous.
 
@@ -7629,7 +7630,7 @@ Hilary of Poitiers, John of Damascus
 
    7. Therefore I comply with your affectionate and urgent wish, and I
    have set down all the creeds which have been promulgated at different
-   times and places since the holy Council of Nicæa, with my appended
+   times and places since the holy Council of NicÃ¦a, with my appended
    explanations of all the phrases and even words employed. If they be
    thought to contain anything faulty, no one can impute the fault to me:
    for I am only a reporter, as you wished me to be, and not an author.
@@ -8194,7 +8195,7 @@ Hilary of Poitiers, John of Damascus
    32. But in the first place we must remember that the bishops did not
    assemble at Antioch to oppose the heresy which has dared to declare
    that the substance of the Son is unlike that of the Father, but to
-   oppose that which, in spite of the Council of Nicæa, presumed to
+   oppose that which, in spite of the Council of NicÃ¦a, presumed to
    attribute the three names to the Father. Of this we will treat in its
    proper place. I recollect that at the beginning of my argument I
    besought the patience and forbearance of my readers and hearers until
@@ -8262,7 +8263,7 @@ Hilary of Poitiers, John of Damascus
    Syria, Mesopotamia, Cilicia, Cappadocia, Pontus, Paphlagonia, Galatia,
    Bithynia and Hellespont, from Asia, namely, the two provinces of
    Phrygia, Pisidia, the islands of the Cyclades, Pamphylia, Caria, Lydia,
-   from Europe, namely, Thrace, Hæmimontus [474] , Moesia, and the two
+   from Europe, namely, Thrace, HÃ¦mimontus [474] , Moesia, and the two
    provinces of Pannonia, have set forth this creed.
 
    "We believe in one God, the Father Almighty, Creator and Maker of all
@@ -9280,7 +9281,7 @@ Hilary of Poitiers, John of Damascus
    personal qualities, and, under the mask of the aforesaid expressions,
    to revive the error of confounding the Persons and denying the personal
    distinctions in the Godhead. Thirdly you mentioned this reason for
-   disapproving of the homoousion that in the Council of Nicæa our fathers
+   disapproving of the homoousion that in the Council of NicÃ¦a our fathers
    were compelled to adopt the word on account of those who said the Son
    was a creature: although it ought not to be accepted, because it is not
    to be found in Scripture. Your saying this causes me some astonishment.
@@ -9307,7 +9308,7 @@ Hilary of Poitiers, John of Damascus
    Do not think I would advance anything hurtful to the progress of unity.
    For it is absurd to fear cavil about a word when the fact expressed by
    the word presents no difficulty. Who objects to the fact that the
-   Council of Nicæa adopted the word homoousion' He who does so, must
+   Council of NicÃ¦a adopted the word homoousion' He who does so, must
    necessarily like its rejection by the Arians. The Arians rejected the
    word, that God the Son might not be asserted to be born of the
    substance of God the Father, but formed out of nothing, like the
@@ -9320,7 +9321,7 @@ Hilary of Poitiers, John of Damascus
    the wrong be called to account? Having been used as the instrument of
    evil it came to be the instrument of good [500] .
 
-   84. Let us see, therefore, what the Council of Nicæa intended by saying
+   84. Let us see, therefore, what the Council of NicÃ¦a intended by saying
    homoousion, that is, of one substance: not certainly to hatch the
    heresy which arises from an erroneous interpretation of homoousion. I
    do not think the Council says that the Father and the Son divided and
@@ -9431,7 +9432,7 @@ Hilary of Poitiers, John of Damascus
    decisions?
 
    87. But perhaps you will reply, Some of those who were then present at
-   Nicæa have now decreed that we ought to keep silence about the word
+   NicÃ¦a have now decreed that we ought to keep silence about the word
    homoousion.' Against my will I must answer: Do not the very same men
    rule that we must keep silence about the word homoiousion? I beseech
    you that there may be found no one of them but Hosius, that old man who
@@ -9453,7 +9454,7 @@ Hilary of Poitiers, John of Damascus
    misunderstanding, but not deprive our faith of its security. Do you
    think we must subscribe to the Samosatene Council to prevent any one
    from using homoousion in the sense of Paul of Samosata? Then let us
-   also subscribe to the Council of Nicæa, so that the Arians may not
+   also subscribe to the Council of NicÃ¦a, so that the Arians may not
    impugn the word. Have we to fear that homoiousion does not imply the
    same belief as homoousion? Let us decree that there is no difference
    between being of one or of a similar substance. The word homoousion can
@@ -9522,7 +9523,7 @@ Hilary of Poitiers, John of Damascus
    Gospels and Epistles suggested to me the meaning of homoousion and
    homoiousion. Our desire is sacred. Let us not condemn the fathers, let
    us not encourage heretics, lest while we drive one heresy away, we
-   nurture another. After the Council of Nicæa our fathers interpreted the
+   nurture another. After the Council of NicÃ¦a our fathers interpreted the
    due meaning of homoousion with scrupulous care; the books are extant,
    the facts are fresh in men's minds: if anything has to be added to the
    interpretation, let us consult together. Between us we can thoroughly
@@ -9549,7 +9550,7 @@ Hilary of Poitiers, John of Damascus
 
    [454] Hosius, bishop of Cordova in Spain, had been sent by Constantine
    to Alexandria at the outbreak of the Arian controversy. He had presided
-   at the Council of Nicæa in 325, and had taken part in the Council of
+   at the Council of NicÃ¦a in 325, and had taken part in the Council of
    Sardica in 343, when the Nicene Creed was reaffirmed. In his extreme
    old age he was forced with blows to accept this extreme Arian Creed
    drawn up at the third Council of Sirmium in the summer of 357. This is
@@ -9615,7 +9616,7 @@ Hilary of Poitiers, John of Damascus
    in a Greek manuscript which had the word anthropon written in its
    abbreviated form anon. This would readily be mistaken for the word
    arnion, lamb. The Latin word used by Hilary as a substitute for Apostle
-   is prædestinatus, for which word it seems impossible to account.
+   is prÃ¦destinatus, for which word it seems impossible to account.
 
    [472] John vi. 28.
 
@@ -9623,7 +9624,7 @@ Hilary of Poitiers, John of Damascus
 
    [474] Mount Haemus is the mountain range which at this period formed
    the boundary between the provinces of Thracia and Moesia Inferior.
-   Hæmimontus was grouped with Moesia Inferior under the Vicarius of
+   HÃ¦mimontus was grouped with Moesia Inferior under the Vicarius of
    Thrace.
 
    [475] John i. 14.
@@ -9748,28 +9749,28 @@ Hilary of Poitiers, John of Damascus
    more and more of the Divine revelation in Scripture, he attains the
    object of his search in the apprehension of God as revealed in the
    Catholic Faith. But this happiness is not the result of a mere
-   intellectual knowledge, but of belief as well. In §§ 1-14 we have this
+   intellectual knowledge, but of belief as well. In Â§Â§ 1-14 we have this
    advance from ignorance and fear to knowledge and peace. And here he
    might have rested, had he not been charged with the sacerdotal (i.e.,
    in the language of that time, the episcopal) office, which laid upon
    him the duty of caring for the salvation of others. And such care was
-   needed, for (§§ 15, 16) heresies were abroad, and chiefly two; the
+   needed, for (Â§Â§ 15, 16) heresies were abroad, and chiefly two; the
    Sabellian which said that Father and Son were mere names or aspects of
    one Divine Person, and therefore there had been no true birth of the
    Son; and the Arian (which, however, Hilary rarely calls by the name of
    its advocate, preferring to style it the new heresy') asserting more or
    less openly that the Son is created and not born, and therefore is
    different in kind from the Father, and not, in the true sense, God.
-   Hilary declares (§ 17) that his purpose is to refute these heresies and
+   Hilary declares (Â§ 17) that his purpose is to refute these heresies and
    to demonstrate the true faith by the evidence of Scripture. He demands
    from his hearers a loyal belief in the Scriptures which he will cite;
-   without such faith his arguments will not profit them (§ 18); and in §
+   without such faith his arguments will not profit them (Â§ 18); and in Â§
    19 he warns them of the limits of the argument from analogy, which he
    must employ, inadequate as it is in respect of the finite illustrations
-   which he must use to express the infinite. Then in § 20 he speaks with
+   which he must use to express the infinite. Then in Â§ 20 he speaks with
    a modest pride of his careful marshalling of the arguments which shall
-   lead his readers to the right conclusion, and in §§ 21-36 he gives a
-   summary of the contents of the work. He concludes the first Book (§§
+   lead his readers to the right conclusion, and in Â§Â§ 21-36 he gives a
+   summary of the contents of the work. He concludes the first Book (Â§Â§
    37, 38) with a prayer which expresses his certainty that what he holds
    is the truth, and entreats the Father and the Son that he may have the
    eloquence of language and the cogency of reasoning needed for the
@@ -9778,194 +9779,194 @@ Hilary of Poitiers, John of Damascus
    Book II. He begins with the command to baptize all nations (St. Matt.
    xxviii. 19) as a summary of the faith; this by itself would suffice
    were not explanations rendered necessary by heretical
-   misrepresentations of its meaning. For (§§ 3, 4) heresy is the result
+   misrepresentations of its meaning. For (Â§Â§ 3, 4) heresy is the result
    of Scripture misunderstood; and here we must notice that Scripture is
    regarded as ground common to both sides. All accept it as literally
    true, and combine its texts as will best serve their own purposes.
    Hilary, regarding all heresies as one combined opposition to the truth,
    makes the two objections that their arguments are mutually destructive,
-   and that they are modern. Then in § 5 he expresses the awe with which
+   and that they are modern. Then in Â§ 5 he expresses the awe with which
    he approaches the subject. The language which he must use is utterly
-   inadequate, and yet he is compelled to use it. In §§ 6, 7 he begins
-   with the notion of God as Father; in §§ 8-11 he proceeds to that of God
+   inadequate, and yet he is compelled to use it. In Â§Â§ 6, 7 he begins
+   with the notion of God as Father; in Â§Â§ 8-11 he proceeds to that of God
    the Son. He states the faith as it must be believed; it is not enough
-   (§§ 12, 13) to accept the truth of Christ's miracles. The mystery, as
-   it is revealed in St. John i. 1-4, must be the object of faith. In §§
+   (Â§Â§ 12, 13) to accept the truth of Christ's miracles. The mystery, as
+   it is revealed in St. John i. 1-4, must be the object of faith. In Â§Â§
    14-21 he expounds this passage in the face of current objections, and
-   then triumphantly asserts that all the efforts of heresy are vain (§
-   22). He advances proof-texts in § 23 against each objector, and then
-   points out in §§ 24, 25 our indebtedness to the infinite Divine
+   then triumphantly asserts that all the efforts of heresy are vain (Â§
+   22). He advances proof-texts in Â§ 23 against each objector, and then
+   points out in Â§Â§ 24, 25 our indebtedness to the infinite Divine
    condescension thus revealed. For, in all the humiliation to which
    Christ stooped the Divine Majesty was still inseparably His, and was
    manifested both in the circumstances of His birth and in His life on
-   earth (§§ 26-28). The book concludes (§§ 29-35) with a statement of the
+   earth (Â§Â§ 26-28). The book concludes (Â§Â§ 29-35) with a statement of the
    doctrine of the Holy Ghost, as perfect as in the undeveloped state of
    that doctrine was possible.
 
-   Book III. In §§ 1-4, the words, I in the Father and the Father in Me,
+   Book III. In Â§Â§ 1-4, the words, I in the Father and the Father in Me,
    are taken as typical. Man cannot comprehend, but only apprehend them.
    So far as they are explicable Hilary explains them. But God's self
    revelation is always mysterious. The miracles of Christ are
-   inexplicable (§§ 5-8); this is God's way, and meant to check
+   inexplicable (Â§Â§ 5-8); this is God's way, and meant to check
    presumption. Human wisdom is limited, and when it passes its bounds,
-   and invades the realm of faith, it becomes folly. Next, in §§ 9-17, the
+   and invades the realm of faith, it becomes folly. Next, in Â§Â§ 9-17, the
    passage, St. John xvii. 1 ff., is explained as proving that in the One
    God there are the Persons of Father and of Son, and as revealing God in
-   the aspect of the Father. Then, in §§ 18-21, the wonderful deeds of
+   the aspect of the Father. Then, in Â§Â§ 18-21, the wonderful deeds of
    Christ are put forth as an evidence of His wonderful birth. We must not
    ask how He can be coeternal with the Father, for it is in vain that we
    should ask how He could pass through the closed door. Either question
-   is mere presumption. The revelation which Christ makes (§§ 22, 23) is
-   that of God as His Father; Unum sunt, non Unus. And finally, in §§ 25,
+   is mere presumption. The revelation which Christ makes (Â§Â§ 22, 23) is
+   that of God as His Father; Unum sunt, non Unus. And finally, in Â§Â§ 25,
    26, he returns to the futility of reasoning. True wisdom is to believe
    where we cannot comprehend; we must trust to faith, not to proof.
 
    Book IV. This book is in a sense the beginning of the treatise, and is
    sometimes cited later on as the first. Its three predecessors, he says
-   in § 1, had been written some time before. They had contained a
+   in Â§ 1, had been written some time before. They had contained a
    statement of the truth concerning the Divinity of Christ, and a summary
    refutation of the various heresies. He now commences his main attack
-   upon Arianism. First (§ 2) he repeats what his difficulty is; that
-   human language and thought cannot cope with the Infinite. Then (§ 3) he
+   upon Arianism. First (Â§ 2) he repeats what his difficulty is; that
+   human language and thought cannot cope with the Infinite. Then (Â§ 3) he
    tells how the Arians explain away the eternal Sonship of Christ. As a
    defence against this tampering with the truth, the Church has adopted
-   the term Homoousion (§§ 4-7); Hilary explains and defends its use. In §
+   the term Homoousion (Â§Â§ 4-7); Hilary explains and defends its use. In Â§
    8 he shews, by a collection of the passages of Scripture which they
    wrest to their own purposes, that such a definition is necessary, and
-   in §§ 9, 10 that their use of these passages is dishonest. In § 11 he
+   in Â§Â§ 9, 10 that their use of these passages is dishonest. In Â§ 11 he
    tells us exactly what the Arian teaching is, and sets it forth in one
-   of their own formularies, the Epistola Arii ad Alexandrum (§§ 12, 13).
-   In § 14 this doctrine is denounced; it does not explain, but explains
+   of their own formularies, the Epistola Arii ad Alexandrum (Â§Â§ 12, 13).
+   In Â§ 14 this doctrine is denounced; it does not explain, but explains
    away. The proclamation made through Moses, Hear, O Israel, the Lord thy
    God is One, upon which the Arians take their stand, reveals only one
-   aspect of the truth (§ 15). It does not exhaust the truth; for God is
-   represented as not one solitary Person in the history of creation (§§
-   16-22), in the life of Abraham (§§ 23-31), and in that of Moses (§§
+   aspect of the truth (Â§ 15). It does not exhaust the truth; for God is
+   represented as not one solitary Person in the history of creation (Â§Â§
+   16-22), in the life of Abraham (Â§Â§ 23-31), and in that of Moses (Â§Â§
    32-34). And this again is the teaching of the Prophets, as is shewn by
-   passages selected from Isaiah, Hosea, and Jeremiah (§§ 35-42). All the
+   passages selected from Isaiah, Hosea, and Jeremiah (Â§Â§ 35-42). All the
    evidence thus collected shews that in the Godhead there is both Father
    and Son, and that the Son is God.
 
-   Book V. Hilary now points out (§ 1) the controversial strength of the
+   Book V. Hilary now points out (Â§ 1) the controversial strength of the
    Arian position. If he is silent in face of their assertion, they will
    claim that he agrees with them that the Son is God only in some
    inferior sense. On the other hand, if he opposes them, he will seem to
-   be contradicting the Mosaic revelation of the Divine unity. In § 2 he
+   be contradicting the Mosaic revelation of the Divine unity. In Â§ 2 he
    recapitulates the argument of Book IV., that the witness of Scripture
    proves that God is not a solitary Person; that, as he says, there is
    God and God. But the Arians had a further loophole; their creed
-   asserted (§ 3) one true God. They might argue that Christ is indeed
+   asserted (Â§ 3) one true God. They might argue that Christ is indeed
    God, but of a nature different from that of the Father. In refutation
-   of this Hilary goes once more through the history of creation (§§
+   of this Hilary goes once more through the history of creation (Â§Â§
    4-10), proving that the narrative reveals not only the Son's share in
    that work, but also His equality and oneness of nature with the Father;
    in other words, that He is not only God but true God. The same truth is
-   demonstrated from the life of Abraham (§§ 11-16). Moreover, these
+   demonstrated from the life of Abraham (Â§Â§ 11-16). Moreover, these
    self-revelations of the Son (as the Angel, on various occasions) are
    anticipations of the Incarnation. He was first seen in flesh,
    afterwards born in flesh. The Arians concentrate their attention on the
    humble conditions of Christ's human life, and so, from want of a
    comprehensive view, fail to discern His true Godhead. But Hilary will
-   not anticipate the evidence of the Gospels (§§ 17, 18). He returns to
-   the Old Testament, and proves his point from Jacob's visions (§§ 19,
-   20), and by the revelations made to Moses (§§ 21-23). After a summary
-   and an enforcement of the preceding arguments (§§ 24, 25), he proceeds
+   not anticipate the evidence of the Gospels (Â§Â§ 17, 18). He returns to
+   the Old Testament, and proves his point from Jacob's visions (Â§Â§ 19,
+   20), and by the revelations made to Moses (Â§Â§ 21-23). After a summary
+   and an enforcement of the preceding arguments (Â§Â§ 24, 25), he proceeds
    to prove from certain passages of Isaiah that the Prophet recognised
-   the Son as true God (§§ 26-31), and that St. Paul understood him in
-   that sense (§§ 32, 33). Then, in §§ 34, 35, the result which has been
+   the Son as true God (Â§Â§ 26-31), and that St. Paul understood him in
+   that sense (Â§Â§ 32, 33). Then, in Â§Â§ 34, 35, the result which has been
    attained is dwelt upon. Hilary shews that it is the Arians who fail to
    recognise the one true God; for Christ is true God, yet not a second
-   God. Finally, in §§ 36-39, Moses, Isaiah, and Jeremiah are adduced as
+   God. Finally, in Â§Â§ 36-39, Moses, Isaiah, and Jeremiah are adduced as
    testifying that Christ is God from God, and God in God.
 
    Book VI. Hilary begins by lamenting the wide extension of Arianism; his
    love for souls leads him to combat the heresy, whose insidiousness
-   makes it the more dangerous (§§ 1-4). He repeats in §§ 5, 6 the same
+   makes it the more dangerous (Â§Â§ 1-4). He repeats in Â§Â§ 5, 6 the same
    Arian creed which he had given in Book IV. The heretics here gain the
    appearance of orthodoxy by condemning errors inconsistent with their
    own; and this condemnation is designed to cast upon the Catholic faith
    the suspicion of complicity in such errors. Hence he must postpone his
-   appeal to the New Testament till he has examined them (§§ 7, 8).
-   Accordingly in §§ 9-12 he explains successively the doctrines of
-   Valentinus, Manichæus, Sabellius and Hieracas, and shews that the
-   Church rejects them all, as she does (§ 13) the doctrine which the
+   appeal to the New Testament till he has examined them (Â§Â§ 7, 8).
+   Accordingly in Â§Â§ 9-12 he explains successively the doctrines of
+   Valentinus, ManichÃ¦us, Sabellius and Hieracas, and shews that the
+   Church rejects them all, as she does (Â§ 13) the doctrine which the
    Arians in their creed have falsely assigned to her. Their object is to
    deny that the Son is coeternal with the Father and of one substance
-   with Him (§§ 14, 15); but this denial is clean contrary to Scripture,
-   which it is blasphemy to oppose (§§ 16, 17). The Arians would make a
-   creature of Christ (§ 18), to Whom, in §§ 19-21, Hilary turns with an
+   with Him (Â§Â§ 14, 15); but this denial is clean contrary to Scripture,
+   which it is blasphemy to oppose (Â§Â§ 16, 17). The Arians would make a
+   creature of Christ (Â§ 18), to Whom, in Â§Â§ 19-21, Hilary turns with an
    impassioned declaration of certainty that He is very God. He then
    resumes the argument, and proves that Christ is Son by birth, not by
    adoption, from the words both of Father and of Son as recorded in the
-   Gospel (§§ 22-25). This is confirmed (§§ 26, 27) by the Gospel account
+   Gospel (Â§Â§ 22-25). This is confirmed (Â§Â§ 26, 27) by the Gospel account
    of His acts, which are otherwise inexplicable. The argument is clenched
-   by a discussion of St. John vii. 28, 29, and viii. 42 (§§ 28-31). The
+   by a discussion of St. John vii. 28, 29, and viii. 42 (Â§Â§ 28-31). The
    true Sonship of Christ is further proved by the faith of the Apostles,
-   whose certainty increased with their knowledge (§§ 31-35), and
-   especially by that of St. Peter (§§ 36-38), of St. John (§§ 39-43), and
-   of St. Paul (§§ 44, 45). To reject such a weight of testimony is to
-   prefer Antichrist to Christ (§ 46). And, moreover, we have the witness
+   whose certainty increased with their knowledge (Â§Â§ 31-35), and
+   especially by that of St. Peter (Â§Â§ 36-38), of St. John (Â§Â§ 39-43), and
+   of St. Paul (Â§Â§ 44, 45). To reject such a weight of testimony is to
+   prefer Antichrist to Christ (Â§ 46). And, moreover, we have the witness
    of those for whom He wrought miracles, of devils, of the Jews, the
    Apostles in peril on the sea, of the centurion by the Cross, that
-   Christ is truly the Son of God (§§ 47-52).
+   Christ is truly the Son of God (Â§Â§ 47-52).
 
    Book VII. The Arians are adepts at concealing their meaning; at the use
-   of Scripture terms in unscriptural senses (§ 1). They have already been
+   of Scripture terms in unscriptural senses (Â§ 1). They have already been
    refuted by the proof that Christ is the true and coeternal Son; and
    Hilary now advances to the proof of the true Divinity of Christ, which
-   is logically inseparable from His true Sonship (§ 2). But the danger is
+   is logically inseparable from His true Sonship (Â§ 2). But the danger is
    great lest, in attacking one heresy, he should use language which would
-   sanction others (§ 3). Yet the truth is one, while heresies are
+   sanction others (Â§ 3). Yet the truth is one, while heresies are
    manifold. Each of them can be trusted to demolish the others, while
    none can establish its own case. He illustrates this by the mutually
-   destructive arguments of Sabellius, Arius and Photinus (§§ 5-7). Christ
+   destructive arguments of Sabellius, Arius and Photinus (Â§Â§ 5-7). Christ
    is proved to be God by the name God which is given Him in Scripture:
-   The Word was God (§§ 8, 9). The name is His in the strict sense, and
-   not any derivative meaning (§§ 10, 11). Yet Father and Son are not two,
-   but one God (§ 13). Being the Son of God, He has the nature of God, and
-   therefore is God (§§ 14-17), and yet not one Person with the Father (§
-   18). Again, His power, manifested in His works, proves His Godhead (§
+   The Word was God (Â§Â§ 8, 9). The name is His in the strict sense, and
+   not any derivative meaning (Â§Â§ 10, 11). Yet Father and Son are not two,
+   but one God (Â§ 13). Being the Son of God, He has the nature of God, and
+   therefore is God (Â§Â§ 14-17), and yet not one Person with the Father (Â§
+   18). Again, His power, manifested in His works, proves His Godhead (Â§
    19), as does the fact that all judgment has been given Him by the
-   Father (§ 20). Christ's own words display the truth (§ 21). The Arians
+   Father (Â§ 20). Christ's own words display the truth (Â§ 21). The Arians
    are blind to the plain sense of Scripture, and are more blasphemous
    than the Jews; Christ's reply to the latter meets the objections of the
-   former (§§ 22-24). He asserts His unity with the Father (§ 25), and
-   makes His works the proof (§ 26). The Father is in the Son and the Son
-   is in the Father (§ 27): this is illustrated by the transmission of
-   physical properties from parent to child and from flame to flame (§§
+   former (Â§Â§ 22-24). He asserts His unity with the Father (Â§ 25), and
+   makes His works the proof (Â§ 26). The Father is in the Son and the Son
+   is in the Father (Â§ 27): this is illustrated by the transmission of
+   physical properties from parent to child and from flame to flame (Â§Â§
    28-30). In fact, the Catholic is the only rational explanation of the
-   words of Scripture (§§ 31, 32). Again (§§ 33-38), the way to the Father
+   words of Scripture (Â§Â§ 31, 32). Again (Â§Â§ 33-38), the way to the Father
    is through the Son, and knowledge of the Son is knowledge of the
    Father. This would be impossible, were not the Son God in the same
    sense in which the Father is God. Thus the contrary doctrines of
    Sabellius and of Arius are confuted; there is neither one Person, nor
-   yet two Gods (§§ 39, 40). Christ calls upon us to believe the truth,
-   and belief is not only possible but reasonable (§ 41).
+   yet two Gods (Â§Â§ 39, 40). Christ calls upon us to believe the truth,
+   and belief is not only possible but reasonable (Â§ 41).
 
    Book VIII. Piety is necessary in a Bishop, but he needs also knowledge
    and dialectical skill in the face of such heresies as were rampant in
    Hilary's day; for the heretics outdo the orthodox in zeal, and are
-   masters in the art of devising pitfalls for the unwary reasoner (§§
-   1-3). He maintains (§ 4) that hitherto he has established his case; and
-   now turns, in § 5, to the Arian interpretation of I and the Father are
+   masters in the art of devising pitfalls for the unwary reasoner (Â§Â§
+   1-3). He maintains (Â§ 4) that hitherto he has established his case; and
+   now turns, in Â§ 5, to the Arian interpretation of I and the Father are
    One, as meaning that They are one in will, not in nature. The fallacy
    of this is shewn by a comparison of the unity of Christians in Christ
-   (§§ 7-9); a unity which is confessedly one of nature, yet is not more
-   natural than that of Father and Son, of which it is a type (§ 10). And
+   (Â§Â§ 7-9); a unity which is confessedly one of nature, yet is not more
+   natural than that of Father and Son, of which it is a type (Â§ 10). And
    indeed the words, I and the Father are One, are ill-adapted to express
-   a mere harmony of will (§ 11). This gift of unity of nature could not
+   a mere harmony of will (Â§ 11). This gift of unity of nature could not
    be given, as it is, through the Incarnation and the Eucharist, to
    Christians, unless the Givers Themselves possessed it; i.e. unless
-   Father and Son were One God (§§ 12-14). As a matter of fact, we have a
+   Father and Son were One God (Â§Â§ 12-14). As a matter of fact, we have a
    perfect union, through the mediation of Christ, with the Father; and it
    is a unity of nature, a permanent abiding; an assurance to us of the
    indwelling of Father in Son and Son in Father, and of the fact that
    Christ is not a creature, one in will with the Father, but a Son, one
-   in nature with Him (§§ 15-18). For, again (§§ 19-21), the Mission of
+   in nature with Him (Â§Â§ 15-18). For, again (Â§Â§ 19-21), the Mission of
    the Holy Ghost is jointly from the Father and the Son; He is called
    sometimes the Spirit of the Father, sometimes the Spirit of the Son,
    and this is a further proof of the unity in nature of Father and Son.
-   Hilary now enquires (§§ 22-25) into the senses in which Scripture
+   Hilary now enquires (Â§Â§ 22-25) into the senses in which Scripture
    speaks of the Holy Spirit. Sometimes this title is given to the Father,
    sometimes to the Son, in both cases to save us from corporeal
    conceptions of God. But it is also used, in the strict sense, of the
@@ -9973,140 +9974,140 @@ Hilary of Poitiers, John of Damascus
    Christians; but this Spirit, whether styled the Spirit of God, or the
    Spirit of Christ, or the Spirit of Truth, proceeding from the Father
    and sent by the Son, is only one Spirit. Hence the Godhead is One, and
-   the nature of the Persons within that Godhead one also (§§ 26, 27). He
-   next points out (§ 28) that the Arians are inconsistent in worshipping
+   the nature of the Persons within that Godhead one also (Â§Â§ 26, 27). He
+   next points out (Â§ 28) that the Arians are inconsistent in worshipping
    Christ, and yet styling Him a creature; for thus they fall under the
-   curse of the Law, and forfeit the Holy Spirit. Again (§§ 29-34) the
+   curse of the Law, and forfeit the Holy Spirit. Again (Â§Â§ 29-34) the
    powers and graces bestowed by God are described indiscriminately as
    gifts of one or another Person in the Godhead. The Son, therefore, as a
    Giver, must be one with the Father, Who is also a Giver, and one with
-   the Spirit. There is One God and One Lord (§ 35); if we deny that the
+   the Spirit. There is One God and One Lord (Â§ 35); if we deny that the
    Son is God, we must also deny that the Father is Lord; which is absurd.
-   They are One God, with one Spirit, but not one Person (§ 36). St. Paul
+   They are One God, with one Spirit, but not one Person (Â§ 36). St. Paul
    expressly says that Christ is God over all; an expression which must,
    like all the Apostle's teaching, bear the Catholic sense, and is
-   incompatible with Arianism (§§ 37-39). The supporters of Arianism are
-   thus alien from the faith (§ 40). After a restatement of the truth (§
+   incompatible with Arianism (Â§Â§ 37-39). The supporters of Arianism are
+   thus alien from the faith (Â§ 40). After a restatement of the truth (Â§
    41), Hilary proceeds to deduce the Divine nature of the Son from the
-   fact that He has been sealed by the Father (§§ 42-45). This sealing
+   fact that He has been sealed by the Father (Â§Â§ 42-45). This sealing
    makes Him the Father's counterpart, Whose Image He thus becomes, though
    in the form of a servant. If He were thus the Image of God after His
-   Incarnation, how much more before that condescension (§ 46). In § 47 he
+   Incarnation, how much more before that condescension (Â§ 46). In Â§ 47 he
    again denies that this teaching reduces the Father and the Son to one
-   Person; and then (§§ 48-50) works out the sense in which Christ is the
+   Person; and then (Â§Â§ 48-50) works out the sense in which Christ is the
    Image of God. It means that They are of one nature and of one power,
    and that the Son is the Firstborn, through Whom all things were
    created. But creation and also reconciliation is the joint work of
-   Father and Son (§ 51). Christ could not have stated more explicitly
+   Father and Son (Â§ 51). Christ could not have stated more explicitly
    than He has done His unity with the Father; the recognition of this
-   truth is the test of the true Church (§ 52). Heresy is blind to the
+   truth is the test of the true Church (Â§ 52). Heresy is blind to the
    essential difference between the life-giving Christ and the created
-   universe, which owes its life to Him (§ 53). In Him dwells the whole
+   universe, which owes its life to Him (Â§ 53). In Him dwells the whole
    fulness of the Godhead bodily. The Indweller and the Indwelt are Both
-   Persons, yet are One God; and the whole Godhead dwells in Each (§§
+   Persons, yet are One God; and the whole Godhead dwells in Each (Â§Â§
    54-56).
 
-   Book IX. After a summary (§ 1) of the results already obtained, Hilary
-   returns, in § 2, to certain of the Arian proof-texts, and warns his
+   Book IX. After a summary (Â§ 1) of the results already obtained, Hilary
+   returns, in Â§ 2, to certain of the Arian proof-texts, and warns his
    readers that their life depends on the recognition in Christ of true
    God and true man, for it is this twofold nature which makes Him the
-   Mediator (§ 3). Universal analogy and our consciousness of the capacity
+   Mediator (Â§ 3). Universal analogy and our consciousness of the capacity
    to rise to the life in God convince us of these two natures in Him, Who
-   makes this rise possible (§ 4). But heresy lays hold of words spoken by
+   makes this rise possible (Â§ 4). But heresy lays hold of words spoken by
    Christ Incarnate, appropriate to His humility as Man, and assigns them
    to Him in His previous state; thus they make Him deny His true Godhead.
    But His utterances before the Incarnation, during His life on earth,
-   and after His return to glory, must be carefully distinguished (§§ 5,
+   and after His return to glory, must be carefully distinguished (Â§Â§ 5,
    6). Hilary now examines the aims and achievements of Christ Incarnate,
    and shews that His work for men was a Divine work, accomplished by Him
    for us only because He was throughout both God and Man, the two natures
-   in Him being inseparable (§§ 7-14). After reaching this conclusion from
+   in Him being inseparable (Â§Â§ 7-14). After reaching this conclusion from
    a general survey of Christ's life on earth, he examines in the light of
    it the Arian arguments from isolated words. They assert that Christ
    refused to be called Good or Master. He refused neither title, and yet
-   declared that both belong to God only (§§ 15-18). And, indeed, He could
+   declared that both belong to God only (Â§Â§ 15-18). And, indeed, He could
    not have associated Himself more closely than He did with the Father,
-   while yet He kept His Person distinct (§ 19). The Father Himself bears
+   while yet He kept His Person distinct (Â§ 19). The Father Himself bears
    witness to the Son; and the sin and loss of the Jews is this, that,
    seeing the Father's works done by Christ, they did not see in Him the
-   Son (§§ 20, 21). The honour and glory of Christ is inseparable from
-   that of God (§§ 22, 23). The Scribe did well to confess the Divine
+   Son (Â§Â§ 20, 21). The honour and glory of Christ is inseparable from
+   that of God (Â§Â§ 22, 23). The Scribe did well to confess the Divine
    unity, but was still outside the Kingdom because He did not believe in
-   Christ as God (§§ 24-27). Next, the Arian argument from the words, This
+   Christ as God (Â§Â§ 24-27). Next, the Arian argument from the words, This
    is life eternal, that they may know Thee, the only true God, and Jesus
    Christ Whom Thou hast sent, is refuted by comparison with cognate
-   passages (§§ 28-35). For, indeed, if the Father be the only true God,
-   the Son must also be the only true God (§ 36). That Divine nature which
+   passages (Â§Â§ 28-35). For, indeed, if the Father be the only true God,
+   the Son must also be the only true God (Â§ 36). That Divine nature which
    is common to Father and Son is subject to no limitations, and the
    eternal generation can be illustrated by no analogy of created things
-   (§ 37). Christ took humanity, and, since the Father's nature did not
+   (Â§ 37). Christ took humanity, and, since the Father's nature did not
    share in this, the unity was so far impaired. But humanity has been
    raised in Christ to God; and this could only be because His unity in
    the Divine nature with the Father was perfect. Otherwise the flesh
-   which Christ took could not have entered into the Divine glory (§ 38).
+   which Christ took could not have entered into the Divine glory (Â§ 38).
    There is but one glory of Father and of Son; the Son sought in the
-   Incarnation not glory for the Word but for the flesh (§§ 39, 40). The
+   Incarnation not glory for the Word but for the flesh (Â§Â§ 39, 40). The
    glory of Father and Son is one; in that unity the Son bestows, as well
-   as receives, glory (§§ 41, 42), and this glory, common to Both, is
-   evidence that the Divine nature also is common to Both (§ 42). Again,
+   as receives, glory (Â§Â§ 41, 42), and this glory, common to Both, is
+   evidence that the Divine nature also is common to Both (Â§ 42). Again,
    the Arians allege the words, The Son can do nothing of Himself, which
    Hilary shews, by an examination of the context, to be a support of the
-   Catholic cause (§§ 43-46). The Son does the Father's work, not under
+   Catholic cause (Â§Â§ 43-46). The Son does the Father's work, not under
    compulsion as an inferior, but because They are One. His will is free,
    yet in perfect harmony with that of the Father, because of their unity
-   of nature (§§ 47-50). The Arians also appeal to the text, The Father is
+   of nature (Â§Â§ 47-50). The Arians also appeal to the text, The Father is
    greater than I. The Father is, in fact, greater, first as being the
    Unbegotten, and secondly inasmuch as the Son has condescended to the
-   state of man, yet without forfeiting His Godhead (§ 51). But He is not
+   state of man, yet without forfeiting His Godhead (Â§ 51). But He is not
    greater in nature than the Son, Who is His Image; or rather, the
    Begetter is the greater, while the Son, as the Begotten, is not less
-   than He, for, although begotten, He had no beginning of existence (§§
+   than He, for, although begotten, He had no beginning of existence (Â§Â§
    52-57). Next, the allegation of ignorance, based on St. Mark xiii. 32,
    and therefore of difference in nature from God Omniscient is refuted
-   (§§ 58-62), both by express statements of Scripture and by a
+   (Â§Â§ 58-62), both by express statements of Scripture and by a
    consideration of the Divine character. It is only in figurative senses
    that God is stated in the Old Testament sometimes to come to know,
-   sometimes to be ignorant of, particular facts (§§ 63, 64). And so it is
+   sometimes to be ignorant of, particular facts (Â§Â§ 63, 64). And so it is
    with Christ; His ignorance is but a wise and merciful concealment of
-   knowledge (§§ 65-67). Yet the Arians, though they admit that Christ,
+   knowledge (Â§Â§ 65-67). Yet the Arians, though they admit that Christ,
    being superior to man, knows all the secrets of humanity, assert that
-   He cannot penetrate the mysteries of God (§ 68). But Christ expressly
+   He cannot penetrate the mysteries of God (Â§ 68). But Christ expressly
    declares that He can and does, for Each is in the Other and is mirrored
-   in the Other (§ 69). The ignorance can be nothing but concealment. Only
+   in the Other (Â§ 69). The ignorance can be nothing but concealment. Only
    the Father knows, i.e. He has told none but the Son; the Son does not
-   know, i.e. He wills not to reveal His knowledge (§§ 70, 71). God is
+   know, i.e. He wills not to reveal His knowledge (Â§Â§ 70, 71). God is
    unlimited; unlimited therefore in knowledge. The nature of Father and
    Son being one, it is impossible that the Son should be ignorant of what
-   the Father knows. As in will, so in knowledge, They are One (§§ 72-74).
+   the Father knows. As in will, so in knowledge, They are One (Â§Â§ 72-74).
    And the Apostles, by repeating their question after the Resurrection,
    shew that they were aware that His ignorance meant reserve. And Christ
    did not, this time, speak of ignorance, though He withheld the
-   knowledge which they asked (§ 75).
+   knowledge which they asked (Â§ 75).
 
    Book X. Theological differences are not the result of honest reasoning,
    but of reasoning distorted, as in the case of the Arians, by
    preconceived opinions, whose cause is sin and their result hypocrisy
-   (§§ 1-3). Hilary has fallen on the evil times foretold by the Apostle;
+   (Â§Â§ 1-3). Hilary has fallen on the evil times foretold by the Apostle;
    truth is banished and so is he, yet his sufferings do not affect his
-   joy in the Lord (§ 4). In the preceding books he has stated the exact
-   truth, of which he now gives a summary (§§ 5-8). But the further
+   joy in the Lord (Â§ 4). In the preceding books he has stated the exact
+   truth, of which he now gives a summary (Â§Â§ 5-8). But the further
    objection is raised that, while God is impassible, Christ in His
-   Passion suffered fear and pain (§ 9). But He Who taught others not to
-   fear death could not fear it Himself (§ 10). He died of His own free
+   Passion suffered fear and pain (Â§ 9). But He Who taught others not to
+   fear death could not fear it Himself (Â§ 10). He died of His own free
    will, knowing that in three days His Body and Spirit would rise again
-   (§§ 11, 12). Nor did He fear bodily tortures, for pain is an affection
+   (Â§Â§ 11, 12). Nor did He fear bodily tortures, for pain is an affection
    of the weak human soul, which inhabits our body, and is not felt by the
-   body itself (§§ 13, 14). And, although the Virgin fulfilled entirely
+   body itself (Â§Â§ 13, 14). And, although the Virgin fulfilled entirely
    the part of a human mother, yet the Begetter was Divine. Christ, when
    He took the form of a servant, remained still in the form of God, and
    was born perfect even as the Begetter was perfect, for Mary was not the
-   cause, but only the means, of His human life (§§ 15, 16). St. Paul
+   cause, but only the means, of His human life (Â§Â§ 15, 16). St. Paul
    draws a clear distinction between the First Man, who was earthy, and
    the Second Man, Who was conceived by the Holy Ghost, and in Whom what
-   is Flesh, in one aspect, is Bread from heaven in another (§§ 17, 18).
+   is Flesh, in one aspect, is Bread from heaven in another (Â§Â§ 17, 18).
    He is therefore perfect Man as well as perfect God, and did not inherit
    the flesh or the soul of Adam. His whole human nature is derived from
-   the Holy Ghost, by Whom the Virgin conceived (§§ 19, 20). Again (§ 21)
+   the Holy Ghost, by Whom the Virgin conceived (Â§Â§ 19, 20). Again (Â§ 21)
    the Arians argue that the Word was in Jesus in the same sense in which
    the Spirit was in the Prophets, and reproach the Catholics with denying
    the true humanity of Christ. Hilary replies that just as Christ was the
@@ -10114,156 +10115,156 @@ Hilary of Poitiers, John of Damascus
    own human Soul: for no soul is transmitted. Thus His human nature is
    complete; He has taken the form of a servant, but all the while He is
    in the form of God, i.e. He Who is God and also Man is one Christ, Who
-   was born and died and rose (§ 22). In all this He endured passion but
+   was born and died and rose (Â§ 22). In all this He endured passion but
    not pain, even as air or water, if pierced by a blow, is unaffected by
    it. The blow is real, and the Passion was real; but it was not
    inflicted on our limited humanity but on a human nature which could
-   walk on water and pass through locked doors (§ 23). If it be argued
+   walk on water and pass through locked doors (Â§ 23). If it be argued
    that He wept, hungered, thirsted, Hilary answers that He could wipe
    away tears and supply needs, and therefore was not subject to them;
    that though He endured them, as true Man, He was not affected by them.
    Such sufferings are habitual with men, and He endured them to shew that
-   He had a true Body (§ 24). For such a Body He had, although (since He
+   He had a true Body (Â§ 24). For such a Body He had, although (since He
    was not conceived in sin) one free from the defects of our bodies; not
    sinful flesh, but only the likeness of sinful flesh. For He was the
-   Word made Flesh, and continued to be true God as He had been before (§§
+   Word made Flesh, and continued to be true God as He had been before (Â§Â§
    25, 26). The Lord of glory suffered neither fear nor pain in His
    Passion, as is shewn by the powers which He exercised on the verge of
-   death (§§ 27, 28). His utterances in the Garden and on the Cross are
+   death (Â§Â§ 27, 28). His utterances in the Garden and on the Cross are
    not evidences of pain or fear, for they may be matched by lofty
-   expressions of calmness and hope (§§ 29-32). Thus no proof of fear or
+   expressions of calmness and hope (Â§Â§ 29-32). Thus no proof of fear or
    pain or weakness can be drawn from the circumstances of the Passion.
    Nor was the Cross a shame, for it was His road from humiliation to
-   glory (§ 33), nor the descent to hell a degradation, for all the while
+   glory (Â§ 33), nor the descent to hell a degradation, for all the while
    He was in heaven. How different the faith of the Thief on the cross to
-   that of the Arian! (§ 34). The argument is summed up in § 35. Next the
+   that of the Arian! (Â§ 34). The argument is summed up in Â§ 35. Next the
    Agony is considered. Christ does not say that He is sorrowful on
    account of death, but unto death. It is anxiety on the Apostles'
    account, lest their faith should fail; a fear which reached to His
    death, not beyond, for He knew that after His death His glory would
    revive their faith. This was the fear in which He was comforted by the
-   Angel; for Himself He was fearless, being conscious of His Godhead (§§
+   Angel; for Himself He was fearless, being conscious of His Godhead (Â§Â§
    36-43). He was free from pain and fear, for it is the sinful body which
    transmits these affections to the soul. Yet even human bodies rise
    sometimes superior to them, e.g. Daniel and other heroes of faith: how
-   much more Christ (§§ 44-46). In the same way we must understand His
-   bearing our suffering and our sin (§ 47), for, as St. Paul says, His
-   Passion was itself a triumph (§ 48). The complaint that He was forsaken
-   by the Father is similarly explained (§ 49). The purpose of the Arian
+   much more Christ (Â§Â§ 44-46). In the same way we must understand His
+   bearing our suffering and our sin (Â§ 47), for, as St. Paul says, His
+   Passion was itself a triumph (Â§ 48). The complaint that He was forsaken
+   by the Father is similarly explained (Â§ 49). The purpose of the Arian
    arguments is to displace the truth of Christ as very God and very man
    in favour of one or other heretical hypothesis, all of which the Church
-   rejects (§§ 50-52). Our reason must recognise its limitations and be
+   rejects (Â§Â§ 50-52). Our reason must recognise its limitations and be
    content to believe, without understanding, apparently contradictory
-   truths (§§ 53, 54). Christ weeping over Jerusalem and at the grave of
-   Lazarus is equally inexplicable, yet certain (§§ 55, 56). His laying
+   truths (Â§Â§ 53, 54). Christ weeping over Jerusalem and at the grave of
+   Lazarus is equally inexplicable, yet certain (Â§Â§ 55, 56). His laying
    down and taking again His life is accounted for by the two natures
-   inseparably united in one Person (§§ 57-62). After a short summary (§
+   inseparably united in one Person (Â§Â§ 57-62). After a short summary (Â§
    63) he returns to the union of two natures, which is the
-   stumbling-block of worldly wisdom (§ 64), and shews it to be the only
-   reasonable explanation of the facts (§§ 65, 66). As St. Paul says, our
+   stumbling-block of worldly wisdom (Â§ 64), and shews it to be the only
+   reasonable explanation of the facts (Â§Â§ 65, 66). As St. Paul says, our
    belief must be according to the Scriptures; the necessity and the
-   rewards of faith (§§ 67-70). The seeming infirmity of Christ was
+   rewards of faith (Â§Â§ 67-70). The seeming infirmity of Christ was
    assumed for our instruction and for our salvation.
 
    Book XI. The Faith is one, even as God is One; but the faiths of
-   heretics are many (§§ 1, 2). Hilary has now demonstrated the truth
+   heretics are many (Â§Â§ 1, 2). Hilary has now demonstrated the truth
    about Christ, so that it cannot be denied; it is attested also by
-   miracles even in his own day (§ 3). The Arians preach another, a
+   miracles even in his own day (Â§ 3). The Arians preach another, a
    created Christ; and in making Christ a creature they proclaim another
-   God, not a Father but a Creator (§ 4). The Son, as the Image, is of one
-   nature with the Father; if He is inferior He is not the Image (§ 5).
+   God, not a Father but a Creator (Â§ 4). The Son, as the Image, is of one
+   nature with the Father; if He is inferior He is not the Image (Â§ 5).
    But the Arians explain the oneness away by arguments from His
-   condescension to our estate (§ 6), and, even after His Resurrection,
+   condescension to our estate (Â§ 6), and, even after His Resurrection,
    plead that He confesses His inequality. They argue thus from 1 Cor. xv.
-   24-28, a passage to which the rest of this book is devoted (§§ 7, 8).
+   24-28, a passage to which the rest of this book is devoted (Â§Â§ 7, 8).
    But we must recognise the mysteriousness of the truth, accepting the
    two sides of it, both clearly revealed though we cannot reconcile them
-   (§ 9). They regard only one aspect; Hilary in reply proves once more
-   that Christ is both born from God, and Himself God (§§ 10-12). But at
+   (Â§ 9). They regard only one aspect; Hilary in reply proves once more
+   that Christ is both born from God, and Himself God (Â§Â§ 10-12). But at
    His Incarnation He began to have as Lord the God Who had been His
-   Father eternally (§ 13), and when He said that He was ascending to His
-   God, He spoke as when He calls us His brethren (§§ 14, 15). Thus there
+   Father eternally (Â§ 13), and when He said that He was ascending to His
+   God, He spoke as when He calls us His brethren (Â§Â§ 14, 15). Thus there
    are two senses in which God is the Father of Christ; and He Who is
-   Father to Christ the Son is Lord to Christ the Servant (§§ 16, 17). And
+   Father to Christ the Son is Lord to Christ the Servant (Â§Â§ 16, 17). And
    it was to Him as Servant that the Psalmist said, Thy God hath anointed
-   Thee, the words would have no meaning if addressed to Him as Son (§§
+   Thee, the words would have no meaning if addressed to Him as Son (Â§Â§
    18, 19). It is through this lower nature that He is our Brother and God
-   our Father, and He the Mediator (§ 20). But it is argued that His
+   our Father, and He the Mediator (Â§ 20). But it is argued that His
    subjection at the last and the delivery of the kingdom to the Father is
-   a proof of inequality. The passage must be taken as a whole (§§ 21,
+   a proof of inequality. The passage must be taken as a whole (Â§Â§ 21,
    22). There are some truths which it is difficult for man to grasp, and
    if we misunderstand them we must not be ashamed to confess our error
-   (§§ 23, 24). In this passage the Arians aid their case by changing the
-   order of the prophecy (§§ 25-27). The end means a final and enduring
-   state, not the coming to an end (§ 28), and though He delivers up the
-   kingdom He does not cease to reign (§ 29). His subjection to the Father
+   (Â§Â§ 23, 24). In this passage the Arians aid their case by changing the
+   order of the prophecy (Â§Â§ 25-27). The end means a final and enduring
+   state, not the coming to an end (Â§ 28), and though He delivers up the
+   kingdom He does not cease to reign (Â§ 29). His subjection to the Father
    and the subjection of all things to Him is next considered; in one
    sense it is figurative language, in another it proves the unity of
    Father and Son. The subjection of the Son means His partaking in the
-   glory of the Father (§§ 30-36). The Transfiguration shews the glory of
-   Christ's Body; a glory which the faithful shall share (§§ 37, 38). The
+   glory of the Father (Â§Â§ 30-36). The Transfiguration shews the glory of
+   Christ's Body; a glory which the faithful shall share (Â§Â§ 37, 38). The
    righteous are His kingdom, which He, as Man, shall deliver to the
-   Father, for By man came also the resurrection of the dead (§ 39). And
+   Father, for By man came also the resurrection of the dead (Â§ 39). And
    at last God shall be all in all, humanity in Christ not being
-   discarded, but glorified and received into the Godhead (§ 40). Christ,
-   as well as St. Paul, has foretold this (§§ 41, 42). The Arian
-   misrepresentation of this truth is mere folly (§ 43). Any rational
+   discarded, but glorified and received into the Godhead (Â§ 40). Christ,
+   as well as St. Paul, has foretold this (Â§Â§ 41, 42). The Arian
+   misrepresentation of this truth is mere folly (Â§ 43). Any rational
    explanation must assume that God's majesty cannot be augmented, even as
-   it cannot be measured (§§ 44, 45), while our reason is limited, and so
+   it cannot be measured (Â§Â§ 44, 45), while our reason is limited, and so
    contrasted with the Divine infinity. God cannot become greater than He
    was in becoming All in all. Father and Son, after as before, must Each
-   be as He was (§§ 46-48). All was done for us that we might be
+   be as He was (Â§Â§ 46-48). All was done for us that we might be
    glorified, being conformed to the likeness of Him Who is the Image of
-   the Father (§ 49).
+   the Father (Â§ 49).
 
    Book XII. Hilary gives a final explanation of the great Arian text, The
    Lord created me for a beginning of His ways; the words must not be
-   taken literally. Christ is not created, but Creator (§§ 1-5). If He is
+   taken literally. Christ is not created, but Creator (Â§Â§ 1-5). If He is
    a creature, the Father also is a creature, for They are One in nature
-   and in honour (§§ 6, 7). The similar passage, I begat Thee from the
+   and in honour (Â§Â§ 6, 7). The similar passage, I begat Thee from the
    womb, is figurative; elsewhere God's Hands and Eyes are spoken of. The
-   sense is that the Son is God from God (§§ 8-10). Nor was Christ made;
-   He is the Son, not the handiwork, of the Father (§§ 11, 12). And His
+   sense is that the Son is God from God (Â§Â§ 8-10). Nor was Christ made;
+   He is the Son, not the handiwork, of the Father (Â§Â§ 11, 12). And His
    Sonship is immediate, not derivative like ours, or like that of Israel
    His firstborn. This latter kind of sonship has a definite beginning of
-   existence, and an origin out of nothing (§§ 13-16). The Arian arguments
+   existence, and an origin out of nothing (Â§Â§ 13-16). The Arian arguments
    fail to prove that the Sonship of Christ has either of these characters
-   (§§ 17, 18). Truth is to be attained not by self-confident arguing but
-   by faith (§ 19), yet it is not enough for us to avoid their reasonings;
-   we must overthrow them (§ 20). The Son was born from eternity, being
-   the Son of the eternal Father (§ 21). The objection that sonship
-   involves beginning does not hold in His case (§§ 22, 23). The Son has
+   (Â§Â§ 17, 18). Truth is to be attained not by self-confident arguing but
+   by faith (Â§ 19), yet it is not enough for us to avoid their reasonings;
+   we must overthrow them (Â§ 20). The Son was born from eternity, being
+   the Son of the eternal Father (Â§ 21). The objection that sonship
+   involves beginning does not hold in His case (Â§Â§ 22, 23). The Son has
    all that the Father has; He has therefore eternity and an unconditioned
-   existence (§ 24). He is from the Eternal, and therefore eternal
+   existence (Â§ 24). He is from the Eternal, and therefore eternal
    Himself; from the Eternal, and therefore not from nothing. Reason
    cannot grasp, and therefore cannot refute, this. We must not assert
-   that there was a time before He was born, a time when He was not (§§
+   that there was a time before He was born, a time when He was not (Â§Â§
    25-27). We must not argue, from the analogy of our own birth, that the
-   truth is impossible (§ 28), nor that, because of His eternal existence,
-   the Son was not born (§§ 29-32). Again, the Arians deny the eternal
+   truth is impossible (Â§ 28), nor that, because of His eternal existence,
+   the Son was not born (Â§Â§ 29-32). Again, the Arians deny the eternal
    Fatherhood of God; He always existed, they say, but was not always the
-   Father. This contradicts Scripture (§§ 33, 34). They argue that Wisdom
+   Father. This contradicts Scripture (Â§Â§ 33, 34). They argue that Wisdom
    is said to be the first of God's creatures; but creation, in this
    sense, is a synonym for generation, and Wisdom was antecedent to
-   creation (§§ 35-38). Wisdom is coeternal with God (§ 39), and shared
-   His eternal purpose of creation (§§ 40, 41). Nor may we believe that
+   creation (Â§Â§ 35-38). Wisdom is coeternal with God (Â§ 39), and shared
+   His eternal purpose of creation (Â§Â§ 40, 41). Nor may we believe that
    Christ was begotten simply in order to perform the creative work, as
    God's Minister, for Wisdom took part in the design as well as in the
-   execution (§§ 42, 43). And again, Wisdom is spoken of as created, as an
-   indication of Her control over created things (§ 44). The creation to
+   execution (Â§Â§ 42, 43). And again, Wisdom is spoken of as created, as an
+   indication of Her control over created things (Â§ 44). The creation to
    be a beginning of God's ways is a separate event from the eternal
    generation. It means that Christ, as the Way of Life, under the Old
    Covenant took the semblance, under the New Covenant the substance, of
    the creature man, to lead us into the way. The two senses must not be
-   confused (§§ 45-49). Yet mere inaccuracy of speech, without heretical
-   intent, is not unpardonable (§ 50). After a final assertion (§ 51) of
+   confused (Â§Â§ 45-49). Yet mere inaccuracy of speech, without heretical
+   intent, is not unpardonable (Â§ 50). After a final assertion (Â§ 51) of
    faith in Christ as God from God, the eternal Son, Hilary appeals to the
    Almighty Father, declaring his creed, his consciousness of human
-   infirmity and of the need of faith (§§ 52, 53). The Son is the
-   Only-begotten of God, the Second because He is the Son (§ 54). The Holy
+   infirmity and of the need of faith (Â§Â§ 52, 53). The Son is the
+   Only-begotten of God, the Second because He is the Son (Â§ 54). The Holy
    Ghost proceeds from the Father and is sent by the Son. He also is no
    creature, but of one nature with the God Whose mysteries He knows, and
-   ineffable like Him Whose Spirit He is (§ 55). Finally, Hilary prays
+   ineffable like Him Whose Spirit He is (Â§ 55). Finally, Hilary prays
    that, as he was baptized, so he may remain in the faith of Three
    Persons in One God.
      __________________________________________________________________
@@ -10782,7 +10783,7 @@ Hilary of Poitiers, John of Damascus
    25. The sixth book reveals the full deceitfulness of this heretical
    teaching. To win credit for their assertions they denounce the impious
    doctrine of heretics:--of Valentinus, to wit, and Sabellius and
-   Manichæus and Hieracas, and appropriate the godly language of the
+   ManichÃ¦us and Hieracas, and appropriate the godly language of the
    Church as a cover for their blasphemy. They reprove and alter the
    language of these heretics, correcting it into a vague resemblance to
    orthodoxy, in order to suppress the holy faith while apparently
@@ -11140,14 +11141,14 @@ Hilary of Poitiers, John of Damascus
 
    [510] Ib. lxvi. 1, 2.
 
-   [511] Reading mens finita and naturæ finitatim for the infinita and
+   [511] Reading mens finita and naturÃ¦ finitatim for the infinita and
    infinitatem of the Benedictine Edition.
 
    [512] Ps. cxxxviii. (cxxxix.) 7-10.
 
    [513] Wisd. xiii. 5.
 
-   [514] Cf. Hilary's explanation of this passage in Book ii. §§ 19, 20.
+   [514] Cf. Hilary's explanation of this passage in Book ii. Â§Â§ 19, 20.
 
    [515] St. John i. 1-14.
 
@@ -11159,7 +11160,7 @@ Hilary of Poitiers, John of Damascus
 
    [519] St. John x. 38.
 
-   [520] The letter of Arius to Alexander; Book iv., §§ 12, 13.
+   [520] The letter of Arius to Alexander; Book iv., Â§Â§ 12, 13.
 
    [521] Acts iv. 32: in this and the following passages unum is read.
 
@@ -12012,7 +12013,7 @@ Hilary of Poitiers, John of Damascus
    excludes death, and its concomitants of disease, pain, &c., from God's
    sphere.
 
-   [561] St. Matt. iii. 17; xvii. 5. Again in § 23 Hilary says that these
+   [561] St. Matt. iii. 17; xvii. 5. Again in Â§ 23 Hilary says that these
    words were often repeated.
 
    [562] St. John x. 38.
@@ -12026,7 +12027,7 @@ Hilary of Poitiers, John of Damascus
    [566] Ib. xvii. 10. The words which follow, "and Whatsoever the Father
    hath He Hath given to the Son," printed in the editions as a Scriptural
    citation, are evidently a gloss which has crept into the text. The
-   words do not occur in Scripture, but are used by Hilary in § 10 of this
+   words do not occur in Scripture, but are used by Hilary in Â§ 10 of this
    Book.
 
    [567] Col. ii. 9.
@@ -12045,7 +12046,7 @@ Hilary of Poitiers, John of Damascus
 
    [574] Ib. i. 18.
 
-   [575] The citation which is interpolated in § 8, where see the note,
+   [575] The citation which is interpolated in Â§ 8, where see the note,
    and cf. St. Matt. xi. 25.
 
    [576] St. John v. 26.
@@ -12089,7 +12090,7 @@ Hilary of Poitiers, John of Damascus
 
    [594] St. Matt. xi. 27.
 
-   [595] Col. ii. 9. The argument of §§ 18-20 is not easy. They begin with
+   [595] Col. ii. 9. The argument of Â§Â§ 18-20 is not easy. They begin with
    the possible objection to All things were made through Him, that this
    would include the Father among the Son's creations. The answer is found
    in the following words, Without Him was not anything made. These show
@@ -12113,7 +12114,7 @@ Hilary of Poitiers, John of Damascus
 
    [598] Reading sint.
 
-   [599] St. Matt. xvii. 5. See the note to § 8.
+   [599] St. Matt. xvii. 5. See the note to Â§ 8.
 
    [600] St. John xiv. 28.
 
@@ -12150,7 +12151,7 @@ Hilary of Poitiers, John of Damascus
    [616] St. John iii. 8.
 
    [617] Qui Patre et Filio auctoribus confitendus est; A comparison with
-   dum et usum et auctorem eius ignorant in § 4 makes this appear the
+   dum et usum et auctorem eius ignorant in Â§ 4 makes this appear the
    probable translation. It might, of course, mean confess Him on the
    evidence of Father and Son.
 
@@ -12186,7 +12187,7 @@ Hilary of Poitiers, John of Damascus
 
    [633] Ib. 4-11.
 
-   [634] 1 Cor. ii. 12, cited in § 29.
+   [634] 1 Cor. ii. 12, cited in Â§ 29.
      __________________________________________________________________
 
    Book III.
@@ -13189,7 +13190,7 @@ Hilary of Poitiers, John of Damascus
    unalterable, God's perfect creature but not as one of His other
    creatures, His handiwork, but not as His other works; not, as
    Valentinus maintained, that the Son is a development of the Father;
-   nor, as Manichæus has declared of the Son, a consubstantial part of the
+   nor, as ManichÃ¦us has declared of the Son, a consubstantial part of the
    Father; nor, as Sabellius, who makes two out of one, Son and Father at
    once; nor, as Hieracas, a light from a light, or a lamp with two
    flames; nor as if He was previously in being and afterwards born or
@@ -13975,11 +13976,11 @@ Hilary of Poitiers, John of Damascus
    some second deity.
      __________________________________________________________________
 
-   [656] § 19.
+   [656] Â§ 19.
 
    [657] St. Luke xxiv. 39.
 
-   [658] In § 4.
+   [658] In Â§ 4.
 
    [659] Deut. vi. 4.
 
@@ -14042,9 +14043,9 @@ Hilary of Poitiers, John of Damascus
    [688] Omitting aut aliqui.
 
    [689] This Epistle of Arius to Alexander is translated substantially as
-   in Newman's Arians of the Fourth Century, ch. II., § 5, though there
+   in Newman's Arians of the Fourth Century, ch. II., Â§ 5, though there
    are differences of some importance between Hilary's Latin version and
-   the Greek in Athanasius de Synodis, § 16, from which Newman's version
+   the Greek in Athanasius de Synodis, Â§ 16, from which Newman's version
    is made.
 
    [690] Deut. vi. 4.
@@ -14076,7 +14077,7 @@ Hilary of Poitiers, John of Damascus
    [703] The parenthesis which follows: "Now angel of God has two senses,
    that of Him Who is, and that of Him Whose He is" interrupts the sense
    and seems quite out of place. The same distinction in the case of the
-   word Spirit, in Book II. § 32 may be compared.
+   word Spirit, in Book II. Â§ 32 may be compared.
 
    [704] Isaiah ix. 6 (LXX).
 
@@ -14116,7 +14117,7 @@ Hilary of Poitiers, John of Damascus
 
    [722] Ib. 43 (LXX.)
 
-   [723] Dei naturalis: cf. Book ix. § 39.
+   [723] Dei naturalis: cf. Book ix. Â§ 39.
 
    [724] Deut. xxxiii. 16.
 
@@ -14124,7 +14125,7 @@ Hilary of Poitiers, John of Damascus
 
    [726] Is. xliii. 10.
 
-   [727] His human nature also; cf. next §, and Book xi. § 18.
+   [727] His human nature also; cf. next Â§, and Book xi. Â§ 18.
 
    [728] St. Matt. xii. 18.
 
@@ -15129,7 +15130,7 @@ Hilary of Poitiers, John of Damascus
 
    [742] Reading recideretue.
 
-   [743] From the beginning of the Arian Creed, Book iv. § 12.
+   [743] From the beginning of the Arian Creed, Book iv. Â§ 12.
 
    [744] The first three books are regarded as preliminary. The direct
    refutation began with Book iv.
@@ -15143,7 +15144,7 @@ Hilary of Poitiers, John of Damascus
 
    [748] Gen. xix. 24.
 
-   [749] Book iv. § 12. The latter expression is cited inaccurately.
+   [749] Book iv. Â§ 12. The latter expression is cited inaccurately.
 
    [750] Gen. xviii. 25.
 
@@ -15163,7 +15164,7 @@ Hilary of Poitiers, John of Damascus
 
    [758] Ib. 13-16.
 
-   [759] Cf. Book iii. § 17.
+   [759] Cf. Book iii. Â§ 17.
 
    [760] Cf. Rom. ii. 29.
 
@@ -15183,7 +15184,7 @@ Hilary of Poitiers, John of Damascus
 
    [768] Deut. xxxii. 39.
 
-   [769] Book iv. § 33.
+   [769] Book iv. Â§ 33.
 
    [770] Deut. xxxii. 43 (Rom. xv. 10).
 
@@ -15287,7 +15288,7 @@ Hilary of Poitiers, John of Damascus
    that He is unchangeable and unalterable, God's perfect Creature, but
    not as one of His other creatures, His Handiwork, but not as His other
    works; not, as Valentinus maintained, that the Son is a development of
-   the Father, nor, as Manichæus has declared of the Son, a consubstantial
+   the Father, nor, as ManichÃ¦us has declared of the Son, a consubstantial
    part of the Father, nor, as Sabellius, who makes two out of One, Son
    and Father at once, nor, as Hieracas, a light from a light, or a lamp
    with two flames, nor, as if He was previously in being and afterwards
@@ -15367,12 +15368,12 @@ Hilary of Poitiers, John of Damascus
    discredit upon the birth of God from God by calling it a "development,"
    as though it were a form of the Valentinian heresy. For Valentinus was
    the author of foul and foolish imaginations; beside the chief God, he
-   invented a whole household of deities and countless powers called æons,
+   invented a whole household of deities and countless powers called Ã¦ons,
    and taught that our Lord Jesus Christ was a development mysteriously
    brought about by a secret action of will. The faith of the Church, the
    faith of the Evangelists and Apostles, knows nothing of this imaginary
    development, sprung from the brain of a reckless and senseless dreamer.
-   It knows nothing of the "Depth" and "Silence" and the thrice ten æons
+   It knows nothing of the "Depth" and "Silence" and the thrice ten Ã¦ons
    of Valentinus. It knows none but One God the Father, from Whom are all
    things, and One Jesus Christ, our Lord, through Whom are all things,
    Who is God born from God. But it occurred to them that He, in being
@@ -15406,12 +15407,12 @@ Hilary of Poitiers, John of Damascus
    so-called development.
 
    10. And then, in continuation of this same fraudulent assault upon the
-   faith, their confession proceeds thus:--"Nor, as Manichæus has declared
+   faith, their confession proceeds thus:--"Nor, as ManichÃ¦us has declared
    of the Son, a consubstantial part of the Father." They have already
    denied that He is a development, in order to escape from the admission
-   of His birth; now they introduce, labelled with the name of Manichæus,
+   of His birth; now they introduce, labelled with the name of ManichÃ¦us,
    the doctrine that the Son is a portion of the one Divine substance, and
-   deny it, in order to subvert the belief in God from God. For Manichæus,
+   deny it, in order to subvert the belief in God from God. For ManichÃ¦us,
    the furious adversary of the Law and Prophets, the strenuous champion
    of the devil's cause and blind worshipper of the sun, taught that That
    which was in the Virgin's womb was a portion of the one Divine
@@ -15423,13 +15424,13 @@ Hilary of Poitiers, John of Damascus
    name of the unity of substance. Because it is sheer blasphemy to speak
    of a birth resulting from division of the one substance they deny any
    birth; all forms of birth are joined in the condemnation which they
-   pass upon the Manichæan notion of birth by severance. And again, they
+   pass upon the ManichÃ¦an notion of birth by severance. And again, they
    abolish the unity of substance, both name and thing, because the
    heretics hold that the unity is divisible; and deny that the Son is God
    from God, by refusing to believe that He is truly possessed of the
    Divine nature. Why does this mad heresy profess a fictitious reverence,
    a senseless anxiety? The faith of the Church does, as these insane
-   propounders of error remind us, condemn Manichæus, for she knows
+   propounders of error remind us, condemn ManichÃ¦us, for she knows
    nothing of the Son as a portion. She knows Him as whole God from whole
    God, as One from One, not severed but born. She is assured that the
    birth of God involves neither impoverishment of the Begetter nor
@@ -16673,13 +16674,13 @@ Hilary of Poitiers, John of Damascus
 
    [774] St. John v. 23.
 
-   [775] Reading quarto instead of primo; but cf. v. § 3.
+   [775] Reading quarto instead of primo; but cf. v. Â§ 3.
 
-   [776] The Epistola Arii ad Alexandrum, repeated from Book iv. §§ 12,
+   [776] The Epistola Arii ad Alexandrum, repeated from Book iv. Â§Â§ 12,
    13, where see the notes. The only difference in the text is that this
    copy omits alone true, at the beginning.
 
-   [777] E.g. i. § 10, iv. § 2; reading non semel.
+   [777] E.g. i. Â§ 10, iv. Â§ 2; reading non semel.
 
    [778] Reading virginem.
 
@@ -16731,7 +16732,7 @@ Hilary of Poitiers, John of Damascus
 
    [802] St. John vii. 28, 29.
 
-   [803] Reading nesciretur; cf. St. John vii. 28 in § 28.
+   [803] Reading nesciretur; cf. St. John vii. 28 in Â§ 28.
 
    [804] St. John viii. 42.
 
@@ -16744,8 +16745,8 @@ Hilary of Poitiers, John of Damascus
 
    [808] St. John xvi. 26-28.
 
-   [809] Firstly, the Father's witness is given in §§ 23-27; secondly, the
-   Son's, §§ 28-31; thirdly, that of the Apostles, §§ 32-46.
+   [809] Firstly, the Father's witness is given in Â§Â§ 23-27; secondly, the
+   Son's, Â§Â§ 28-31; thirdly, that of the Apostles, Â§Â§ 32-46.
 
    [810] St. John xvi. 29, 30.
 
@@ -16762,7 +16763,7 @@ Hilary of Poitiers, John of Damascus
 
    [816] Omitting nec.
 
-   [817] Reading ecclesiæ.
+   [817] Reading ecclesiÃ¦.
 
    [818] St. John i. 18.
 
@@ -18272,7 +18273,7 @@ Hilary of Poitiers, John of Damascus
 
    [875] Ib. v. 26.
 
-   [876] Book i. § 19, iv. § 2, vi. § 9.
+   [876] Book i. Â§ 19, iv. Â§ 2, vi. Â§ 9.
 
    [877] Cf. the next section.
 
@@ -18984,7 +18985,7 @@ Hilary of Poitiers, John of Damascus
    ye shall be baptized with the Holy Ghost, which ye shall also receive
    not many days hence [925] . And again: But ye shall receive power when
    the Holy Ghost cometh upon you; and ye shall be My witnesses in
-   Jerusalem, and in all Judæa, and in Samaria, and unto the uttermost
+   Jerusalem, and in all JudÃ¦a, and in Samaria, and unto the uttermost
    part of the earth [926] . He bids them wait for the promise of the
    Father of which they had heard from His lips. We may be sure that here
    [927] we have a reference to the Father's same promise. Hence it is by
@@ -19730,7 +19731,7 @@ Hilary of Poitiers, John of Damascus
 
    [939] St. John x. 30.
 
-   [940] See § 31, supr., and note.
+   [940] See Â§ 31, supr., and note.
 
    [941] Rom. ix. 5.
 
@@ -19742,7 +19743,7 @@ Hilary of Poitiers, John of Damascus
 
    [945] Phil. ii. 6, 7. The sense in which Hilary understands non rapinam
    arbitratus est, is to be seen in his explanation, non sibi rapiens esse
-   se æqualem Deo (see just below).
+   se Ã¦qualem Deo (see just below).
 
    [946] Ibid
 
@@ -23833,7 +23834,7 @@ Hilary of Poitiers, John of Damascus
    [1143] i.e. the thief on the cross.
 
    [1144] In Biblical and Patristic Latin chaos had acquired the sense of
-   chasma; cf. Rönsch, Itala u. Vulgata, p. 250.
+   chasma; cf. RÃ¶nsch, Itala u. Vulgata, p. 250.
 
    [1145] Reading susceptis elementis.'
 
@@ -24465,7 +24466,7 @@ Hilary of Poitiers, John of Damascus
    this the Apostle Peter witnesses, Of a truth in this city were they
    gathered together against Thy holy Son Jesus, Whom Thou didst anoint
    [1253] : and on another occasion, Ye know that the saying was published
-   through all Judæa, beginning from Galilee, after the baptism which John
+   through all JudÃ¦a, beginning from Galilee, after the baptism which John
    preached: even Jesus of Nazareth, how that God anointed Him with the
    Holy Ghost and with power [1254] . Jesus was anointed, therefore, that
    the mystery of the regeneration of flesh might be accomplished. Nor are
@@ -25244,11 +25245,11 @@ Hilary of Poitiers, John of Damascus
    [1255] Ps. ii. 7. The last words occur in neither in St. Matt. (iii.
    17), nor St. Mark (i. 11), nor St. Luke (iii. 22) : but there is
    evidence of the existence of such a reading. See Tischendorf, Nov.
-   Test. Græc., on St. Matt. iii. 17, and St. Luke iii. 22.
+   Test. GrÃ¦c., on St. Matt. iii. 17, and St. Luke iii. 22.
 
    [1256] Col. i. 16, 17.
 
-   [1257] Reading quam' instead of quâ.
+   [1257] Reading quam' instead of quÃ¢.
 
    [1258] 1 Cor. xv. 21-28.
 
@@ -26647,7 +26648,7 @@ Hilary of Poitiers, John of Damascus
 
    [1330] 2 Tim. i. 9, Tit. i. 2.
 
-   [1331] Reading humanæ.
+   [1331] Reading humanÃ¦.
 
    [1332] Reading non solum.
 
@@ -27986,7 +27987,7 @@ Hilary of Poitiers, John of Damascus
    the old manuscripts of the original Latin translation, except as a
    chance note written in ink by a second and later hand on the margins of
    some of them. Hence Marcus Hopperus appears to be mistaken in ascribing
-   in the dedicatory epistle of the Græco-Latin edition of Basil the
+   in the dedicatory epistle of the GrÃ¦co-Latin edition of Basil the
    division into four books to the Latin translator: that is, unless I am
    mistaken, to Faber, whose edition he published. Traces of this,
    however, exist in the books of St. Thomas Aquinas. I therefore hold
@@ -27999,7 +28000,7 @@ Hilary of Poitiers, John of Damascus
    Rewarder. But an objection to this division is the clear connection
    between chapter 43, in which the Incarnation, or "OEconomia Divina," is
    discussed, and the words which immediately precede it in the end of
-   chapter 42, which is entitled "On Prædestination," making either
+   chapter 42, which is entitled "On PrÃ¦destination," making either
    chapter part of one continuous discussion. This fault cannot be taken
    to the other division into four parts. But in order not to startle the
    reader accustomed to the former division with too much novelty, I have,
@@ -28469,10 +28470,10 @@ Hilary of Poitiers, John of Damascus
 
    [1457] St. John xvii. 3.
 
-   [1458] See Thomas Aquin. I. quæst. 11, Art. 4; also cf. Book iv., c. 21
+   [1458] See Thomas Aquin. I. quÃ¦st. 11, Art. 4; also cf. Book iv., c. 21
    beneath. The question of the unity of the Deity is similarly dealt with
    by those of the Fathers who wrote against the Marcionites and the
-   Manichæans, and by Athenagoras.
+   ManichÃ¦ans, and by Athenagoras.
 
    [1459] Or, infinite; aperigrapton.
 
@@ -28987,11 +28988,11 @@ Hilary of Poitiers, John of Damascus
    separation in our case. Wherefore we do not speak of three Gods, the
    Father, the Son, and the Holy Spirit, but rather of one God, the holy
    Trinity, the Son and Spirit being referred to one cause [1568] , and
-   not compounded or coalesced according to the synæresis of Sabellius.
+   not compounded or coalesced according to the synÃ¦resis of Sabellius.
    For, as we said, they are made one not so as to commingle, but so as to
    cleave to each other, and they have their being in each other [1569]
    without any coalescence or commingling. Nor do the Son and the Spirit
-   stand apart, nor are they sundered in essence according to the diæresis
+   stand apart, nor are they sundered in essence according to the diÃ¦resis
    of Arias [1570] . For the Deity is undivided amongst things divided, to
    put it concisely: and it is just like three suns cleaving to each other
    without separation and giving out light mingled and conjoined into one.
@@ -29069,7 +29070,7 @@ Hilary of Poitiers, John of Damascus
    Word is apo& 207;rhoia, efflux, or tmesis, segmen, or probole, emissio
    or prolatio; and by Jerome, Adv. Ruf., Apol. 2, his reason being that
    the word had been used by Gnostics in speaking of the emanations of
-   Æons, Greg. Naz., however, Orat. 13, 35, speaks of the Father as
+   Ã†ons, Greg. Naz., however, Orat. 13, 35, speaks of the Father as
    gennetor and proboleus, and of the Spirit as problema.
 
    [1498] Greg. Naz., Orat. 36.
@@ -29123,7 +29124,7 @@ Hilary of Poitiers, John of Damascus
    [1516] arreustos genna kai ektos sunduasmou. This argument is
    repeatedly made in refutation both of Gnostic ideas of emanation and
    Arian misrepresentation of the orthodox doctrine. Cf. Athan., De
-   Synodis; Epiph., Hæres. 69; Hilary, De Trin. iii. iv.; Greg. Naz.,
+   Synodis; Epiph., HÃ¦res. 69; Hilary, De Trin. iii. iv.; Greg. Naz.,
    Orat. 35.
 
    [1517] Infra, Book ii. c. 3.
@@ -29162,7 +29163,7 @@ Hilary of Poitiers, John of Damascus
    [1532] St. John xv. 26.
 
    [1533] Cf. Basil, Contra Eunom., v.; Athan., Contra Arian., ii.; Cyril,
-   Thes., assert. 32; Epiphan., Hæres. 73, &c.
+   Thes., assert. 32; Epiphan., HÃ¦res. 73, &c.
 
    [1534] Ephes. iii. 14 and 15: Cyril, Thes., assert. 32: Dionys., De
    divin. nom., c. 1.
@@ -29196,7 +29197,7 @@ Hilary of Poitiers, John of Damascus
 
    [1539] phainein, shines.
 
-   [1540] See Cyril, Ad Herm., dial. 2; Irenæus. iv. 14, v. 6, and John of
+   [1540] See Cyril, Ad Herm., dial. 2; IrenÃ¦us. iv. 14, v. 6, and John of
    Damascus, himself in his Dial. Contr. Manich.
 
    [1541] Greg. Naz., Orat. 13, 31 and 37.
@@ -29218,7 +29219,7 @@ Hilary of Poitiers, John of Damascus
    einai echei, oude ti ton osa echei, i.e. or He does not derive His
    being nor any one of His qualities from any one.
 
-   [1549] See Greg. Naz., Orat. 29, 35; Thomas Aquin., I. Quæst. 35, art.
+   [1549] See Greg. Naz., Orat. 29, 35; Thomas Aquin., I. QuÃ¦st. 35, art.
    1.
 
    [1550] Greg. Naz., Orat. 25.
@@ -29394,8 +29395,8 @@ Hilary of Poitiers, John of Damascus
    [1586] 2 Mac. x. 5.
 
    [1587] kata ten theletiken autou achronon ennoian. See Thomas Aquin.,
-   I., II. Quæst. 17, Art. 1, where he says, est actus rationis,
-   præsupposito tamen actu voluntatis.
+   I., II. QuÃ¦st. 17, Art. 1, where he says, est actus rationis,
+   prÃ¦supposito tamen actu voluntatis.
 
    [1588] This sentence is absent in some mss., being added at the end of
    the chapter with the mark schol.
@@ -29502,7 +29503,7 @@ Hilary of Poitiers, John of Damascus
    passions.
      __________________________________________________________________
 
-   [1596] Dionys., De div. nom., c. 1; De Cæl. Hier., c. 15.
+   [1596] Dionys., De div. nom., c. 1; De CÃ¦l. Hier., c. 15.
 
    [1597] Greg. Naz., Orat. 37.
 
@@ -29931,7 +29932,7 @@ Hilary of Poitiers, John of Damascus
 
    Book II.
 
-   Chapter I.--Concerning æon or age.
+   Chapter I.--Concerning Ã¦on or age.
 
    He created the ages Who Himself was before the ages, Whom the divine
    David thus addresses, From age to age Thou art [1640] . The divine
@@ -29959,7 +29960,7 @@ Hilary of Poitiers, John of Damascus
    from night, there was not an age such as could be measured [1646] , but
    there was the sort of temporal motion and interval that is co-extensive
    with eternity. And in this sense there is but one age, and God is
-   spoken of as ai& 240;nios [1647] and proaionios, for the age or æon
+   spoken of as ai& 240;nios [1647] and proaionios, for the age or Ã¦on
    itself is His creation. For God, Who alone is without beginning, is
    Himself the Creator of all things, whether age or any other existing
    thing. And when I say God, it is evident that I mean the Father and His
@@ -29970,7 +29971,7 @@ Hilary of Poitiers, John of Damascus
    present world include many ages in the sense of lives of men, and the
    one age embraces all the ages, and the present and the future are
    spoken of as age of age. Further, everlasting (i.e. ai& 240;nios) life
-   and everlasting punishment prove that the age or æon to come is
+   and everlasting punishment prove that the age or Ã¦on to come is
    unending [1648] . For time will not be counted by days and nights even
    after the resurrection, but there will rather be one day with no
    evening, wherein the Sun of Justice will shine brightly on the just,
@@ -30169,7 +30170,7 @@ Hilary of Poitiers, John of Damascus
    [1660] en noetois kai topois. Cf. bk. i. 17.
 
    [1661] See Greg. Naz., Orat. 34. And cf. Cyril, Thesaur. 31, p. 266;
-   Epiph., Hæres. 64.
+   Epiph., HÃ¦res. 64.
 
    [1662] Dionys., De Coel. Hier., ch. 3; Greg. Naz., Orat. 34.
 
@@ -30185,8 +30186,8 @@ Hilary of Poitiers, John of Damascus
    [1667] But cf. August., Enchir., ch. 8; Greg. Naz., Orat. 34; Greg.
    Nyss., Contra Eunom., Orat. 1; Chrysost., De incomprehens., hom. 3, &c.
 
-   [1668] See Epiph., Hæres. 6, n. 4 and 5; Basil, Hex. 1; Chrysost., 2
-   Hom. in Gen.; Theodor., Quæst. 3in Gen.
+   [1668] See Epiph., HÃ¦res. 6, n. 4 and 5; Basil, Hex. 1; Chrysost., 2
+   Hom. in Gen.; Theodor., QuÃ¦st. 3in Gen.
 
    [1669] Greg. Naz., Orat. 2.
      __________________________________________________________________
@@ -30254,7 +30255,7 @@ Hilary of Poitiers, John of Damascus
    [1675] See Greg. Naz., Orat. 19, 38; Chrysost., In S. Babyl. Or. 2;
    Basil, in Jesaiam, ch. 1, &c.
 
-   [1676] Quæst. ad Antioch. 10.
+   [1676] QuÃ¦st. ad Antioch. 10.
 
    [1677] Job i. 12.
 
@@ -30421,11 +30422,11 @@ Hilary of Poitiers, John of Damascus
 
    [1687] Gen. i. 8.
 
-   [1688] Basil, Hom. 1 in Hexaëmeron.
+   [1688] Basil, Hom. 1 in HexaÃ«meron.
 
    [1689] The Peripatetics. See Nemes., ch. 5.
 
-   [1690] Basil, Hom. 3, in Hexaëmeron.
+   [1690] Basil, Hom. 3, in HexaÃ«meron.
 
    [1691] Ps. civ. 2.
 
@@ -30445,9 +30446,9 @@ Hilary of Poitiers, John of Damascus
 
    [1699] Plato, Tim.
 
-   [1700] Basil, Hom. 1 and 3, in Hexaëmeron.
+   [1700] Basil, Hom. 1 and 3, in HexaÃ«meron.
 
-   [1701] Just., quæst. 93.
+   [1701] Just., quÃ¦st. 93.
 
    [1702] Ps. cii. 26.
 
@@ -30455,7 +30456,7 @@ Hilary of Poitiers, John of Damascus
 
    [1704] Cf. August., Retract. ii. 2.
 
-   [1705] Basil, Hom. 13, in Hexaëmeron.
+   [1705] Basil, Hom. 13, in HexaÃ«meron.
 
    [1706] Ps. xcvi. 11.
 
@@ -30467,7 +30468,7 @@ Hilary of Poitiers, John of Damascus
 
    [1710] Ibid. xix. 1.
 
-   [1711] Basil, Hom. 1 and 3, in Hexaëmeron.
+   [1711] Basil, Hom. 1 and 3, in HexaÃ«meron.
      __________________________________________________________________
 
    Chapter VII.--Concerning light, fire, the luminaries, sun, moon and
@@ -30762,33 +30763,33 @@ Hilary of Poitiers, John of Damascus
 
    [1714] Gen. i. 5.
 
-   [1715] Basil, Hom. 2, in Hexaëmeron.
+   [1715] Basil, Hom. 2, in HexaÃ«meron.
 
    [1716] Gen. i. 5.
 
-   [1717] Basil, Hom. 2, in Hexaëmeron.
+   [1717] Basil, Hom. 2, in HexaÃ«meron.
 
    [1718] Text, exousian: variant. exousias.
 
    [1719] Variant here also, exousias.
 
-   [1720] Basil, Hom. 6, in Hexaëmeron.
+   [1720] Basil, Hom. 6, in HexaÃ«meron.
 
    [1721] Text, ho Demiourgos. Variant, ho demiourgesas.
 
    [1722] Ps. viii. 3.
 
-   [1723] Basil, Hom. 6, in Hexaëmeron.
+   [1723] Basil, Hom. 6, in HexaÃ«meron.
 
    [1724] Text, sunkrouseos. Variants, sunkraseos and sunkriseos.
 
-   [1725] Basil, Hom. 6, in Hexaëmeron.
+   [1725] Basil, Hom. 6, in HexaÃ«meron.
 
    [1726] Nemes., de Nat. Hom., ch. 34.
 
    [1727] Text, poioumene. Variant, poioumenon.
 
-   [1728] Basil, Hom. 6, in Hexaëmeron.
+   [1728] Basil, Hom. 6, in HexaÃ«meron.
 
    [1729] Text, thanaton delounta basileon. Variant, thanaton basileon:
    also thanaton, e anadeixin semainousi basileon.
@@ -30841,12 +30842,12 @@ Hilary of Poitiers, John of Damascus
    earth, so that the lower parts of it are cold, and the higher warm
    [1740] .
 
-   These then are the winds [1741] : Cæcias, or Meses, arises in the
+   These then are the winds [1741] : CÃ¦cias, or Meses, arises in the
    region where the sun rises in summer. Subsolanus, where the sun rises
    at the equinoxes. Eurus, where it rises in winter. Africus, where it
    sets in winter. Favonius, where it sets at the equinoxes, and Corus, or
    Olympias, or Iapyx, where it sets in summer. Then come Auster and
-   Aquilo, whose blasts oppose one another. Between Aquilo and Cæcias
+   Aquilo, whose blasts oppose one another. Between Aquilo and CÃ¦cias
    comes Boreas: and between Eurus and Auster, Phoenix or Euronotus;
    between Auster and Africus, Libonotus or Leuconotus: and lastly,
    between Aquilo and Corus, Thrascias, or Cercius, as it is called by the
@@ -30860,13 +30861,13 @@ Hilary of Poitiers, John of Damascus
    beginnings of Libya and Europe: beside Corus, Iberia, which is now
    called Spain: beside Thrascia, the Gauls and the neighbouring nations:
    beside Aquilo, the Scythians who are beyond Thrace: beside Boreas,
-   Pontus, Mæotis and the Sarmatæ: beside Cæcias, the Caspian Sea and the
+   Pontus, MÃ¦otis and the SarmatÃ¦: beside CÃ¦cias, the Caspian Sea and the
    Sacai.]
      __________________________________________________________________
 
    [1738] Gen. i. 2.
 
-   [1739] Sever. Gabal., Hom. 1 in Hexaëm.
+   [1739] Sever. Gabal., Hom. 1 in HexaÃ«m.
 
    [1740] Nemes., De Nat. Hom. i., ch. 5.
 
@@ -30954,9 +30955,9 @@ Hilary of Poitiers, John of Damascus
 
    Concerning the seas [1755] .
 
-   The Ægean Sea is received by the Hellespont, which ends at Abydos and
+   The Ã†gean Sea is received by the Hellespont, which ends at Abydos and
    Sestus: next, the Propontis, which ends at Chalcedon and Byzantium:
-   here are the straits where the Pontus arises. Next, the lake of Mæotis.
+   here are the straits where the Pontus arises. Next, the lake of MÃ¦otis.
    Again, from the beginning of Europe and Libya it is the Iberian Sea,
    which extends from the pillars of Hercules to the Pyrenees mountain.
    Then the Ligurian Sea as far as the borders of Etruria. Next, the
@@ -30965,10 +30966,10 @@ Hilary of Poitiers, John of Damascus
    and ends at Sicily. Then the Libyan Sea. Then the Cretan, and Sicilian,
    and Ionian, and Adriatic Seas, the last of which is poured out of the
    Sicilian Sea, which is called the Corinthian Gulf, or the Alcyonian
-   Sea. The Saronic Sea is surrounded by the Sunian and Scyllæan Seas.
+   Sea. The Saronic Sea is surrounded by the Sunian and ScyllÃ¦an Seas.
    Next is the Myrtoan Sea and the Icarian Sea, in which are also the
    Cyclades. Then the Carpathian, and Pamphylian, and Egyptian Seas: and,
-   thereafter, above the Icarian Sea, the Ægean Sea pours itself out.
+   thereafter, above the Icarian Sea, the Ã†gean Sea pours itself out.
    There is also the coast of Europe from the mouth of the Tanais River to
    the Pillars of Hercules, 609,709 stadia: and that of Libya from the
    Tigris, as far as the mouth of the Canobus, 209,252 stadia: and lastly,
@@ -30979,11 +30980,11 @@ Hilary of Poitiers, John of Damascus
 
    [1743] Gen. i. 2.
 
-   [1744] See Basil, Hexaëm., Hom. 3.
+   [1744] See Basil, HexaÃ«m., Hom. 3.
 
    [1745] Text, hupheplotai. Variant, epheplotai.
 
-   [1746] Basil, Hom. 2 in Hexaëm.; Sever. Gabal., Orat. de opific. mundi.
+   [1746] Basil, Hom. 2 in HexaÃ«m.; Sever. Gabal., Orat. de opific. mundi.
 
    [1747] Gen. i. 9.
 
@@ -30997,7 +30998,7 @@ Hilary of Poitiers, John of Damascus
    [1751] For potamos de ho gluku hudor echon esti, reading potimon kai
    gluku hudor echon.
 
-   [1752] Basil, Hom. 4 in Hexaëm.
+   [1752] Basil, Hom. 4 in HexaÃ«m.
 
    [1753] Gen. i. 2.
 
@@ -31123,7 +31124,7 @@ Hilary of Poitiers, John of Damascus
 
    [1769] St. Matt. v. 5.
 
-   [1770] Method, Cont. Orig. apud Epiph. Hæres. 64.
+   [1770] Method, Cont. Orig. apud Epiph. HÃ¦res. 64.
 
    [1771] Only Cod. Reg. 3451 has this paragraph.
      __________________________________________________________________
@@ -31241,20 +31242,20 @@ Hilary of Poitiers, John of Damascus
 
    [1772] Greg. Nyss., De opif. Hom., ch. 2.
 
-   [1773] See the treatise of Anastas. II. Antiochen., on the Hexaëmeron,
+   [1773] See the treatise of Anastas. II. Antiochen., on the HexaÃ«meron,
    bk. vii.
 
    [1774] 'Edem, Edem, in the text. Basil, Hom. de Parad.
 
    [1775] See 2 Kings xix. 12; Isai. xxxvii. 12; Ezek. xxvii. 23.
 
-   [1776] See Chrysost., In Gen. Hom. 16, Theodor., Quæst. 27, &c.
+   [1776] See Chrysost., In Gen. Hom. 16, Theodor., QuÃ¦st. 27, &c.
 
    [1777] Gen. ii. 9.
 
    [1778] Text, ten ephesin lichnoterois. Variant ten aisthesin, &c.
 
-   [1779] Greg. Naz., Orat. 38 and 42: Method., ap Epiph. Hæres. 64.
+   [1779] Greg. Naz., Orat. 38 and 42: Method., ap Epiph. HÃ¦res. 64.
 
    [1780] Gen. ii. 25.
 
@@ -31487,7 +31488,7 @@ Hilary of Poitiers, John of Damascus
 
    [1799] Cf. Chrysostom, Hom. in Gen. 9; Anastasius, Hom. in Hex. 7;
    Clem. Alex., Strom. II.; Basil, Hom. de hom. Struct. 1; Greg. Nyss., De
-   opif. hom., ch. 16; Iren., Hær. v. 8, &c.
+   opif. hom., ch. 16; Iren., HÃ¦r. v. 8, &c.
 
    [1800] Cf. Greg. Naz., Orat. 31; Jerome, Epist. 82; August., De Genesi,
    x. 28, &c.
@@ -31511,7 +31512,7 @@ Hilary of Poitiers, John of Damascus
    [1806] The Fathers objected to Aristotle's definition of the soul as
    the entelecheia prote somatos phusikou organikou taking it to imply
    that the soul had no independent existence but was dissolved with the
-   body. Cicero explains it otherwise, Tusc. Quæst., bk. 1.
+   body. Cicero explains it otherwise, Tusc. QuÃ¦st., bk. 1.
 
    [1807] Maxim., opus de Anima.
 
@@ -32051,10 +32052,10 @@ Hilary of Poitiers, John of Damascus
 
    [1849] Max. Dial. cum Pyrrh. et Epist. 1 ad Marin.
 
-   [1850] Thomas Aquinas (1--2, Quæst. 4, a. 1 and 2) lays down the
+   [1850] Thomas Aquinas (1--2, QuÃ¦st. 4, a. 1 and 2) lays down the
    position in accordance with John of Damascus, that there is no
    "counsel" in God quatenus est appetitus inquisitivus, but that there is
-   quantum ad certitudinem judicii. Basil (Hexaëm. Hom. 1), arguing
+   quantum ad certitudinem judicii. Basil (HexaÃ«m. Hom. 1), arguing
    against the ancient philosophers who taught that the world was made
    aproairetos, affirms "counsel" in God in the latter sense.
 
@@ -32132,7 +32133,7 @@ Hilary of Poitiers, John of Damascus
    [1862] The Greek energeia being a term with a large connotation is
    explained as meaning in different cases operation (operatio), action
    (actio), and act (actus). Nemesius defines actio as operatio
-   rationalis, actus as perfectio potentiæ
+   rationalis, actus as perfectio potentiÃ¦
 
    [1863] Cf. Anast. Sin. in Odegos, p. 43; John of Dam., Dialect. c. 30;
    Greg. Nyss., in Maximus, II., p. 155.
@@ -32556,7 +32557,7 @@ Hilary of Poitiers, John of Damascus
    [1905] St. Matt. xxvi. 24.
 
    [1906] See Chrysostom, Hom. 1, in Epist. ad. Ephes., and Hom. 18, in
-   Epist. ad Hebræos.
+   Epist. ad HebrÃ¦os.
 
    [1907] 1 Tim. ii. 4.
 
@@ -32670,7 +32671,7 @@ Hilary of Poitiers, John of Damascus
    [1911] Chrys., Hom. 12 in Epist. ad. Ephes.
 
    [1912] Cf. Maximus, Vita, n. 8; Just. Martyr, Apol. 1; Tatian, Or. ad
-   Græcos; Origen, Ep. ad Rom. 1; Jerome, on Ezek. c. xxiv., &c.
+   GrÃ¦cos; Origen, Ep. ad Rom. 1; Jerome, on Ezek. c. xxiv., &c.
 
    [1913] Act. S. Max.
 
@@ -32686,7 +32687,7 @@ Hilary of Poitiers, John of Damascus
 
    [1917] ho prognostes Theos. See Athanas., in Psalm 1; Chrysost. in Hom.
    18 in Gen.; Greg. Nyss., De opif. hom.; Athanas., Minor, Quest. 50 ad
-   Antioch.; Thomas Aquinas I., Quæst. 98, Art. 2.
+   Antioch.; Thomas Aquinas I., QuÃ¦st. 98, Art. 2.
 
    [1918] Greg. Nyss., De opif., ch. 20.
 
@@ -32700,7 +32701,7 @@ Hilary of Poitiers, John of Damascus
    translations of Faber, &c.
 
    [1923] Cf. Greg. Naz., Orat. 38 and 42; Cyril Alex., Cont. Anthrop., I.
-   8; Anast. II. Antioch., Hexaëm. vi; Chrysost., Hom. 10 in Ep. ad Rom.,
+   8; Anast. II. Antioch., HexaÃ«m. vi; Chrysost., Hom. 10 in Ep. ad Rom.,
    Hom. 5 in Ep. ad Epes., &c.
      __________________________________________________________________
      __________________________________________________________________
@@ -33150,7 +33151,7 @@ Hilary of Poitiers, John of Damascus
 
    [1985] Cf. Athan., De Salut. adv. Christi; Greg. Naz., Orat. 38; Greg.
    Nyss., Contr. Apoll.; Leont., Contr. Nestor. et Eutych., bk. 1; Thomas
-   Aquinas, III., quæst. 16, art. 4, 5.
+   Aquinas, III., quÃ¦st. 16, art. 4, 5.
 
    [1986] eidos, form, class, species.
 
@@ -33459,12 +33460,12 @@ Hilary of Poitiers, John of Damascus
    [2017] Text, kai chrono kueseos. Various readings, kai tropo kueseos:
    kai chrono kai kuesei: kai nomo kueseos.
 
-   [2018] Cf. Ruf., Expos. Symb.; Epiph., in the epilogue to his De Hær.;
+   [2018] Cf. Ruf., Expos. Symb.; Epiph., in the epilogue to his De HÃ¦r.;
    Joan. Scyth., Epist. Dionys. 4.
 
    [2019] Marias is absent in most mss.
 
-   [2020] Expositio fidei a Patribus Nicænis contra Paul. Samos.III. p.
+   [2020] Expositio fidei a Patribus NicÃ¦nis contra Paul. Samos.III. p.
    conc. Ephes.
 
    [2021] Commonit. ad Eulog. et Epist. 2 ad Success.; cf. supr. ch. vi.
@@ -33815,7 +33816,7 @@ Hilary of Poitiers, John of Damascus
    [2053] Niceph. Call., Hist. xviii. 51, speaks of this Hymn and also the
    phos hilaron as coming from the Apostles themselves. The writer of the
    Life of Basil supposed to be Amphilochius of Iconium, declares that the
-   Trisagium was recited by Basil at Nicæa.
+   Trisagium was recited by Basil at NicÃ¦a.
 
    [2054] e psile theori& 139; katanoeitai.
 
@@ -33945,7 +33946,7 @@ Hilary of Poitiers, John of Damascus
    the order of natural motion, truly natural [2081] .
      __________________________________________________________________
 
-   [2065] See especially Greg. Naz., Ep. 1 ad Cled.; Theod., Hær. fab., v.
+   [2065] See especially Greg. Naz., Ep. 1 ad Cled.; Theod., HÃ¦r. fab., v.
    18.
 
    [2066] Greg. Naz., Epist. I. ad Cledon.
@@ -34702,7 +34703,7 @@ Hilary of Poitiers, John of Damascus
 
    [2136] St. John vi. 11.
 
-   [2137] See Act. 10 sextæ synodi.
+   [2137] See Act. 10 sextÃ¦ synodi.
 
    [2138] Text, theegorous. Variant, theophorous.
 
@@ -34736,7 +34737,7 @@ Hilary of Poitiers, John of Damascus
 
    [2153] Hom. 1.
 
-   [2154] Thes., xxxii., ch. 2; Act. 10, sextæ Synodi.
+   [2154] Thes., xxxii., ch. 2; Act. 10, sextÃ¦ Synodi.
 
    [2155] The Monotheletes made much of the case of the raising of the
    daughter of Jairus. See Cyril, In Joan., p. 351; Max., Dial. cum
@@ -35246,7 +35247,7 @@ Hilary of Poitiers, John of Damascus
 
    [2208] Cf. Sophron., Ep. ad. Serg., who refers to the Duliani
    ('Doulianoi); the opinions of Felix and Elipandas, condemned at the
-   Synod of Frankfort; and Thomas Aquinas, III., Quæst. 20, Art. 1.
+   Synod of Frankfort; and Thomas Aquinas, III., QuÃ¦st. 20, Art. 1.
 
    [2209] Greg. Naz., Orat. 24.
 
@@ -35526,7 +35527,7 @@ Hilary of Poitiers, John of Damascus
 
    [2236] Greg., Orat. 42.
 
-   [2237] Cf. Epiph., Hæres. 69; Greg. Nyss., Contr. Eunom., II. p. 55.
+   [2237] Cf. Epiph., HÃ¦res. 69; Greg. Nyss., Contr. Eunom., II. p. 55.
 
    [2238] hupostasis, hypostasis.
      __________________________________________________________________
@@ -35545,7 +35546,7 @@ Hilary of Poitiers, John of Damascus
    wilt not leave my soul in hell, neither wilt Thou suffer Thine holy one
    to see corruption [2241] .
 
-   Wherefore to say, with that foolish Julianus and Gaïanus, that our
+   Wherefore to say, with that foolish Julianus and GaÃ¯anus, that our
    Lord's body was incorruptible, in the first sense of the word, before
    His resurrection is impious. For if it were incorruptible it was not
    really, but only apparently, of the same essence as ours, and what the
@@ -35697,7 +35698,7 @@ Hilary of Poitiers, John of Damascus
 
    [2256] Against the Apollinarians, &c. Cf. Greg. Naz., Ep. Ad Cled., 11.
 
-   [2257] Athan., bk. i., Cont. Apoll. Epist. ad Adelph. Epiphan. Ancor. §
+   [2257] Athan., bk. i., Cont. Apoll. Epist. ad Adelph. Epiphan. Ancor. Â§
    51.
 
    [2258] A simile much used by the Fathers: cf. supr., bk. iii., ch. 8.
@@ -35782,7 +35783,7 @@ Hilary of Poitiers, John of Damascus
      __________________________________________________________________
 
    [2259] Greg. Naz., Orat. 37; Fulg., De fid. ad Petrum; Thomas Aquinas,
-   III., quæst. 3, Art. 6.
+   III., quÃ¦st. 3, Art. 6.
 
    [2260] Greg. Naz., Orat. 39.
 
@@ -36114,7 +36115,7 @@ Hilary of Poitiers, John of Damascus
    [2289] St. Matt. xxviii. 19.
 
    [2290] See Clem. Alex., Strom., bk. i; Basil, Ep. Ad Amphiloch. 2;
-   Irenæus, i. 8; Theodor., Hær. fab. c. 12; Euseb., Hist. Eccles., vii.
+   IrenÃ¦us, i. 8; Theodor., HÃ¦r. fab. c. 12; Euseb., Hist. Eccles., vii.
    9; Trullan Canon 95; Tertull., De Bapt., c. 1, &c.
 
    [2291] Heb. vi. 4.
@@ -36122,10 +36123,10 @@ Hilary of Poitiers, John of Damascus
    [2292] Rom. vi. 3.
 
    [2293] See Basil, De Spir. Sanct., c. 28, and Ep. 39; Jerome, Contr.
-   Lucif.; Theodor., Hær. III. 4; Socrates, Hist. c. 23; Sozomen, Hist.
+   Lucif.; Theodor., HÃ¦r. III. 4; Socrates, Hist. c. 23; Sozomen, Hist.
    VI. 26.
 
-   [2294] Auct., Quæst. ad. Antioch.
+   [2294] Auct., QuÃ¦st. ad. Antioch.
 
    [2295] Basil., De Bapt., bk. i. ch. 12.
 
@@ -36417,7 +36418,7 @@ Hilary of Poitiers, John of Damascus
 
    [2368] Heb. xi. 21.
 
-   [2369] Auct., Quæst. ad Antioch., 9, 63.
+   [2369] Auct., QuÃ¦st. ad Antioch., 9, 63.
 
    [2370] Num. xx.
 
@@ -36474,7 +36475,7 @@ Hilary of Poitiers, John of Damascus
      __________________________________________________________________
 
    [2377] Basil, De Spir. Sanct., c. 27; Alcuin, De Trin. ii. 5; Wal.
-   Strabo, De reb. eccles, c. 4; Hon. August., Gemma Animæ. c. 950.
+   Strabo, De reb. eccles, c. 4; Hon. August., Gemma AnimÃ¦. c. 950.
 
    [2378] 1 St. John i. 5.
 
@@ -36769,7 +36770,7 @@ Hilary of Poitiers, John of Damascus
    [2407] Gen. i. 11.
 
    [2408] Iren.,bk. iv., ch. 35; Fulg., Ad Monim., bk. ii., ch. 6; Chrys.,
-   De prod. Judæ; Greg. Nyss., Catech., &c.
+   De prod. JudÃ¦; Greg. Nyss., Catech., &c.
 
    [2409] St. Luke i. 34, 35.
 
@@ -37011,13 +37012,13 @@ Hilary of Poitiers, John of Damascus
    [2447] R. 2926 adds "Ethan," the name being taken from Julius
    Africanus.
 
-   [2448] Epiph., Hæres. 79.
+   [2448] Epiph., HÃ¦res. 79.
 
    [2449] 1 Sam. i. 2.
 
-   [2450] Greg. Nyss., Orat. in nativ. Dom.: Eustath. in Hexaëm.
+   [2450] Greg. Nyss., Orat. in nativ. Dom.: Eustath. in HexaÃ«m.
 
-   [2451] Epiph., Hæres. 79.
+   [2451] Epiph., HÃ¦res. 79.
 
    [2452] tes probatikes, the Sheep-gate.
 
@@ -37822,7 +37823,7 @@ Hilary of Poitiers, John of Damascus
 
    [2605] St. John xx. 17.
 
-   [2606] Epist. apologetica ad Acacium Melitinæ Episcopum.
+   [2606] Epist. apologetica ad Acacium MelitinÃ¦ Episcopum.
      __________________________________________________________________
 
    Chapter XIX.--That God [2607] is not the cause of evils.
@@ -37979,7 +37980,7 @@ Hilary of Poitiers, John of Damascus
 
    [2620] Athan., Cont. Gentes.
 
-   [2621] Athan., Cont. omnes hæret.
+   [2621] Athan., Cont. omnes hÃ¦ret.
 
    [2622] Damasc., Dial. Cont. Manich.
 
@@ -38231,7 +38232,7 @@ Hilary of Poitiers, John of Damascus
 
    [2652] St. Matt. xii. 5.
 
-   [2653] Epiph., Hæres. 30, n. 32, et Hær. n. 82 seqq: Athan., Hom.
+   [2653] Epiph., HÃ¦res. 30, n. 32, et HÃ¦r. n. 82 seqq: Athan., Hom.
    circum. et Sabb.
 
    [2654] Josh. iii.
@@ -38812,7 +38813,7 @@ Hilary of Poitiers, John of Damascus
 
    [2751] Philip. iii. 20, 21.
 
-   [2752] Nyss., loc. citat.; Epiph., Hæres. vi. 4.
+   [2752] Nyss., loc. citat.; Epiph., HÃ¦res. vi. 4.
 
    [2753] 1 Cor. xv. 35.
 
@@ -38822,7 +38823,7 @@ Hilary of Poitiers, John of Damascus
 
    [2756] Ibid. 36, 37, 38.
 
-   [2757] See Migne's Preface to John's Dial., Contr. Manichæos.
+   [2757] See Migne's Preface to John's Dial., Contr. ManichÃ¦os.
 
    [2758] In R. 2924 is read: en to Kuri& 251; hemon, ho prepei pasa doxa,
    time, kai proskunesis, nun kai aei, kai eis tous ai& 242;nas ton ai&
@@ -42613,3 +42614,4 @@ References
 2630. file:///ccel/s/schaff/npnf209/cache/npnf209.html3#iii.iv.iv.xxvi-Page_99b
 2631. file:///ccel/s/schaff/npnf209/cache/npnf209.html3#iii.iv.iv.xxvii-Page_100b
 2632. file:///ccel/s/schaff/npnf209/cache/npnf209.html3#iii.iv.iv.xxvii-Page_101b
+

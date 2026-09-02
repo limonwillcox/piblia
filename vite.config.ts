@@ -1,6 +1,13 @@
 /// <reference types="vitest/config" />
-import { copyFileSync, createReadStream, cpSync, existsSync, mkdirSync, statSync, writeFileSync } from "fs";
+import { copyFileSync, createReadStream, cpSync, existsSync, mkdirSync, readFileSync, statSync, writeFileSync } from "fs";
 import { getCatalog, getWork } from "./server/api";
+import {
+  CHURCH_HISTORY_CANONICAL_PATH,
+  CHURCH_HISTORY_DESCRIPTION,
+  CHURCH_HISTORY_TITLE,
+  churchHistoryJsonLd,
+  renderChurchHistoryHtml
+} from "./server/churchHistory";
 import { dirname, extname, join, resolve } from "path";
 import { fileURLToPath } from "url";
 import { defineConfig } from "vite";
@@ -25,6 +32,69 @@ const MIME: Record<string, string> = {
   ".webp": "image/webp",
   ".ico": "image/x-icon"
 };
+
+const SITE_ORIGIN = "https://piblia.com";
+
+/**
+ * Emit dist/church-history/index.html — the built app shell with the timeline
+ * baked into #root, plus the page's own title, description, canonical, Open Graph
+ * tags and JSON-LD. React replaces the markup when it boots; the crawler and
+ * anyone arriving from search already have it.
+ *
+ * Every substitution is checked, because a silently wrong <title> on the site's
+ * main SEO landing page is exactly the regression that must not ship.
+ */
+function writeChurchHistoryPage(dist: string, catalog: ReturnType<typeof getCatalog>): void {
+  const canonical = SITE_ORIGIN + CHURCH_HISTORY_CANONICAL_PATH;
+  // "<" is escaped so the payload can never close the script element early.
+  const jsonLd = JSON.stringify(churchHistoryJsonLd(SITE_ORIGIN)).replace(/</g, "\\u003c");
+  const head = [
+    '    <link rel="canonical" href="' + canonical + '" />',
+    '    <meta property="og:type" content="article" />',
+    '    <meta property="og:url" content="' + canonical + '" />',
+    '    <meta property="og:title" content="' + escapeHtml(CHURCH_HISTORY_TITLE) + '" />',
+    '    <meta property="og:description" content="' + escapeHtml(CHURCH_HISTORY_DESCRIPTION) + '" />',
+    "    <script type=\"application/ld+json\">" + jsonLd + "</script>",
+    "  </head>"
+  ].join("\n");
+
+  const steps: { name: string; apply: (s: string) => string }[] = [
+    {
+      name: "<title>",
+      apply: (s) => s.replace(/<title>[\s\S]*?<\/title>/, "<title>" + escapeHtml(CHURCH_HISTORY_TITLE) + "</title>")
+    },
+    {
+      name: 'meta name="description"',
+      apply: (s) =>
+        s.replace(
+          /<meta\s+name="description"[\s\S]*?\/>/,
+          '<meta name="description" content="' + escapeHtml(CHURCH_HISTORY_DESCRIPTION) + '" />'
+        )
+    },
+    { name: "</head>", apply: (s) => s.replace("</head>", head) },
+    {
+      name: 'empty <div id="root">',
+      apply: (s) =>
+        s.replace(
+          '<div id="root"></div>',
+          '<div id="root"><main class="page" id="page">' + renderChurchHistoryHtml(catalog) + "</main></div>"
+        )
+    }
+  ];
+
+  let html = readFileSync(join(dist, "index.html"), "utf8");
+  for (const step of steps) {
+    const next = step.apply(html);
+    if (next === html) {
+      throw new Error("church-history prerender: could not find " + step.name + " in dist/index.html");
+    }
+    html = next;
+  }
+
+  const outDir = join(dist, "church-history");
+  mkdirSync(outDir, { recursive: true });
+  writeFileSync(join(outDir, "index.html"), html);
+}
 
 function extrasPlugin() {
   function serveAssets(middlewares: { use: (fn: (req: { url?: string }, res: { statusCode: number; setHeader: (k: string, v: string) => void; end: (s?: string) => void }, next: () => void) => void) => void }) {
@@ -88,9 +158,20 @@ function extrasPlugin() {
         "/api/catalog  /api/catalog.json  200",
         "/get-app.html  /get-app.html  200",
         "/give.html  /give.html  200",
-        "/settings.html  /settings.html  200"
+        "/settings.html  /settings.html  200",
+        // Serve the prerendered page rather than falling through to the SPA catch-all.
+        "/church-history  /church-history/index.html  200",
+        "/church-history/  /church-history/index.html  200"
       ];
-      const sitemapUrls = ["https://piblia.com/", "https://piblia.com/browse", "https://piblia.com/about", "https://piblia.com/give"];
+      const sitemapUrls = [
+        SITE_ORIGIN + "/",
+        SITE_ORIGIN + "/browse",
+        SITE_ORIGIN + CHURCH_HISTORY_CANONICAL_PATH,
+        SITE_ORIGIN + "/about",
+        SITE_ORIGIN + "/give"
+      ];
+
+      writeChurchHistoryPage(dist, catalog);
 
       for (const w of catalog.works) {
         const payload = getWork(w.id);

@@ -1,4 +1,4 @@
-# source: Fathers/English/NPNF2/Volume XIII.   Gregory the Great II, Ephraim Syrus, Aphrahat
+﻿# source: Fathers/English/NPNF2/Volume XIII.   Gregory the Great II, Ephraim Syrus, Aphrahat
 # series: NPNF2
 # volume: Volume XIII.
 # father: ephraim
@@ -6,6 +6,7 @@
 # latin_match_candidate: (none)
 # extracted: 2026-09-01
 # note: Public-domain Schaff English extract. Volume archives retained under ANF/NPNF1/NPNF2.
+
 Ephraim Syrus
 
    The Nisibene Hymns.
@@ -1983,7 +1984,7 @@ Ephraim Syrus
      __________________________________________________________________
 
    [XXII.-XXV. (wanting); XXVI. (only a fragment remains); XXVII.-XXXIV.
-   (relate to Edessa and Carrhæ).]
+   (relate to Edessa and CarrhÃ¦).]
      __________________________________________________________________
 
    Hymn XXXV.
@@ -3688,7 +3689,7 @@ Ephraim Syrus
    as is the food so is the understanding, of this defiled people.--19.
    Through the supplication of all that bow, and worship Thy Father:  have
    mercy on Thy worshipper, who is thankless for Thy love.--20. From
-   Hebrews and Aramæans, and also from the Watchers:  to Thee be praise
+   Hebrews and AramÃ¦ans, and also from the Watchers:  to Thee be praise
    and through Thee to Thy Father, be also glory!--21. For that I have a
    mouth to Death, who is without mouth:  may the Son Who is all mouths,
    hold back my offence from His Father!
@@ -4314,7 +4315,7 @@ Ephraim Syrus
    multitudes!  The publicans and harlots, the impure snares, the snares
    of the deceitful fowler the Holy One seized!  The sinful woman, who was
    a snare for men, He made a mirror for penitent women!  The fig that
-   cast its fruit, that refused fruit, [406] offered Zacchæus as fruit;
+   cast its fruit, that refused fruit, [406] offered ZacchÃ¦us as fruit;
    the fruit of its own nature it gave not, but it yielded one reasonable
    fruit!  The Lord spread His thirst over the well, and caught her that
    was thirsty with the water that He asked of her.  He caught one soul at
@@ -4568,7 +4569,7 @@ Ephraim Syrus
    [405] Luke xxiii. 43.
 
    [406] St. E. seems to blend here the account of the withering of the
-   fig-tree and that of Zacchæus climbing into the wild fig-tree, as the
+   fig-tree and that of ZacchÃ¦us climbing into the wild fig-tree, as the
    Peshitto renders it.
 
    [407] John iv. 42.
@@ -10932,7 +10933,7 @@ Ephraim Syrus
 
    [600] Luke xxii. 43.
 
-   [601] Parûshâ; the resemblance of the word to Parishâ (=Pharisee) is
+   [601] ParÃ»shÃ¢; the resemblance of the word to ParishÃ¢ (=Pharisee) is
    here played on.
 
    [602] John vii. 37.
@@ -12177,7 +12178,7 @@ Ephraim Syrus
    baptism.  This is the faith of the Church of God.  And (it is
    necessary) that a man should separate himself from the observance of
    hours and Sabbaths and moons and seasons, and divinations and sorceries
-   and Chaldæan arts and magic, from fornication and from festive music,
+   and ChaldÃ¦an arts and magic, from fornication and from festive music,
    from vain doctrines, which are instruments of the Evil One, from the
    blandishment of honeyed words, from blasphemy and from adultery.  And
    that a man should not bear false witness, and that a man should not
@@ -12761,7 +12762,7 @@ Ephraim Syrus
    Alexander reigned for twelve years.  And the kings of the Greeks arose
    after Alexander, being seventeen kings, and their years were two
    hundred and sixty-nine years from Seleucus Nicanor to Ptolemy.  And the
-   Cæsars were from Augustus to Philip Cæsar, seventeen kings.  And their
+   CÃ¦sars were from Augustus to Philip CÃ¦sar, seventeen kings.  And their
    years are two hundred and ninety-three years; [788] and eighteen years
    of Severus.
 
@@ -16048,7 +16049,7 @@ Ephraim Syrus
    Daniel was persecuted, and cast into the pit of lions.  Hananiah also
    and his brethren were persecuted, and cast into the furnace of fire.
    Mordecai and Esther and the children of their people were persecuted,
-   at the hands of Haman.  Judas Maccabæus and his brethren were
+   at the hands of Haman.  Judas MaccabÃ¦us and his brethren were
    persecuted, and they also endured reproach.  The seven brethren, sons
    of the blessed woman, endured torments by bitter scourgings, [1161] and
    were confessors and true martyrs, and Eleazar, aged and advanced in
@@ -17398,42 +17399,42 @@ Index of French Words and Phrases
      *  ": [1122]1
      * (F. dal), Istoria della vita e del pontificato di S. Gregorio Magno
        Papa...Con un ragionamento sopra gli studi ecclesiastici.  Rome,
-       1758, 4°.: [1123]1
+       1758, 4Â°.: [1123]1
      * (F.), Se il Castrum Aprutiense delle lettere di s. Gregorio Magno
        fu l'odierna Teramo e se la voce Aprutium servi nel primitivo medio
-       evo a denominare la città di Teramo, ovvero solo il suo
+       evo a denominare la cittÃ  di Teramo, ovvero solo il suo
        territorio.  (Archivio storico Italiano Ser. v. tom. X. 1892, p.
        3.): [1124]1
      * (F.), Ueber eine Sammlung von Schreiben Gregors I.  u. Verordnungen
-       der Kaiser u. Könige.  Wien, 1877, 8°.: [1125]1
-     * (Fel.), Qui fuerint Gregorii Magni papæ temporibus in imperii
+       der Kaiser u. KÃ¶nige.  Wien, 1877, 8Â°.: [1125]1
+     * (Fel.), Qui fuerint Gregorii Magni papÃ¦ temporibus in imperii
        Byzantini parte occidentali exarchi et qualia eorum iura atque
-       officia.  Diss....Berlin.  Berlin, 1892, la. 8°.: [1126]1
+       officia.  Diss....Berlin.  Berlin, 1892, la. 8Â°.: [1126]1
      * (G. J. T.), Gregor I. der Grosse nach seinem Leben und seiner Lehre
-       geschildert.  Leipzig, 1845, 8°.: [1127]1
+       geschildert.  Leipzig, 1845, 8Â°.: [1127]1
      * (G.), Prolegomeni alla storia di Gregorio il Grande e de' suoi
-       tempi.  Prato, 1879, 8°.: [1128]1
-     * (Gustav), Über das Verhältnis von König Aelfreds Übersetzung der
+       tempi.  Prato, 1879, 8Â°.: [1128]1
+     * (Gustav), Ãœber das VerhÃ¤ltnis von KÃ¶nig Aelfreds Ãœbersetzung der
        Cura Pastoralis...zum Originale. : [1129]1
      * (H. J.), Utrum B. Gregorius Magnus litteras humaniores et ingenuas
        artes odio persecutus sit disputationem proponebat...H. J. L.
-       Parisiis, 1852, 8°.: [1130]1
-     * (L.), Histoire du Pontificat de S. Grégoire le Grand.  Paris, 1686,
-       4°.: [1131]1
-     * (L.), La politique de Saint Grégoire le Grand.  Thèse...Paris.
-       Paris, 1872, 8°.: [1132]1
+       Parisiis, 1852, 8Â°.: [1130]1
+     * (L.), Histoire du Pontificat de S. GrÃ©goire le Grand.  Paris, 1686,
+       4Â°.: [1131]1
+     * (L.), La politique de Saint GrÃ©goire le Grand.  ThÃ¨se...Paris.
+       Paris, 1872, 8Â°.: [1132]1
      * (P.), the Elder.  La vie et religion de deux bons papes Leon
        premier et Gregoire premier... : [1133]1
-     * (V.) [Editor], Vie du Pape Grégoire le Grande.  Légende française
-       [en vers].  Publiée pour la première fois par V. L.  Tours, 1857,
-       8°.: [1134]1
-     * (W.), Die wichtigsten Richtungen und Ziele der Thätigkeit des
+     * (V.) [Editor], Vie du Pape GrÃ©goire le Grande.  LÃ©gende franÃ§aise
+       [en vers].  PubliÃ©e pour la premiÃ¨re fois par V. L.  Tours, 1857,
+       8Â°.: [1134]1
+     * (W.), Die wichtigsten Richtungen und Ziele der ThÃ¤tigkeit des
        Papstes Gregors des Grossen. : [1135]1
      * ), a brigantine, cutter, yacht, carvel: [1136]1
      * , diaconus Aquileiensis dictus Winfridus:  S. Gregorii Magni vita
        auctore Paulo diacono monacho Cassinensi. : [1137]1
      * , diaconus:  S. Gregorii Migni vita.  (Patrol. Lat. ed. Migne, tom.
-       75, col. 59.)  Paris., 1849, 8°.: [1138]1
+       75, col. 59.)  Paris., 1849, 8Â°.: [1138]1
      * . Assemani, B. O.: [1139]1
      * ., August.: [1140]1
      * Luke vii. 37, 38: [1141]1
@@ -19058,3 +19059,4 @@ References
 1542. file:///ccel/s/schaff/npnf213/cache/npnf213.html3#iii.ix.x-Page_410
 1543. file:///ccel/s/schaff/npnf213/cache/npnf213.html3#iii.ix.x-Page_411
 1544. file:///ccel/s/schaff/npnf213/cache/npnf213.html3#iii.ix.x-Page_412
+

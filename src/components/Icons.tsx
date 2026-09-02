@@ -16,6 +16,12 @@ export const ICONS = {
       <path d="M6 7h12M6 12h12M6 17h8" />
     </svg>
   ),
+  history: (
+    <svg viewBox="0 0 24 24">
+      <path d="M4 21V10l8-6 8 6v11" />
+      <path d="M9 21v-6a3 3 0 0 1 6 0v6" />
+    </svg>
+  ),
   about: (
     <svg viewBox="0 0 24 24">
       <circle cx="12" cy="12" r="8" />

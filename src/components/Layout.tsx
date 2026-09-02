@@ -40,6 +40,14 @@ function Rail() {
           {ICONS.browse}
           <span>Browse</span>
         </NavLink>
+        <NavLink
+          to="/church-history/"
+          className={({ isActive }) => (isActive ? "active" : "")}
+          onClick={() => setNavOpen(false)}
+        >
+          {ICONS.history}
+          <span>History</span>
+        </NavLink>
         <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "")} onClick={() => setNavOpen(false)}>
           {ICONS.about}
           <span>About</span>
@@ -297,6 +305,9 @@ function Footer() {
           <h4>Study</h4>
           <Link to="/study">Study desk</Link>
           <Link to="/search?q=incarnation">Keyword search</Link>
+          <Link to="/church-history/">Church history</Link>
+          <Link to="/church-history/#pre-nicene">Before Nicaea</Link>
+          <Link to="/church-history/#post-nicene">After Nicaea</Link>
           <Link to="/about#editions">Editions</Link>
         </div>
         <div>

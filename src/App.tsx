@@ -2,6 +2,7 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import { Layout } from "./components/Layout";
 import { AboutPage } from "./pages/AboutPage";
 import { BrowsePage } from "./pages/BrowsePage";
+import { ChurchHistoryPage } from "./pages/ChurchHistoryPage";
 import { GivePage } from "./pages/GivePage";
 import { HomePage } from "./pages/HomePage";
 import { ReadPage } from "./pages/ReadPage";
@@ -16,6 +17,7 @@ export function App() {
         <Route path="/read" element={<ReadPage />} />
         <Route path="/search" element={<SearchPage />} />
         <Route path="/browse" element={<BrowsePage />} />
+        <Route path="/church-history" element={<ChurchHistoryPage />} />
         <Route path="/study" element={<StudyPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/give" element={<GivePage />} />
