@@ -98,16 +98,18 @@ export function GivePage() {
     <div className={"give-page" + (thanks || canceled ? " give-page-static" : "")}>
       <section className="give-hero" ref={heroRef} aria-label="Piblia funding">
         <h1 className={quoteClass}>
-          0 ads, 0 paywalls,
+          This site has 0 ads.
           <br />
-          100% donation funded
+          This site has 0 paywalls.
+          <br />
+          It is 100% donation funded.
         </h1>
       </section>
 
       <div className="give-body">
         {thanks ? (
           <p className="give-banner give-banner-thanks" role="status">
-            Thank you. Your gift helps keep the Church Fathers readable with no ads and no paywall.
+            Thank you. Gifts like yours make this resource possible..
           </p>
         ) : null}
         {canceled ? (
@@ -117,8 +119,8 @@ export function GivePage() {
         ) : null}
 
         <p className="give-ask">
-          If you want to help me keep the church fathers accessible to the internet completely paywall free and ad free, please
-          consider donating
+          If you want to support me in keeping the writings of Church History freely accessible, please
+          consider giving.
         </p>
 
         <form
