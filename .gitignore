@@ -8,3 +8,4 @@ data/confessions.json
 .env
 .env.*
 !.env.example
+.worktrees/
