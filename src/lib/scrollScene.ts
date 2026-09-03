@@ -35,6 +35,20 @@ export function shotLocalProgress(globalP: number, index: number, count: number)
   return clamp01((globalP - start) / span);
 }
 
+export function shotIsActive(globalP: number, index: number, count: number): boolean {
+  if (count <= 0) return false;
+  const start = index / count;
+  const end = (index + 1) / count;
+  return index === count - 1 ? globalP >= start && globalP <= 1 : globalP >= start && globalP < end;
+}
+
+/** Visible height of `rect` as a fraction of the viewport — not of the target. */
+export function visibleViewportRatio(rect: { top: number; bottom: number }, viewportHeight: number): number {
+  if (viewportHeight <= 0) return 0;
+  const visible = Math.min(rect.bottom, viewportHeight) - Math.max(rect.top, 0);
+  return clamp01(visible / viewportHeight);
+}
+
 /**
  * Drive every `[data-scene]` under `root`. Returns a teardown that restores the
  * stylesheet default. Does nothing when reduced motion is requested.
@@ -111,11 +125,7 @@ export function mountTheatreScroll(theatre: HTMLElement): () => void {
     for (let i = 0; i < n; i++) {
       const shot = shots[i];
       shot.style.setProperty("--p", shotLocalProgress(globalP, i, n).toFixed(4));
-      const start = i / n;
-      const end = (i + 1) / n;
-      // Last shot stays active through G=1; earlier shots use [start, end).
-      const active = i === n - 1 ? globalP >= start && globalP <= 1 : globalP >= start && globalP < end;
-      shot.dataset.active = active ? "1" : "0";
+      shot.dataset.active = shotIsActive(globalP, i, n) ? "1" : "0";
     }
   }
 
@@ -193,25 +203,23 @@ export function mountChromeBlackout(el: HTMLElement, className: string): () => v
 export function mountChromeCover(theatre: HTMLElement, className = "ch-dark"): () => void {
   if (typeof window === "undefined" || prefersReducedMotion()) return () => {};
 
-  const zones: HTMLElement[] = [];
-  let hover = 0;
+  let wrap: HTMLElement | null = null;
+  let onScreen = false;
+  let frame = 0;
 
-  function onEnter() {
-    hover++;
+  function onOver() {
     document.body.classList.add("ch-dark-peek");
   }
 
-  function onLeave() {
-    hover = Math.max(0, hover - 1);
-    if (!hover) document.body.classList.remove("ch-dark-peek");
+  function onOut(e: PointerEvent) {
+    if (wrap && e.relatedTarget instanceof Node && wrap.contains(e.relatedTarget)) return;
+    document.body.classList.remove("ch-dark-peek");
   }
 
   function makeHit(kind: "top" | "left"): HTMLDivElement {
     const el = document.createElement("div");
     el.className = "ch-chrome-hit";
-    el.setAttribute("aria-hidden", "true");
-    el.style.position = "fixed";
-    el.style.zIndex = "60";
+    el.style.position = "absolute";
     el.style.background = "transparent";
     el.style.pointerEvents = "auto";
     if (kind === "top") {
@@ -225,42 +233,66 @@ export function mountChromeCover(theatre: HTMLElement, className = "ch-dark"): (
       el.style.bottom = "0";
       el.style.width = "var(--rail, 56px)";
     }
-    el.addEventListener("pointerenter", onEnter);
-    el.addEventListener("pointerleave", onLeave);
     return el;
   }
 
   function insertZones() {
-    if (zones.length) return;
-    hover = 0;
-    zones.push(makeHit("top"), makeHit("left"));
-    for (const z of zones) document.body.appendChild(z);
+    if (wrap) return;
+    wrap = document.createElement("div");
+    wrap.setAttribute("aria-hidden", "true");
+    wrap.style.position = "fixed";
+    wrap.style.inset = "0";
+    wrap.style.zIndex = "60";
+    wrap.style.pointerEvents = "none";
+    wrap.append(makeHit("top"), makeHit("left"));
+    wrap.addEventListener("pointerover", onOver);
+    wrap.addEventListener("pointerout", onOut);
+    document.body.appendChild(wrap);
   }
 
   function removeZones() {
-    for (const z of zones) {
-      z.removeEventListener("pointerenter", onEnter);
-      z.removeEventListener("pointerleave", onLeave);
-      z.remove();
-    }
-    zones.length = 0;
-    hover = 0;
+    if (!wrap) return;
+    wrap.removeEventListener("pointerover", onOver);
+    wrap.removeEventListener("pointerout", onOut);
+    wrap.remove();
+    wrap = null;
     document.body.classList.remove("ch-dark-peek");
+  }
+
+  function apply() {
+    const dark = onScreen && visibleViewportRatio(theatre.getBoundingClientRect(), window.innerHeight) > 0.15;
+    document.body.classList.toggle(className, dark);
+    if (dark) insertZones();
+    else removeZones();
+  }
+
+  function paint() {
+    frame = 0;
+    apply();
+  }
+
+  function schedule() {
+    if (!frame) frame = window.requestAnimationFrame(paint);
   }
 
   const io = new IntersectionObserver(
     ([entry]) => {
-      const dark = entry.isIntersecting && entry.intersectionRatio > 0.15;
-      document.body.classList.toggle(className, dark);
-      if (dark) insertZones();
-      else removeZones();
+      onScreen = entry.isIntersecting;
+      schedule();
     },
-    { threshold: [0, 0.15, 0.5, 1] }
+    { threshold: 0 }
   );
   io.observe(theatre);
 
+  window.addEventListener("scroll", schedule, { passive: true });
+  window.addEventListener("resize", schedule);
+  schedule();
+
   return () => {
     io.disconnect();
+    window.removeEventListener("scroll", schedule);
+    window.removeEventListener("resize", schedule);
+    if (frame) window.cancelAnimationFrame(frame);
     removeZones();
     document.body.classList.remove(className, "ch-dark-peek");
   };
