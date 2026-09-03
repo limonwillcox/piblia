@@ -1466,8 +1466,10 @@ body.give-chrome-dim .promo-bar {
   top: 0;
   height: 100vh;
   width: 100vw;
-  margin-left: calc(50% - 50vw);
-  /* pull out of the padded page column to true viewport left */
+  /* 50% - 50vw would pin a 100vw box to a centered parent. .page is shifted
+     by --rail, so the parent's midpoint sits rail/2 right of the viewport
+     midpoint; subtract that or the black sits a rail-half off true left. */
+  margin-left: calc(50% - 50vw - var(--rail) / 2);
   left: 0;
   z-index: 55; /* above .site-header (40) and .rail (50) while covering */
   display: flex;
@@ -1479,6 +1481,7 @@ body.give-chrome-dim .promo-bar {
   overflow: hidden;
   border-radius: 0;
   box-sizing: border-box;
+  pointer-events: none;
 }
 /* Confined to the stage: a fixed full-document backdrop at --p 1 would black
    out the page for a reader without JavaScript. body.ch-dark covers chrome. */
@@ -1486,8 +1489,10 @@ body.give-chrome-dim .promo-bar {
   position: absolute;
   inset: 0;
   background: radial-gradient(120% 90% at 50% 62%, #241206 0%, #0a0a0d 62%, #050507 100%);
-  /* enter in first ~6% of Act; exit in last ~6% — mid-Act stays fully black */
-  opacity: clamp(0, min(var(--p) / 0.06, (1 - var(--p)) / 0.06), 1);
+  /* enter in first ~4% of Act; exit in last ~4% — leaves the last shot
+     (Nicaea) a full-black hold before the theatre lets go */
+  opacity: clamp(0, min(var(--p) / 0.04, (1 - var(--p)) / 0.04), 1);
+  pointer-events: none;
 }
 .ch-shot {
   position: absolute;
@@ -1564,12 +1569,6 @@ body.give-chrome-dim .promo-bar {
 .ch-blaze-glow { fill: url(#chBlazeGlow); }
 .ch-body { fill: #ffd98a; }
 .ch-star { fill: #ffe9b8; }
-.ch-chi-rho path {
-  fill: none;
-  stroke: #ffd98a;
-  stroke-width: 8;
-  stroke-linecap: round;
-}
 .ch-shield-mark { stroke: #e8a866; stroke-width: 2.6; }
 .ch-figure-name,
 .ch-greek {
@@ -1665,6 +1664,7 @@ body.ch-dark .rail {
   opacity: 0;
   pointer-events: none;
   filter: none;
+  transition: opacity 0.2s ease, filter 0.2s ease;
 }
 body.ch-dark.ch-dark-peek .site-header,
 body.ch-dark.ch-dark-peek .search-strip,

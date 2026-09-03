@@ -542,20 +542,20 @@ function NicaeaScene() {
               );
             })}
           </g>
-          <text className="ch-anim ch-fade-up ch-greek" style={t({ start: "0.6s", dur: "0.16s" })} x="400" y="330">
+          <text className="ch-anim ch-fade-up ch-greek" style={t({ start: "0.22s", dur: "0.16s" })} x="400" y="330">
             ὁμοούσιον
           </text>
         </>
       }
       caption={
         <>
-          <p className="ch-cap-ref ch-anim ch-fade-up" style={t({ start: "0.78s", dur: "0.12s" })}>
+          <p className="ch-cap-ref ch-anim ch-fade-up" style={t({ start: "0.3s", dur: "0.12s" })}>
             Of one substance
           </p>
-          <p className="ch-cap-date ch-anim ch-fade-up" style={t({ start: "0.86s", dur: "0.11s" })}>
+          <p className="ch-cap-date ch-anim ch-fade-up" style={t({ start: "0.36s", dur: "0.11s" })}>
             AD 325
           </p>
-          <p className="ch-cap-count ch-anim ch-fade-up" style={t({ start: "0.9s", dur: "0.1s" })}>
+          <p className="ch-cap-count ch-anim ch-fade-up" style={t({ start: "0.42s", dur: "0.1s" })}>
             <span>The Arian Heresy is struck down at the Council of Nicaea.</span>
           </p>
         </>

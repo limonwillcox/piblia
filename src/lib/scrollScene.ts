@@ -195,6 +195,8 @@ export function mountChromeBlackout(el: HTMLElement, className: string): () => v
   };
 }
 
+const CHROME_PEEK_SELECTOR = ".site-header, .search-strip, .rail";
+
 /**
  * Cover site chrome while `theatre` holds the viewport. Top/left hit zones
  * toggle `body.ch-dark-peek` so header and rail can be used. No-op when
@@ -204,15 +206,23 @@ export function mountChromeCover(theatre: HTMLElement, className = "ch-dark"): (
   if (typeof window === "undefined" || prefersReducedMotion()) return () => {};
 
   let wrap: HTMLElement | null = null;
+  let chrome: HTMLElement[] = [];
   let onScreen = false;
   let frame = 0;
+
+  function isPeekStay(node: EventTarget | null): boolean {
+    if (!(node instanceof Node)) return false;
+    if (wrap && wrap.contains(node)) return true;
+    const el = node instanceof Element ? node : node.parentElement;
+    return Boolean(el && el.closest(CHROME_PEEK_SELECTOR));
+  }
 
   function onOver() {
     document.body.classList.add("ch-dark-peek");
   }
 
   function onOut(e: PointerEvent) {
-    if (wrap && e.relatedTarget instanceof Node && wrap.contains(e.relatedTarget)) return;
+    if (isPeekStay(e.relatedTarget)) return;
     document.body.classList.remove("ch-dark-peek");
   }
 
@@ -236,6 +246,22 @@ export function mountChromeCover(theatre: HTMLElement, className = "ch-dark"): (
     return el;
   }
 
+  function bindChrome() {
+    chrome = Array.from(document.querySelectorAll<HTMLElement>(CHROME_PEEK_SELECTOR));
+    for (const el of chrome) {
+      el.addEventListener("pointerover", onOver);
+      el.addEventListener("pointerout", onOut);
+    }
+  }
+
+  function unbindChrome() {
+    for (const el of chrome) {
+      el.removeEventListener("pointerover", onOver);
+      el.removeEventListener("pointerout", onOut);
+    }
+    chrome = [];
+  }
+
   function insertZones() {
     if (wrap) return;
     wrap = document.createElement("div");
@@ -248,6 +274,7 @@ export function mountChromeCover(theatre: HTMLElement, className = "ch-dark"): (
     wrap.addEventListener("pointerover", onOver);
     wrap.addEventListener("pointerout", onOut);
     document.body.appendChild(wrap);
+    bindChrome();
   }
 
   function removeZones() {
@@ -256,11 +283,16 @@ export function mountChromeCover(theatre: HTMLElement, className = "ch-dark"): (
     wrap.removeEventListener("pointerout", onOut);
     wrap.remove();
     wrap = null;
+    unbindChrome();
     document.body.classList.remove("ch-dark-peek");
   }
 
   function apply() {
-    const dark = onScreen && visibleViewportRatio(theatre.getBoundingClientRect(), window.innerHeight) > 0.15;
+    const rect = theatre.getBoundingClientRect();
+    // Cover chrome only once the sticky stage is actually pinned. A 15% slice
+    // of a tall theatre is visible while the skip link and lede are still on
+    // screen; going dark (and inserting hit zones) that early intercepts them.
+    const dark = onScreen && rect.top <= 0 && visibleViewportRatio(rect, window.innerHeight) > 0.15;
     document.body.classList.toggle(className, dark);
     if (dark) insertZones();
     else removeZones();
