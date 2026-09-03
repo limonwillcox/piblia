@@ -178,61 +178,86 @@ function ActsBookScene() {
   );
 }
 
+/* ----------------------------------------------------- Shared stick Caesar */
+
+/**
+ * Laurel, olive, and stance are shared so Nero's horns rhyme with Constantine's halo.
+ * Right hand holds the olive; Nero's left hand is a delayed wave that raises the crosses.
+ */
+function CaesarFigure({ mode }: { mode: "nero" | "constantine" }) {
+  const leftArm = <path className="ch-mark" d="M0 -8 L-50 -24" />;
+  return (
+    <g transform="translate(400 190)">
+      <g className="ch-anim ch-fade-up" style={t({ start: "0.1s", dur: "0.16s" })}>
+        <circle className="ch-figure" cx="0" cy="-40" r="17" />
+        <path className="ch-mark" d="M0 -23 L0 34 M-22 100 L0 34 L22 100 M0 -8 L46 -58" />
+        {mode === "constantine" ? leftArm : null}
+        <path
+          className="ch-mark"
+          d="M-16 -36 C-22 -50 -8 -62 0 -63 C8 -62 22 -50 16 -36 M-16 -38 L-26 -42 M-14 -48 L-24 -54 M-8 -58 L-14 -68 M0 -63 L0 -74 M16 -38 L26 -42 M14 -48 L24 -54 M8 -58 L14 -68"
+        />
+        <g transform="translate(46 -58)">
+          <path className="ch-mark" d="M0 0 L32 -22 M6 -2 L14 -12 M10 -8 L4 -14 M16 -10 L24 -20 M20 -14 L12 -22 M24 -16 L32 -26" />
+        </g>
+      </g>
+      {mode === "nero" ? (
+        <>
+          <g className="ch-anim ch-rise" style={t({ start: "0.3s", dur: "0.14s" })}>
+            <path className="ch-mark" d="M-8 -50 C-20 -58 -26 -72 -12 -88 M8 -50 C20 -58 26 -72 12 -88" />
+          </g>
+          <g className="ch-anim ch-fade-up" style={t({ start: "0.34s", dur: "0.12s" })}>
+            {leftArm}
+          </g>
+        </>
+      ) : (
+        <circle className="ch-anim ch-pop ch-oc ch-mark" style={t({ start: "0.3s", dur: "0.16s" })} cx="0" cy="-40" r="30" />
+      )}
+    </g>
+  );
+}
+
 /* --------------------------------------------------------------- Nero, 64 */
 
-/** Before the Colosseum existed. Peter's cross inverted, Paul's sword. */
+const NERO_CROSSES: [number, number][] = [
+  [92, 310],
+  [198, 324],
+  [298, 302],
+  [502, 304],
+  [602, 322],
+  [708, 308]
+];
+
+/** Olive first, then horns; the left-hand wave raises occupied crosses. */
 function NeroScene() {
-  const roofs = [
-    "M90 300 L90 214 L150 178 L210 214 L210 300 Z",
-    "M226 300 L226 190 L286 190 L286 300 Z",
-    "M302 300 L302 160 L318 148 L410 148 L426 160 L426 300 Z",
-    "M442 300 L442 200 L502 200 L502 300 Z",
-    "M518 300 L518 176 L578 140 L638 176 L638 300 Z",
-    "M654 300 L654 222 L714 222 L714 300 Z"
-  ];
   return (
     <Shot
       id="nero"
       art={
         <>
-          <ellipse className="ch-anim ch-fade ch-blaze-glow ch-oc" style={t({ start: "0.18s", dur: "0.24s" })} cx="400" cy="250" rx="330" ry="150" />
+          <CaesarFigure mode="nero" />
           <g>
-            {Array.from({ length: 9 }, (_, i) => {
-              const x = 120 + i * 70;
-              return (
-                <g key={i} transform={"translate(" + x + " 300) scale(1.5)"}>
-                  <path
-                    className="ch-anim ch-rise ch-flame-outer"
-                    style={t({ start: "0.22s", dur: "0.22s", stagger: "0.016s", i })}
-                    d={FLAME_OUTER}
-                  />
+            {NERO_CROSSES.map(([x, y], i) => (
+              <g key={x} transform={"translate(" + x + " " + y + ")"}>
+                <g className="ch-anim ch-rise" style={t({ start: "0.48s", dur: "0.14s", stagger: "0.03s", i })}>
+                  <path className="ch-mark" d="M0 32 L0 -48 M-18 -22 L18 -22" />
+                  <circle className="ch-figure" cx="0" cy="-34" r="6" />
+                  <path className="ch-mark" d="M0 -28 L0 10 M-15 -20 L15 -20 M0 10 L-8 26 M0 10 L8 26" />
                 </g>
-              );
-            })}
-          </g>
-          <g>
-            {roofs.map((d, i) => (
-              <path key={d} className="ch-anim ch-fade ch-city" style={t({ start: "0.08s", dur: "0.14s", stagger: "0.014s", i })} d={d} />
+              </g>
             ))}
-          </g>
-          <g className="ch-anim ch-fade-up ch-mark" style={t({ start: "0.66s", dur: "0.12s" })}>
-            <path d="M292 92 L292 172 M266 148 L318 148" />
-          </g>
-          <g className="ch-anim ch-fade-up ch-mark" style={t({ start: "0.74s", dur: "0.12s" })}>
-            <path d="M508 88 L508 160 M490 108 L526 108 M508 160 L500 176 M508 160 L516 176" />
           </g>
         </>
       }
       caption={
         <>
-          <p className="ch-cap-ref ch-anim ch-fade-up" style={t({ start: "0.5s", dur: "0.12s" })}>
-            Rome burns
+          <p className="ch-cap-ref ch-anim ch-fade-up" style={t({ start: "0.54s", dur: "0.12s" })}>
+            Rome Under Nero
           </p>
-          <p className="ch-cap-date ch-anim ch-fade-up" style={t({ start: "0.58s", dur: "0.11s" })}>
+          <p className="ch-cap-date ch-anim ch-fade-up" style={t({ start: "0.62s", dur: "0.11s" })}>
             AD 64
           </p>
           <p className="ch-cap-count ch-anim ch-fade-up" style={t({ start: "0.84s", dur: "0.12s" })}>
-            <span>Peter and Paul follow</span>
+            <span>the church grows under persecution</span>
           </p>
         </>
       }
@@ -468,41 +493,22 @@ function GreatPersecutionScene() {
 
 /* --------------------------------------------------- Edict of Milan, 313 */
 
-/**
- * The two witnesses disagree, so the scene shows both: Lactantius has the mark
- * given in a dream and painted on the shields; Eusebius has it in the sky.
- */
+/** The same Caesar as Nero, halo instead of horns — legalization, not the battle. */
 function MilanScene() {
   return (
     <Shot
       id="milan"
-      art={
-        <>
-          <g className="ch-chi-rho">
-            <path className="ch-anim ch-draw" style={t({ start: "0.14s", dur: "0.18s", len: 210 })} d="M400 44 L400 250" />
-            <path className="ch-anim ch-draw" style={t({ start: "0.26s", dur: "0.16s", len: 150 })} d="M400 50 C452 50, 460 106, 400 116" />
-            <path className="ch-anim ch-draw" style={t({ start: "0.36s", dur: "0.16s", len: 200 })} d="M330 246 L470 128" />
-            <path className="ch-anim ch-draw" style={t({ start: "0.44s", dur: "0.16s", len: 200 })} d="M330 128 L470 246" />
-          </g>
-          <g>
-            {[214, 400, 586].map((x, i) => (
-              <g key={x} transform={"translate(" + x + " 306)"}>
-                <g className="ch-anim ch-fade-up" style={t({ start: "0.6s", dur: "0.14s", stagger: "0.05s", i })}>
-                  <path className="ch-shield" d="M-40 -66 L40 -66 L40 -18 C40 12, 16 30, 0 38 C-16 30, -40 12, -40 -18 Z" />
-                  <path className="ch-shield-mark" d="M0 -54 L0 4 M0 -50 C16 -50, 18 -32, 0 -30 M-16 0 L16 -30 M-16 -30 L16 0" />
-                </g>
-              </g>
-            ))}
-          </g>
-        </>
-      }
+      art={<CaesarFigure mode="constantine" />}
       caption={
         <>
-          <p className="ch-cap-ref ch-anim ch-fade-up" style={t({ start: "0.72s", dur: "0.12s" })}>
-            In hoc signo vinces
+          <p className="ch-cap-ref ch-anim ch-fade-up" style={t({ start: "0.58s", dur: "0.12s" })}>
+            Constantine legalizes Christianity
           </p>
-          <p className="ch-cap-date ch-anim ch-fade-up" style={t({ start: "0.8s", dur: "0.11s" })}>
-            AD 312
+          <p className="ch-cap-date ch-anim ch-fade-up" style={t({ start: "0.7s", dur: "0.11s" })}>
+            AD 313
+          </p>
+          <p className="ch-cap-count ch-anim ch-fade-up" style={t({ start: "0.82s", dur: "0.12s" })}>
+            <span>Edict of Milan</span>
           </p>
         </>
       }
