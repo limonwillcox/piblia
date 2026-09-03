@@ -1,30 +1,18 @@
 import { useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { SceneDefs, Theatre } from "../components/history/scenes";
 import { mountChromeCover, mountTheatreScroll } from "../lib/scrollScene";
 import {
   ACT_ONE_SCENES as ACT_ONE,
   CHURCH_HISTORY_CANONICAL_PATH,
   CHURCH_HISTORY_DESCRIPTION,
-  CHURCH_HISTORY_HEADING,
-  CHURCH_HISTORY_TITLE,
-  PERIOD_BLURBS,
-  PERIOD_LABELS,
-  churchHistoryJsonLd,
-  erasByPeriod,
-  readLinks,
-  type HistoryPeriod
+  CHURCH_HISTORY_TITLE
 } from "../../server/churchHistory";
 import { useApp } from "../context/AppContext";
-
-const PERIODS: HistoryPeriod[] = ["pre-nicene", "post-nicene"];
 
 /**
  * Point the document title, meta description and canonical at this route, and
  * put them back on the way out.
- *
- * index.html already ships a description, so this updates the existing tag in
- * place rather than rendering a second one — two descriptions is an SEO defect.
  */
 function useDocumentMeta(title: string, description: string, canonical: string): void {
   useEffect(() => {
@@ -62,11 +50,21 @@ function useDocumentMeta(title: string, description: string, canonical: string):
 }
 
 export function ChurchHistoryPage() {
-  const { setActivePassage, catalog } = useApp();
+  const { setActivePassage } = useApp();
   const cinematicRef = useRef<HTMLDivElement>(null);
+  const navigate = useNavigate();
+  const sentToTimeline = useRef(false);
+
   useEffect(() => {
     setActivePassage(null);
   }, [setActivePassage]);
+
+  useEffect(() => {
+    document.body.classList.add("ch-history-cinematic");
+    return () => {
+      document.body.classList.remove("ch-history-cinematic", "ch-dark", "ch-dark-peek");
+    };
+  }, []);
 
   useEffect(() => {
     const el = cinematicRef.current;
@@ -75,69 +73,45 @@ export function ChurchHistoryPage() {
     if (!theatre) return;
     const stopScenes = mountTheatreScroll(theatre);
     const stopCover = mountChromeCover(theatre);
+    // Enter already in the black: no eras header above the stage.
+    document.body.classList.add("ch-dark");
     return () => {
       stopScenes();
       stopCover();
     };
   }, []);
 
+  useEffect(() => {
+    const el = cinematicRef.current;
+    if (!el) return;
+    const exit = el.parentElement?.querySelector<HTMLElement>("[data-ch-exit]");
+    if (!exit) return;
+
+    const io = new IntersectionObserver(
+      ([entry]) => {
+        if (sentToTimeline.current) return;
+        if (entry.isIntersecting && entry.intersectionRatio > 0.2) {
+          sentToTimeline.current = true;
+          navigate("/church-history/timeline", { replace: false });
+        }
+      },
+      { threshold: [0, 0.2, 0.5] }
+    );
+    io.observe(exit);
+    return () => io.disconnect();
+  }, [navigate]);
+
   const origin = typeof window === "undefined" ? "https://piblia.com" : window.location.origin;
   useDocumentMeta(CHURCH_HISTORY_TITLE, CHURCH_HISTORY_DESCRIPTION, origin + CHURCH_HISTORY_CANONICAL_PATH);
 
   return (
-    <div className="ch-page">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(churchHistoryJsonLd(origin)) }}
-      />
-
-      <h1>{CHURCH_HISTORY_HEADING}</h1>
-      <p className="ch-lede">{CHURCH_HISTORY_DESCRIPTION}</p>
-
-      <a className="ch-skip" href="#pre-nicene">
-        Skip the sequence — go to the timeline
-      </a>
-
+    <div className="ch-page ch-page--cinematic">
       <div className="ch-cinematic" ref={cinematicRef}>
         <SceneDefs />
         <Theatre shots={ACT_ONE} />
       </div>
-
-      {PERIODS.map((period) => (
-        <section className="ch-period" key={period} aria-labelledby={period}>
-          <h2 id={period}>{PERIOD_LABELS[period]}</h2>
-          <p className="ch-period-blurb">{PERIOD_BLURBS[period]}</p>
-
-          <ol className="ch-timeline">
-            {erasByPeriod(period).map((era) => {
-              const links = readLinks(catalog, era);
-              return (
-                <li className="ch-era" id={era.id} key={era.id}>
-                  <p className="ch-era-date">
-                    {era.datetime ? <time dateTime={era.datetime}>{era.display}</time> : era.display}
-                  </p>
-                  <h3>{era.title}</h3>
-                  <p className="ch-era-body">{era.body}</p>
-                  {era.refs && era.refs.length ? (
-                    <p className="ch-era-refs">{era.refs.join(" · ")}</p>
-                  ) : null}
-                  {links.length ? (
-                    <p className="ch-era-read">
-                      <span className="ch-era-read-label">Read:</span>{" "}
-                      {links.map((l, i) => (
-                        <span key={l.href}>
-                          {i > 0 ? ", " : null}
-                          <Link to={l.href}>{l.name}</Link>
-                        </span>
-                      ))}
-                    </p>
-                  ) : null}
-                </li>
-              );
-            })}
-          </ol>
-        </section>
-      ))}
+      {/* Room past the Act so the stage can leave the viewport; intersecting this hands off to Timeline. */}
+      <div className="ch-cinematic-exit" data-ch-exit aria-hidden="true" />
     </div>
   );
 }

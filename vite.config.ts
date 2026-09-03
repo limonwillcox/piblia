@@ -4,8 +4,10 @@ import { getCatalog, getWork } from "./server/api";
 import {
   CHURCH_HISTORY_CANONICAL_PATH,
   CHURCH_HISTORY_DESCRIPTION,
+  CHURCH_HISTORY_TIMELINE_PATH,
   CHURCH_HISTORY_TITLE,
   churchHistoryJsonLd,
+  renderChurchHistoryCinematicHtml,
   renderChurchHistoryHtml
 } from "./server/churchHistory";
 import { dirname, extname, join, resolve } from "path";
@@ -36,27 +38,37 @@ const MIME: Record<string, string> = {
 const SITE_ORIGIN = "https://piblia.com";
 
 /**
- * Emit dist/church-history/index.html — the built app shell with the timeline
- * baked into #root, plus the page's own title, description, canonical, Open Graph
- * tags and JSON-LD. React replaces the markup when it boots; the crawler and
- * anyone arriving from search already have it.
+ * Emit dist/church-history/index.html (cinematic shell) and
+ * dist/church-history/timeline/index.html (crawlable eras). React replaces the
+ * markup when it boots; crawlers already have the timeline payload.
  *
  * Every substitution is checked, because a silently wrong <title> on the site's
  * main SEO landing page is exactly the regression that must not ship.
  */
-function writeChurchHistoryPage(dist: string, catalog: ReturnType<typeof getCatalog>): void {
-  const canonical = SITE_ORIGIN + CHURCH_HISTORY_CANONICAL_PATH;
-  // "<" is escaped so the payload can never close the script element early.
+function writePrerenderedPage(
+  dist: string,
+  opts: {
+    outRel: string;
+    canonicalPath: string;
+    bodyHtml: string;
+    withJsonLd: boolean;
+    label: string;
+  }
+): void {
+  const canonical = SITE_ORIGIN + opts.canonicalPath;
   const jsonLd = JSON.stringify(churchHistoryJsonLd(SITE_ORIGIN)).replace(/</g, "\\u003c");
-  const head = [
+  const headParts = [
     '    <link rel="canonical" href="' + canonical + '" />',
     '    <meta property="og:type" content="article" />',
     '    <meta property="og:url" content="' + canonical + '" />',
     '    <meta property="og:title" content="' + escapeHtml(CHURCH_HISTORY_TITLE) + '" />',
-    '    <meta property="og:description" content="' + escapeHtml(CHURCH_HISTORY_DESCRIPTION) + '" />',
-    "    <script type=\"application/ld+json\">" + jsonLd + "</script>",
-    "  </head>"
-  ].join("\n");
+    '    <meta property="og:description" content="' + escapeHtml(CHURCH_HISTORY_DESCRIPTION) + '" />'
+  ];
+  if (opts.withJsonLd) {
+    headParts.push("    <script type=\"application/ld+json\">" + jsonLd + "</script>");
+  }
+  headParts.push("  </head>");
+  const head = headParts.join("\n");
 
   const steps: { name: string; apply: (s: string) => string }[] = [
     {
@@ -75,10 +87,7 @@ function writeChurchHistoryPage(dist: string, catalog: ReturnType<typeof getCata
     {
       name: 'empty <div id="root">',
       apply: (s) =>
-        s.replace(
-          '<div id="root"></div>',
-          '<div id="root"><main class="page" id="page">' + renderChurchHistoryHtml(catalog) + "</main></div>"
-        )
+        s.replace('<div id="root"></div>', '<div id="root"><main class="page" id="page">' + opts.bodyHtml + "</main></div>")
     }
   ];
 
@@ -86,14 +95,31 @@ function writeChurchHistoryPage(dist: string, catalog: ReturnType<typeof getCata
   for (const step of steps) {
     const next = step.apply(html);
     if (next === html) {
-      throw new Error("church-history prerender: could not find " + step.name + " in dist/index.html");
+      throw new Error(opts.label + " prerender: could not find " + step.name + " in dist/index.html");
     }
     html = next;
   }
 
-  const outDir = join(dist, "church-history");
-  mkdirSync(outDir, { recursive: true });
-  writeFileSync(join(outDir, "index.html"), html);
+  const outFile = join(dist, opts.outRel);
+  mkdirSync(dirname(outFile), { recursive: true });
+  writeFileSync(outFile, html);
+}
+
+function writeChurchHistoryPage(dist: string, catalog: ReturnType<typeof getCatalog>): void {
+  writePrerenderedPage(dist, {
+    outRel: join("church-history", "index.html"),
+    canonicalPath: CHURCH_HISTORY_CANONICAL_PATH,
+    bodyHtml: renderChurchHistoryCinematicHtml(),
+    withJsonLd: false,
+    label: "church-history"
+  });
+  writePrerenderedPage(dist, {
+    outRel: join("church-history", "timeline", "index.html"),
+    canonicalPath: CHURCH_HISTORY_TIMELINE_PATH,
+    bodyHtml: renderChurchHistoryHtml(catalog),
+    withJsonLd: true,
+    label: "church-history-timeline"
+  });
 }
 
 function extrasPlugin() {
@@ -164,12 +190,15 @@ function extrasPlugin() {
         "/settings.html  /settings.html  200",
         // Serve the prerendered page rather than falling through to the SPA catch-all.
         "/church-history  /church-history/index.html  200",
-        "/church-history/  /church-history/index.html  200"
+        "/church-history/  /church-history/index.html  200",
+        "/church-history/timeline  /church-history/timeline/index.html  200",
+        "/church-history/timeline/  /church-history/timeline/index.html  200"
       ];
       const sitemapUrls = [
         SITE_ORIGIN + "/",
         SITE_ORIGIN + "/church-fathers",
         SITE_ORIGIN + CHURCH_HISTORY_CANONICAL_PATH,
+        SITE_ORIGIN + CHURCH_HISTORY_TIMELINE_PATH,
         SITE_ORIGIN + "/about",
         SITE_ORIGIN + "/give"
       ];

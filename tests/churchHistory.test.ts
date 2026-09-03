@@ -10,6 +10,7 @@ import {
   ERAS,
   churchHistoryJsonLd,
   erasByPeriod,
+  renderChurchHistoryCinematicHtml,
   renderChurchHistoryHtml,
   workLink,
   workRefId
@@ -136,8 +137,17 @@ describe("church history prerender", () => {
     expect(html).not.toMatch(/<script/i);
   });
 
-  it("prerenders one theatre placeholder for Act I (CLS reserve)", () => {
+  it("keeps the timeline free of the cinematic theatre", () => {
     const html = renderChurchHistoryHtml(null);
+    expect(html).toContain('class="ch-page ch-page--timeline"');
+    expect(html).not.toContain("ch-cinematic");
+    expect(html).not.toContain("data-scene-placeholder");
+  });
+});
+
+describe("church history cinematic prerender", () => {
+  it("emits one theatre placeholder for Act I (CLS reserve)", () => {
+    const html = renderChurchHistoryCinematicHtml();
     expect(html).toContain('class="ch-cinematic"');
     expect(html).toContain('class="ch-theatre"');
     expect(html).toContain('data-scene-placeholder="act-one"');
@@ -157,7 +167,7 @@ describe("church history JSON-LD", () => {
     const list = ld["@graph"].find((n) => n["@type"] === "ItemList");
     expect(list?.numberOfItems).toBe(ERAS.length);
     expect(list?.itemListElement).toHaveLength(ERAS.length);
-    expect(JSON.stringify(ld)).toContain("https://piblia.com" + CHURCH_HISTORY_PATH);
+    expect(JSON.stringify(ld)).toContain("https://piblia.com/church-history/timeline");
   });
 
   it("keeps the SEO title and description within sensible lengths", () => {

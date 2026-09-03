@@ -66,12 +66,12 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const [version, setVersionState] = useState(() => (typeof localStorage === "undefined" ? "" : storedVersion()));
   const [theme, setThemeState] = useState<Theme>(() => (typeof localStorage === "undefined" ? "day" : storedTheme()));
   const [font, setFontState] = useState(() => (typeof localStorage === "undefined" ? 18 : storedFont()));
-  const [parallel, setParallelState] = useState(() => (typeof localStorage === "undefined" ? true : storedParallel()));
+  const [parallel, setParallelState] = useState(() => (typeof localStorage === "undefined" ? false : storedParallel()));
   const [opts, setOpts] = useState<ReadOpts>(() => ({
     nums: typeof localStorage === "undefined" ? true : storedOpt("nums"),
     head: typeof localStorage === "undefined" ? true : storedOpt("head"),
-    fn: typeof localStorage === "undefined" ? true : storedOpt("fn"),
-    xref: typeof localStorage === "undefined" ? true : storedOpt("xref")
+    fn: typeof localStorage === "undefined" ? false : storedOpt("fn"),
+    xref: typeof localStorage === "undefined" ? false : storedOpt("xref")
   }));
   const [user, setUserState] = useState<string | null>(() => (typeof localStorage === "undefined" ? null : storedUser()));
   const [navOpen, setNavOpen] = useState(false);

@@ -1,6 +1,6 @@
 import { useEffect, useState, type FormEvent, type ReactNode } from "react";
 import { Link, NavLink, useLocation, useNavigate, useSearchParams } from "react-router-dom";
-import { parseQuery, translationsOf } from "../../server/query";
+import { parseQuery } from "../../server/query";
 import { useApp } from "../context/AppContext";
 import type { ReadOptId } from "../lib/prefs";
 import { ICONS } from "./Icons";
@@ -8,7 +8,7 @@ import { ICONS } from "./Icons";
 function Brand() {
   return (
     <Link className="brand" to="/" aria-label="Piblia">
-      <img className="logo" src="/assets/piblia-logo.jpg" alt="" width={32} height={32} />
+      <img className="logo" src="/assets/piblia-logo.jpg" alt="" width={42} height={42} />
       <span className="brand-name">Piblia</span>
     </Link>
   );
@@ -19,9 +19,9 @@ function Rail() {
   const location = useLocation();
   const readActive = location.pathname === "/read";
   const writingsActive = location.pathname === "/church-fathers" || location.pathname === "/browse";
+  const historyActive = location.pathname === "/church-history" || location.pathname === "/church-history/";
+  const timelineActive = location.pathname.startsWith("/church-history/timeline");
   const tools: { id: ReadOptId | "parallel"; label: string; title: string; on: boolean }[] = [
-    { id: "nums", label: "Nos", title: "Paragraph numbers", on: opts.nums },
-    { id: "head", label: "Heads", title: "Section headings", on: opts.head },
     { id: "fn", label: "Notes", title: "Footnotes", on: opts.fn },
     { id: "xref", label: "Refs", title: "Scripture references", on: opts.xref },
     { id: "parallel", label: "Split", title: "Parallel original on the right", on: parallel }
@@ -47,11 +47,19 @@ function Rail() {
         </NavLink>
         <NavLink
           to="/church-history/"
-          className={({ isActive }) => (isActive ? "active" : "")}
+          className={() => (historyActive ? "active" : "")}
           onClick={() => setNavOpen(false)}
         >
           {ICONS.history}
           <span>History</span>
+        </NavLink>
+        <NavLink
+          to="/church-history/timeline#nativity"
+          className={() => (timelineActive ? "active" : "")}
+          onClick={() => setNavOpen(false)}
+        >
+          {ICONS.timeline}
+          <span>Timeline</span>
         </NavLink>
         <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "")} onClick={() => setNavOpen(false)}>
           {ICONS.about}
@@ -85,7 +93,54 @@ function Rail() {
 }
 
 function Header() {
-  const { user, theme, setTheme, setNavOpen, setLoginOpen, setUser, navOpen } = useApp();
+  const {
+    user,
+    theme,
+    setTheme,
+    setNavOpen,
+    setLoginOpen,
+    setUser,
+    navOpen,
+    catalog,
+    mode,
+    setMode,
+    font,
+    setFont,
+    booklistOpen,
+    setBooklistOpen
+  } = useApp();
+  const [params, setParams] = useSearchParams();
+  const [q, setQ] = useState(params.get("q") || "");
+  const navigate = useNavigate();
+  const location = useLocation();
+  const onRead = location.pathname === "/read";
+
+  useEffect(() => {
+    setQ(params.get("q") || "");
+  }, [params]);
+
+  function applyMode(next: "translation" | "original") {
+    setMode(next);
+    if (onRead) {
+      const nextParams = new URLSearchParams(params);
+      nextParams.set("mode", next);
+      setParams(nextParams, { replace: true });
+    }
+  }
+
+  function onSubmit(e: FormEvent) {
+    e.preventDefault();
+    const parsed = catalog ? parseQuery(q, catalog) : { type: "keyword" as const, q };
+    if (parsed.type === "ref") {
+      const ch = parsed.chapter;
+      navigate(
+        "/read?work=" + encodeURIComponent(parsed.work) + (ch != null ? "&chapter=" + ch : "") + (ch != null ? "#ch-" + ch : "")
+      );
+      return;
+    }
+    navigate("/search?q=" + encodeURIComponent(q));
+  }
+
   return (
     <header className="site-header">
       <button
@@ -94,12 +149,62 @@ function Header() {
         aria-label="Open menu"
         onClick={() => setNavOpen(!navOpen)}
       >
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <path d="M4 7h16M4 12h16M4 17h16" />
         </svg>
       </button>
       <Brand />
+      <form className="header-search" id="searchForm" onSubmit={onSubmit}>
+        <button
+          type="button"
+          className={"writings-toggle" + (booklistOpen ? " active" : "")}
+          id="booklistBtn"
+          aria-pressed={booklistOpen}
+          onClick={() => setBooklistOpen(!booklistOpen)}
+        >
+          Writings
+        </button>
+        <input
+          type="search"
+          name="q"
+          id="q"
+          placeholder="Find across the Fathers…"
+          value={q}
+          aria-label="Search writings"
+          onChange={(e) => setQ(e.target.value)}
+        />
+        <div className="lang-toggle" role="group" aria-label="Text language">
+          <button
+            type="button"
+            data-mode="translation"
+            className={mode === "translation" ? "active" : ""}
+            onClick={() => applyMode("translation")}
+          >
+            Translation
+          </button>
+          <button
+            type="button"
+            data-mode="original"
+            className={mode === "original" ? "active" : ""}
+            onClick={() => applyMode("original")}
+          >
+            Original
+          </button>
+        </div>
+        <button className="btn-search" type="submit">
+          Find
+        </button>
+      </form>
       <div className="header-actions">
+        <div className="font-ctrl">
+          Aa{" "}
+          <button type="button" id="fontDown" aria-label="Decrease text size" onClick={() => setFont(Math.max(14, font - 2))}>
+            −
+          </button>
+          <button type="button" id="fontUp" aria-label="Increase text size" onClick={() => setFont(Math.min(26, font + 2))}>
+            +
+          </button>
+        </div>
         <button
           className="icon-btn"
           id="themeBtn"
@@ -107,13 +212,13 @@ function Header() {
           aria-label="Toggle night mode"
           onClick={() => setTheme(theme === "night" ? "day" : "night")}
         >
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
             <path d="M21 14.5A8.5 8.5 0 1 1 9.5 3 7 7 0 0 0 21 14.5z" />
           </svg>
         </button>
         {user ? (
           <>
-            <span style={{ fontSize: 14, fontWeight: 600 }}>{user}</span>
+            <span style={{ fontSize: 15, fontWeight: 600 }}>{user}</span>
             <button className="linkish" id="signOut" onClick={() => setUser(null)}>
               Sign out
             </button>
@@ -126,111 +231,6 @@ function Header() {
       </div>
     </header>
   );
-}
-
-function SearchStrip() {
-  const { catalog, mode, setMode, version, setVersion, font, setFont, booklistOpen, setBooklistOpen, activePassage } = useApp();
-  const [params, setParams] = useSearchParams();
-  const [q, setQ] = useStateLocal(params.get("q") || "");
-  const navigate = useNavigate();
-  const location = useLocation();
-  const onRead = location.pathname === "/read";
-
-  function applyMode(next: "translation" | "original") {
-    setMode(next);
-    if (onRead) {
-      const nextParams = new URLSearchParams(params);
-      nextParams.set("mode", next);
-      setParams(nextParams, { replace: true });
-    }
-  }
-
-  useEffect(() => {
-    const next = params.get("q") || "";
-    setQ(next);
-  }, [params]);
-
-  function onSubmit(e: FormEvent) {
-    e.preventDefault();
-    const parsed = catalog ? parseQuery(q, catalog) : { type: "keyword" as const, q };
-    if (parsed.type === "ref") {
-      const ch = parsed.chapter;
-      navigate("/read?work=" + encodeURIComponent(parsed.work) + (ch != null ? "&chapter=" + ch : "") + (ch != null ? "#ch-" + ch : ""));
-      return;
-    }
-    navigate("/search?q=" + encodeURIComponent(q));
-  }
-
-  const trans = onRead && mode === "translation" && activePassage ? translationsOf(activePassage, catalog?.versions || []) : [];
-  const showEditions = trans.length > 0;
-
-  return (
-    <div className="search-strip">
-      <form className="search-row" id="searchForm" onSubmit={onSubmit}>
-        <input
-          type="search"
-          name="q"
-          id="q"
-          placeholder="Search Confessions (e.g. Book 8, restless, pear tree)"
-          value={q}
-          aria-label="Search writings"
-          onChange={(e) => setQ(e.target.value)}
-        />
-        <div className="lang-toggle" role="group" aria-label="Text language">
-          <button type="button" data-mode="translation" className={mode === "translation" ? "active" : ""} onClick={() => applyMode("translation")}>
-            Translation
-          </button>
-          <button type="button" data-mode="original" className={mode === "original" ? "active" : ""} onClick={() => applyMode("original")}>
-            Original
-          </button>
-        </div>
-        <button className="btn-search" type="submit">
-          Search
-        </button>
-      </form>
-      <div className={"edition-bar" + (showEditions ? " show" : "")} id="editionBar" aria-label="Available translations">
-        {showEditions
-          ? trans.map((v) => (
-              <button
-                key={v.id}
-                type="button"
-                className={"edition-chip" + (v.id === version || (!version && v.id === trans[0]?.id) ? " active" : "")}
-                data-edition={v.id}
-                onClick={() => {
-                  setVersion(v.id);
-                  if (onRead) {
-                    const nextParams = new URLSearchParams(params);
-                    nextParams.set("version", v.id);
-                    setParams(nextParams, { replace: true });
-                  }
-                }}
-              >
-                {v.short}
-              </button>
-            ))
-          : null}
-      </div>
-      <div className="search-tools">
-        <button type="button" id="booklistBtn" onClick={() => setBooklistOpen(!booklistOpen)}>
-          Writings list
-        </button>
-        <Link to="/search?advanced=1">Advanced search</Link>
-        <div className="font-ctrl">
-          Aa{" "}
-          <button type="button" id="fontDown" aria-label="Decrease text size" onClick={() => setFont(Math.max(14, font - 2))}>
-            −
-          </button>
-          <button type="button" id="fontUp" aria-label="Increase text size" onClick={() => setFont(Math.min(26, font + 2))}>
-            +
-          </button>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function useStateLocal(initial: string) {
-  return useState(initial);
 }
 
 function Booklist() {
@@ -311,8 +311,9 @@ function Footer() {
           <Link to="/study">Study desk</Link>
           <Link to="/search?q=incarnation">Keyword search</Link>
           <Link to="/church-history/">Church history</Link>
-          <Link to="/church-history/#pre-nicene">Before Nicaea</Link>
-          <Link to="/church-history/#post-nicene">After Nicaea</Link>
+          <Link to="/church-history/timeline#nativity">Timeline</Link>
+          <Link to="/church-history/timeline#pre-nicene">Before Nicaea</Link>
+          <Link to="/church-history/timeline#post-nicene">After Nicaea</Link>
           <Link to="/about#editions">Editions</Link>
         </div>
         <div>
@@ -439,6 +440,7 @@ export function Layout({ children }: { children: ReactNode }) {
   const { setNavOpen, setBooklistOpen, setLoginOpen, toast, navOpen } = useApp();
   const location = useLocation();
   const isLanding = location.pathname === "/";
+  const isHistoryCinematic = location.pathname === "/church-history" || location.pathname === "/church-history/";
 
   useEffect(() => {
     document.body.classList.toggle("nav-open", navOpen);
@@ -478,12 +480,16 @@ export function Layout({ children }: { children: ReactNode }) {
       </a>
       <Rail />
       {!isLanding ? <Header /> : null}
-      {!isLanding ? <SearchStrip /> : null}
       <Booklist />
-      <main className={"page" + (isLanding ? " page--landing" : "")} id="page">
+      <main
+        className={
+          "page" + (isLanding ? " page--landing" : "") + (isHistoryCinematic ? " page--history-cinematic" : "")
+        }
+        id="page"
+      >
         {children}
       </main>
-      <Footer />
+      {!isHistoryCinematic ? <Footer /> : null}
       <AuthModal />
       <div className={"toast" + (toast ? " open" : "")} id="toast">
         {toast}

@@ -61,8 +61,9 @@ export const CHURCH_HISTORY_PATH = "/church-history";
  * and the sitemap must both carry the slash, or every crawl takes a redirect hop.
  */
 export const CHURCH_HISTORY_CANONICAL_PATH = "/church-history/";
+export const CHURCH_HISTORY_TIMELINE_PATH = "/church-history/timeline";
 export const CHURCH_HISTORY_TITLE = "Church History Timeline: Pentecost to the Great Schism";
-export const CHURCH_HISTORY_HEADING = "The Eras of Church History";
+export const CHURCH_HISTORY_HEADING = "Church history timeline";
 export const CHURCH_HISTORY_DESCRIPTION =
   "A timeline of church history from Pentecost to the Great Schism of 1054 — the persecutions, Nicaea, and the councils, linked to the Church Fathers' own words.";
 
@@ -458,20 +459,30 @@ export function escapeHtml(s: string): string {
  * The React page renders the same data as JSX. Only the markup is written twice;
  * the content has one home, above.
  */
-export function renderChurchHistoryHtml(catalog: Catalog | null): string {
+/** Cinematic-only shell for /church-history (Act I). Timeline lives on its own route. */
+export function renderChurchHistoryCinematicHtml(): string {
   const out: string[] = [];
-  out.push("<div class=\"ch-page\">");
-  out.push("<h1>" + escapeHtml(CHURCH_HISTORY_HEADING) + "</h1>");
-  out.push("<p class=\"ch-lede\">" + escapeHtml(CHURCH_HISTORY_DESCRIPTION) + "</p>");
-  // Reserve one theatre for Act I. Scenes stay out of the crawlable HTML, but
-  // React mounts them here — without a placeholder of the same height the
-  // timeline would be shoved down on boot and score as layout shift.
-  out.push("<a class=\"ch-skip\" href=\"#pre-nicene\">Skip the sequence — go to the timeline</a>");
+  out.push("<div class=\"ch-page ch-page--cinematic\">");
   out.push("<div class=\"ch-cinematic\">");
   out.push(
     "<div class=\"ch-theatre\" data-scene-placeholder=\"act-one\" aria-hidden=\"true\"></div>"
   );
   out.push("</div>");
+  out.push("</div>");
+  return out.join("\n");
+}
+
+/**
+ * The timeline as a static HTML string, for the build-time prerender.
+ *
+ * The React page renders the same data as JSX. Only the markup is written twice;
+ * the content has one home, above.
+ */
+export function renderChurchHistoryHtml(catalog: Catalog | null): string {
+  const out: string[] = [];
+  out.push("<div class=\"ch-page ch-page--timeline\">");
+  out.push("<h1>" + escapeHtml(CHURCH_HISTORY_HEADING) + "</h1>");
+  out.push("<p class=\"ch-lede\">" + escapeHtml(CHURCH_HISTORY_DESCRIPTION) + "</p>");
 
   for (const period of ["pre-nicene", "post-nicene"] as HistoryPeriod[]) {
     out.push("<section class=\"ch-period\" aria-labelledby=\"" + period + "\">");
@@ -515,7 +526,7 @@ export function renderChurchHistoryHtml(catalog: Catalog | null): string {
 
 /** Article + BreadcrumbList + ItemList, as a JSON-LD object graph. */
 export function churchHistoryJsonLd(origin: string): unknown {
-  const url = origin + CHURCH_HISTORY_CANONICAL_PATH;
+  const url = origin + CHURCH_HISTORY_TIMELINE_PATH;
   return {
     "@context": "https://schema.org",
     "@graph": [

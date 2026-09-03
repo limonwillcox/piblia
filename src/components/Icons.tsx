@@ -22,6 +22,12 @@ export const ICONS = {
       <path d="M9 21v-6a3 3 0 0 1 6 0v6" />
     </svg>
   ),
+  timeline: (
+    <svg viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="8" />
+      <path d="M12 8v5l3 2" />
+    </svg>
+  ),
   about: (
     <svg viewBox="0 0 24 24">
       <circle cx="12" cy="12" r="8" />

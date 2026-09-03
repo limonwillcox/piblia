@@ -37,12 +37,17 @@ describe("keyword search (shipped runSearch)", () => {
     const result = runSearch("restless");
     expect(result.query).toEqual({ type: "keyword", q: "restless" });
     expect(result.hits.length).toBeGreaterThan(0);
-    const hit = result.hits.find((h) => h.snippet.toLowerCase().includes("restless"));
+    const hit = result.hits.find((h) => h.work === "confessions" && h.snippet.toLowerCase().includes("restless"));
     expect(hit).toBeTruthy();
-    expect(hit?.work).toBe("confessions");
 
     const passage = passages.find((p) => p.work === hit!.work && p.chapter === hit!.chapter);
     expect(passage?.versions.pusey.some((para) => para.toLowerCase().includes("restless"))).toBe(true);
+
+    // Same-work hits stay in chapter order after the Find sort.
+    const confessionHits = result.hits.filter((h) => h.work === "confessions");
+    for (let i = 1; i < confessionHits.length; i++) {
+      expect(confessionHits[i].chapter).toBeGreaterThanOrEqual(confessionHits[i - 1].chapter);
+    }
 
     const viaApi = handleApiRequest("/api/search?q=restless");
     expect(viaApi.status).toBe(200);

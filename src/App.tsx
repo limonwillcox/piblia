@@ -8,6 +8,7 @@ import { HomePage } from "./pages/HomePage";
 import { ReadPage } from "./pages/ReadPage";
 import { SearchPage } from "./pages/SearchPage";
 import { StudyPage } from "./pages/StudyPage";
+import { TimelinePage } from "./pages/TimelinePage";
 
 export function App() {
   return (
@@ -19,6 +20,7 @@ export function App() {
         <Route path="/church-fathers" element={<BrowsePage />} />
         <Route path="/browse" element={<Navigate to="/church-fathers" replace />} />
         <Route path="/church-history" element={<ChurchHistoryPage />} />
+        <Route path="/church-history/timeline" element={<TimelinePage />} />
         <Route path="/study" element={<StudyPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/give" element={<GivePage />} />

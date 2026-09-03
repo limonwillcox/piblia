@@ -195,7 +195,7 @@ export function mountChromeBlackout(el: HTMLElement, className: string): () => v
   };
 }
 
-const CHROME_PEEK_SELECTOR = ".site-header, .search-strip, .rail";
+const CHROME_PEEK_SELECTOR = ".site-header, .rail";
 
 /**
  * Cover site chrome while `theatre` holds the viewport. Top/left hit zones
@@ -289,10 +289,11 @@ export function mountChromeCover(theatre: HTMLElement, className = "ch-dark"): (
 
   function apply() {
     const rect = theatre.getBoundingClientRect();
-    // Cover chrome only once the sticky stage is actually pinned. A 15% slice
-    // of a tall theatre is visible while the skip link and lede are still on
-    // screen; going dark (and inserting hit zones) that early intercepts them.
-    const dark = onScreen && rect.top <= 0 && visibleViewportRatio(rect, window.innerHeight) > 0.15;
+    // Cover chrome once the stage owns the viewport. Allow a small top slack
+    // (header height) so a cinematic-only History page darkens on entry without
+    // an eras lede above the theatre to scroll past.
+    const topSlack = document.body.classList.contains("ch-history-cinematic") ? 96 : 0;
+    const dark = onScreen && rect.top <= topSlack && visibleViewportRatio(rect, window.innerHeight) > 0.15;
     document.body.classList.toggle(className, dark);
     if (dark) insertZones();
     else removeZones();

@@ -5,8 +5,9 @@ export type ReadOptId = "nums" | "head" | "fn" | "xref";
 const OPT_DEFAULT: Record<ReadOptId, boolean> = {
   nums: true,
   head: true,
-  fn: true,
-  xref: true
+  // Notes / refs start off so Read opens as a clean column.
+  fn: false,
+  xref: false
 };
 
 export function storedOpt(id: ReadOptId, fallback = OPT_DEFAULT[id]): boolean {
@@ -36,7 +37,8 @@ export function setStoredVersion(id: string): void {
 }
 
 export function storedParallel(): boolean {
-  return localStorage.getItem("fg-orig-parallel") !== "off";
+  // Split off by default; only on when the user has explicitly enabled it.
+  return localStorage.getItem("fg-orig-parallel") === "on";
 }
 
 export function setStoredParallel(on: boolean): void {

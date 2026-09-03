@@ -109,7 +109,7 @@ export function searchKeyword(q: string, catalog: Catalog, passages: Passage[]):
     if (a.name.toLowerCase().includes(needle)) {
       const w = catalog.works.find((x) => x.author === a.id);
       if (w) {
-        hits.unshift({
+        hits.push({
           work: w.id,
           chapter: 1,
           heading: a.name,
@@ -122,10 +122,33 @@ export function searchKeyword(q: string, catalog: Catalog, passages: Passage[]):
     }
   });
   const seen = new Set<string>();
-  return hits.filter((h) => {
+  const deduped = hits.filter((h) => {
     const k = h.work + ":" + h.chapter;
     if (seen.has(k)) return false;
     seen.add(k);
     return true;
+  });
+
+  // Bible-app-style Find order: era → author → work → chapter through the corpus.
+  const eraRank = new Map(catalog.eras.map((e, i) => [e.id, i]));
+  const authorRank = new Map(catalog.authors.map((a, i) => [a.id, i]));
+  const workRank = new Map(catalog.works.map((w, i) => [w.id, i]));
+  const authorByWork = new Map(catalog.works.map((w) => [w.id, w.author]));
+
+  return deduped.sort((a, b) => {
+    const aAuthorId = authorByWork.get(a.work) || "";
+    const bAuthorId = authorByWork.get(b.work) || "";
+    const aAuthor = authorById(catalog, aAuthorId);
+    const bAuthor = authorById(catalog, bAuthorId);
+    const ea = eraRank.get(aAuthor?.era || "") ?? 999;
+    const eb = eraRank.get(bAuthor?.era || "") ?? 999;
+    if (ea !== eb) return ea - eb;
+    const aa = authorRank.get(aAuthorId) ?? 999;
+    const ba = authorRank.get(bAuthorId) ?? 999;
+    if (aa !== ba) return aa - ba;
+    const wa = workRank.get(a.work) ?? 999;
+    const wb = workRank.get(b.work) ?? 999;
+    if (wa !== wb) return wa - wb;
+    return a.chapter - b.chapter;
   });
 }

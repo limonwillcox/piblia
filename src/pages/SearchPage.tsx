@@ -48,8 +48,9 @@ export function SearchPage() {
         <h1>{advanced ? "Advanced search" : "Search results"}</h1>
         {advanced ? (
           <p>
-            Type a father, a work and chapter (<em>Confessions 1</em>), or any keyword. Search looks at titles and the public-domain
-            texts themselves. Translation or original is chosen with the two buttons beside the search bar after a work is open.
+            Type a father, a work and chapter (<em>Confessions 1</em>), or any keyword. Find walks the whole Fathers corpus in era
+            order — like a Bible app Find — through titles and the public-domain texts. Translation or Original is chosen with the
+            header toggle after a work is open.
           </p>
         ) : null}
         {q ? (
