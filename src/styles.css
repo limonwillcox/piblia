@@ -1595,10 +1595,9 @@ body.give-chrome-dim .promo-bar {
   stroke-linejoin: round;
 }
 .ch-horn {
-  fill: none;
-  stroke: #e23128;
-  stroke-width: 3.8;
-  stroke-linecap: round;
+  fill: #e23128;
+  stroke: #b01f1a;
+  stroke-width: 1.2;
   stroke-linejoin: round;
 }
 .ch-halo {
