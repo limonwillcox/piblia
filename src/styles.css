@@ -1408,12 +1408,12 @@ body.give-chrome-dim .promo-bar {
   --p: 1;
   --shot-count: 9;
   position: relative;
-  /* ~scroll budget: ~1.7 viewport per shot */
-  height: calc(var(--shot-count) * 170vh);
+  /* ~scroll budget: room to enter, hold, and leave each shot */
+  height: calc(var(--shot-count) * 240vh);
 }
 .ch-theatre[data-scene-placeholder] {
   /* prerender CLS reserve before React hydrates */
-  min-height: calc(9 * 170vh);
+  min-height: calc(9 * 240vh);
 }
 /* The scrub core. --start is when an element begins and --dur how long it takes,
    both on the 0s–1s timeline --p drives; --i staggers siblings off the same
@@ -1497,10 +1497,11 @@ body.give-chrome-dim .promo-bar {
 /* Each shot slides in from below and out above as local --p runs 0→1,
    so successive scenes feel scrolled away instead of cutting. */
 @keyframes chShotSlide {
-  0% { transform: translateY(46vh); opacity: 0; }
-  10% { transform: translateY(0); opacity: 1; }
-  86% { transform: translateY(0); opacity: 1; }
-  100% { transform: translateY(-46vh); opacity: 0; }
+  /* Longer enter + hold so each beat settles before the next scrapes it away. */
+  0% { transform: translateY(52vh); opacity: 0; }
+  16% { transform: translateY(0); opacity: 1; }
+  82% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(-52vh); opacity: 0; }
 }
 .ch-shot {
   --p: 0;

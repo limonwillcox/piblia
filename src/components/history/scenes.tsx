@@ -114,13 +114,13 @@ function PentecostScene() {
       }
       caption={
         <>
-          <p className="ch-cap-ref ch-anim ch-fade-up" style={t({ start: "0.54s", dur: "0.12s" })}>
+          <p className="ch-cap-ref ch-anim ch-fade-up" style={t({ start: "0.12s", dur: "0.12s" })}>
             Acts 2
           </p>
-          <p className="ch-cap-date ch-anim ch-fade-up" style={t({ start: "0.61s", dur: "0.11s" })}>
+          <p className="ch-cap-date ch-anim ch-fade-up" style={t({ start: "0.18s", dur: "0.11s" })}>
             AD 33
           </p>
-          <p className="ch-cap-count ch-anim ch-fade-up" style={t({ start: "0.78s", dur: "0.12s" })}>
+          <p className="ch-cap-count ch-anim ch-fade-up" style={t({ start: "0.24s", dur: "0.12s" })}>
             <strong>3,000</strong>
             <span>added that day</span>
           </p>
@@ -155,7 +155,7 @@ function ActsBookScene() {
               Acts 28
             </span>
           </p>
-          <p className="ch-cap-date ch-anim ch-fade-up" style={t({ start: "0.79s", dur: "0.11s" })}>
+          <p className="ch-cap-date ch-anim ch-fade-up" style={t({ start: "0.22s", dur: "0.11s" })}>
             c. AD 62
           </p>
         </>
@@ -280,13 +280,13 @@ function NeroScene() {
       }
       caption={
         <>
-          <p className="ch-cap-ref ch-anim ch-fade-up" style={t({ start: "0.54s", dur: "0.12s" })}>
+          <p className="ch-cap-ref ch-anim ch-fade-up" style={t({ start: "0.12s", dur: "0.12s" })}>
             Rome Under Nero
           </p>
-          <p className="ch-cap-date ch-anim ch-fade-up" style={t({ start: "0.62s", dur: "0.11s" })}>
+          <p className="ch-cap-date ch-anim ch-fade-up" style={t({ start: "0.18s", dur: "0.11s" })}>
             AD 64
           </p>
-          <p className="ch-cap-count ch-anim ch-fade-up" style={t({ start: "0.84s", dur: "0.12s" })}>
+          <p className="ch-cap-count ch-anim ch-fade-up" style={t({ start: "0.24s", dur: "0.12s" })}>
             <span>the church grows under persecution</span>
           </p>
         </>
@@ -351,7 +351,6 @@ function JerusalemScene() {
             <path d="M120 320 L120 268 L180 268 L180 320 Z M198 320 L198 250 L258 250 L258 320 Z" />
             <path d="M520 320 L520 254 L580 254 L580 320 Z M600 320 L600 274 L660 274 L660 320 Z" />
           </g>
-          {/* The temple itself comes down as the caption lands. */}
           <g transform="translate(400 265)">
             <g className="ch-anim ch-topple ch-oc" style={t({ start: "0.78s", dur: "0.2s" })}>
               <g className="ch-anim ch-fade ch-city" style={t({ start: "0.3s", dur: "0.16s" })}>
@@ -364,10 +363,10 @@ function JerusalemScene() {
       }
       caption={
         <>
-          <p className="ch-cap-ref ch-anim ch-fade-up" style={t({ start: "0.76s", dur: "0.12s" })}>
+          <p className="ch-cap-ref ch-anim ch-fade-up" style={t({ start: "0.12s", dur: "0.12s" })}>
             The temple falls
           </p>
-          <p className="ch-cap-date ch-anim ch-fade-up" style={t({ start: "0.84s", dur: "0.11s" })}>
+          <p className="ch-cap-date ch-anim ch-fade-up" style={t({ start: "0.18s", dur: "0.11s" })}>
             AD 70
           </p>
         </>
@@ -407,10 +406,10 @@ function ApostolicFathersScene() {
       }
       caption={
         <>
-          <p className="ch-cap-ref ch-anim ch-fade-up" style={t({ start: "0.66s", dur: "0.12s" })}>
+          <p className="ch-cap-ref ch-anim ch-fade-up" style={t({ start: "0.12s", dur: "0.12s" })}>
             The Apostolic Fathers
           </p>
-          <p className="ch-cap-date ch-anim ch-fade-up" style={t({ start: "0.74s", dur: "0.11s" })}>
+          <p className="ch-cap-date ch-anim ch-fade-up" style={t({ start: "0.18s", dur: "0.11s" })}>
             AD 96–155
           </p>
         </>
@@ -450,13 +449,13 @@ function PersecutionScene() {
       }
       caption={
         <>
-          <p className="ch-cap-ref ch-anim ch-fade-up" style={t({ start: "0.64s", dur: "0.12s" })}>
+          <p className="ch-cap-ref ch-anim ch-fade-up" style={t({ start: "0.12s", dur: "0.12s" })}>
             Sacrifice to idols, or die
           </p>
-          <p className="ch-cap-date ch-anim ch-fade-up" style={t({ start: "0.72s", dur: "0.11s" })}>
+          <p className="ch-cap-date ch-anim ch-fade-up" style={t({ start: "0.18s", dur: "0.11s" })}>
             AD 250
           </p>
-          <p className="ch-cap-count ch-anim ch-fade-up" style={t({ start: "0.84s", dur: "0.12s" })}>
+          <p className="ch-cap-count ch-anim ch-fade-up" style={t({ start: "0.24s", dur: "0.12s" })}>
             <span>Under Decius</span>
             <span>the first empire-wide persecution</span>
           </p>
@@ -506,13 +505,13 @@ function GreatPersecutionScene() {
       }
       caption={
         <>
-          <p className="ch-cap-ref ch-anim ch-fade-up" style={t({ start: "0.7s", dur: "0.12s" })}>
+          <p className="ch-cap-ref ch-anim ch-fade-up" style={t({ start: "0.12s", dur: "0.12s" })}>
             The Great Persecution
           </p>
-          <p className="ch-cap-date ch-anim ch-fade-up" style={t({ start: "0.78s", dur: "0.11s" })}>
+          <p className="ch-cap-date ch-anim ch-fade-up" style={t({ start: "0.18s", dur: "0.11s" })}>
             AD 303–313
           </p>
-          <p className="ch-cap-count ch-anim ch-fade-up" style={t({ start: "0.86s", dur: "0.12s" })}>
+          <p className="ch-cap-count ch-anim ch-fade-up" style={t({ start: "0.24s", dur: "0.12s" })}>
             <span>Under Emperor Diocletian</span>
           </p>
         </>
@@ -531,13 +530,13 @@ function MilanScene() {
       art={<CaesarFigure mode="constantine" />}
       caption={
         <>
-          <p className="ch-cap-ref ch-anim ch-fade-up" style={t({ start: "0.58s", dur: "0.12s" })}>
+          <p className="ch-cap-ref ch-anim ch-fade-up" style={t({ start: "0.12s", dur: "0.12s" })}>
             Constantine legalizes Christianity
           </p>
-          <p className="ch-cap-date ch-anim ch-fade-up" style={t({ start: "0.7s", dur: "0.11s" })}>
+          <p className="ch-cap-date ch-anim ch-fade-up" style={t({ start: "0.18s", dur: "0.11s" })}>
             AD 313
           </p>
-          <p className="ch-cap-count ch-anim ch-fade-up" style={t({ start: "0.82s", dur: "0.12s" })}>
+          <p className="ch-cap-count ch-anim ch-fade-up" style={t({ start: "0.24s", dur: "0.12s" })}>
             <span>Edict of Milan</span>
           </p>
         </>
@@ -579,13 +578,13 @@ function NicaeaScene() {
       }
       caption={
         <>
-          <p className="ch-cap-ref ch-anim ch-fade-up" style={t({ start: "0.3s", dur: "0.12s" })}>
+          <p className="ch-cap-ref ch-anim ch-fade-up" style={t({ start: "0.12s", dur: "0.12s" })}>
             Of one substance
           </p>
-          <p className="ch-cap-date ch-anim ch-fade-up" style={t({ start: "0.36s", dur: "0.11s" })}>
+          <p className="ch-cap-date ch-anim ch-fade-up" style={t({ start: "0.18s", dur: "0.11s" })}>
             AD 325
           </p>
-          <p className="ch-cap-count ch-anim ch-fade-up" style={t({ start: "0.42s", dur: "0.1s" })}>
+          <p className="ch-cap-count ch-anim ch-fade-up" style={t({ start: "0.24s", dur: "0.12s" })}>
             <span>The Arian Heresy is struck down at the Council of Nicaea.</span>
           </p>
         </>
