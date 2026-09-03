@@ -1396,18 +1396,24 @@ body.give-chrome-dim .promo-bar {
 }
 
 /* Church history cinematic.
-   Every shot is a paused @keyframes animation scrubbed by --p, which
-   src/lib/scrollScene.ts drives from 0 to 1 while the stage is pinned. --p
-   defaults to 1 here — the finished frame — so with JavaScript off or reduced
-   motion on, a scene is a static poster instead of an empty box. --i staggers
-   siblings off the same timeline without needing a keyframe block each. */
+   One theatre pins a full-viewport stage. Global --p (0→1 across the Act)
+   fades the backdrop at the ends; each [data-shot] gets a local --p that
+   scrubs paused @keyframes. --p defaults to 1 — the finished frame — so
+   JavaScript-off / reduced-motion is a static poster. --i staggers siblings
+   off the same timeline without a keyframe block each. */
 .ch-cinematic {
   margin: 28px 0 8px;
 }
-.ch-scene {
+.ch-theatre {
   --p: 1;
+  --shot-count: 9;
   position: relative;
-  height: 170vh;
+  /* ~scroll budget: ~1.7 viewport per shot */
+  height: calc(var(--shot-count) * 170vh);
+}
+.ch-theatre[data-scene-placeholder] {
+  /* prerender CLS reserve before React hydrates */
+  min-height: calc(9 * 170vh);
 }
 /* The scrub core. --start is when an element begins and --dur how long it takes,
    both on the 0s–1s timeline --p drives; --i staggers siblings off the same
@@ -1455,9 +1461,13 @@ body.give-chrome-dim .promo-bar {
    cannot collide when the stage is short — as it is under reduced motion. */
 .ch-stage {
   position: sticky;
-  top: var(--header);
-  height: calc(100vh - var(--header));
-  min-height: 420px;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  /* pull out of the padded page column to true viewport left */
+  left: 0;
+  z-index: 55; /* above .site-header (40) and .rail (50) while covering */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1465,15 +1475,32 @@ body.give-chrome-dim .promo-bar {
   gap: clamp(10px, 5vh, 56px);
   padding: 24px;
   overflow: hidden;
-  border-radius: 4px;
+  border-radius: 0;
+  box-sizing: border-box;
 }
-/* Confined to the stage on purpose: a fixed backdrop resting at --p 1 would
-   black out the whole document for a reader without JavaScript. The rest of the
-   viewport is darkened by body.ch-dark, which only JS applies. */
+/* Confined to the stage: a fixed full-document backdrop at --p 1 would black
+   out the page for a reader without JavaScript. body.ch-dark covers chrome. */
 .ch-backdrop {
   position: absolute;
   inset: 0;
   background: radial-gradient(120% 90% at 50% 62%, #241206 0%, #0a0a0d 62%, #050507 100%);
+  /* enter in first ~6% of Act; exit in last ~6% — mid-Act stays fully black */
+  opacity: clamp(0, min(var(--p) / 0.06, (1 - var(--p)) / 0.06), 1);
+}
+.ch-shot {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(10px, 5vh, 56px);
+  padding: 24px;
+  opacity: 0;
+  pointer-events: none;
+}
+.ch-shot[data-active="1"] {
+  opacity: 1;
 }
 /* The fire occupies the upper band and the captions the lower one, so the
    tongues never sit on top of the type. */
@@ -1623,8 +1650,8 @@ body.give-chrome-dim .promo-bar {
   color: var(--link);
 }
 
-/* Blackout of the surrounding chrome. Unlike .give-chrome-dim this includes
-   .rail, which that rule omits — the rail staying bright breaks the effect. */
+/* Cover surrounding chrome while the theatre holds the viewport. Unlike
+   .give-chrome-dim this includes .rail — a bright rail breaks the blackout. */
 .rail {
   transition: filter 1.1s ease, opacity 1.1s ease;
 }
@@ -1632,12 +1659,24 @@ body.ch-dark .site-header,
 body.ch-dark .search-strip,
 body.ch-dark .site-footer,
 body.ch-dark .rail {
-  filter: grayscale(1) brightness(0.32);
-  opacity: 0.5;
+  opacity: 0;
+  pointer-events: none;
+  filter: none;
+}
+body.ch-dark.ch-dark-peek .site-header,
+body.ch-dark.ch-dark-peek .search-strip,
+body.ch-dark.ch-dark-peek .rail {
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 70;
+}
+.ch-chrome-hit {
+  position: fixed;
+  z-index: 60;
+  background: transparent;
 }
 
 @media (max-width: 760px) {
-  .ch-scene { height: 190vh; }
   .ch-cap-ref { font-size: 34px; }
   .ch-cap-count strong { font-size: 30px; }
 }
@@ -1654,11 +1693,12 @@ body.ch-dark .rail {
     font-size: 45px;
   }
   .give-body { animation: none; }
-  /* Scenes rest on the finished frame and each track collapses from 170vh to a
-     single short poster, so nine shots do not bury the timeline behind screens
-     of dead scroll. The skip link at the top covers the rest. */
-  .ch-scene { --p: 1; height: auto; }
-  .ch-stage { position: static; height: 46vh; min-height: 300px; }
+  /* Theatre collapses to stacked finished posters so nine shots do not bury
+     the timeline behind screens of dead scroll. The skip link covers the rest. */
+  .ch-theatre { --p: 1; height: auto; }
+  .ch-theatre[data-scene-placeholder] { min-height: 0; }
+  .ch-stage { position: static; height: auto; width: auto; margin-left: 0; z-index: auto; }
+  .ch-shot { position: relative; opacity: 1; inset: auto; height: 46vh; }
   .ch-anim { animation: none; }
   .ch-backdrop { opacity: 1; }
   /* Transients: the wind has passed and only the last page of the book remains. */
@@ -1668,7 +1708,7 @@ body.ch-dark .rail {
   body.ch-dark .site-header,
   body.ch-dark .search-strip,
   body.ch-dark .site-footer,
-  body.ch-dark .rail { filter: none; opacity: 1; }
+  body.ch-dark .rail { opacity: 1; pointer-events: auto; }
   body.give-chrome-dim .site-header,
   body.give-chrome-dim .search-strip,
   body.give-chrome-dim .site-footer,
