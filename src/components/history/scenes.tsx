@@ -230,7 +230,7 @@ function CaesarFigure({ mode }: { mode: "nero" | "constantine" }) {
           </g>
         </>
       ) : (
-        {/* Flat ring above the head: wide on X, short on Y (tilted halo). */}
+        // Flat ring above the head: wide on X, short on Y (tilted halo).
         <ellipse
           className="ch-anim ch-pop ch-oc ch-halo"
           style={t({ start: "0.3s", dur: "0.16s" })}
