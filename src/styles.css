@@ -1443,6 +1443,8 @@ body.give-chrome-dim .promo-bar {
   100% { opacity: 0; transform: translateX(170px); }
 }
 @keyframes chBlip { 0% { opacity: 0; } 14% { opacity: 1; } 72% { opacity: 1; } 100% { opacity: 0; } }
+/* Acts 2: longer mid-hold so the first chapter lingers until the blip chain. */
+@keyframes chBlipHold { 0% { opacity: 0; } 10% { opacity: 1; } 88% { opacity: 1; } 100% { opacity: 0; } }
 @keyframes chFall { from { transform: none; opacity: 1; } to { transform: translateY(230px) rotate(24deg); opacity: 0; } }
 @keyframes chDarken { from { fill: #ffd98a; } to { fill: #221f1a; } }
 @keyframes chDraw { from { stroke-dashoffset: var(--len, 600); } to { stroke-dashoffset: 0; } }
@@ -1642,6 +1644,7 @@ body.give-chrome-dim .promo-bar {
   right: 0;
   top: 0;
 }
+.ch-chapter-first { animation-name: chBlipHold; }
 .ch-skip {
   display: inline-block;
   margin: 4px 0 0;

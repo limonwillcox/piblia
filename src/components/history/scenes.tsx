@@ -157,12 +157,15 @@ function ActsBookScene() {
       caption={
         <>
           <p className="ch-cap-ref ch-chapters">
-            {CHAPTERS.map((n, i) => (
-              <span key={n} className="ch-anim ch-blip ch-chapter" style={t({ start: "0.16s", dur: "0.05s", stagger: "0.019s", i })}>
+            <span className="ch-anim ch-blip ch-chapter ch-chapter-first" style={t({ start: "0.06s", dur: "0.18s" })}>
+              Acts 2
+            </span>
+            {CHAPTERS.filter((n) => n !== 2).map((n, i) => (
+              <span key={n} className="ch-anim ch-blip ch-chapter" style={t({ start: "0.22s", dur: "0.05s", stagger: "0.018s", i })}>
                 Acts {n}
               </span>
             ))}
-            <span className="ch-anim ch-fade-up ch-chapter ch-chapter-last" style={t({ start: "0.68s", dur: "0.1s" })}>
+            <span className="ch-anim ch-fade-up ch-chapter ch-chapter-last" style={t({ start: "0.74s", dur: "0.12s" })}>
               Acts 28
             </span>
           </p>
@@ -262,7 +265,7 @@ function JerusalemScene() {
       art={
         <>
           <g transform="translate(196 96)">
-            <g className="ch-anim ch-fall ch-oc" style={t({ start: "0.62s", dur: "0.3s" })}>
+            <g className="ch-anim ch-fall ch-oc" style={t({ start: "0.74s", dur: "0.3s" })}>
               <g className="ch-anim ch-pop ch-oc" style={t({ start: "0.08s", dur: "0.14s" })}>
                 <circle className="ch-anim ch-darken ch-body" style={t({ start: "0.44s", dur: "0.16s" })} r="30" />
                 <path className="ch-ray" d="M0 -46 L0 -58 M0 46 L0 58 M-46 0 L-58 0 M46 0 L58 0 M-33 -33 L-41 -41 M33 33 L41 41 M-33 33 L-41 41 M33 -33 L41 -41" />
@@ -270,7 +273,7 @@ function JerusalemScene() {
             </g>
           </g>
           <g transform="translate(604 92)">
-            <g className="ch-anim ch-fall ch-oc" style={t({ start: "0.66s", dur: "0.3s" })}>
+            <g className="ch-anim ch-fall ch-oc" style={t({ start: "0.78s", dur: "0.3s" })}>
               <g className="ch-anim ch-pop ch-oc" style={t({ start: "0.13s", dur: "0.14s" })}>
                 <path className="ch-anim ch-darken ch-body" style={t({ start: "0.46s", dur: "0.16s" })} d="M0 -30 A30 30 0 1 0 0 30 A24 24 0 1 1 0 -30 Z" />
               </g>
@@ -279,7 +282,7 @@ function JerusalemScene() {
           <g>
             {STARS.map(([x, y], i) => (
               <g key={x + "-" + y} transform={"translate(" + x + " " + y + ")"}>
-                <g className="ch-anim ch-fall ch-oc" style={t({ start: "0.6s", dur: "0.32s", stagger: "0.012s", i })}>
+                <g className="ch-anim ch-fall ch-oc" style={t({ start: "0.72s", dur: "0.32s", stagger: "0.012s", i })}>
                   <path
                     className="ch-anim ch-pop ch-oc ch-body ch-star"
                     style={t({ start: "0.18s", dur: "0.14s", stagger: "0.012s", i })}
@@ -363,65 +366,43 @@ function ApostolicFathersScene() {
 
 /* ------------------------------------------------ Persecution, Decius 250 */
 
-/**
- * A scalloped ring for the lion's mane. Straight radiating lines read as a sun,
- * which is exactly what the first attempt looked like.
- */
-function manePath(inner: number, outer: number, points: number): string {
-  const seg: string[] = [];
-  for (let i = 0; i < points; i++) {
-    const a0 = (i / points) * Math.PI * 2;
-    const am = ((i + 0.5) / points) * Math.PI * 2;
-    const a1 = ((i + 1) / points) * Math.PI * 2;
-    const pt = (a: number, r: number) => (Math.cos(a) * r).toFixed(1) + " " + (Math.sin(a) * r).toFixed(1);
-    if (i === 0) seg.push("M" + pt(a0, inner));
-    seg.push("Q" + pt(am, outer) + " " + pt(a1, inner));
-  }
-  seg.push("Z");
-  return seg.join(" ");
-}
+const DECIAN_FATHERS = [
+  { x: 172, name: "Origen", note: "tortured, c. 250" },
+  { x: 400, name: "Cyprian", note: "Carthage" },
+  { x: 628, name: "Fabian", note: "martyred, 250" }
+];
 
-/** Whip, spear, cross, lion — the marks of the age Decius made systematic. */
+/** Origen, Cyprian, Fabian — the same scroll marks as the Apostolic Fathers. */
 function PersecutionScene() {
-  // whip, spear, cross
-  const marks = [
-    "M130 92 C170 128, 150 176, 186 208 M186 208 L214 196 M186 208 L206 230 M186 208 L172 236",
-    "M296 76 L296 250 M296 76 L278 116 L296 132 L314 116 Z",
-    "M478 84 L478 252 M436 134 L520 134"
-  ];
   return (
     <Shot
       id="persecution"
       art={
-        <>
-          <g>
-            {marks.map((d, i) => (
-              <path key={d} className="ch-anim ch-fade-up ch-mark" style={t({ start: "0.16s", dur: "0.13s", stagger: "0.1s", i })} d={d} />
-            ))}
-          </g>
-          {/* The animated transform must sit on an inner group: a CSS transform
-              overrides the transform attribute, which would move the lion. */}
-          <g transform="translate(646 168)">
-            <g className="ch-anim ch-fade-up ch-mark" style={t({ start: "0.46s", dur: "0.14s" })}>
-              <path d={manePath(40, 62, 13)} />
-              <path d="M-19 -24 A9 9 0 1 1 -7 -33 M19 -24 A9 9 0 1 0 7 -33" />
-              <circle r="28" />
-              <path d="M-14 -7 L-6 -7 M6 -7 L14 -7" />
-              <path d="M-6 4 L6 4 L0 11 Z" />
-              <path d="M0 11 L0 17 M0 17 C-9 17, -12 10, -12 10 M0 17 C9 17, 12 10, 12 10" />
+        <g>
+          {DECIAN_FATHERS.map((f, i) => (
+            <g key={f.name} transform={"translate(" + f.x + " 178)"}>
+              <g className="ch-anim ch-fade-up" style={t({ start: "0.16s", dur: "0.16s", stagger: "0.13s", i })}>
+                <path className="ch-scroll" d="M-72 -86 L72 -86 L72 86 L-72 86 Z" />
+                <path className="ch-scroll-line" d="M-46 -50 L46 -50 M-46 -22 L46 -22 M-46 6 L46 6 M-46 34 L10 34" />
+                <circle className="ch-seal" cx="0" cy="70" r="12" />
+              </g>
+              <text className="ch-anim ch-fade-up ch-figure-name" style={t({ start: "0.24s", dur: "0.14s", stagger: "0.13s", i })} x="0" y="132">
+                {f.name}
+              </text>
             </g>
-          </g>
-        </>
+          ))}
+        </g>
       }
       caption={
         <>
           <p className="ch-cap-ref ch-anim ch-fade-up" style={t({ start: "0.64s", dur: "0.12s" })}>
-            Sacrifice, or die
+            Sacrifice to idols, or die
           </p>
           <p className="ch-cap-date ch-anim ch-fade-up" style={t({ start: "0.72s", dur: "0.11s" })}>
             AD 250
           </p>
           <p className="ch-cap-count ch-anim ch-fade-up" style={t({ start: "0.84s", dur: "0.12s" })}>
+            <span>Under Decius</span>
             <span>the first empire-wide persecution</span>
           </p>
         </>
@@ -475,6 +456,9 @@ function GreatPersecutionScene() {
           </p>
           <p className="ch-cap-date ch-anim ch-fade-up" style={t({ start: "0.78s", dur: "0.11s" })}>
             AD 303–313
+          </p>
+          <p className="ch-cap-count ch-anim ch-fade-up" style={t({ start: "0.86s", dur: "0.12s" })}>
+            <span>Under Emperor Diocletian</span>
           </p>
         </>
       }
@@ -564,6 +548,9 @@ function NicaeaScene() {
           </p>
           <p className="ch-cap-date ch-anim ch-fade-up" style={t({ start: "0.86s", dur: "0.11s" })}>
             AD 325
+          </p>
+          <p className="ch-cap-count ch-anim ch-fade-up" style={t({ start: "0.9s", dur: "0.1s" })}>
+            <span>The Arian Heresy is struck down at the Council of Nicaea.</span>
           </p>
         </>
       }
