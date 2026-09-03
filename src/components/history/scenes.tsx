@@ -223,9 +223,9 @@ function CaesarFigure({ mode }: { mode: "nero" | "constantine" }) {
       {mode === "nero" ? (
         <>
           <g className="ch-anim ch-rise" style={t({ start: "0.3s", dur: "0.14s" })}>
-            {/* Short horns: thick at the brow, taper and curve inward at the tip. */}
-            <path className="ch-horn" d="M-14 -52 C-22 -56 -24 -64 -16 -72 C-12 -68 -10 -60 -14 -52 Z" />
-            <path className="ch-horn" d="M14 -52 C22 -56 24 -64 16 -72 C12 -68 10 -60 14 -52 Z" />
+            {/* Short horns: thick at the brow, taper to a sharper inward tip. */}
+            <path className="ch-horn" d="M-13 -52 C-23 -55 -26 -63 -15 -74 L-11 -66 C-10 -60 -10 -55 -13 -52 Z" />
+            <path className="ch-horn" d="M13 -52 C23 -55 26 -63 15 -74 L11 -66 C10 -60 10 -55 13 -52 Z" />
           </g>
           <g className="ch-anim ch-fade-up" style={t({ start: "0.34s", dur: "0.12s" })}>
             {leftArm}
