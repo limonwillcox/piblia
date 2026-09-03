@@ -43,12 +43,24 @@ export function SceneDefs() {
   );
 }
 
-function Shot({ id, art, caption }: { id: string; art: ReactNode; caption: ReactNode }) {
+function Shot({
+  id,
+  art,
+  caption,
+  className
+}: {
+  id: string;
+  art?: ReactNode;
+  caption: ReactNode;
+  className?: string;
+}) {
   return (
-    <div className="ch-shot" data-shot={id}>
-      <svg className="ch-svg" viewBox="0 0 800 360" role="presentation" focusable="false">
-        {art}
-      </svg>
+    <div className={"ch-shot" + (className ? " " + className : "")} data-shot={id}>
+      {art != null ? (
+        <svg className="ch-svg" viewBox="0 0 800 360" role="presentation" focusable="false">
+          {art}
+        </svg>
+      ) : null}
       <div className="ch-cap">{caption}</div>
     </div>
   );
@@ -122,38 +134,12 @@ function PentecostScene() {
 
 const CHAPTERS = Array.from({ length: 26 }, (_, i) => i + 2); // 2 … 27, then 28 lands
 
-/** The book runs out at Acts 28 — Paul in Rome, c. AD 62. It does not reach 70. */
+/** Chapters flip 2 → 28; Paul in Rome, c. AD 62. The book art is gone — type only. */
 function ActsBookScene() {
   return (
     <Shot
       id="acts-book"
-      art={
-        <>
-          <g className="ch-book">
-            <path
-              className="ch-anim ch-fade ch-book-page"
-              style={t({ start: "0.06s", dur: "0.14s" })}
-              d="M400 300 C330 272, 250 262, 140 266 L140 108 C250 104, 330 116, 400 146 Z"
-            />
-            <path
-              className="ch-anim ch-fade ch-book-page"
-              style={t({ start: "0.06s", dur: "0.14s" })}
-              d="M400 300 C470 272, 550 262, 660 266 L660 108 C550 104, 470 116, 400 146 Z"
-            />
-            <path className="ch-anim ch-fade ch-book-spine" style={t({ start: "0.06s", dur: "0.14s" })} d="M400 146 L400 300" />
-          </g>
-          <g>
-            {Array.from({ length: 7 }, (_, i) => (
-              <path
-                key={i}
-                className="ch-anim ch-blip ch-book-flip ch-oc"
-                style={t({ start: "0.2s", dur: "0.09s", stagger: "0.055s", i })}
-                d="M400 146 C470 116, 550 104, 660 108 L660 266 C550 262, 470 272, 400 300 Z"
-              />
-            ))}
-          </g>
-        </>
-      }
+      className="ch-shot--text"
       caption={
         <>
           <p className="ch-cap-ref ch-chapters">
@@ -180,37 +166,62 @@ function ActsBookScene() {
 
 /* ----------------------------------------------------- Shared stick Caesar */
 
+/** Classic leafy laurel — two staggered rows of green leaves over the crown. */
+function LaurelWreath() {
+  const row = (count: number, r: number, ry: number) =>
+    Array.from({ length: count }, (_, i) => {
+      const u = i / (count - 1);
+      // π (left) → 3π/2 (top, SVG up) → 2π (right)
+      const ang = Math.PI + u * Math.PI;
+      const cx = Math.cos(ang) * r;
+      const cy = Math.sin(ang) * r - 40;
+      const rot = (ang * 180) / Math.PI + 90;
+      return (
+        <ellipse
+          key={r + "-" + i}
+          className="ch-wreath-leaf"
+          cx={cx}
+          cy={cy}
+          rx="4"
+          ry={ry}
+          transform={"rotate(" + rot.toFixed(1) + " " + cx.toFixed(1) + " " + cy.toFixed(1) + ")"}
+        />
+      );
+    });
+  return (
+    <g className="ch-wreath">
+      {row(13, 23, 10)}
+      {row(11, 29, 9)}
+    </g>
+  );
+}
+
 /**
- * Laurel, olive, and stance are shared so Nero's horns rhyme with Constantine's halo.
- * Right hand holds the olive; Nero's left hand is a delayed wave that raises the crosses.
+ * Stance and green laurel are shared so Nero's red horns rhyme with Constantine's
+ * gold halo. Empty hands; Nero's left arm waves later to raise the crosses.
+ * Halo sits above the head (angel ring), not behind it.
  */
 function CaesarFigure({ mode }: { mode: "nero" | "constantine" }) {
-  const leftArm = <path className="ch-mark" d="M0 -8 L-50 -24" />;
+  const leftArm = <path className="ch-mark" d="M0 -8 L-42 8" />;
   return (
     <g transform="translate(400 190)">
       <g className="ch-anim ch-fade-up" style={t({ start: "0.1s", dur: "0.16s" })}>
         <circle className="ch-figure" cx="0" cy="-40" r="17" />
-        <path className="ch-mark" d="M0 -23 L0 34 M-22 100 L0 34 L22 100 M0 -8 L46 -58" />
+        <path className="ch-mark" d="M0 -23 L0 34 M-22 100 L0 34 L22 100 M0 -8 L38 12" />
         {mode === "constantine" ? leftArm : null}
-        <path
-          className="ch-mark"
-          d="M-16 -36 C-22 -50 -8 -62 0 -63 C8 -62 22 -50 16 -36 M-16 -38 L-26 -42 M-14 -48 L-24 -54 M-8 -58 L-14 -68 M0 -63 L0 -74 M16 -38 L26 -42 M14 -48 L24 -54 M8 -58 L14 -68"
-        />
-        <g transform="translate(46 -58)">
-          <path className="ch-mark" d="M0 0 L32 -22 M6 -2 L14 -12 M10 -8 L4 -14 M16 -10 L24 -20 M20 -14 L12 -22 M24 -16 L32 -26" />
-        </g>
+        <LaurelWreath />
       </g>
       {mode === "nero" ? (
         <>
           <g className="ch-anim ch-rise" style={t({ start: "0.3s", dur: "0.14s" })}>
-            <path className="ch-mark" d="M-8 -50 C-20 -58 -26 -72 -12 -88 M8 -50 C20 -58 26 -72 12 -88" />
+            <path className="ch-horn" d="M-8 -54 C-18 -62 -24 -78 -10 -94 M8 -54 C18 -62 24 -78 10 -94" />
           </g>
           <g className="ch-anim ch-fade-up" style={t({ start: "0.34s", dur: "0.12s" })}>
             {leftArm}
           </g>
         </>
       ) : (
-        <circle className="ch-anim ch-pop ch-oc ch-mark" style={t({ start: "0.3s", dur: "0.16s" })} cx="0" cy="-40" r="30" />
+        <circle className="ch-anim ch-pop ch-oc ch-halo" style={t({ start: "0.3s", dur: "0.16s" })} cx="0" cy="-86" r="14" />
       )}
     </g>
   );
@@ -227,7 +238,7 @@ const NERO_CROSSES: [number, number][] = [
   [708, 308]
 ];
 
-/** Olive first, then horns; the left-hand wave raises occupied crosses. */
+/** Laurel first, then red horns; the left-hand wave raises occupied crosses. */
 function NeroScene() {
   return (
     <Shot

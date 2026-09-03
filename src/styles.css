@@ -1494,7 +1494,16 @@ body.give-chrome-dim .promo-bar {
   opacity: clamp(0, min(var(--p) / 0.04, (1 - var(--p)) / 0.04), 1);
   pointer-events: none;
 }
+/* Each shot slides in from below and out above as local --p runs 0→1,
+   so successive scenes feel scrolled away instead of cutting. */
+@keyframes chShotSlide {
+  0% { transform: translateY(46vh); opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  86% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(-46vh); opacity: 0; }
+}
 .ch-shot {
+  --p: 0;
   position: absolute;
   inset: 0;
   display: flex;
@@ -1503,11 +1512,28 @@ body.give-chrome-dim .promo-bar {
   justify-content: center;
   gap: clamp(10px, 5vh, 56px);
   padding: 24px;
-  opacity: 0;
   pointer-events: none;
+  animation-name: chShotSlide;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-play-state: paused;
+  animation-delay: calc(0s - var(--p) * 1s);
 }
 .ch-shot[data-active="1"] {
-  opacity: 1;
+  z-index: 2;
+}
+/* Acts: no SVG art — the chapter flip is the whole shot. */
+.ch-shot--text {
+  gap: 18px;
+}
+.ch-shot--text .ch-chapters {
+  min-height: 1.15em;
+  min-width: 8em;
+  font-size: 56px;
+}
+.ch-shot--text .ch-cap-date {
+  margin-top: 8px;
 }
 /* The fire occupies the upper band and the captions the lower one, so the
    tongues never sit on top of the type. */
@@ -1556,6 +1582,24 @@ body.give-chrome-dim .promo-bar {
 }
 .ch-mark { stroke: #d8b98c; stroke-width: 3; }
 .ch-seal { fill: #a8462a; }
+.ch-wreath-leaf {
+  fill: #3f9a3c;
+  stroke: #246624;
+  stroke-width: 1.15;
+  stroke-linejoin: round;
+}
+.ch-horn {
+  fill: none;
+  stroke: #e23128;
+  stroke-width: 3.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.ch-halo {
+  fill: none;
+  stroke: #f0d06a;
+  stroke-width: 3.8;
+}
 .ch-book-page {
   fill: #1b1a20;
   stroke: #8a7a63;
@@ -1682,6 +1726,7 @@ body.ch-dark.ch-dark-peek .rail {
 @media (max-width: 760px) {
   .ch-cap-ref { font-size: 34px; }
   .ch-cap-count strong { font-size: 30px; }
+  .ch-shot--text .ch-chapters { font-size: 42px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -1701,12 +1746,20 @@ body.ch-dark.ch-dark-peek .rail {
   .ch-theatre { --p: 1; height: auto; }
   .ch-theatre[data-scene-placeholder] { min-height: 0; }
   .ch-stage { position: static; height: auto; width: auto; margin-left: 0; z-index: auto; }
-  .ch-shot { position: relative; opacity: 1; inset: auto; height: 46vh; }
+  .ch-shot {
+    position: relative;
+    opacity: 1;
+    inset: auto;
+    height: 46vh;
+    animation: none;
+    transform: none;
+  }
   .ch-anim { animation: none; }
   .ch-backdrop { opacity: 1; }
-  /* Transients: the wind has passed and only the last page of the book remains. */
+  /* Transients: the wind has passed; Acts rests on the last chapter. */
   .ch-wind-line, .ch-book-flip, .ch-chapter { opacity: 0; }
   .ch-chapter-last { opacity: 1; }
+  .ch-shot--text .ch-chapters { font-size: 40px; }
   .rail { transition: none; }
   body.ch-dark .site-header,
   body.ch-dark .search-strip,
