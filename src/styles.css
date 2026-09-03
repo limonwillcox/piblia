@@ -1582,10 +1582,16 @@ body.give-chrome-dim .promo-bar {
 }
 .ch-mark { stroke: #d8b98c; stroke-width: 3; }
 .ch-seal { fill: #a8462a; }
+.ch-wreath-band {
+  fill: none;
+  stroke: #3f9a3c;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+}
 .ch-wreath-leaf {
   fill: #3f9a3c;
   stroke: #246624;
-  stroke-width: 1.15;
+  stroke-width: 0.9;
   stroke-linejoin: round;
 }
 .ch-horn {

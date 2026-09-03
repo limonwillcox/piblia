@@ -166,32 +166,41 @@ function ActsBookScene() {
 
 /* ----------------------------------------------------- Shared stick Caesar */
 
-/** Classic leafy laurel — two staggered rows of green leaves over the crown. */
+/**
+ * Small classical wreath: a thin band with a forehead gap, leaves only at the
+ * temples — the familiar Caesar look, not a full leafy helmet.
+ */
 function LaurelWreath() {
-  const row = (count: number, r: number, ry: number) =>
-    Array.from({ length: count }, (_, i) => {
-      const u = i / (count - 1);
-      // π (left) → 3π/2 (top, SVG up) → 2π (right)
-      const ang = Math.PI + u * Math.PI;
+  // SVG y-down: π=left, 3π/2=up, 2π=right. Gap across the brow (near 3π/2).
+  const side = (from: number, to: number, key: string) =>
+    Array.from({ length: 4 }, (_, i) => {
+      const u = i / 3;
+      const ang = from + (to - from) * u;
+      const r = 19;
       const cx = Math.cos(ang) * r;
       const cy = Math.sin(ang) * r - 40;
       const rot = (ang * 180) / Math.PI + 90;
       return (
         <ellipse
-          key={r + "-" + i}
+          key={key + i}
           className="ch-wreath-leaf"
           cx={cx}
           cy={cy}
-          rx="4"
-          ry={ry}
+          rx="2.4"
+          ry="6.2"
           transform={"rotate(" + rot.toFixed(1) + " " + cx.toFixed(1) + " " + cy.toFixed(1) + ")"}
         />
       );
     });
   return (
     <g className="ch-wreath">
-      {row(13, 23, 10)}
-      {row(11, 29, 9)}
+      {/* Thin side bands; open gap at the forehead */}
+      <path className="ch-wreath-band" d="M-16 -50 A19 19 0 0 0 -18 -32" />
+      <path className="ch-wreath-band" d="M16 -50 A19 19 0 0 1 18 -32" />
+      {/* Left temple: mid-left up toward (but not across) the brow */}
+      {side(Math.PI * 0.95, Math.PI * 1.32, "L")}
+      {/* Right temple */}
+      {side(Math.PI * 1.68, Math.PI * 2.05, "R")}
     </g>
   );
 }
@@ -221,7 +230,15 @@ function CaesarFigure({ mode }: { mode: "nero" | "constantine" }) {
           </g>
         </>
       ) : (
-        <circle className="ch-anim ch-pop ch-oc ch-halo" style={t({ start: "0.3s", dur: "0.16s" })} cx="0" cy="-86" r="14" />
+        {/* Flat ring above the head: wide on X, short on Y (tilted halo). */}
+        <ellipse
+          className="ch-anim ch-pop ch-oc ch-halo"
+          style={t({ start: "0.3s", dur: "0.16s" })}
+          cx="0"
+          cy="-78"
+          rx="26"
+          ry="7"
+        />
       )}
     </g>
   );
