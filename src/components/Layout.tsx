@@ -17,7 +17,8 @@ function Brand() {
 function Rail() {
   const { navOpen, opts, parallel, toggleOpt, setParallel, setNavOpen } = useApp();
   const location = useLocation();
-  const readActive = location.pathname === "/" || location.pathname === "/read";
+  const readActive = location.pathname === "/read";
+  const writingsActive = location.pathname === "/church-fathers" || location.pathname === "/browse";
   const tools: { id: ReadOptId | "parallel"; label: string; title: string; on: boolean }[] = [
     { id: "nums", label: "Nos", title: "Paragraph numbers", on: opts.nums },
     { id: "head", label: "Heads", title: "Section headings", on: opts.head },
@@ -28,7 +29,7 @@ function Rail() {
   return (
     <nav className={"rail" + (navOpen ? " open" : "")} id="rail" aria-label="Primary">
       <div className="rail-pages">
-        <NavLink to="/" end className={() => (readActive ? "active" : "")} onClick={() => setNavOpen(false)}>
+        <NavLink to="/read" className={() => (readActive ? "active" : "")} onClick={() => setNavOpen(false)}>
           {ICONS.read}
           <span>Read</span>
         </NavLink>
@@ -36,7 +37,11 @@ function Rail() {
           {ICONS.study}
           <span>Study</span>
         </NavLink>
-        <NavLink to="/browse" className={({ isActive }) => (isActive ? "active" : "")} onClick={() => setNavOpen(false)}>
+        <NavLink
+          to="/church-fathers"
+          className={() => (writingsActive ? "active" : "")}
+          onClick={() => setNavOpen(false)}
+        >
           {ICONS.browse}
           <span>Browse</span>
         </NavLink>
@@ -299,7 +304,7 @@ function Footer() {
           <Link to="/read?work=confessions">The Confessions</Link>
           <Link to="/read?work=confessions&chapter=1">Book I</Link>
           <Link to="/read?work=confessions&chapter=8">Book VIII</Link>
-          <Link to="/browse">Browse</Link>
+          <Link to="/church-fathers">Browse</Link>
         </div>
         <div>
           <h4>Study</h4>
@@ -433,6 +438,7 @@ function AuthModal() {
 export function Layout({ children }: { children: ReactNode }) {
   const { setNavOpen, setBooklistOpen, setLoginOpen, toast, navOpen } = useApp();
   const location = useLocation();
+  const isLanding = location.pathname === "/";
 
   useEffect(() => {
     document.body.classList.toggle("nav-open", navOpen);
@@ -454,7 +460,7 @@ export function Layout({ children }: { children: ReactNode }) {
     function onClick(e: MouseEvent) {
       if (!navOpen) return;
       const t = e.target as HTMLElement;
-      if (t.closest("#rail") || t.closest("#hamburger")) return;
+      if (t.closest("#rail") || t.closest("#hamburger") || t.closest(".landing-menu")) return;
       setNavOpen(false);
     }
     document.addEventListener("keydown", onKey);
@@ -471,10 +477,10 @@ export function Layout({ children }: { children: ReactNode }) {
         Skip to content
       </a>
       <Rail />
-      <Header />
-      <SearchStrip />
+      {!isLanding ? <Header /> : null}
+      {!isLanding ? <SearchStrip /> : null}
       <Booklist />
-      <main className="page" id="page">
+      <main className={"page" + (isLanding ? " page--landing" : "")} id="page">
         {children}
       </main>
       <Footer />

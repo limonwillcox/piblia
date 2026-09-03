@@ -14,7 +14,7 @@ export function BrowsePage() {
   return (
     <>
       <div className="prose">
-        <h1>Writings list</h1>
+        <h1>Church Writings</h1>
         <p>Browse the library by era, then father, then work. Open a title to read the English text.</p>
       </div>
       <div className="browse-grid">

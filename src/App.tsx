@@ -16,7 +16,8 @@ export function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/read" element={<ReadPage />} />
         <Route path="/search" element={<SearchPage />} />
-        <Route path="/browse" element={<BrowsePage />} />
+        <Route path="/church-fathers" element={<BrowsePage />} />
+        <Route path="/browse" element={<Navigate to="/church-fathers" replace />} />
         <Route path="/church-history" element={<ChurchHistoryPage />} />
         <Route path="/study" element={<StudyPage />} />
         <Route path="/about" element={<AboutPage />} />
