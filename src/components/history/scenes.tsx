@@ -3,12 +3,13 @@ import type { CSSProperties, ReactNode } from "react";
 /**
  * The cinematic shots for /church-history, Act I: Pentecost to Nicaea.
  *
- * Every scene is scrubbed by `--p` (see src/lib/scrollScene.ts). Elements carry
- * `--start` and `--dur` on a 0s–1s timeline plus one of the shared keyframe
- * classes in styles.css, so a new shot needs artwork and timings only — no CSS.
+ * Theatre owns one sticky stage. Global `--p` on `.ch-theatre` maps to a local
+ * `--p` per `[data-shot]` (see src/lib/scrollScene.ts). Elements carry `--start`
+ * and `--dur` on a 0s–1s timeline plus one of the shared keyframe classes in
+ * styles.css, so a new shot needs artwork and timings only — no CSS.
  *
- * All of it is decoration. Each fact is stated in the timeline below, so every
- * scene is aria-hidden and the crawler reads each fact exactly once.
+ * All of it is decoration. Each fact is stated in the timeline below, so the
+ * theatre is aria-hidden and the crawler reads each fact exactly once.
  */
 
 type Timing = { start?: string; dur?: string; stagger?: string; i?: number; len?: number };
@@ -42,17 +43,14 @@ export function SceneDefs() {
   );
 }
 
-function Scene({ id, art, caption }: { id: string; art: ReactNode; caption: ReactNode }) {
+function Shot({ id, art, caption }: { id: string; art: ReactNode; caption: ReactNode }) {
   return (
-    <section className="ch-scene" data-scene={id} aria-hidden="true">
-      <div className="ch-stage">
-        <div className="ch-backdrop ch-anim ch-fade" style={t({ start: "0s", dur: "0.16s" })} />
-        <svg className="ch-svg" viewBox="0 0 800 360" role="presentation" focusable="false">
-          {art}
-        </svg>
-        <div className="ch-cap">{caption}</div>
-      </div>
-    </section>
+    <div className="ch-shot" data-shot={id}>
+      <svg className="ch-svg" viewBox="0 0 800 360" role="presentation" focusable="false">
+        {art}
+      </svg>
+      <div className="ch-cap">{caption}</div>
+    </div>
   );
 }
 
@@ -70,7 +68,7 @@ const FLAME_INNER = "M0 -7 C-6 -15 -6 -28 0 -41 C6 -28 6 -15 0 -7 Z";
  */
 function PentecostScene() {
   return (
-    <Scene
+    <Shot
       id="pentecost"
       art={
         <>
@@ -127,7 +125,7 @@ const CHAPTERS = Array.from({ length: 26 }, (_, i) => i + 2); // 2 … 27, then 
 /** The book runs out at Acts 28 — Paul in Rome, c. AD 62. It does not reach 70. */
 function ActsBookScene() {
   return (
-    <Scene
+    <Shot
       id="acts-book"
       art={
         <>
@@ -190,7 +188,7 @@ function NeroScene() {
     "M654 300 L654 222 L714 222 L714 300 Z"
   ];
   return (
-    <Scene
+    <Shot
       id="nero"
       art={
         <>
@@ -259,7 +257,7 @@ const STARS: [number, number][] = [
  */
 function JerusalemScene() {
   return (
-    <Scene
+    <Shot
       id="jerusalem"
       art={
         <>
@@ -331,7 +329,7 @@ const FATHERS = [
 /** The generation that had known the apostles, writing to steady the churches. */
 function ApostolicFathersScene() {
   return (
-    <Scene
+    <Shot
       id="apostolic-fathers"
       art={
         <g>
@@ -392,7 +390,7 @@ function PersecutionScene() {
     "M478 84 L478 252 M436 134 L520 134"
   ];
   return (
-    <Scene
+    <Shot
       id="persecution"
       art={
         <>
@@ -437,7 +435,7 @@ function PersecutionScene() {
 /** Diocletian: the churches pulled down, the Scriptures burned. */
 function GreatPersecutionScene() {
   return (
-    <Scene
+    <Shot
       id="great-persecution"
       art={
         <>
@@ -484,16 +482,16 @@ function GreatPersecutionScene() {
   );
 }
 
-/* --------------------------------------------------- Milvian Bridge, 312 */
+/* --------------------------------------------------- Edict of Milan, 313 */
 
 /**
  * The two witnesses disagree, so the scene shows both: Lactantius has the mark
  * given in a dream and painted on the shields; Eusebius has it in the sky.
  */
-function MilvianScene() {
+function MilanScene() {
   return (
-    <Scene
-      id="milvian"
+    <Shot
+      id="milan"
       art={
         <>
           <g className="ch-chi-rho">
@@ -535,7 +533,7 @@ const BISHOPS = 15;
 /** The hinge. Everything before is ante-Nicene, everything after post-Nicene. */
 function NicaeaScene() {
   return (
-    <Scene
+    <Shot
       id="nicaea"
       art={
         <>
@@ -573,7 +571,7 @@ function NicaeaScene() {
   );
 }
 
-/** Scene id (from server/churchHistory.ts) to component. */
+/** Shot id (from server/churchHistory.ts) to component. */
 export const SCENES: Record<string, () => ReactNode> = {
   pentecost: PentecostScene,
   "acts-book": ActsBookScene,
@@ -582,6 +580,20 @@ export const SCENES: Record<string, () => ReactNode> = {
   "apostolic-fathers": ApostolicFathersScene,
   persecution: PersecutionScene,
   "great-persecution": GreatPersecutionScene,
-  milvian: MilvianScene,
+  milan: MilanScene,
   nicaea: NicaeaScene
 };
+
+export function Theatre({ shots }: { shots: string[] }) {
+  return (
+    <section className="ch-theatre" data-scene="act-one" aria-hidden="true" style={{ ["--shot-count" as string]: shots.length }}>
+      <div className="ch-stage">
+        <div className="ch-backdrop" />
+        {shots.map((id) => {
+          const Comp = SCENES[id];
+          return Comp ? <Comp key={id} /> : null;
+        })}
+      </div>
+    </section>
+  );
+}

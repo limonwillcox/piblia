@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import { SCENES, SceneDefs } from "../components/history/scenes";
-import { mountChromeBlackout, mountScrollScenes } from "../lib/scrollScene";
+import { SceneDefs, Theatre } from "../components/history/scenes";
+import { mountChromeCover, mountTheatreScroll } from "../lib/scrollScene";
 import {
   ACT_ONE_SCENES as ACT_ONE,
   CHURCH_HISTORY_CANONICAL_PATH,
@@ -71,11 +71,13 @@ export function ChurchHistoryPage() {
   useEffect(() => {
     const el = cinematicRef.current;
     if (!el) return;
-    const stopScenes = mountScrollScenes(el);
-    const stopBlackout = mountChromeBlackout(el, "ch-dark");
+    const theatre = el.querySelector<HTMLElement>(".ch-theatre");
+    if (!theatre) return;
+    const stopScenes = mountTheatreScroll(theatre);
+    const stopCover = mountChromeCover(theatre);
     return () => {
       stopScenes();
-      stopBlackout();
+      stopCover();
     };
   }, []);
 
@@ -98,10 +100,7 @@ export function ChurchHistoryPage() {
 
       <div className="ch-cinematic" ref={cinematicRef}>
         <SceneDefs />
-        {ACT_ONE.map((id) => {
-          const Shot = SCENES[id];
-          return Shot ? <Shot key={id} /> : null;
-        })}
+        <Theatre shots={ACT_ONE} />
       </div>
 
       {PERIODS.map((period) => (
