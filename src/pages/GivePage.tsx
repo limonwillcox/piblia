@@ -102,7 +102,7 @@ export function GivePage() {
           <br />
           This site has 0 paywalls.
           <br />
-          It is 100% donation funded.
+          It is 100% personally funded.
         </h1>
       </section>
 
