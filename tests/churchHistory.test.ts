@@ -2,6 +2,7 @@ import { matchPath } from "react-router-dom";
 import { describe, expect, it } from "vitest";
 import { getCatalog } from "../server/api";
 import {
+  ACT_ONE_SCENES,
   CHURCH_HISTORY_CANONICAL_PATH,
   CHURCH_HISTORY_DESCRIPTION,
   CHURCH_HISTORY_PATH,
@@ -75,6 +76,25 @@ describe("church history era data", () => {
     expect(byId.get("apologists")?.works).toContain("apology");
     expect(byId.get("milvian")?.works).toContain("of-the-manner-in-which-the-persecutors-died");
   });
+
+  it("assigns Act I cinematic slots through Milan, not Milvian", () => {
+    const byId = new Map(ERAS.map((e) => [e.id, e]));
+    expect(byId.get("milvian")?.scene).toBeUndefined();
+    expect(byId.get("milan")?.scene).toBe("milan");
+    expect(ACT_ONE_SCENES).toContain("milan");
+    expect(ACT_ONE_SCENES).not.toContain("milvian");
+    expect(ACT_ONE_SCENES).toEqual([
+      "pentecost",
+      "acts-book",
+      "nero",
+      "jerusalem",
+      "apostolic-fathers",
+      "persecution",
+      "great-persecution",
+      "milan",
+      "nicaea"
+    ]);
+  });
 });
 
 describe("church history routing", () => {
@@ -114,6 +134,14 @@ describe("church history prerender", () => {
   it("escapes markup rather than injecting it", () => {
     const html = renderChurchHistoryHtml(null);
     expect(html).not.toMatch(/<script/i);
+  });
+
+  it("prerenders one theatre placeholder for Act I (CLS reserve)", () => {
+    const html = renderChurchHistoryHtml(null);
+    expect(html).toContain('class="ch-cinematic"');
+    expect(html).toContain('class="ch-theatre"');
+    expect(html).toContain('data-scene-placeholder="act-one"');
+    expect(html.match(/data-scene-placeholder=/g)?.length).toBe(1);
   });
 });
 

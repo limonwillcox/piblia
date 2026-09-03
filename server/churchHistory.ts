@@ -223,7 +223,6 @@ export const ERAS: HistoryEra[] = [
     datetime: "0312",
     title: "The Milvian Bridge",
     period: "pre-nicene",
-    scene: "milvian",
     works: ["church-history", "of-the-manner-in-which-the-persecutors-died"],
     body:
       "Before the battle for Rome, Constantine marked his army with the chi-rho, the first two letters of Christ. The two witnesses disagree about how it came to him: Lactantius, writing within a few years, says he was warned in a dream to mark the shields; Eusebius, much later, describes a cross of light in the sky with the words by this, conquer — in hoc signo vinces in the Latin it is remembered by. Maxentius drowned in the Tiber, and Constantine took Rome."
@@ -235,6 +234,7 @@ export const ERAS: HistoryEra[] = [
     datetime: "0313",
     title: "The Edict of Milan",
     period: "pre-nicene",
+    scene: "milan",
     body:
       "Constantine and Licinius granted Christians — and everyone else — the free exercise of religion, and ordered confiscated property returned. Two hundred and fifty years of persecution ended by decree."
   },
@@ -416,8 +416,9 @@ export function erasByPeriod(period: HistoryPeriod): HistoryEra[] {
 
 /**
  * Scene ids for Act I, in narrative order. The page renders these from the
- * registry in src/components/history/scenes.tsx, and the prerender reserves one
- * box per entry — so adding `scene` to an era is the only edit a new shot needs.
+ * registry in src/components/history/scenes.tsx; the prerender reserves one
+ * theatre for the whole act. Adding `scene` to an era is the only data edit a
+ * new shot needs.
  */
 export const ACT_ONE_SCENES: string[] = ERAS.filter(
   (e) => e.period === "pre-nicene" && e.scene
@@ -462,14 +463,14 @@ export function renderChurchHistoryHtml(catalog: Catalog | null): string {
   out.push("<div class=\"ch-page\">");
   out.push("<h1>" + escapeHtml(CHURCH_HISTORY_HEADING) + "</h1>");
   out.push("<p class=\"ch-lede\">" + escapeHtml(CHURCH_HISTORY_DESCRIPTION) + "</p>");
-  // Reserve the cinematic's boxes. The scenes are decorative and stay out of the
-  // crawlable HTML, but React mounts them here — without placeholders of the same
-  // height the timeline would be shoved down on boot and score as layout shift.
+  // Reserve one theatre for Act I. Scenes stay out of the crawlable HTML, but
+  // React mounts them here — without a placeholder of the same height the
+  // timeline would be shoved down on boot and score as layout shift.
   out.push("<a class=\"ch-skip\" href=\"#pre-nicene\">Skip the sequence — go to the timeline</a>");
   out.push("<div class=\"ch-cinematic\">");
-  for (const id of ACT_ONE_SCENES) {
-    out.push("<div class=\"ch-scene\" data-scene-placeholder=\"" + escapeHtml(id) + "\" aria-hidden=\"true\"></div>");
-  }
+  out.push(
+    "<div class=\"ch-theatre\" data-scene-placeholder=\"act-one\" aria-hidden=\"true\"></div>"
+  );
   out.push("</div>");
 
   for (const period of ["pre-nicene", "post-nicene"] as HistoryPeriod[]) {
