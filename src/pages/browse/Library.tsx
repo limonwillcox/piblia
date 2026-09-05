@@ -1,16 +1,13 @@
 import { useEffect, useMemo, useRef, useState, type MouseEvent } from "react";
 import { useNavigate } from "react-router-dom";
 import {
-  SHELF_PERIODS,
   deathCentury,
   defaultBinWidthPx,
   inspectTimelineEra,
   packAuthorCatalog,
-  packCatalog,
   periodIdForAuthor,
   spineBandPlace,
   type PackedBook,
-  type PackedShelf,
   type ShelfPeriodId
 } from "../../../server/shelf";
 import type { Author, Catalog, Work } from "../../../server/types";
@@ -26,10 +23,6 @@ export function useDesktopLibrary(): boolean {
     return () => mq.removeEventListener("change", onChange);
   }, []);
   return on;
-}
-
-function periodMeta(id: ShelfPeriodId) {
-  return SHELF_PERIODS.find((p) => p.id === id)!;
 }
 
 function formatWords(n: number): string {
@@ -111,14 +104,24 @@ function spineFontPx(binWidth: number, title: string): number {
   return base;
 }
 
+function centuryLabel(n: number): string {
+  if (n === 1) return "1st";
+  if (n === 2) return "2nd";
+  if (n === 3) return "3rd";
+  return n + "th";
+}
+
+/** Gold Chi-Rho from the Piblia logo (no red plate). */
 function SpineMark() {
   return (
-    <svg className="lib-spine-mark" viewBox="0 0 32 32" aria-hidden="true">
-      <g fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round">
-        <path d="M8 25 V11 Q8 5 16 5 Q24 5 24 11 V25" />
-        <path d="M12 25 V14 Q12 10 16 10 Q20 10 20 14 V25" />
-      </g>
-    </svg>
+    <img
+      className="lib-spine-mark"
+      src="/assets/chi-rho-gold.svg"
+      alt=""
+      width={16}
+      height={16}
+      draggable={false}
+    />
   );
 }
 
@@ -137,45 +140,46 @@ function SpineBands({ century, half }: { century: number; half?: "a" | "b" }) {
   );
 }
 
-function authorRunStyle(label: string, width: number): { width: number; fontSize: number; letterSpacing: string } {
-  const inner = Math.max(18, width - 10);
-  const size = Math.min(15, Math.max(9, Math.floor(inner / (Math.max(label.length, 1) * 0.58))));
-  return { width, fontSize: size, letterSpacing: size < 12 ? "0.01em" : "0.05em" };
-}
-
-type LibraryMode = "periods" | "authors";
-const MODE_KEY = "piblia-library-mode";
-
 type LibraryProps = { catalog: Catalog };
 
 export function Library({ catalog }: LibraryProps) {
   const navigate = useNavigate();
   const trackRef = useRef<HTMLDivElement>(null);
   const [width, setWidth] = useState(1100);
-  const [mode, setMode] = useState<LibraryMode>(() => {
-    if (typeof localStorage === "undefined") return "periods";
-    return localStorage.getItem(MODE_KEY) === "authors" ? "authors" : "periods";
-  });
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [inspectId, setInspectId] = useState<string | null>(null);
   const [coverOpen, setCoverOpen] = useState(false);
   const [expanding, setExpanding] = useState(false);
-  const [chipId, setChipId] = useState<ShelfPeriodId>(SHELF_PERIODS[0].id);
+  const [activeCentury, setActiveCentury] = useState(1);
 
-  const packed = useMemo(() => packCatalog(catalog, Math.max(320, width)), [catalog, width]);
   const authorPacked = useMemo(() => packAuthorCatalog(catalog), [catalog]);
-  const flat = useMemo(() => {
-    if (mode === "authors") {
-      return authorPacked.flatMap((a) => {
-        const who = catalog.authors.find((x) => x.id === a.authorId);
-        const periodId = who ? periodIdForAuthor(who) : ("apostolic" as ShelfPeriodId);
-        return a.shelves.flatMap((shelf) => shelf.map((book) => ({ book, periodId })));
-      });
-    }
-    return packed.flatMap((s) => s.runs.flatMap((r) => r.books.map((b) => ({ book: b, periodId: s.periodId }))));
-  }, [mode, packed, authorPacked, catalog.authors]);
   const authors = useMemo(() => new Map(catalog.authors.map((a) => [a.id, a])), [catalog.authors]);
   const works = useMemo(() => new Map(catalog.works.map((w) => [w.id, w])), [catalog.works]);
+
+  const byCentury = useMemo(() => {
+    const map = new Map<number, typeof authorPacked>();
+    for (const block of authorPacked) {
+      const who = authors.get(block.authorId);
+      if (!who) continue;
+      const c = deathCentury(who.deathYear);
+      const list = map.get(c);
+      if (list) list.push(block);
+      else map.set(c, [block]);
+    }
+    return [...map.entries()].sort((a, b) => a[0] - b[0]);
+  }, [authorPacked, authors]);
+
+  const centuries = useMemo(() => byCentury.map(([c]) => c), [byCentury]);
+
+  const flat = useMemo(
+    () =>
+      authorPacked.flatMap((a) => {
+        const who = authors.get(a.authorId);
+        const periodId = who ? periodIdForAuthor(who) : ("apostolic" as ShelfPeriodId);
+        return a.shelves.flatMap((shelf) => shelf.map((book) => ({ book, periodId })));
+      }),
+    [authorPacked, authors]
+  );
 
   useEffect(() => {
     document.body.classList.add("browse-library");
@@ -193,30 +197,27 @@ export function Library({ catalog }: LibraryProps) {
   }, []);
 
   useEffect(() => {
-    try {
-      localStorage.setItem(MODE_KEY, mode);
-    } catch {
-      /* ignore */
-    }
-  }, [mode]);
+    if (!centuries.length) return;
+    setActiveCentury((prev) => (centuries.includes(prev) ? prev : centuries[0]));
+  }, [centuries]);
 
   useEffect(() => {
-    if (mode !== "periods") return;
-    const rows = trackRef.current?.querySelectorAll<HTMLElement>("[data-shelf-period]");
+    const rows = trackRef.current?.querySelectorAll<HTMLElement>("[data-century-section]");
     if (!rows?.length) return;
     const io = new IntersectionObserver(
       (entries) => {
         const hit = entries
           .filter((e) => e.isIntersecting)
           .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
-        const id = hit?.target.getAttribute("data-shelf-period") as ShelfPeriodId | null;
-        if (id) setChipId(id);
+        const raw = hit?.target.getAttribute("data-century-section");
+        const n = raw ? Number(raw) : NaN;
+        if (Number.isFinite(n)) setActiveCentury(n);
       },
-      { rootMargin: "-120px 0px -45% 0px", threshold: 0.15 }
+      { rootMargin: "-140px 0px -45% 0px", threshold: 0.12 }
     );
     rows.forEach((row) => io.observe(row));
     return () => io.disconnect();
-  }, [mode, packed.length]);
+  }, [byCentury.length]);
 
   function indexOf(id: string | null): number {
     if (!id) return -1;
@@ -255,7 +256,7 @@ export function Library({ catalog }: LibraryProps) {
         e.preventDefault();
         const cur = indexOf(inspectId || selectedId);
         const dir = e.key === "ArrowDown" ? 1 : -1;
-        const approxPerShelf = Math.max(8, Math.round(width / 56));
+        const approxPerShelf = Math.max(6, Math.round(width / 64));
         selectAt(cur < 0 ? 0 : cur + dir * approxPerShelf);
       }
       if ((e.key === "Enter" || e.key === " ") && selectedId && !inspectId) {
@@ -285,31 +286,37 @@ export function Library({ catalog }: LibraryProps) {
     window.setTimeout(() => navigate(href), 420);
   }
 
+  function jumpToCentury(n: number) {
+    setActiveCentury(n);
+    const el = trackRef.current?.querySelector<HTMLElement>('[data-century-section="' + n + '"]');
+    el?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
   const inspectBook = inspectId ? works.get(inspectId) : undefined;
   const inspectAuthor = inspectBook ? authors.get(inspectBook.author) : undefined;
   const inspectPeriod = inspectId ? flat.find((x) => x.book.workId === inspectId)?.periodId : undefined;
   const inspectBin = inspectId ? flat.find((x) => x.book.workId === inspectId)?.book.bin : 5;
 
   return (
-    <div className={"library" + (mode === "authors" ? " library--authors" : "")}>
+    <div className="library library--authors">
       <div className="lib-toolbar">
-        <div className="lib-mode" role="tablist" aria-label="Library arrangement">
-          <button type="button" className={mode === "periods" ? "is-on" : ""} onClick={() => setMode("periods")}>
-            Periods
-          </button>
-          <button type="button" className={mode === "authors" ? "is-on" : ""} onClick={() => setMode("authors")}>
-            Authors
-          </button>
+        <div className="lib-mode" role="tablist" aria-label="Century">
+          {centuries.map((c) => (
+            <button
+              key={c}
+              type="button"
+              className={activeCentury === c ? "is-on" : ""}
+              onClick={() => jumpToCentury(c)}
+            >
+              {centuryLabel(c)}
+            </button>
+          ))}
         </div>
-        {mode === "periods" ? (
-          <div className="lib-chip" aria-live="polite">
-            <span>{periodMeta(chipId).label}</span>
-          </div>
-        ) : null}
       </div>
       <div className="lib-track" ref={trackRef}>
-        {mode === "authors"
-          ? authorPacked.map((block) => {
+        {byCentury.map(([century, blocks]) => (
+          <div key={century} className="lib-century-block" data-century-section={century} id={"century-" + century}>
+            {blocks.map((block) => {
               const author = authors.get(block.authorId);
               if (!author) return null;
               return (
@@ -323,18 +330,9 @@ export function Library({ catalog }: LibraryProps) {
                   onOpen={openInspect}
                 />
               );
-            })
-          : packed.map((shelf, i) => (
-              <ShelfRow
-                key={shelf.periodId + "-" + i}
-                shelf={shelf}
-                catalogAuthors={authors}
-                catalogWorks={works}
-                selectedId={selectedId}
-                onOpen={openInspect}
-                onSelect={setSelectedId}
-              />
-            ))}
+            })}
+          </div>
+        ))}
       </div>
       {inspectBook && inspectAuthor && inspectPeriod ? (
         <InspectOverlay
@@ -413,73 +411,6 @@ function AuthorSection({
           </div>
         </div>
       ))}
-    </section>
-  );
-}
-
-function ShelfRow({
-  shelf,
-  catalogAuthors,
-  catalogWorks,
-  selectedId,
-  onSelect,
-  onOpen
-}: {
-  shelf: PackedShelf;
-  catalogAuthors: Map<string, Author>;
-  catalogWorks: Map<string, Work>;
-  selectedId: string | null;
-  onSelect: (id: string | null) => void;
-  onOpen: (id: string) => void;
-}) {
-  const period = periodMeta(shelf.periodId);
-  return (
-    <section className="lib-shelf-row" data-shelf-period={shelf.periodId} data-period-end={shelf.isPeriodEnd ? "1" : "0"}>
-      <div className="lib-shelf-wood">
-        <div className="lib-shelf-books">
-          {shelf.runs.map((run) =>
-            run.books.map((book) => {
-              const work = catalogWorks.get(book.workId);
-              const author = catalogAuthors.get(book.authorId);
-              if (!work || !author) return null;
-              return (
-                <BookSpine
-                  key={book.workId}
-                  work={work}
-                  author={author}
-                  book={book}
-                  periodId={shelf.periodId}
-                  selected={selectedId === book.workId}
-                  onSelect={() => onSelect(book.workId)}
-                  onDeselect={() => onSelect(null)}
-                  onOpen={() => onOpen(book.workId)}
-                />
-              );
-            })
-          )}
-          {shelf.isPeriodEnd ? (
-            <div className="lib-bookend" aria-hidden="true">
-              <span className="lib-bookend-year">{period.bookendYear}</span>
-            </div>
-          ) : null}
-          {shelf.isPeriodEnd && shelf.nextPeriodLabel ? (
-            <p className="lib-era-next">{shelf.nextPeriodLabel}</p>
-          ) : null}
-        </div>
-        <div className="lib-plank" aria-hidden="true" />
-        <div className="lib-author-bar">
-          {shelf.runs.map((run) => {
-            const author = catalogAuthors.get(run.authorId);
-            const w = run.books.reduce((n, b) => n + defaultBinWidthPx(b.bin), 0);
-            const label = shelfName(author, run.authorId) + (run.continued ? " (Cont.)" : "");
-            return (
-              <span className="lib-author-run" style={authorRunStyle(label, w)} key={run.authorId + (run.continued ? "-c" : "")}>
-                {label}
-              </span>
-            );
-          })}
-        </div>
-      </div>
     </section>
   );
 }
@@ -606,9 +537,7 @@ function InspectOverlay({
           <button
             type="button"
             className={
-              "lib-inspect-book" +
-              (coverOpen ? " is-open" : "") +
-              (expanding ? " is-expanding" : "")
+              "lib-inspect-book" + (coverOpen ? " is-open" : "") + (expanding ? " is-expanding" : "")
             }
             data-period={periodId}
             style={{ ["--bin" as string]: String(bin) }}

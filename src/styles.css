@@ -615,6 +615,61 @@ html[data-theme="night"] .starter-card--soon {
 }
 .read-toolbar a.nav-chap:hover { background: var(--panel); text-decoration: none; }
 .read-title { font-family: var(--serif); font-size: 28px; margin: 0; font-weight: 600; }
+.edition-label {
+  margin: 4px 0 0;
+  font-family: var(--sans);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 700;
+}
+.chapter-index {
+  margin: 8px 0 0;
+  max-width: 36rem;
+}
+.chapter-index > summary {
+  cursor: pointer;
+  list-style: none;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 600;
+  user-select: none;
+}
+.chapter-index > summary::-webkit-details-marker { display: none; }
+.chapter-index > summary::before {
+  content: "▸";
+  display: inline-block;
+  width: 1em;
+  color: var(--burgundy);
+  transition: transform 0.12s ease;
+}
+.chapter-index[open] > summary::before { transform: rotate(90deg); }
+.chapter-index-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin: 8px 0 4px;
+  padding: 8px 0 4px 1em;
+  border-left: 2px solid var(--border);
+  max-height: min(50vh, 28rem);
+  overflow: auto;
+}
+.chapter-index-list a {
+  display: block;
+  padding: 4px 8px;
+  border-radius: 3px;
+  color: var(--text);
+  font-size: 13px;
+  line-height: 1.35;
+  text-decoration: none;
+}
+.chapter-index-list a:hover {
+  background: var(--panel);
+  color: var(--burgundy);
+  text-decoration: none;
+}
+/* Legacy chip TOC (kept for older static shells) */
 .book-toc {
   display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 8px;
 }
@@ -926,7 +981,8 @@ body.ios-shell .booklist,
 body.ios-shell .site-footer,
 body.ios-shell .hamburger,
 body.ios-shell .read-toolbar,
-body.ios-shell .book-toc {
+body.ios-shell .book-toc,
+body.ios-shell .chapter-index {
   display: none !important;
 }
 body.ios-shell .page {
@@ -2112,19 +2168,23 @@ html[data-theme="night"] .library {
 }
 .lib-mode {
   display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
   border: 1px solid var(--border);
   background: var(--bg);
   pointer-events: auto;
+  max-width: min(920px, 94vw);
 }
 .lib-mode button {
   border: 0;
   background: transparent;
-  padding: 6px 16px;
+  padding: 6px 12px;
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.04em;
   cursor: pointer;
   color: var(--muted);
+  min-width: 2.75rem;
 }
 .lib-mode button.is-on {
   background: var(--nav);
@@ -2257,13 +2317,14 @@ html[data-theme="night"] .lib-author-run {
   max-height: 36%;
 }
 .lib-spine-mark {
-  width: 68%;
-  max-width: 16px;
+  width: 72%;
+  max-width: 17px;
+  height: auto;
   aspect-ratio: 1;
-  color: #e8d49a;
   display: block;
   flex: 0 0 auto;
-  filter: drop-shadow(0 0 0.4px #f3e2a8);
+  object-fit: contain;
+  filter: drop-shadow(0 0 0.5px rgba(243, 226, 168, 0.7));
 }
 .lib-spine-rule {
   display: block;
@@ -2583,17 +2644,17 @@ html[data-theme="night"] .lib-era-next {
   color: var(--muted);
 }
 .library--authors .lib-poem-shelf {
-  min-height: calc((100vh - var(--header) - 88px) * 0.85);
+  min-height: calc((100vh - var(--header) - 88px) * 0.72);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 28px 12vw 40px;
+  padding: 24px 12vw 36px;
   box-sizing: border-box;
 }
 .library--authors .lib-shelf-books {
   flex: 0 0 auto;
-  height: min(58vh, 476px);
+  height: min(49vh, 405px);
   width: auto;
   max-width: 100%;
   justify-content: center;

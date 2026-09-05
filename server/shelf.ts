@@ -81,10 +81,13 @@ export type PackOptions = {
   scale: SpineScale;
 };
 
+/** Spine thickness scale (0.85 = 15% smaller books). */
+export const SPINE_SCALE = 0.85;
+
 export function defaultBinWidthPx(bin: SpineBin): number {
   const min = 36;
   const max = 128;
-  return Math.round(min + ((max - min) * (bin - 1)) / 9);
+  return Math.round((min + ((max - min) * (bin - 1)) / 9) * SPINE_SCALE);
 }
 
 export function packShelves(works: PackWork[], authors: PackAuthor[], opts: PackOptions): PackedShelf[] {

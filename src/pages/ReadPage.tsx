@@ -83,7 +83,6 @@ function ChapterBody({
       </div>
     ) : (
       <div className="trans-pane">
-        <p className="pane-label">{versionLabel(orig.id, versions)} · original</p>
         <div className="passage">{renderParas(passage, orig.id)}</div>
       </div>
     );
@@ -100,11 +99,9 @@ function ChapterBody({
       <div className="chapter-row has-orig">
         <Notes passage={passage} />
         <div className="trans-pane">
-          <p className="pane-label">{versionLabel(trans.id, versions)}</p>
           <div className="passage">{renderParas(passage, trans.id)}</div>
         </div>
         <div className="orig-pane">
-          <p className="pane-label">{versionLabel(orig.id, versions)} · original</p>
           <div className="passage">{renderParas(passage, orig.id)}</div>
         </div>
       </div>
@@ -116,7 +113,6 @@ function ChapterBody({
       <div className="chapter-row">
         <Notes passage={passage} />
         <div className="trans-pane">
-          <p className="pane-label">{versionLabel(trans.id, versions)}</p>
           <div className="passage">{renderParas(passage, trans.id)}</div>
         </div>
       </div>
@@ -317,13 +313,17 @@ export function ReadPage() {
   const showParallelOrig = mode === "translation" && parallel && !!originalOf(payload.chapters[0]);
   const isConfessions = payload.work.id === "confessions";
   const unitLabel = isConfessions ? "books" : payload.chapters.length === 1 ? "part" : "chapters";
+  const origLabel = (() => {
+    const o = originalOf(payload.chapters[0]);
+    return o ? versionLabel(o.id, versions) + " · original" : "Original";
+  })();
   const editionNote =
     mode === "original"
       ? isConfessions
         ? "Latin text of the Confessiones"
-        : "Original-language text"
+        : origLabel
       : preferred
-        ? versionLabel(preferred, versions)
+        ? versionLabel(preferred, versions) + (showParallelOrig ? " · " + origLabel : "")
         : "";
 
   return (
@@ -337,21 +337,25 @@ export function ReadPage() {
         </span>
         <div>
           <h1 className="read-title">{payload.work.title}</h1>
-          <div className="version-name">
-            {payload.author.name} · {payload.chapters.length} {unitLabel}
-          </div>
+          <div className="version-name">{payload.author.name}</div>
+          {editionNote ? <p className="edition-label">{editionNote}</p> : null}
+          <details className="chapter-index">
+            <summary>
+              {payload.chapters.length} {unitLabel}
+            </summary>
+            <nav className="chapter-index-list" aria-label="Chapters">
+              {payload.chapters.map((p) => {
+                const label = (p.heading || "").replace(/^Book\s+/i, "") || String(p.chapter);
+                return (
+                  <a key={p.chapter} href={"#ch-" + p.chapter}>
+                    {label}
+                  </a>
+                );
+              })}
+            </nav>
+          </details>
         </div>
       </div>
-      <nav className="book-toc" aria-label="Chapters">
-        {payload.chapters.map((p) => {
-          const label = (p.heading || "").replace(/^Book\s+/i, "") || String(p.chapter);
-          return (
-            <a key={p.chapter} href={"#ch-" + p.chapter}>
-              {label}
-            </a>
-          );
-        })}
-      </nav>
       {payload.chapters.map((p) => (
         <section className="book-chapter" id={"ch-" + p.chapter} data-ch={p.chapter} key={p.chapter}>
           <h2 className="heading">{p.heading}</h2>
