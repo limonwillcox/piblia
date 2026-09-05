@@ -1,7 +1,7 @@
 import { existsSync, readdirSync, readFileSync } from "fs";
 import { dirname, join, relative } from "path";
 import { fileURLToPath } from "url";
-import { loadEnglishAppWorks } from "./englishWorks";
+import { authorMeta, loadEnglishAppWorks, wordCountFromPassages } from "./englishWorks";
 import type { Catalog, Footnote, Passage } from "./types";
 
 const ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII"];
@@ -13,9 +13,7 @@ export const VERSIONS = [
   { id: "lat", label: "Latin", short: "Latin", group: "original" as const }
 ];
 
-export const AUTHORS = [
-  { id: "augustine", name: "Augustine of Hippo", dates: "354–430", era: "post-nicene", region: "North Africa" }
-];
+export const AUTHORS = [authorMeta("augustine")];
 
 export const ERAS = [
   { id: "ante-nicene", label: "Ante-Nicene" },
@@ -249,7 +247,8 @@ export function catalogFromParsed(parsed: ParsedConfessions): Catalog {
         title: parsed.title,
         short: "Conf.",
         chapters: parsed.books.length,
-        series: "Pusey"
+        series: "Pusey",
+        wordCount: 1
       }
     ],
     votd: {
@@ -268,6 +267,8 @@ export function loadLibrary(root = repoRoot()): Library {
   const parsed = parseConfessions(englishSrc, latinSrc, { ...sources, root });
   const confessionsPassages = passagesFromParsed(parsed);
   const catalog = catalogFromParsed(parsed);
+  const confessionsWork = catalog.works.find((w) => w.id === "confessions");
+  if (confessionsWork) confessionsWork.wordCount = Math.max(1, wordCountFromPassages(confessionsPassages));
   const english = loadEnglishAppWorks(root);
 
   const authors = [...catalog.authors];

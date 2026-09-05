@@ -247,7 +247,7 @@ export const ERAS: HistoryEra[] = [
     title: "The Council of Nicaea",
     period: "pre-nicene",
     scene: "nicaea",
-    works: ["seven-ecumenical-councils", "select-writings-and-letters", "church-history"],
+    works: ["seven-ecumenical-councils", "on-the-incarnation-of-the-word", "church-history"],
     body:
       "Constantine summoned the bishops to settle whether the Son was of one substance with the Father or a creature. Against Arius the council said homoousios, of one substance, and the creed that carries Nicaea's name begins here. Athanasius spent five exiles defending it. This is the hinge: everything before is ante-Nicene, everything after post-Nicene."
   },
@@ -258,7 +258,7 @@ export const ERAS: HistoryEra[] = [
     datetime: "0381",
     title: "The First Council of Constantinople",
     period: "post-nicene",
-    works: ["seven-ecumenical-councils", "select-orations-and-letters", "letters-and-select-works"],
+    works: ["seven-ecumenical-councils", "select-orations", "dogmatic-treatises-select-writings-and-letters"],
     body:
       "A second council confirmed Nicaea and completed the creed, adding the articles on the Holy Spirit. The Nicene Creed as it is actually recited is the creed of 381, shaped by the Cappadocians — the two Gregorys, who were there, and Basil, whose work on the Spirit had prepared the ground before his death two years earlier."
   },

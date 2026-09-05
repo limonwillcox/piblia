@@ -10,6 +10,13 @@ import {
   renderChurchHistoryCinematicHtml,
   renderChurchHistoryHtml
 } from "./server/churchHistory";
+import {
+  CHURCH_FATHERS_DESCRIPTION,
+  CHURCH_FATHERS_PATH,
+  CHURCH_FATHERS_TITLE,
+  churchFathersJsonLd,
+  renderChurchFathersHtml
+} from "./server/shelf";
 import { dirname, extname, join, resolve } from "path";
 import { fileURLToPath } from "url";
 import { defineConfig } from "vite";
@@ -51,20 +58,22 @@ function writePrerenderedPage(
     outRel: string;
     canonicalPath: string;
     bodyHtml: string;
-    withJsonLd: boolean;
     label: string;
+    title: string;
+    description: string;
+    jsonLd?: unknown;
   }
 ): void {
   const canonical = SITE_ORIGIN + opts.canonicalPath;
-  const jsonLd = JSON.stringify(churchHistoryJsonLd(SITE_ORIGIN)).replace(/</g, "\\u003c");
   const headParts = [
     '    <link rel="canonical" href="' + canonical + '" />',
     '    <meta property="og:type" content="article" />',
     '    <meta property="og:url" content="' + canonical + '" />',
-    '    <meta property="og:title" content="' + escapeHtml(CHURCH_HISTORY_TITLE) + '" />',
-    '    <meta property="og:description" content="' + escapeHtml(CHURCH_HISTORY_DESCRIPTION) + '" />'
+    '    <meta property="og:title" content="' + escapeHtml(opts.title) + '" />',
+    '    <meta property="og:description" content="' + escapeHtml(opts.description) + '" />'
   ];
-  if (opts.withJsonLd) {
+  if (opts.jsonLd) {
+    const jsonLd = JSON.stringify(opts.jsonLd).replace(/</g, "\\u003c");
     headParts.push("    <script type=\"application/ld+json\">" + jsonLd + "</script>");
   }
   headParts.push("  </head>");
@@ -73,14 +82,14 @@ function writePrerenderedPage(
   const steps: { name: string; apply: (s: string) => string }[] = [
     {
       name: "<title>",
-      apply: (s) => s.replace(/<title>[\s\S]*?<\/title>/, "<title>" + escapeHtml(CHURCH_HISTORY_TITLE) + "</title>")
+      apply: (s) => s.replace(/<title>[\s\S]*?<\/title>/, "<title>" + escapeHtml(opts.title) + "</title>")
     },
     {
       name: 'meta name="description"',
       apply: (s) =>
         s.replace(
           /<meta\s+name="description"[\s\S]*?\/>/,
-          '<meta name="description" content="' + escapeHtml(CHURCH_HISTORY_DESCRIPTION) + '" />'
+          '<meta name="description" content="' + escapeHtml(opts.description) + '" />'
         )
     },
     { name: "</head>", apply: (s) => s.replace("</head>", head) },
@@ -110,15 +119,30 @@ function writeChurchHistoryPage(dist: string, catalog: ReturnType<typeof getCata
     outRel: join("church-history", "index.html"),
     canonicalPath: CHURCH_HISTORY_CANONICAL_PATH,
     bodyHtml: renderChurchHistoryCinematicHtml(),
-    withJsonLd: false,
-    label: "church-history"
+    label: "church-history",
+    title: CHURCH_HISTORY_TITLE,
+    description: CHURCH_HISTORY_DESCRIPTION
   });
   writePrerenderedPage(dist, {
     outRel: join("church-history", "timeline", "index.html"),
     canonicalPath: CHURCH_HISTORY_TIMELINE_PATH,
     bodyHtml: renderChurchHistoryHtml(catalog),
-    withJsonLd: true,
-    label: "church-history-timeline"
+    label: "church-history-timeline",
+    title: CHURCH_HISTORY_TITLE,
+    description: CHURCH_HISTORY_DESCRIPTION,
+    jsonLd: churchHistoryJsonLd(SITE_ORIGIN)
+  });
+}
+
+function writeChurchFathersPage(dist: string, catalog: ReturnType<typeof getCatalog>): void {
+  writePrerenderedPage(dist, {
+    outRel: join("church-fathers", "index.html"),
+    canonicalPath: CHURCH_FATHERS_PATH,
+    bodyHtml: renderChurchFathersHtml(catalog),
+    label: "church-fathers",
+    title: CHURCH_FATHERS_TITLE,
+    description: CHURCH_FATHERS_DESCRIPTION,
+    jsonLd: churchFathersJsonLd(SITE_ORIGIN, catalog)
   });
 }
 
@@ -192,7 +216,9 @@ function extrasPlugin() {
         "/church-history  /church-history/index.html  200",
         "/church-history/  /church-history/index.html  200",
         "/church-history/timeline  /church-history/timeline/index.html  200",
-        "/church-history/timeline/  /church-history/timeline/index.html  200"
+        "/church-history/timeline/  /church-history/timeline/index.html  200",
+        "/church-fathers  /church-fathers/index.html  200",
+        "/church-fathers/  /church-fathers/index.html  200"
       ];
       const sitemapUrls = [
         SITE_ORIGIN + "/",
@@ -204,6 +230,7 @@ function extrasPlugin() {
       ];
 
       writeChurchHistoryPage(dist, catalog);
+      writeChurchFathersPage(dist, catalog);
 
       for (const w of catalog.works) {
         const payload = getWork(w.id);

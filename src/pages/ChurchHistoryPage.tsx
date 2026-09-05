@@ -52,6 +52,7 @@ function useDocumentMeta(title: string, description: string, canonical: string):
 export function ChurchHistoryPage() {
   const { setActivePassage } = useApp();
   const cinematicRef = useRef<HTMLDivElement>(null);
+  const hintRef = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
   const sentToTimeline = useRef(false);
 
@@ -82,6 +83,17 @@ export function ChurchHistoryPage() {
   }, []);
 
   useEffect(() => {
+    const hint = hintRef.current;
+    if (!hint) return;
+    function onScroll() {
+      hint!.classList.toggle("ch-scroll-hint--gone", window.scrollY > 48);
+    }
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  useEffect(() => {
     const el = cinematicRef.current;
     if (!el) return;
     const exit = el.parentElement?.querySelector<HTMLElement>("[data-ch-exit]");
@@ -106,6 +118,12 @@ export function ChurchHistoryPage() {
 
   return (
     <div className="ch-page ch-page--cinematic">
+      <div className="ch-scroll-hint" ref={hintRef} aria-hidden="true">
+        <span className="ch-scroll-hint-label">Scroll</span>
+        <svg className="ch-scroll-hint-arrow" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" strokeWidth="2">
+          <path d="M12 5v14M6 13l6 6 6-6" />
+        </svg>
+      </div>
       <div className="ch-cinematic" ref={cinematicRef}>
         <SceneDefs />
         <Theatre shots={ACT_ONE} />

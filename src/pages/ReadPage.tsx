@@ -1,4 +1,4 @@
-/import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { originalOf, translationsOf } from "../../server/query";
 import type { Passage, WorkPayload } from "../../server/types";
@@ -89,8 +89,8 @@ function ChapterBody({
     );
     return (
       <div className="chapter-row">
-        {main}
         <Notes passage={passage} />
+        {main}
       </div>
     );
   }
@@ -98,6 +98,7 @@ function ChapterBody({
   if (split && orig && trans) {
     return (
       <div className="chapter-row has-orig">
+        <Notes passage={passage} />
         <div className="trans-pane">
           <p className="pane-label">{versionLabel(trans.id, versions)}</p>
           <div className="passage">{renderParas(passage, trans.id)}</div>
@@ -106,7 +107,6 @@ function ChapterBody({
           <p className="pane-label">{versionLabel(orig.id, versions)} · original</p>
           <div className="passage">{renderParas(passage, orig.id)}</div>
         </div>
-        <Notes passage={passage} />
       </div>
     );
   }
@@ -114,19 +114,19 @@ function ChapterBody({
   if (trans) {
     return (
       <div className="chapter-row">
+        <Notes passage={passage} />
         <div className="trans-pane">
           <p className="pane-label">{versionLabel(trans.id, versions)}</p>
           <div className="passage">{renderParas(passage, trans.id)}</div>
         </div>
-        <Notes passage={passage} />
       </div>
     );
   }
 
   return (
     <div className="chapter-row">
-      <p className="empty">No text available.</p>
       <Notes passage={passage} />
+      <p className="empty">No text available.</p>
     </div>
   );
 }
@@ -213,7 +213,6 @@ export function ReadPage() {
   const jumpChapter = params.get("chapter") || "";
   const [payload, setPayload] = useState<WorkPayload | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const [ready, setReady] = useState<Set<number>>(new Set());
   const pageRef = useRef<HTMLDivElement>(null);
   const [hl, setHl] = useState<{ x: number; y: number; para: HTMLElement; range: Range } | null>(null);
 
@@ -253,43 +252,14 @@ export function ReadPage() {
     return () => setActivePassage(null);
   }, [first, setActivePassage]);
 
+  // Jump via ?chapter=N once the work body is mounted. Hash TOC links (#ch-N) are handled by the browser.
   useEffect(() => {
-    setReady(new Set());
-  }, [workId]);
-
-  useEffect(() => {
-    if (!payload) return;
-    const openCh = Number(jumpChapter) || payload.chapters[0]?.chapter || 1;
-    setReady((prev) => {
-      const next = new Set(prev);
-      next.add(openCh);
-      if (payload.chapters.some((c) => c.chapter === openCh - 1)) next.add(openCh - 1);
-      if (payload.chapters.some((c) => c.chapter === openCh + 1)) next.add(openCh + 1);
-      return next;
-    });
-  }, [payload, jumpChapter]);
-
-  useEffect(() => {
-    if (!payload || !pageRef.current) return;
-    const io = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((en) => {
-          if (!en.isIntersecting) return;
-          const ch = Number((en.target as HTMLElement).dataset.ch);
-          if (ch) setReady((prev) => new Set(prev).add(ch));
-        });
-      },
-      { rootMargin: "900px 0px" }
-    );
-    pageRef.current.querySelectorAll(".book-chapter").forEach((sec) => io.observe(sec));
-    return () => io.disconnect();
-  }, [payload]);
-
-  useEffect(() => {
-    if (!jumpChapter) return;
+    if (!jumpChapter || !payload) return;
     const el = document.getElementById("ch-" + jumpChapter);
-    if (el) setTimeout(() => el.scrollIntoView({ behavior: "smooth", block: "start" }), 50);
-  }, [jumpChapter, payload, ready]);
+    if (!el) return;
+    const id = window.setTimeout(() => el.scrollIntoView({ behavior: "smooth", block: "start" }), 50);
+    return () => window.clearTimeout(id);
+  }, [jumpChapter, payload]);
 
   function onMouseUp(e: React.MouseEvent) {
     if ((e.target as HTMLElement).closest("#hlBar")) return;
@@ -341,12 +311,20 @@ export function ReadPage() {
   }
 
   if (error) return <p className="empty">{error}</p>;
-  if (!payload) return <p className="empty">Loading the Confessions…</p>;
-  if (!payload.chapters.length) return <p className="empty">The Confessions text did not load.</p>;
+  if (!payload) return <p className="empty">Loading…</p>;
+  if (!payload.chapters.length) return <p className="empty">This work did not load.</p>;
 
   const showParallelOrig = mode === "translation" && parallel && !!originalOf(payload.chapters[0]);
+  const isConfessions = payload.work.id === "confessions";
+  const unitLabel = isConfessions ? "books" : payload.chapters.length === 1 ? "part" : "chapters";
   const editionNote =
-    mode === "original" ? "Latin text of the Confessiones" : preferred ? versionLabel(preferred, versions) : "";
+    mode === "original"
+      ? isConfessions
+        ? "Latin text of the Confessiones"
+        : "Original-language text"
+      : preferred
+        ? versionLabel(preferred, versions)
+        : "";
 
   return (
     <div ref={pageRef} onMouseUp={onMouseUp}>
@@ -360,7 +338,7 @@ export function ReadPage() {
         <div>
           <h1 className="read-title">{payload.work.title}</h1>
           <div className="version-name">
-            {payload.author.name} · {payload.chapters.length} books
+            {payload.author.name} · {payload.chapters.length} {unitLabel}
           </div>
         </div>
       </div>
@@ -368,11 +346,7 @@ export function ReadPage() {
         {payload.chapters.map((p) => {
           const label = (p.heading || "").replace(/^Book\s+/i, "") || String(p.chapter);
           return (
-            <a
-              key={p.chapter}
-              href={"#ch-" + p.chapter}
-              onClick={() => setReady((prev) => new Set(prev).add(p.chapter))}
-            >
+            <a key={p.chapter} href={"#ch-" + p.chapter}>
               {label}
             </a>
           );
@@ -382,16 +356,23 @@ export function ReadPage() {
         <section className="book-chapter" id={"ch-" + p.chapter} data-ch={p.chapter} key={p.chapter}>
           <h2 className="heading">{p.heading}</h2>
           <ChapterMount workId={payload.work.id}>
-            {ready.has(p.chapter) ? (
-              <ChapterBody passage={p} mode={mode} preferred={preferred} split={showParallelOrig} versions={versions} />
-            ) : null}
+            <ChapterBody passage={p} mode={mode} preferred={preferred} split={showParallelOrig} versions={versions} />
           </ChapterMount>
         </section>
       ))}
       <p className="copyright">
-        <strong>{editionNote}</strong>. English: E. B. Pusey (1838), Project Gutenberg eBook #3296. Latin: the Confessiones under{" "}
-        <code>Fathers/Latin/</code>. Highlighting is stored only in this browser.{" "}
-        <Link className="read-full" to="/read?work=confessions">
+        <strong>{editionNote}</strong>
+        {isConfessions ? (
+          <>
+            . English: E. B. Pusey (1838), Project Gutenberg eBook #3296. Latin: the Confessiones under <code>Fathers/Latin/</code>.
+          </>
+        ) : (
+          <>
+            . Public-domain English from the Schaff ANF/NPNF editions. Series: {payload.work.series || "Schaff"}.
+          </>
+        )}{" "}
+        Highlighting is stored only in this browser.{" "}
+        <Link className="read-full" to={"/read?work=" + encodeURIComponent(payload.work.id)}>
           The whole work
         </Link>
       </p>

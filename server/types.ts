@@ -13,6 +13,10 @@ export type Author = {
   dates: string;
   era: string;
   region: string;
+  /** Estimated year of death; floruit midpoint when the death is unknown. */
+  deathYear: number;
+  /** Two-sentence bio for the inspect overlay. Empty until the copy pass. */
+  bio: string;
 };
 
 export type Era = {
@@ -27,6 +31,9 @@ export type Work = {
   short: string;
   chapters: number;
   series: string;
+  wordCount: number;
+  blurb?: string;
+  cover?: string;
 };
 
 export type Footnote = {

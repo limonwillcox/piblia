@@ -1,15 +1,18 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useApp } from "../context/AppContext";
+import { Library, useDesktopLibrary } from "./browse/Library";
 
 export function BrowsePage() {
   const { catalog, catalogError, setActivePassage } = useApp();
+  const desktop = useDesktopLibrary();
   useEffect(() => {
     setActivePassage(null);
   }, [setActivePassage]);
 
   if (catalogError) return <p className="empty">{catalogError}</p>;
   if (!catalog) return <p className="empty">Loading library…</p>;
+  if (desktop) return <Library catalog={catalog} />;
 
   return (
     <>

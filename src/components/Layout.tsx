@@ -8,7 +8,7 @@ import { ICONS } from "./Icons";
 function Brand() {
   return (
     <Link className="brand" to="/" aria-label="Piblia">
-      <img className="logo" src="/assets/piblia-logo.jpg" alt="" width={42} height={42} />
+      <img className="logo" src="/assets/piblia-logo.jpg" alt="" width={34} height={34} />
       <span className="brand-name">Piblia</span>
     </Link>
   );
@@ -441,6 +441,7 @@ export function Layout({ children }: { children: ReactNode }) {
   const location = useLocation();
   const isLanding = location.pathname === "/";
   const isHistoryCinematic = location.pathname === "/church-history" || location.pathname === "/church-history/";
+  const isFathers = location.pathname === "/church-fathers" || location.pathname === "/browse";
 
   useEffect(() => {
     document.body.classList.toggle("nav-open", navOpen);
@@ -483,7 +484,10 @@ export function Layout({ children }: { children: ReactNode }) {
       <Booklist />
       <main
         className={
-          "page" + (isLanding ? " page--landing" : "") + (isHistoryCinematic ? " page--history-cinematic" : "")
+          "page" +
+          (isLanding ? " page--landing" : "") +
+          (isHistoryCinematic ? " page--history-cinematic" : "") +
+          (isFathers ? " page--library" : "")
         }
         id="page"
       >

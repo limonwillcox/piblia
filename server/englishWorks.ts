@@ -1,6 +1,6 @@
 import { existsSync, readdirSync, readFileSync } from "fs";
 import { join } from "path";
-import type { Author, Passage, Work } from "./types";
+import type { Author, Footnote, Passage, Work } from "./types";
 
 export type ChunkMode = "book" | "chapter" | "sermon" | "letter" | "homily";
 
@@ -27,62 +27,61 @@ const SKIP_FILES = new Set([
   "The Confessions (NPNF Pilkington).txt" // duplicate of Confessions for MVP
 ]);
 
-type AuthorMeta = { name: string; dates: string; era: string; region: string };
+type AuthorMeta = { name: string; dates: string; era: string; region: string; deathYear: number; bio: string };
 
 const AUTHOR_META: Record<string, AuthorMeta> = {
-  ambrose: { name: "Ambrose of Milan", dates: "c. 340–397", era: "post-nicene", region: "Italy" },
-  arnobius: { name: "Arnobius of Sicca", dates: "fl. c. 300", era: "ante-nicene", region: "North Africa" },
-  augustine: { name: "Augustine of Hippo", dates: "354–430", era: "post-nicene", region: "North Africa" },
-  commodianus: { name: "Commodianus", dates: "fl. 3rd–5th c.", era: "ante-nicene", region: "West" },
-  gregory: { name: "Gregory the Great", dates: "c. 540–604", era: "post-nicene", region: "Italy" },
-  gregory_thaumaturgus: { name: "Gregory Thaumaturgus", dates: "c. 213–c. 270", era: "ante-nicene", region: "Pontus" },
-  methodius: { name: "Methodius of Olympus", dates: "d. c. 311", era: "ante-nicene", region: "Olympus" },
-  jerome: { name: "Jerome", dates: "c. 347–420", era: "post-nicene", region: "Rome / Palestine" },
-  lactantius: { name: "Lactantius", dates: "c. 250–325", era: "ante-nicene", region: "North Africa / Gaul" },
-  leo: { name: "Leo the Great", dates: "c. 400–461", era: "post-nicene", region: "Italy" },
-  minucius_felix: { name: "Minucius Felix", dates: "fl. 2nd–3rd c.", era: "ante-nicene", region: "Rome" },
-  novatian: { name: "Novatian", dates: "fl. mid-3rd c.", era: "ante-nicene", region: "Rome" },
-  sulpicius_severus: { name: "Sulpicius Severus", dates: "c. 363–c. 425", era: "post-nicene", region: "Gaul" },
-  tertullian: { name: "Tertullian", dates: "c. 155–c. 240", era: "ante-nicene", region: "North Africa" },
-  vincent: { name: "Vincent of Lérins", dates: "d. c. 450", era: "post-nicene", region: "Gaul" },
-  // Placeholders for upcoming Greek / remaining splits
-  justin: { name: "Justin Martyr", dates: "c. 100–165", era: "ante-nicene", region: "Rome" },
-  irenaeus: { name: "Irenaeus of Lyons", dates: "c. 130–c. 202", era: "ante-nicene", region: "Gaul" },
-  clement_rome: { name: "Clement of Rome", dates: "fl. c. 96", era: "ante-nicene", region: "Rome" },
-  ignatius: { name: "Ignatius of Antioch", dates: "d. c. 110", era: "ante-nicene", region: "Syria" },
-  polycarp: { name: "Polycarp of Smyrna", dates: "c. 69–155", era: "ante-nicene", region: "Asia Minor" },
-  hermas: { name: "Hermas", dates: "fl. 2nd c.", era: "ante-nicene", region: "Rome" },
-  barnabas: { name: "Barnabas (Epistle)", dates: "fl. 1st–2nd c.", era: "ante-nicene", region: "Unknown" },
-  didache: { name: "Didache", dates: "fl. 1st–2nd c.", era: "ante-nicene", region: "Syria?" },
-  papias: { name: "Papias of Hierapolis", dates: "fl. early 2nd c.", era: "ante-nicene", region: "Asia Minor" },
-  mathetes: { name: "Mathetes (to Diognetus)", dates: "fl. 2nd c.", era: "ante-nicene", region: "Unknown" },
-  tatian: { name: "Tatian", dates: "fl. mid-2nd c.", era: "ante-nicene", region: "Syria" },
-  theophilus: { name: "Theophilus of Antioch", dates: "fl. late 2nd c.", era: "ante-nicene", region: "Syria" },
-  athenagoras: { name: "Athenagoras", dates: "fl. late 2nd c.", era: "ante-nicene", region: "Athens" },
-  clement_alexandria: { name: "Clement of Alexandria", dates: "c. 150–c. 215", era: "ante-nicene", region: "Egypt" },
-  origen: { name: "Origen", dates: "c. 185–c. 254", era: "ante-nicene", region: "Egypt / Palestine" },
-  hippolytus: { name: "Hippolytus", dates: "c. 170–c. 235", era: "ante-nicene", region: "Rome" },
-  cyprian: { name: "Cyprian of Carthage", dates: "d. 258", era: "ante-nicene", region: "North Africa" },
-  dionysius: { name: "Dionysius", dates: "fl. 3rd c.", era: "ante-nicene", region: "Various" },
-  eusebius: { name: "Eusebius of Caesarea", dates: "c. 260–c. 339", era: "post-nicene", region: "Palestine" },
-  athanasius: { name: "Athanasius of Alexandria", dates: "c. 296–373", era: "post-nicene", region: "Egypt" },
-  basil: { name: "Basil the Great", dates: "c. 330–379", era: "post-nicene", region: "Cappadocia" },
-  gregory_nazianzen: { name: "Gregory Nazianzen", dates: "c. 329–390", era: "post-nicene", region: "Cappadocia" },
-  gregory_nyssa: { name: "Gregory of Nyssa", dates: "c. 335–c. 395", era: "post-nicene", region: "Cappadocia" },
-  chrysostom: { name: "John Chrysostom", dates: "c. 347–407", era: "post-nicene", region: "Antioch / Constantinople" },
-  cyril_jerusalem: { name: "Cyril of Jerusalem", dates: "c. 313–386", era: "post-nicene", region: "Palestine" },
-  hilary: { name: "Hilary of Poitiers", dates: "c. 310–c. 367", era: "post-nicene", region: "Gaul" },
-  john_damascus: { name: "John of Damascus", dates: "c. 675–749", era: "post-nicene", region: "Syria" },
-  socrates: { name: "Socrates Scholasticus", dates: "c. 380–c. 439", era: "post-nicene", region: "Constantinople" },
-  sozomen: { name: "Sozomen", dates: "c. 400–c. 450", era: "post-nicene", region: "Constantinople" },
-  theodoret: { name: "Theodoret of Cyrus", dates: "c. 393–c. 458", era: "post-nicene", region: "Syria" },
-  rufinus: { name: "Rufinus of Aquileia", dates: "c. 345–411", era: "post-nicene", region: "Italy" },
-  cassian: { name: "John Cassian", dates: "c. 360–c. 435", era: "post-nicene", region: "Gaul" },
-  ephraim: { name: "Ephraim the Syrian", dates: "c. 306–373", era: "post-nicene", region: "Syria" },
-  aphrahat: { name: "Aphrahat", dates: "fl. 4th c.", era: "post-nicene", region: "Persia" },
-  councils: { name: "Ecumenical Councils", dates: "325–787", era: "post-nicene", region: "Various" },
-  apostolic: { name: "Apostolic Fathers (misc.)", dates: "1st–2nd c.", era: "ante-nicene", region: "Various" },
-  unknown: { name: "Unknown / Collected", dates: "", era: "ante-nicene", region: "Various" }
+  ambrose: { name: "Ambrose of Milan", dates: "c. 340–397", era: "post-nicene", region: "Italy", deathYear: 397, bio: "" },
+  arnobius: { name: "Arnobius of Sicca", dates: "fl. c. 300", era: "ante-nicene", region: "North Africa", deathYear: 303, bio: "" },
+  augustine: { name: "Augustine of Hippo", dates: "354–430", era: "post-nicene", region: "North Africa", deathYear: 430, bio: "" },
+  commodianus: { name: "Commodianus", dates: "fl. 3rd–5th c.", era: "ante-nicene", region: "West", deathYear: 260, bio: "" },
+  gregory: { name: "Gregory the Great", dates: "c. 540–604", era: "post-nicene", region: "Italy", deathYear: 604, bio: "" },
+  gregory_thaumaturgus: { name: "Gregory Thaumaturgus", dates: "c. 213–c. 270", era: "ante-nicene", region: "Pontus", deathYear: 270, bio: "" },
+  methodius: { name: "Methodius of Olympus", dates: "d. c. 311", era: "ante-nicene", region: "Olympus", deathYear: 311, bio: "" },
+  jerome: { name: "Jerome", dates: "c. 347–420", era: "post-nicene", region: "Rome / Palestine", deathYear: 420, bio: "" },
+  lactantius: { name: "Lactantius", dates: "c. 250–325", era: "ante-nicene", region: "North Africa / Gaul", deathYear: 325, bio: "" },
+  leo: { name: "Leo the Great", dates: "c. 400–461", era: "post-nicene", region: "Italy", deathYear: 461, bio: "" },
+  minucius_felix: { name: "Minucius Felix", dates: "fl. 2nd–3rd c.", era: "ante-nicene", region: "Rome", deathYear: 220, bio: "" },
+  novatian: { name: "Novatian", dates: "fl. mid-3rd c.", era: "ante-nicene", region: "Rome", deathYear: 250, bio: "" },
+  sulpicius_severus: { name: "Sulpicius Severus", dates: "c. 363–c. 425", era: "post-nicene", region: "Gaul", deathYear: 425, bio: "" },
+  tertullian: { name: "Tertullian", dates: "c. 155–c. 240", era: "ante-nicene", region: "North Africa", deathYear: 240, bio: "" },
+  vincent: { name: "Vincent of Lérins", dates: "d. c. 450", era: "post-nicene", region: "Gaul", deathYear: 450, bio: "" },
+  justin: { name: "Justin Martyr", dates: "c. 100–165", era: "ante-nicene", region: "Rome", deathYear: 165, bio: "" },
+  irenaeus: { name: "Irenaeus of Lyons", dates: "c. 130–c. 202", era: "ante-nicene", region: "Gaul", deathYear: 202, bio: "" },
+  clement_rome: { name: "Clement of Rome", dates: "fl. c. 96", era: "ante-nicene", region: "Rome", deathYear: 99, bio: "" },
+  ignatius: { name: "Ignatius of Antioch", dates: "d. c. 110", era: "ante-nicene", region: "Syria", deathYear: 110, bio: "" },
+  polycarp: { name: "Polycarp of Smyrna", dates: "c. 69–155", era: "ante-nicene", region: "Asia Minor", deathYear: 155, bio: "" },
+  hermas: { name: "Hermas", dates: "fl. 2nd c.", era: "ante-nicene", region: "Rome", deathYear: 140, bio: "" },
+  barnabas: { name: "Barnabas (Epistle)", dates: "fl. 1st–2nd c.", era: "ante-nicene", region: "Unknown", deathYear: 100, bio: "" },
+  didache: { name: "Didache", dates: "fl. 1st–2nd c.", era: "ante-nicene", region: "Syria?", deathYear: 100, bio: "" },
+  papias: { name: "Papias of Hierapolis", dates: "fl. early 2nd c.", era: "ante-nicene", region: "Asia Minor", deathYear: 120, bio: "" },
+  mathetes: { name: "Mathetes (to Diognetus)", dates: "fl. 2nd c.", era: "ante-nicene", region: "Unknown", deathYear: 150, bio: "" },
+  tatian: { name: "Tatian", dates: "fl. mid-2nd c.", era: "ante-nicene", region: "Syria", deathYear: 170, bio: "" },
+  theophilus: { name: "Theophilus of Antioch", dates: "fl. late 2nd c.", era: "ante-nicene", region: "Syria", deathYear: 185, bio: "" },
+  athenagoras: { name: "Athenagoras", dates: "fl. late 2nd c.", era: "ante-nicene", region: "Athens", deathYear: 180, bio: "" },
+  clement_alexandria: { name: "Clement of Alexandria", dates: "c. 150–c. 215", era: "ante-nicene", region: "Egypt", deathYear: 215, bio: "" },
+  origen: { name: "Origen", dates: "c. 185–c. 254", era: "ante-nicene", region: "Egypt / Palestine", deathYear: 254, bio: "" },
+  hippolytus: { name: "Hippolytus", dates: "c. 170–c. 235", era: "ante-nicene", region: "Rome", deathYear: 235, bio: "" },
+  cyprian: { name: "Cyprian of Carthage", dates: "d. 258", era: "ante-nicene", region: "North Africa", deathYear: 258, bio: "" },
+  dionysius: { name: "Dionysius", dates: "fl. 3rd c.", era: "ante-nicene", region: "Various", deathYear: 260, bio: "" },
+  eusebius: { name: "Eusebius of Caesarea", dates: "c. 260–c. 339", era: "post-nicene", region: "Palestine", deathYear: 339, bio: "" },
+  athanasius: { name: "Athanasius of Alexandria", dates: "c. 296–373", era: "post-nicene", region: "Egypt", deathYear: 373, bio: "" },
+  basil: { name: "Basil the Great", dates: "c. 330–379", era: "post-nicene", region: "Cappadocia", deathYear: 379, bio: "" },
+  gregory_nazianzen: { name: "Gregory Nazianzen", dates: "c. 329–390", era: "post-nicene", region: "Cappadocia", deathYear: 390, bio: "" },
+  gregory_nyssa: { name: "Gregory of Nyssa", dates: "c. 335–c. 395", era: "post-nicene", region: "Cappadocia", deathYear: 395, bio: "" },
+  chrysostom: { name: "John Chrysostom", dates: "c. 347–407", era: "post-nicene", region: "Antioch / Constantinople", deathYear: 407, bio: "" },
+  cyril_jerusalem: { name: "Cyril of Jerusalem", dates: "c. 313–386", era: "post-nicene", region: "Palestine", deathYear: 386, bio: "" },
+  hilary: { name: "Hilary of Poitiers", dates: "c. 310–c. 367", era: "post-nicene", region: "Gaul", deathYear: 367, bio: "" },
+  john_damascus: { name: "John of Damascus", dates: "c. 675–749", era: "post-nicene", region: "Syria", deathYear: 749, bio: "" },
+  socrates: { name: "Socrates Scholasticus", dates: "c. 380–c. 439", era: "post-nicene", region: "Constantinople", deathYear: 439, bio: "" },
+  sozomen: { name: "Sozomen", dates: "c. 400–c. 450", era: "post-nicene", region: "Constantinople", deathYear: 450, bio: "" },
+  theodoret: { name: "Theodoret of Cyrus", dates: "c. 393–c. 458", era: "post-nicene", region: "Syria", deathYear: 458, bio: "" },
+  rufinus: { name: "Rufinus of Aquileia", dates: "c. 345–411", era: "post-nicene", region: "Italy", deathYear: 411, bio: "" },
+  cassian: { name: "John Cassian", dates: "c. 360–c. 435", era: "post-nicene", region: "Gaul", deathYear: 435, bio: "" },
+  ephraim: { name: "Ephraim the Syrian", dates: "c. 306–373", era: "post-nicene", region: "Syria", deathYear: 373, bio: "" },
+  aphrahat: { name: "Aphrahat", dates: "fl. 4th c.", era: "post-nicene", region: "Persia", deathYear: 350, bio: "" },
+  councils: { name: "Ecumenical Councils", dates: "325–787", era: "post-nicene", region: "Various", deathYear: 451, bio: "" },
+  apostolic: { name: "Apostolic Fathers (misc.)", dates: "1st–2nd c.", era: "ante-nicene", region: "Various", deathYear: 120, bio: "" },
+  unknown: { name: "Unknown / Collected", dates: "", era: "ante-nicene", region: "Various", deathYear: 150, bio: "" }
 };
 
 const BOOK_RE = /^\s*Book\s+([IVXLCDM]+|\d+)\s*\.(?:\s*\[\d+\])?\s*$/im;
@@ -130,11 +129,105 @@ function stripMetaHeaders(src: string): string {
   return lines.slice(i).join("\n");
 }
 
+const RULE_LINE_RE = /^\s*[_\-]{5,}\s*$/;
+const STRUCTURAL_HEADING_RE =
+  /^\s*(Book|Chapter|Sermon|Letter|Homily)\s+([IVXLCDM]+|\d+)\b/i;
+const EDITORIAL_HEADING_RE =
+  /^\s*(?:(?:The\s+following\s+is\s+(?:Dr\.?\s+\w+(?:'s)?\s+)?(?:the\s+)?(?:original\s+)?)?Introductory\s+Notice\b.*|Translator'?s?\s+Introductory\s+Notice\.?|Translator'?s?\s+Preface\.?|Prefatory\s+Note\.?|Prolegomena\.?|Elucidations?\.?|General\s+Note\.?)\s*$/i;
+const FOOTNOTE_BODY_RE = /^\[(\d+)\]\s+(?!--|—)(.+)$/;
+const FOOTNOTE_MARK_RE = /\[(\d+)\]/g;
+
+/** Drop Schaff/editor sections and decorative rules from a raw unit block. */
+export function stripEditorialSections(block: string): string {
+  const lines = block.replace(/\r\n/g, "\n").split("\n");
+  const out: string[] = [];
+  let skipping = false;
+  for (const line of lines) {
+    if (RULE_LINE_RE.test(line)) continue;
+    if (EDITORIAL_HEADING_RE.test(line)) {
+      skipping = true;
+      continue;
+    }
+    if (skipping) {
+      if (STRUCTURAL_HEADING_RE.test(line)) {
+        skipping = false;
+        out.push(line);
+      }
+      continue;
+    }
+    out.push(line);
+  }
+  return out.join("\n");
+}
+
 function parasFromBlock(block: string): string[] {
   return block
     .split(/\n\s*\n/)
     .map((p) => p.replace(/[ \t]+\n/g, "\n").replace(/\s+\n/g, "\n").replace(/\n+/g, " ").replace(/\s+/g, " ").trim())
     .filter((p) => p.length > 0 && !/^_{5,}$/.test(p) && !/^-+$/.test(p));
+}
+
+/**
+ * Pull matched Schaff [n] footnote bodies into Footnote[]; strip markers from body.
+ * Orphan bodies and unmatched markers are discarded / stripped (no footnote entry).
+ */
+export function extractSchaffNotes(paras: string[]): { paras: string[]; footnotes: Footnote[] } {
+  const bodies = new Map<string, string>();
+  const bodyIndexes = new Set<number>();
+
+  paras.forEach((p, i) => {
+    const m = p.match(FOOTNOTE_BODY_RE);
+    if (!m) return;
+    const n = m[1];
+    const text = m[2].trim();
+    if (!text) return;
+    bodyIndexes.add(i);
+    if (!bodies.has(n)) bodies.set(n, text);
+    else bodies.set(n, bodies.get(n) + " " + text);
+  });
+
+  const footnotes: Footnote[] = [];
+  const usedBodies = new Set<string>();
+  const cleaned: string[] = [];
+
+  paras.forEach((p, i) => {
+    if (bodyIndexes.has(i)) return;
+    let text = p;
+    const marks: string[] = [];
+    text = text.replace(FOOTNOTE_MARK_RE, (_whole, n: string) => {
+      marks.push(n);
+      return "";
+    });
+    text = text.replace(/[ \t]{2,}/g, " ").replace(/\s+([,.;:!?])/g, "$1").replace(/\s+/g, " ").trim();
+    if (!text) return;
+    const paraIndex = cleaned.length;
+    cleaned.push(text);
+    for (const n of marks) {
+      if (!bodies.has(n) || usedBodies.has(n)) continue;
+      usedBodies.add(n);
+      footnotes.push({ n, text: bodies.get(n)!, para: paraIndex });
+    }
+  });
+
+  return { paras: cleaned, footnotes };
+}
+
+/** Drop Schaff chapter-title leftovers left after the unit regex consumes "Chapter N." */
+function dropLeadingTitleRemnant(paras: string[]): string[] {
+  if (!paras.length) return paras;
+  const first = paras[0];
+  // e.g. "--Justice demanded." or "[2389] --The Second Commandment…"
+  if (/^(?:\[\d+\]\s*)?(?:[\.\-–—]){1,3}\S/.test(first) && first.length <= 160) {
+    return paras.slice(1);
+  }
+  return paras;
+}
+
+/** Strip editorial apparatus, paragraphize, then extract matched footnotes. */
+export function parasAndNotesFromBlock(block: string): { paras: string[]; footnotes: Footnote[] } {
+  const stripped = stripEditorialSections(block);
+  const { paras, footnotes } = extractSchaffNotes(dropLeadingTitleRemnant(parasFromBlock(stripped)));
+  return { paras, footnotes };
 }
 
 function findMarks(src: string, re: RegExp): { label: string; index: number; end: number }[] {
@@ -261,9 +354,37 @@ export function authorMeta(id: string): Author {
     name: id.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase()),
     dates: "",
     era: "post-nicene",
-    region: ""
+    region: "",
+    deathYear: 400,
+    bio: ""
   };
   return { id, ...m };
+}
+
+export function wordCountFromPassages(passages: Passage[]): number {
+  let n = 0;
+  for (const p of passages) {
+    for (const [id, paras] of Object.entries(p.versions)) {
+      if (id === "lat" || id === "grk") continue;
+      for (const para of paras) {
+        const parts = para.trim().split(/\s+/);
+        if (parts[0]) n += parts.length;
+      }
+    }
+  }
+  return n;
+}
+
+function workFromSpec(spec: EnglishWorkSpec, passages: Passage[]): Work {
+  return {
+    id: spec.id,
+    author: spec.author,
+    title: spec.title,
+    short: spec.short,
+    chapters: passages.length,
+    series: spec.series,
+    wordCount: Math.max(1, wordCountFromPassages(passages))
+  };
 }
 
 export function authorsFromSpecs(specs: EnglishWorkSpec[]): Author[] {
@@ -297,78 +418,54 @@ export function parseEnglishWork(spec: EnglishWorkSpec, root: string): { work: W
   }
 
   if (mode === "blob") {
-    const paras = parasFromBlock(raw);
+    const { paras, footnotes } = parasAndNotesFromBlock(raw);
     // Split giant blobs into navigable chunks (~40 paras) so the reader/API stay usable.
+    // Footnotes are remapped to the chunk-local para index; notes whose para falls outside a chunk are dropped.
     if (paras.length > 80) {
       const chunkSize = 40;
       const passages: Passage[] = [];
       for (let i = 0; i < paras.length; i += chunkSize) {
         const slice = paras.slice(i, i + chunkSize);
         const n = passages.length + 1;
+        const chunkNotes = footnotes
+          .filter((f) => f.para >= i && f.para < i + chunkSize)
+          .map((f) => ({ ...f, para: f.para - i }));
         passages.push({
           work: spec.id,
           chapter: n,
           heading: spec.title + " · Part " + n,
           versions: { schaff: slice },
-          footnotes: []
+          footnotes: chunkNotes
         });
       }
-      return {
-        work: {
-          id: spec.id,
-          author: spec.author,
-          title: spec.title,
-          short: spec.short,
-          chapters: passages.length,
-          series: spec.series
-        },
-        passages
-      };
+      return { work: workFromSpec(spec, passages), passages };
     }
-    return {
-      work: {
-        id: spec.id,
-        author: spec.author,
-        title: spec.title,
-        short: spec.short,
-        chapters: 1,
-        series: spec.series
-      },
-      passages: [
-        {
-          work: spec.id,
-          chapter: 1,
-          heading: spec.title,
-          versions: { schaff: paras.length ? paras : [raw.trim() || spec.title] },
-          footnotes: []
-        }
-      ]
-    };
+    const blobPassages: Passage[] = [
+      {
+        work: spec.id,
+        chapter: 1,
+        heading: spec.title,
+        versions: { schaff: paras.length ? paras : [raw.trim() || spec.title] },
+        footnotes
+      }
+    ];
+    return { work: workFromSpec(spec, blobPassages), passages: blobPassages };
   }
 
   const unitRe = unitRegex(mode);
   const marks = findMarks(raw, unitRe);
   if (!marks.length) {
-    const paras = parasFromBlock(raw);
-    return {
-      work: {
-        id: spec.id,
-        author: spec.author,
-        title: spec.title,
-        short: spec.short,
-        chapters: 1,
-        series: spec.series
-      },
-      passages: [
-        {
-          work: spec.id,
-          chapter: 1,
-          heading: spec.title,
-          versions: { schaff: paras.length ? paras : [raw.trim() || spec.title] },
-          footnotes: []
-        }
-      ]
-    };
+    const { paras, footnotes } = parasAndNotesFromBlock(raw);
+    const blobPassages: Passage[] = [
+      {
+        work: spec.id,
+        chapter: 1,
+        heading: spec.title,
+        versions: { schaff: paras.length ? paras : [raw.trim() || spec.title] },
+        footnotes
+      }
+    ];
+    return { work: workFromSpec(spec, blobPassages), passages: blobPassages };
   }
 
   const bookMarks = mode === "chapter" ? findMarks(raw, BOOK_RE) : [];
@@ -378,7 +475,7 @@ export function parseEnglishWork(spec: EnglishWorkSpec, root: string): { work: W
     const start = marks[i].end;
     const stop = i + 1 < marks.length ? marks[i + 1].index : raw.length;
     const block = raw.slice(start, stop);
-    const paras = parasFromBlock(block);
+    const { paras, footnotes } = parasAndNotesFromBlock(block);
     let heading = unitLabel(mode, marks[i].label);
     if (mode === "chapter") {
       let bookLabel = "";
@@ -388,16 +485,19 @@ export function parseEnglishWork(spec: EnglishWorkSpec, root: string): { work: W
           break;
         }
       }
-      const firstLine = block.split(/\r?\n/).map((l) => l.trim()).find((l) => l.length > 0) || "";
-      const titleBit = firstLine.replace(/^[\.—\-\s]+/, "").slice(0, 120);
+      const firstLine = stripEditorialSections(block)
+        .split(/\r?\n/)
+        .map((l) => l.trim())
+        .find((l) => l.length > 0 && !RULE_LINE_RE.test(l) && !FOOTNOTE_BODY_RE.test(l)) || "";
+      const titleBit = firstLine.replace(/^\[(\d+)\]\s*/, "").replace(/^[\.—\-\s]+/, "").slice(0, 120);
       heading = (bookLabel ? "Book " + bookLabel + " · " : "") + heading + (titleBit ? " — " + titleBit : "");
     }
     passages.push({
       work: spec.id,
       chapter: i + 1,
       heading,
-      versions: { schaff: paras.length ? paras : [block.replace(/\s+/g, " ").trim()] },
-      footnotes: []
+      versions: { schaff: paras.length ? paras : [stripEditorialSections(block).replace(/\s+/g, " ").trim() || spec.title] },
+      footnotes
     });
   }
 
@@ -407,17 +507,7 @@ export function parseEnglishWork(spec: EnglishWorkSpec, root: string): { work: W
     );
   }
 
-  return {
-    work: {
-      id: spec.id,
-      author: spec.author,
-      title: spec.title,
-      short: spec.short,
-      chapters: passages.length,
-      series: spec.series
-    },
-    passages
-  };
+  return { work: workFromSpec(spec, passages), passages };
 }
 
 export function loadEnglishAppWorks(root: string): { works: Work[]; passages: Passage[]; authors: Author[] } {
@@ -434,22 +524,18 @@ export function loadEnglishAppWorks(root: string): { works: Work[]; passages: Pa
       console.warn("[englishWorks] fallback blob for", spec.id, err);
       const file = join(root, spec.path);
       const raw = existsSync(file) ? stripMetaHeaders(readFileSync(file, "utf8")) : "";
-      const paras = parasFromBlock(raw);
-      works.push({
-        id: spec.id,
-        author: spec.author,
-        title: spec.title,
-        short: spec.short,
-        chapters: 1,
-        series: spec.series
-      });
-      passages.push({
-        work: spec.id,
-        chapter: 1,
-        heading: spec.title,
-        versions: { schaff: paras.length ? paras : [raw.trim() || spec.title] },
-        footnotes: []
-      });
+      const { paras, footnotes } = parasAndNotesFromBlock(raw);
+      const fallback: Passage[] = [
+        {
+          work: spec.id,
+          chapter: 1,
+          heading: spec.title,
+          versions: { schaff: paras.length ? paras : [raw.trim() || spec.title] },
+          footnotes
+        }
+      ];
+      works.push(workFromSpec(spec, fallback));
+      passages.push(...fallback);
     }
   }
   return { works, passages, authors: authorsFromSpecs(specs) };
