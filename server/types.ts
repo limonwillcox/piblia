@@ -34,6 +34,8 @@ export type Work = {
   wordCount: number;
   blurb?: string;
   cover?: string;
+  /** When true, inspect overlay shows a disputed-authorship warning. */
+  authorshipDisputed?: boolean;
 };
 
 export type Footnote = {

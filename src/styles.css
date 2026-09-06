@@ -2610,6 +2610,12 @@ html[data-theme="night"] .lib-era-next {
   opacity: 0.92;
 }
 .lib-inspect-blurb p { margin: 0 0 6px; }
+.lib-inspect-disputed {
+  color: #c00000;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-bottom: 10px !important;
+}
 
 @keyframes lib-expand {
   to { transform: scale(2.4); opacity: 0.15; }

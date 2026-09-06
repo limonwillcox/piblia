@@ -11,14 +11,21 @@ export type EnglishWorkSpec = {
   short: string;
   series: string;
   path: string;
-  chunk: ChunkMode | "auto";
+  chunk: ChunkMode | "auto" | "blob";
   expectUnits?: number;
+  authorshipDisputed?: boolean;
 };
 
 /** Hand overrides for works that need a fixed chunk mode / unit count. */
 const SPEC_OVERRIDES: Record<string, Partial<EnglishWorkSpec>> = {
   "city-of-god": { chunk: "book", expectUnits: 22 },
-  "concerning-virgins": { chunk: "chapter" }
+  "concerning-virgins": { chunk: "chapter" },
+  // Josephus (Whiston): single-blob for now; book/chapter polish later.
+  "antiquities-of-the-jews": { chunk: "blob" },
+  "wars-of-the-jews": { chunk: "blob" },
+  "against-apion": { chunk: "blob" },
+  "life-of-flavius-josephus": { chunk: "blob" },
+  "discourse-to-the-greeks-concerning-hades": { chunk: "blob", authorshipDisputed: true }
 };
 
 /** Skip these under *_English (already shipped elsewhere, or non-Schaff). */
@@ -81,6 +88,14 @@ const AUTHOR_META: Record<string, AuthorMeta> = {
   aphrahat: { name: "Aphrahat", dates: "fl. 4th c.", era: "post-nicene", region: "Persia", deathYear: 350, bio: "" },
   councils: { name: "Ecumenical Councils", dates: "325–787", era: "post-nicene", region: "Various", deathYear: 451, bio: "" },
   apostolic: { name: "Apostolic Fathers (misc.)", dates: "1st–2nd c.", era: "ante-nicene", region: "Various", deathYear: 120, bio: "" },
+  josephus: {
+    name: "Flavius Josephus",
+    dates: "c. 37–c. 100",
+    era: "ante-nicene",
+    region: "Judea / Rome",
+    deathYear: 100,
+    bio: "Jewish historian of the first century. His Antiquities and Wars are primary sources for Second Temple Judaism and the Jewish War against Rome."
+  },
   unknown: { name: "Unknown / Collected", dates: "", era: "ante-nicene", region: "Various", deathYear: 150, bio: "" }
 };
 
@@ -383,7 +398,8 @@ function workFromSpec(spec: EnglishWorkSpec, passages: Passage[]): Work {
     short: spec.short,
     chapters: passages.length,
     series: spec.series,
-    wordCount: Math.max(1, wordCountFromPassages(passages))
+    wordCount: Math.max(1, wordCountFromPassages(passages)),
+    ...(spec.authorshipDisputed ? { authorshipDisputed: true } : {})
   };
 }
 

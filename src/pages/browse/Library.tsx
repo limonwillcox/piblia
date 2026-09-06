@@ -565,6 +565,9 @@ function InspectOverlay({
           <p>{era.body}</p>
         </aside>
         <div className="lib-inspect-blurb">
+          {work.authorshipDisputed ? (
+            <p className="lib-inspect-disputed">BE AWARE: Authorship Disputed</p>
+          ) : null}
           <p>
             <strong>{work.title}</strong>
             {" · "}
